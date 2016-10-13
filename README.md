@@ -9,8 +9,8 @@ If everyone can help out with elaborating on the different subject that would be
 # What
 
 ## Git introduction (one week)
- ** publish your websites on Git
-  *** branch and push, clone
+  * publish your websites on Git
+  * branch and push, clone
 
 ## Module 1
  * Intro Javascript (What is it, where can you use it for)

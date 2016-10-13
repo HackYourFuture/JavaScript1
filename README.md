@@ -3,7 +3,7 @@ Brainstorm JavaScript module
 
 Here is an overview of the brainstorm sessions for the JavaScript modules.
 Feel free to make suggestions or add anything.
-If everyone can help out with elaborating on the different subject that would be great!
+If everyone can help out with elaborating on the different subjects that would be great!
 
 
 # What

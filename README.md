@@ -9,7 +9,7 @@ If everyone can help out with elaborating on the different subjects that would b
 # What
 
 ## Git introduction (one week)
-  * publish your websites on Git (CLI)
+  * publish your websites on Git (UI)
   * branch and push, clone
 
 ## Module 1

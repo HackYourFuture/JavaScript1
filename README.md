@@ -9,7 +9,7 @@ If everyone can help out with elaborating on the different subjects that would b
 # What
 
 ## Git introduction (one week)
-  * publish your websites on Git
+  * publish your websites on Git (CLI)
   * branch and push, clone
 
 ## Module 1
@@ -19,8 +19,10 @@ If everyone can help out with elaborating on the different subjects that would b
  * Function decleration and excecution (code flow)
  * Scope
 
-## Git Module (two weeks)
-* CLI
+## The browser environment the CLI env (two weeks)
+* what is a CLI
+* Git commands by CLI
+* Browser debugging vs ClI debugging
 
 ## Module 2
  * Advanced datatypes(objects)

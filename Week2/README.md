@@ -18,7 +18,7 @@
       4. The return value is used on the website.
     * For instance: Create a function that allows people to input a certain product they eat or drink every day and then asks how long they expect to live (for instance someone smokes one pack of cigarettes a day and expects to live 25 more years) then they might spend 1 X priceOfPack x 365 x lifeExpectancy euros on that product
     * Be creative. If your idea is too complex to finish, don't worry, this exercise is really about trying to write some code yourself and applying what you've learnt.
-   * Try to solve Unmesh' challenge:
+  * Try to solve Unmesh' challenge:
       Assignment for “for loops” :
       * Print ’n’ lines of a Pascal’s triangle.
-   * Hand in your homework in Trello
+  * Hand in your homework in Trello

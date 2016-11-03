@@ -1,4 +1,4 @@
-# Lecture one
+# Lecture two
 
 # Covered in class:
 

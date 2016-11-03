@@ -4,9 +4,9 @@
 
 ## Homework:
   * Update your CV:
-    1. Remove sensitive personal information. You can link to your LinkedIn account for instance if you want people to be able to reach you
-    2. Look at the feedback from the last module (HTML/CSS) change your CV to reflect this feedback.
-    3. Validate your html using the W3c Vaidator https://validator.w3.org/
+  1. Remove sensitive personal information. You can link to your LinkedIn account for instance if you want people to be able to reach you
+  2. Look at the feedback from the last module (HTML/CSS) change your CV to reflect this feedback.
+  3. Validate your html using the W3c Vaidator https://validator.w3.org/
   * Complete the following codecamp assignments:
     * Start at https://www.freecodecamp.com/challenges/write-reusable-javascript-with-functions
     * And make the next couple assignments until your reach: Assignment with a Returned Value

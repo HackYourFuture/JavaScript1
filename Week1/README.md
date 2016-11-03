@@ -1,4 +1,6 @@
-### Lecture one
+# Lecture one
+
+# Covered in class:
 
 ## Git introduction 
   * publish your websites on Git (UI)

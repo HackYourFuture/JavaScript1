@@ -10,7 +10,7 @@
   * Complete the following codecamp assignments:
     * Start at https://www.freecodecamp.com/challenges/write-reusable-javascript-with-functions
     * And make the next couple assignments until your reach: Assignment with a Returned Value
-  * Add a useful function to your website:
+  * Add a useful function to your website:<br>
     Write a js feature that follows the following rules
      1. It takes user input on a website (look up input fields)
      2. It uses that input as parameters for a function

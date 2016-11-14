@@ -36,7 +36,7 @@ Indicate whether this is an expression or a statement:
 4. `if (l == 4) { console.log("yes"); }`
 5. `console.log("yes");`
 6. `"yes"`
-7. `console.log(l == 4 ? "yes" : "no")
+7. `console.log(l == 4 ? "yes" : "no")`
 
 How can you tell whether something is a statement?
 How can you tell whether something is an expression

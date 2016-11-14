@@ -13,7 +13,8 @@ What is `y`:
 
 
 
-```var s = "Hello";
+```
+var s = "Hello";
 var x = s.toLowerCase();
 var l = s.length;
 ```

@@ -1,6 +1,6 @@
 # JavaScript fundamentals - exercices
 
-### 1. Given the following code:
+### Given the following code:
 
 ```js
 var s = "Hello";
@@ -12,26 +12,26 @@ Indicate the type of each:
 
 A. `s`
 B. `x`
-C. `s.toLowerCase()`
-D. `s.toLowerCase`
+C. `s.toLowerCase(  )`
+D. `s.toLower  Case`
 E. `s.length`
 F. `l`
 
-### 2. In `var x = 5 + 6;`, what is `+`?
+### In `var x = 5 + 6;`, what is `+`?
 
 A. Function
 B. Operator
 C. Number
 D. Aggregator
 
-### 3. In `var x = 5 + 6;`, what is 'var'?
+### In `var x = 5 + 6;`, what is 'var'?
 
 A. Variable
 B. Keyword
 C. Operator
 D. Constant
 
-### 4. Given the following code:
+### Given the following code:
 
 ```js
 var x = z[y];
@@ -44,7 +44,7 @@ B. Key
 C. Index or key
 D. Array
 
-### 5. Given the following code:
+### Given the following code:
 
 ```js
 var y = 1;
@@ -59,7 +59,7 @@ B. Key
 C. Index or key
 D. Array
 
-### 6. Given the following code:
+### Given the following code:
 
 ```js
 var y = 'length';
@@ -75,13 +75,34 @@ C. Index or key
 D. Array
 
 
-### 6. Explain as precisely as possible (in English) what the following code does, line by line
+### What is the name of these functions?
+
+A. `function a() { return true; }`
+B. `var a = function b() { return true; }`
+C. `var c = function () { return true; }`
+
+### Write a function that has two parameters called `first` and `second`
+
+### Write a function call that passes three arguments.
+
+### Write code for the following
+
+A. Declare a variable called `x` and initialize it with the string "Hello".
+B. Declare a variable called `y` and initialize it with the property `length` of `x`.
+C. Declare a variable called `z` and initialize it with the result of calling the method `toUpperCase` on `x`
+D. Declare a function called `myFunction`. This function should take two arguments, and should call the second argument with the first argument as its argument. Then, declare a variable called `f` and initialize it with an empty anonymous function, and call `myFunction` with the arguments `10` and `f`.
+
+### Explain as precisely as possible (in English) what the following code does, line by line
+
+(Tip: it should look like the items in the previous question!)
 
 ```js
 var s = "HackYourFuture";
 var i = s.indexOf("Your");
+function sum(a, b) { return a + b; }
+var s = sum(4, 5);
+var r = Math.sqrt(s);
 ```
-
 
 
 ## Arrays & objects
@@ -89,26 +110,44 @@ var i = s.indexOf("Your");
 
 ## Statements & expressions
 
-Indicate whether this is an expression or a statement:
+### Indicate for each of these whether it is an expression or a statement:
 
-1. `l`
-2. `l = 4;`
-3. `l == 4`
-4. `if (l == 4) { console.log("yes"); }`
-5. `console.log("yes");`
-6. `"yes"`
-7. `console.log(l == 4 ? "yes" : "no")`
+A. `l`
+B. `l = 4;`
+C. `l == 4`
+D. `if (l == 4) { console.log("yes"); }`
+E. `console.log("yes");`
+F. `"yes"`
+G. `console.log(l == 4 ? "yes" : "no")`
+H. `function a() { return 4; }`
+I. `var a = function () { return 4; }`
 
-How can you tell whether something is a statement?
-How can you tell whether something is an expression
+### How can you tell whether something is a statement?
 
-Bonus:
-List all *statements* in the code above
-List all *expressions* in the code above
+### How can you tell whether something is an expression
 
+### Given the following code:
 
-Write code for the following:
+```js
+var s = "Hello".toLowerCase();
+var l = s.length;
 
-1. Declare a variable called `x` and initialize it with the string "Hello".
-2. Declare a variable called `y` and initialize it with the property `length` of `x`.
-3. Declare a variable called `z` and initialize it with the result of calling the method `toUpperCase` on `x`
+function sum(a, b) {
+  return a + b;
+}
+var max = function (a, b) {
+  return a > b ? a : b;
+}
+
+var s1 = sum(4, 5);
+var s2 = 4 + 5;
+
+if (s2 == s1) {
+  console.log("same");
+} else {
+  console.log("not same");
+}
+```
+
+A. List all 11 *statements* in the code above
+B. List all 23 *expressions* in the code above (BONUS!)

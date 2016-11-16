@@ -256,9 +256,13 @@ now it is an expression. This is an exceptional situation where something can be
 
 The following are not expressions:
 
-* `var` -> this is nothing
+* `var` -> this is a keyword, see below
 * `var x;` -> this is a statement
 * `+` -> this is only an operator
 * `if (a > 4) { return "yes"; } else { return "no"; }`
 
 `if` is also a statement. However, it is quite a complex statement. It is also referred to as a "construct", just like `for`, `while`, `try`, etc.
+
+### Keywords
+
+Some words in JavaScript are special, e.g. `var`, `if`, `while`, `return`. These are called "keywords". You typically cannot use these words as names for your variables, functions.

@@ -8,32 +8,32 @@ var x = s.toLowerCase();
 var l = s.length;
 ```
 
-**1. Indicate the type of each:**
+**1. What are the types of the following:**
 
-A. `s`  
-B. `x`  
-C. `s.toLowerCase(  )`  
-D. `s.toLower  Case`  
-E. `s.length`  
-F. `l`  
+1. `s`  
+2. `x`  
+3. `s.toLowerCase(  )`  
+4. `s.toLower  Case`  
+5. `s.length`  
+6. `l`  
 
 ----
 
 ### 2. In `var x = 5 + 6;`, what is `+`?
 
-A. Function  
-B. Operator  
-C. Number  
-D. Aggregator  
+1. Function  
+2. Operator  
+3. Number  
+4. Aggregator  
 
 ----
 
-### 3. In `var x = 5 + 6;`, what is 'var'?
+### 3. In `var x = 5 + 6;`, what is `var`?
 
-A. Variable  
-B. Keyword  
-C. Operator  
-D. Constant  
+1. Variable  
+2. Keyword  
+3. Operator  
+4. Constant  
 
 ----
 
@@ -45,10 +45,10 @@ var x = z[y];
 
 **4. What is `y`?**
 
-A. Index  
-B. Key  
-C. Index or key  
-D. Array  
+1. Index  
+2. Key  
+3. Index or key  
+4. Array  
 
 ----
 
@@ -62,10 +62,10 @@ var z = x[y];
 
 **5. What is `y`?**
 
-A. Index  
-B. Key  
-C. Index or key  
-D. Array  
+1. Index  
+2. Key  
+3. Index or key  
+4. Array  
 
 ----
 
@@ -82,17 +82,17 @@ var joesAge = joe['age'];
 
 **6. What is `'age'` in the last line?**
 
-A. Index
-B. Key
-C. Property
-D. Object
+1. Index
+2. Key
+3. Property
+4. Object
 
 **7. What are `name` and `age` of the object `joe`?**
 
-A. Index
-B. Key
-C. Object
-D. Property
+1. Index
+2. Key
+3. Object
+4. Property
 
 ----
 
@@ -106,10 +106,10 @@ var z = x[y];
 
 **7. What is `y`**
 
-A. Index  
-B. Key  
-C. Index or key  
-D. Array  
+1. Index  
+2. Key  
+3. Index or key  
+4. Array  
 
 **8. What is the element for index `1` in array `x`?**
 
@@ -119,9 +119,9 @@ D. Array
 
 ### 10. What is the name of these functions?
 
-A. `function a() { return true; }`  
-B. `var a = function b() { return true; }`  
-C. `var c = function () { return true; }`  
+1. `function a() { return true; }`  
+2. `var a = function b() { return true; }`  
+3. `var c = function () { return true; }`  
 
 ----
 
@@ -135,10 +135,10 @@ C. `var c = function () { return true; }`
 
 ### 13. Write code for the following
 
-A. Declare a variable called `x` and initialize it with the string "Hello".  
-B. Declare a variable called `y` and initialize it with the property `length` of `x`.  
-C. Declare a variable called `z` and initialize it with the result of calling the method `toUpperCase` on `x`  
-D. Declare a function called `myFunction`. This function should take two arguments, and should call the second argument with the first argument as its argument. Then, declare a variable called `f` and initialize it with an empty anonymous function, and call `myFunction` with the arguments `10` and `f`.  
+1. Declare a variable called `x` and initialize it with the string "Hello".  
+2. Declare a variable called `y` and initialize it with the property `length` of `x`.  
+3. Declare a variable called `z` and initialize it with the result of calling the method `toUpperCase` on `x`  
+4. Declare a function called `myFunction`. This function should take two arguments, and should call the second argument with the first argument as its argument. Then, declare a variable called `f` and initialize it with an empty anonymous function, and call `myFunction` with the arguments `10` and `f`.  
 
 ----
 
@@ -158,10 +158,10 @@ var r = Math.sqrt(s);
 
 ### 15. Indicate for each of these whether it is an expression or a statement:
 
-A. `l`  
-B. `l = 4;`  
-C. `l == 4`  
-D. `if (l == 4) { console.log("yes"); }`  
+1. `l`  
+2. `l = 4;`  
+3. `l == 4`  
+4. `if (l == 4) { console.log("yes"); }`  
 E. `console.log("yes");`  
 F. `"yes"`  
 G. `console.log(l == 4 ? "yes" : "no")`  

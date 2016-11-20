@@ -203,4 +203,4 @@ if (s2 == s1) {
 
 **18. List all 11 *statements* in the code above**
 
-**19. List all 23 *expressions* in the code above (BONUS!)**
+**19. List all 28 *expressions* in the code above (BONUS!)**

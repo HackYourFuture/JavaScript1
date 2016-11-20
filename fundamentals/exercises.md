@@ -84,7 +84,7 @@ var joesAge = joe['age'];
 
 1. Index
 2. Key
-3. Property
+3. Array
 4. Object
 
 **7. What are `name` and `age` of the object `joe`?**

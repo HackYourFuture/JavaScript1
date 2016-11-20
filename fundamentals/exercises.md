@@ -12,8 +12,8 @@ var l = s.length;
 
 1. `s`  
 2. `x`  
-3. `s.toLowerCase(  )`  
-4. `s.toLower  Case`  
+3. `s.toLowerCase()`  
+4. `s.toLowerCase`  
 5. `s.length`  
 6. `l`  
 

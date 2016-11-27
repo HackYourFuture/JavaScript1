@@ -1,5 +1,6 @@
 # JavaScript fundamentals - exercices
 
+
 ### Given the following code:
 
 ```js

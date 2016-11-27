@@ -3,7 +3,7 @@ For each of the snippets below, explain the bugs in your own words.
 # Bug 1
 
 ### code
-```
+```js
 for(var i = 0; i < 5; i++){
 	setTimeout(function(){
 		console.log(i+1);
@@ -31,7 +31,7 @@ for(var i = 0; i < 5; i++){
 # Bug 2
 
 ### code
-```
+```js
 var top10Movies = [
   'AI',
   'Shawshank Redemption',

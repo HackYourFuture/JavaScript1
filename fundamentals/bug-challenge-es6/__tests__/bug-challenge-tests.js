@@ -180,5 +180,49 @@ describe('Bug challenge ES6', () => {
     });
 
   });
+  describe('bug13', () => {
+    it("should return that AI, Godfather and Inception are in the top10 movie list", () => {
+      challenge.bug13();
+      jest.runAllTimers();
 
+      expect(console.logs).toEqual([
+        "Independence Day is not in the top 10!",
+        "AI is in the top 10!",
+        "Godfather is in the top 10!",
+        "Inception is in the top 10!"
+      ]);
+    });
+
+  });
+  describe('bug14', () => {
+    it("should return that AI is best movie ever", () => {
+      challenge.bug14();
+      jest.runAllTimers();
+
+      expect(console.logs).toEqual([
+        "AI is best movie ever",
+        "Godfather is not best movie ever",
+      ]);
+    });
+  });
+  describe('bug15', () => {
+    it("should return Al Pacino as first actor after sorting alphabetically", () => {
+      challenge.bug15();
+      jest.runAllTimers();
+
+      expect(console.logs).toEqual([
+        'The first actor when sorted alphabetically is Al Pacino'
+      ]);
+    });
+  });
+  describe('bug16', () => {
+    it("should return that Al Pacino is ranked 4th among all actors", () => {
+      challenge.bug16();
+      jest.runAllTimers();
+
+      expect(console.logs).toEqual([
+        'Al Pacino is ranked 4'
+      ]);
+    });
+  });
 });

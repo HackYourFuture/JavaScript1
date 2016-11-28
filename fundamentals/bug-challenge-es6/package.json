@@ -6,6 +6,9 @@
       "/node_modules/"
     ]
   },
+  "scripts":{
+	"test": "jest"  
+  },
   "devDependencies": {
     "babel-core": "^6.18.2",
     "babel-jest": "^17.0.2",

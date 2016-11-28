@@ -130,4 +130,55 @@ describe('Bug challenge ES6', () => {
 
   });
 
+  describe('bug9', () => {
+
+    it("should list only BMWs", () => {
+      challenge.bug9();
+
+      expect(console.logs).toEqual([
+        'BMW i8',
+        'BMW M3'
+      ]);
+    });
+
+  });
+
+  describe('bug10', () => {
+
+    it("should print 'Help'", () => {
+      challenge.bug10();
+
+      expect(console.logs).toEqual([
+        'Help'
+      ]);
+    });
+
+  });
+
+  describe('bug11', () => {
+
+    it("should correctly add players Alice & Bob", () => {
+      challenge.bug11();
+
+      expect(console.logs).toEqual([
+        'Player Alice has 0 points',
+        'Player Bob has 0 points'
+      ]);
+    });
+
+  });
+
+  describe('bug12', () => {
+
+    it("should not change the value of the outer y", () => {
+      challenge.bug12();
+
+      expect(console.logs).toEqual([
+        'Printing vector at (6, 7)',
+        'y=5'
+      ]);
+    });
+
+  });
+
 });

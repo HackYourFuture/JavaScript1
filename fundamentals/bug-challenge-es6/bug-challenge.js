@@ -132,4 +132,77 @@ export default class BugChallenge {
       }
     }
 
+    bug9() {
+      const cars = [{
+        make: 'Volvo',
+        type: 'S90'
+      }, {
+        make: 'BMW',
+        type: 'i8'
+      }, {
+        make: 'BMW',
+        type: 'M3'
+      }, {
+        make: 'Audi',
+        type: 'A6'
+      }];
+
+      function findCars(make) {
+        return cars.filter(car => car.make = make);
+      }
+
+      for (let bmw of findCars('BMW')) {
+        console.log(`${bmw.make} ${bmw.type}`);
+      }
+    }
+
+    bug10() {
+      const command = 'printHelp';
+
+      switch (command) {
+        case 'printMath':
+          console.log(`√9=${Math.sqrt(9)}`);
+        case 'printHelp':
+          console.log('Help');
+        case 'quit':
+          console.log('Quitting');
+      }
+    }
+
+    bug11() {
+      class Game {
+        constructor() {
+          this.players = [];
+        }
+
+        addPlayers(names) {
+          names.forEach(function (name) {
+            this.players.push({name, points: 0});
+          });
+        }
+      }
+
+      const game = new Game();
+      game.addPlayers(['Alice', 'Bob']);
+
+      for (let player of game.players) {
+        console.log(`Player ${player.name} has ${player.points} points`);
+      }
+    }
+
+    bug12() {
+      let y = 5;
+
+      function printVector() {
+        let x = 6;
+            y = 7;
+
+        console.log(`Printing vector at (${x}, ${y})`);
+      }
+
+      printVector();
+      console.log(`y=${y}`);
+    }
+
+
 }

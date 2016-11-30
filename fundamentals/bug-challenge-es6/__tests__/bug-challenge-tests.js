@@ -102,7 +102,7 @@ describe('Bug challenge ES6', () => {
   describe('bug7', () => {
 
     it("should first run with stopOnError=all and then with stopOnError=null", () => {
-      challenge.bug6();
+      challenge.bug7();
 
       expect(console.logs).toEqual([
         'run: stopOnError=all',

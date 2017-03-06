@@ -1,67 +1,50 @@
-# JavaScript
-Brainstorm JavaScript module
-
-Here is an overview of the brainstorm sessions for the JavaScript modules.
-Feel free to make suggestions or add anything.
-If everyone can help out with elaborating on the different subjects that would be great!
-What you see below is a rough layout for the first three Javascript modules. Feel free to deviate from this layout but try to cover all of the subject matters listed.
 
 
-# What
-  
-## Module 1 (3 weeks)
- * what is a CLI
- * Basic Git commands by CLI 
- * publish your websites on Git (UI)
- * branch and push, clone
- * Intro Javascript (What is it, where can you use it for)
- * Querying the DOM
- * Basic datatypes (array, string, number, bool)
- * Loops, if statements
- * Browser debugging & ClI debugging
+# Hack Your JavaScript
+This is the description of the classes for JavaScript fundamentals.
+
+## Composition (Module goals)
+
+|Week|Topic|Read|Homework|
+|----|-----|----|--------|
+|0.|preparation for first JavaScript session|https://github.com/HackYourFuture/JavaScript/tree/master/Week0|https://github.com/HackYourFuture/JavaScript/tree/master/Week0|
+|1.|Values, Operators and Variables. Primitives Types ( Strings, Numbers, Arrays, Functions, Objects literals) Conditions|https://github.com/HackYourFuture/JavaScript/tree/master/Week1|https://github.com/HackYourFuture/JavaScript/tree/master/Week1|
+|2.|Functions, For and While Loops,String and Array Manipulations |https://github.com/HackYourFuture/JavaScript/tree/master/Week2|https://github.com/HackYourFuture/JavaScript/tree/master/Week2|
+|3.|String and Array Manipulations, Closures, Scope and Immediately Invoked function expression, Call Backs and Promises|https://github.com/HackYourFuture/JavaScript/tree/master/Week3|https://github.com/HackYourFuture/JavaScript/tree/master/Week3|
+|4.|Async VS Sync, XHTTP Requests|TBA|TBA|
+|5.|Objects and Instances|TBA|TBA|
+|6.|TBA|TBA|TBA|
+|7.|Test Driven Development|TBA|TBA|
+|8.|Test Driven Development|TBA|TBA|
+|9.|Test Driven Development|TBA|TBA|
 
 
-## Module 2 (3 weeks)
- * Code conventions
- * Function declaration and excecution (code flow)
- * Scope
- * Github documentation (readme, description, open sourcery)
- * Git tracking, terminology
- * Advanced datatypes(objects)
- * Code flow
- * JavaScript functions, callbacks (events)
- * Writing a multi function program (or game :)
+# References
+_We demand our student to be prepared (or at least to briefly read) the content of the class._
 
-## Module 3 (3 weeks)
- * HTTP requests
- * APIs!
- * JSON
- * Polling external data dynamically
- * (Unit testing)
+I'm concerned that a lot of students would like to have video resources, although my preference goes trough books.
+If you would like to recommend resource that I should add, please pm me.
 
-## Optional: 
- * Code patterns
- * Observer patterns
- * Watcher patterns
+---
+## Lesson 1 ( 19/02/2017 )
 
+- Introduction ~ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
+- Introduction with scaffolding ~ http://jsforcats.com/
+- Values ~ http://eloquentjavascript.net/01_values.html
 
-# How
+## Lesson 2 ( 26/02/2017 )
 
- * Try to find an example you can expand on. For instance coding a website that lists the students in the class along with their Github Repos. This way you can show anything from DOM querying to objects (for each student) and even load up the Github API
- * Live coding in class to show how certain features work.
- * Ask students to present their work, let them know failing while coding isn't just accepted it's encouraged. Fail often and fail early.
- * Homework is listed on Trello and handed in on Github
- * There's no strict lesson plan, adapt to students' need and level. Try to make up more advanced challenges for quick learners.
- * Test after every module, if students fail they can't move on to the rest of the program. It is possible to redo a module (one time).
+- Functions ~ http://eloquentjavascript.net/03_functions.html
+- Program structure ~ http://eloquentjavascript.net/02_program_structure.html
+
+## Lesson 3
+
+## Lesson 4
+
+## Lesson 5
+
+## Lesson 6
 
 
-## Extra extra
- * Slackbot 
- * Work in one environment 
-
-
-## After
- * Feedback from students and teachers on the modules
-
-
+Module goals:
 

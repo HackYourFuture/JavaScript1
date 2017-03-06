@@ -1,13 +1,6 @@
-# Lecture one
+#Reading material for the second lecture:
 
-# Covered in class:
+- Functions ~ http://eloquentjavascript.net/03_functions.html
+- Program structure ~ http://eloquentjavascript.net/02_program_structure.html
 
-## Git introduction 
-  * publish your websites on Git (UI)
-  * branch and push, clone
-  
-## Homework
- * Create a .js file that prints something to the console and add it to your github pages repository.
- * Recreate your CV (from the HTML/CSS module) on pages.github.io using this tutorial https://pages.github.com/ and share your link on Trello
- * Complete the first couple assignments on Codecademy (up until Math operators I)
- * Use document.querySelector to select an element in your github pages website and change the innerHTML.
+_Please go through the material and come to class prepared!_

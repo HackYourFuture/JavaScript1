@@ -7,7 +7,7 @@ This is the description of the classes for JavaScript fundamentals.
 
 |Week|Topic|Read|Homework|
 |----|-----|----|--------|
-|0.|preparation for first JavaScript session|[Reading Week 0](https://github.com/HackYourFuture/JavaScript/tree/master/Week0)|-|
+|0.|Preparation for first JavaScript session|[Reading Week 0](https://github.com/HackYourFuture/JavaScript/tree/master/Week0)|-|
 |1.|Values, Operators and Variables. Primitives Types ( Strings, Numbers, Arrays, Functions, Objects literals) Conditions|[Reading Week 1](https://github.com/HackYourFuture/JavaScript/tree/master/Week1)| [Homework Week 1](https://github.com/HackYourFuture/JavaScript/tree/master/Week1/MAKEME.md)|
 |2.|Functions, For and While Loops,String and Array Manipulations |[Reading Week 2](https://github.com/HackYourFuture/JavaScript/tree/master/Week2)|[Homework Week 2](https://github.com/HackYourFuture/JavaScript/tree/master/Week2/MAKEME.md)|
 |3.|String and Array Manipulations, Closures, Scope and Immediately Invoked function expression, Call Backs and Promises|[Reading Week 3](https://github.com/HackYourFuture/JavaScript/tree/master/Week3)|[Homework Week 3](https://github.com/HackYourFuture/JavaScript/tree/master/Week3/MAKEME.md)|
@@ -25,26 +25,6 @@ _We demand our student to be prepared (or at least to briefly read) the content 
 I'm concerned that a lot of students would like to have video resources, although my preference goes trough books.
 If you would like to recommend resource that I should add, please pm me.
 
----
-## Lesson 1 ( 19/02/2017 )
-
-- Introduction ~ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
-- Introduction with scaffolding ~ http://jsforcats.com/
-- Values ~ http://eloquentjavascript.net/01_values.html
-
-## Lesson 2 ( 26/02/2017 )
-
-- Functions ~ http://eloquentjavascript.net/03_functions.html
-- Program structure ~ http://eloquentjavascript.net/02_program_structure.html
-
-## Lesson 3
-
-## Lesson 4
-
-## Lesson 5
-
-## Lesson 6
-
-
 Module goals:
+A good understanding of all the above mentioned topics. Want to check your Knowledge? Go through the [JavaScript Fundamentals README] (https://github.com/HackYourFuture/JavaScript/tree/master/fundamentalsand) and research/ ask for help (Slack!) with the concepts that are not entirely clear.
 

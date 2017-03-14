@@ -26,5 +26,5 @@ I'm concerned that a lot of students would like to have video resources, althoug
 If you would like to recommend resource that I should add, please pm me.
 
 Module goals:
-A good understanding of all the above mentioned topics. Want to check your Knowledge? Go through the [JavaScript Fundamentals README] (https://github.com/HackYourFuture/JavaScript/tree/master/fundamentalsand) and research/ ask for help (Slack!) with the concepts that are not entirely clear.
+A good understanding of all the above mentioned topics. Want to check your Knowledge? Go through the [JavaScript Fundamentals README](https://github.com/HackYourFuture/JavaScript/tree/master/fundamentalsand) and research/ ask for help (Slack!) with the concepts that are not entirely clear.
 

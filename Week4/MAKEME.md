@@ -1,7 +1,6 @@
 # Homework Week 4
 
-##Reading
------------
+## Reading
 
 * code style conventions
   * read <a href="http://javascript.crockford.com/code.html" target="_blank">http://javascript.crockford.com/code.html</a>
@@ -13,7 +12,7 @@
 
 
 ## Challenges:
------------
+
 ### Object Oriented and Functional Programming
 - https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map
 - https://www.freecodecamp.com/challenges/condense-arrays-with-reduce
@@ -32,7 +31,7 @@
 - https://www.freecodecamp.com/challenges/check-for-palindromes
 - https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string
 
-##Tuturial
------------
+## Tuturial
+
 Go through this tutorial from [SoloLearn](https://www.sololearn.com/Course/JavaScript/) to check in with some of the fundamental concepts from the previous weeks. 
 

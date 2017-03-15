@@ -31,7 +31,7 @@
 - https://www.freecodecamp.com/challenges/check-for-palindromes
 - https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string
 
-## Tuturial
+## Tutorial
 
 Go through this tutorial from [SoloLearn](https://www.sololearn.com/Course/JavaScript/) to check in with some of the fundamental concepts from the previous weeks. 
 

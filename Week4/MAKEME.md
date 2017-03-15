@@ -35,3 +35,7 @@
 
 Go through this tutorial from [SoloLearn](https://www.sololearn.com/Course/JavaScript/) to check in with some of the fundamental concepts from the previous weeks. 
 
+## Future readings:
+http://eloquentjavascript.net/06_object.html
+http://eloquentjavascript.net/05_higher_order.html
+

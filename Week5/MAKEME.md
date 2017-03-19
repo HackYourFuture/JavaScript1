@@ -65,7 +65,7 @@ Don't cheat - but if you get stuck ... http://stackoverflow.com/questions/750486
 ## TODO:
 
 Create a game!
- * The game uses JSON as input
+ * The game uses the Reqres API as input (use $.getJSON to load data): http://reqres.in.
  * The game should have user interaction
  * Have at least 7 different functions
  * Have at least one callback function 

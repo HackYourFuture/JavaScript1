@@ -62,21 +62,38 @@ Don't cheat - but if you get stuck ... http://stackoverflow.com/questions/750486
 ```
 
 
-## TODO:
+Rewrite to Async:
+```
+1.
 
-Create a game!
- * The game uses the Reqres API as input (use $.getJSON to load data): http://reqres.in.
- * The game should have user interaction
- * Have at least 7 different functions
- * Have at least one callback function 
- * Use objects (this can also be a source of inspiration for what kind of game to make)
- * The game has to run on an HTML page (live on Github using pages.github.io using this tutorial https://pages.github.com/ and share your link on Trello)
- * All the code needs to be commented
- * The Github page should have a README.md describing how the game/code works and a whishlist of features to be added in the future
+var sum = calculateSum(2, 6);
+console.log(sum);
 
-- Create at least 1 issue (bug / feature / code improvement) on another students github game repository. Do this in pairs.
--  solve the issue proposed by another student in your github game repo. More info [here](https://hackyourfuture.slack.com/files/michahell/F31BX1XT6/Merging_a_local_branch_into_master)
-    - use a local non-tracking branch and merge into master
-    - or use a local tracking branch tracking your master, and push directly to master (slightly harder / more advanced)
+2.
 
-[Example](https://www.w3schools.com/graphics/game_intro.asp) of a simple js game on w3schools
+var results = $.getJSON('http://myapi.com');
+showResults(results);
+
+3.
+
+var sum = calculateSum(2, 6);
+if (sum > 8) {
+    console.log('larger than 8');
+}
+
+4.
+
+var data = $.getJSON('http://myapi.com');
+data = data.map(function (x) { return x * 8; });
+
+writeDataToFile(data);
+```
+
+## TODO !!!
+1. Choose two "GET" API endpoints from http://reqres.in
+2. Use $.getJSON to load data from those two endpoints
+3. Display the data on your web page.
+4. It should not matter which endpoint is loaded first, the data should *always* look the same (you can add "?delay=<num>" after the endpoint to simulate a delay).
+
+- Create at least 1 issue (bug / feature / code improvement) on another students github repository. Do this in pairs.
+-  solve the issue proposed by another student in your github repo. More info [here](https://hackyourfuture.slack.com/files/michahell/F31BX1XT6/Merging_a_local_branch_into_master)

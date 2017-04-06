@@ -1,4 +1,4 @@
-##Assignments week 1:
+## Assignments week 1:
 
 Create a .js file that prints something to the console
 Create a function that takes 3 arguments and returns the sum of the three arguments. 

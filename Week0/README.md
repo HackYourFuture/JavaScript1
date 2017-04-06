@@ -1,4 +1,4 @@
-#Reading material for your first JavaScript lesson:
+# Reading material for your first JavaScript lesson:
 
 ## Lesson 1
 

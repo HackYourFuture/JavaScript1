@@ -12,8 +12,7 @@ http://stackoverflow.com/questions/111102/how-do-javascript-closures-work
 
 ### Homework 
 
-1. 
-Let's continue to learn a little more about scope and Closures. 
+1. Let's continue to learn a little more about scope and Closures. 
 
 Please solve the following three questions as a warm up to thinking about scope. 
 
@@ -21,8 +20,7 @@ https://www.freecodecamp.com/challenges/global-scope-and-functions
 https://www.freecodecamp.com/challenges/local-scope-and-functions
 https://www.freecodecamp.com/challenges/global-vs-local-scope-in-functions
 
-2. 
-What will be the output of the following code - and more importantly - WHY? 
+2. What will be the output of the following code - and more importantly - WHY? 
 
 ```
 for (var i = 0; i < 3; i++) {
@@ -30,8 +28,7 @@ for (var i = 0; i < 3; i++) {
 }
 ```
 
-3. 
-Write a function that would allow you to do this: 
+3. Write a function that would allow you to do this: 
 
 ```
 var addSix = createBase(6);
@@ -39,8 +36,7 @@ addSix(10); // returns 16
 addSix(21); // returns 27
 ```
 
-4. 
-You will need to create an HTML document out of the below snippet to run the below code. A hint - the code is syntactically correct but doesn't do what you would expect. Can you see why and fix it?  
+4. You will need to create an HTML document out of the below snippet to run the below code. A hint - the code is syntactically correct but doesn't do what you would expect. Can you see why and fix it?  
 
 Don't cheat - but if you get stuck ... http://stackoverflow.com/questions/750486/javascript-closure-inside-loops-simple-practical-example
 
@@ -95,5 +91,5 @@ writeDataToFile(data);
 3. Display the data on your web page.
 4. It should not matter which endpoint is loaded first, the data should *always* look the same (you can add "?delay=<num>" after the endpoint to simulate a delay).
 
-- Create at least 1 issue (bug / feature / code improvement) on another students github repository. Do this in pairs.
--  solve the issue proposed by another student in your github repo. More info [here](https://hackyourfuture.slack.com/files/michahell/F31BX1XT6/Merging_a_local_branch_into_master)
+• Create at least 1 issue (bug / feature / code improvement) on another students github repository. Do this in pairs.
+•  solve the issue proposed by another student in your github repo. More info [here](https://hackyourfuture.slack.com/files/michahell/F31BX1XT6/Merging_a_local_branch_into_master)

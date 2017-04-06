@@ -26,8 +26,7 @@ http://www.learn-js.org/en/Callbacks
 
 ### Homework 
 
-1. 
-We learned a little bit about callbacks in JS. A callback is simply a function passed to another function that gets executed (run) after a potentially long running operation has completed. There is another function called `setTimeout` that will wait a specified period of time and then execute a function. For example: 
+1. We learned a little bit about callbacks in JS. A callback is simply a function passed to another function that gets executed (run) after a potentially long running operation has completed. There is another function called `setTimeout` that will wait a specified period of time and then execute a function. For example: 
 
     ``` 
     function doIt() {
@@ -64,31 +63,26 @@ We learned a little bit about callbacks in JS. A callback is simply a function p
     ```
 
 
-2. 
-Please solve this problem using:
+2. Please solve this problem using:
 https://www.freecodecamp.com/challenges/repeat-a-string-repeat-a-string
  1. A for loop
  2. A while loop
  3. A do loop
 
-3. 
-Some practice with objects 
+3. Some practice with objects 
 https://www.freecodecamp.com/challenges/construct-javascript-objects-with-functions
 
-4. 
-Nested loops 
+4. Nested loops 
 https://www.freecodecamp.com/challenges/nesting-for-loops
 
 
-5. 
-We did some work with arrays - `var arr = [1,2,3]`
+5. We did some work with arrays - `var arr = [1,2,3]`
 We can also nest arrays inside arrays like this `var arr2d = [[1,2], [3,4], [5,6]]` (for math people you can think of this as a matrix)
 How would you print all the items of an array with 3 dimensions? 
 How about with K dimensions? 
 What if you didn't know how deep the array was nested? (You don't have to write code for this but think about it)
 
-6. 
-Here are two functions that look like they do the something similar but they print different results. Please explain what's going on here.
+6. Here are two functions that look like they do the something similar but they print different results. Please explain what's going on here.
 
 ```
 var x = 9; 
@@ -110,8 +104,7 @@ console.log(y);
 ```
 If you are confused please run the code and then consult the Google for "javascript pass by value pass by reference"
 
-7. 
-Next time we're going to cover the following Javascript topics: 
+7. Next time we're going to cover the following Javascript topics: 
 - Immediately Invoked Function Execution (IIFE) and anonymous functions
 - The this variable
 - Scope and closures

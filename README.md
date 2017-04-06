@@ -8,12 +8,12 @@ This is the description of the classes for JavaScript fundamentals.
 |Week|Topic|Read|Homework|
 |----|-----|----|--------|
 |0.|Preparation for first JavaScript session|[Reading Week 0](https://github.com/HackYourFuture/JavaScript/tree/master/Week0)|-|
-|1.|Values, Operators and Variables. Primitives Types ( Strings, Numbers, Arrays, Functions, Objects literals) Conditions|[Reading Week 1](https://github.com/HackYourFuture/JavaScript/tree/master/Week1)| [Homework Week 1](https://github.com/HackYourFuture/JavaScript/tree/master/Week1/MAKEME.md)|
-|2.|Functions, For and While Loops,String and Array Manipulations |[Reading Week 2](https://github.com/HackYourFuture/JavaScript/tree/master/Week2)|[Homework Week 2](https://github.com/HackYourFuture/JavaScript/tree/master/Week2/MAKEME.md)|
-|3.|String and Array Manipulations|[Reading Week 3](https://github.com/HackYourFuture/JavaScript/tree/master/Week3)|[Homework Week 3](https://github.com/HackYourFuture/JavaScript/tree/master/Week3/MAKEME.md)|
-|4.|Closures, Scope and Immediately Invoked function expression, Callbacks and Promises|[Reading Week 4](https://github.com/HackYourFuture/JavaScript/tree/master/Week4/README.md)|[Homework Week 4](https://github.com/HackYourFuture/JavaScript/tree/master/Week4/MAKEME.md)|
-|5.|Async VS Sync, XHTTP Requests|[Reading Week 5](https://github.com/HackYourFuture/JavaScript/tree/master/Week5/README.md)|[Homework Week 5](https://github.com/HackYourFuture/JavaScript/tree/master/Week5/MAKEME.md)|
-|6.|Recap: Closures, Promises,  Callbacks, XHTTP Requests, Objects and Instances|[Reading Week 6](https://github.com/HackYourFuture/JavaScript/tree/master/Week6/README.md)|[Homework Week 6](https://github.com/HackYourFuture/JavaScript/tree/master/Week6/MAKEME.md)|
+|1.|• Values <br>•Operators<br>• Variables.<br> •Primitives Types [Strings, Numbers, Arrays, Functions, Objects literals]<br>• Conditions|[Reading Week 1](https://github.com/HackYourFuture/JavaScript/tree/master/Week1)| [Homework Week 1](https://github.com/HackYourFuture/JavaScript/tree/master/Week1/MAKEME.md)|
+|2.|• Functions<br>• For and While Loops <br>• String and Array Manipulations |[Reading Week 2](https://github.com/HackYourFuture/JavaScript/tree/master/Week2)|[Homework Week 2](https://github.com/HackYourFuture/JavaScript/tree/master/Week2/MAKEME.md)|
+|3.|• String and Array Manipulations|[Reading Week 3](https://github.com/HackYourFuture/JavaScript/tree/master/Week3)|[Homework Week 3](https://github.com/HackYourFuture/JavaScript/tree/master/Week3/MAKEME.md)|
+|4.|• Closures <br>• Scope<br>• Immediately Invoked function expressions <br> • Callbacks<br>• Promises|[Reading Week 4](https://github.com/HackYourFuture/JavaScript/tree/master/Week4/README.md)|[Homework Week 4](https://github.com/HackYourFuture/JavaScript/tree/master/Week4/MAKEME.md)|
+|5.|• Async VS Sync <br>• XHTTP Requests|[Reading Week 5](https://github.com/HackYourFuture/JavaScript/tree/master/Week5/README.md)|[Homework Week 5](https://github.com/HackYourFuture/JavaScript/tree/master/Week5/MAKEME.md)|
+|6.|Recap: <br>• Closures<br>• Promises<br>•  Callbacks<br>• XHTTP Requests<br>• Objects and Instances|[Reading Week 6](https://github.com/HackYourFuture/JavaScript/tree/master/Week6/README.md)|[Homework Week 6](https://github.com/HackYourFuture/JavaScript/tree/master/Week6/MAKEME.md)|
 |7.|Test Driven Development|TBA|TBA|
 |8.|Test Driven Development|TBA|TBA|
 |9.|Test Driven Development|TBA|TBA|

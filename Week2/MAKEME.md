@@ -1,7 +1,6 @@
-##Assignment week 2
+## Assignment week 2
 
-1. 
-Create a function that takes two objects as parameters and compares them. You will actually need to write two functions - one that compares with == and one that compares with ===. Remember that objects can have objects inside of them so you'll need to find a way to compare every element of every object (types and values). For example: 
+1. Create a function that takes two objects as parameters and compares them. You will actually need to write two functions - one that compares with == and one that compares with ===. Remember that objects can have objects inside of them so you'll need to find a way to compare every element of every object (types and values). For example: 
 
 ```
 var obj1 = {
@@ -23,8 +22,7 @@ var obj2 = {
 
 in our example we'll say that obj1 == obj2 is true and obj1 === obj2 is false. Make sure you can see why before you write any code!
 
-2.
-We saw that we can pass functions as arguments to other functions. Your task is to write a function that takes another function as an argument and runs it. 
+2. We saw that we can pass functions as arguments to other functions. Your task is to write a function that takes another function as an argument and runs it. 
 
 ```
 function foo(func) {
@@ -48,17 +46,13 @@ Don't cheat! Seriously - try it first.
 http://jsfiddle.net/jimschubert/85M4z/
 http://stackoverflow.com/questions/22395357/how-to-compare-two-arrays-are-equal-using-javascript
 
-3.
-https://www.freecodecamp.com/challenges/comparisons-with-the-logical-and-operator
+3. https://www.freecodecamp.com/challenges/comparisons-with-the-logical-and-operator
 
-4.
-https://www.freecodecamp.com/challenges/record-collection
+4. https://www.freecodecamp.com/challenges/record-collection
 
-5.
-https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map
+5. https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map
 
-6.
-We did the following example in class: 
+6. We did the following example in class: 
 
 ```
  var o1 = { foo: 'bar' };

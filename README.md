@@ -20,7 +20,7 @@ Here you can find course content and homework for the JavaScript 1,2 and 3 modul
 
 
 __Kind note:__<br>
-We expected you to __always__ come prepared to the class on Sunday.
+We expect you to __always__ come prepared to the class on Sunday.
 
 
 ## Module goals:
@@ -29,10 +29,10 @@ We expected you to __always__ come prepared to the class on Sunday.
 A basic program with multiple functions (reacting to user input)
 
 ### Week 4-6:
-TBA
+A tool capable of loading a JSON file and repreenting it in the DOM
 
 ### Week 7-9:
-TBA
+A web app with external data source using at least one API 《〠_〠》
 
 ### Overall
 A good understanding of all the above mentioned topics. Want to check your Knowledge? Go through the [JavaScript Fundamentals README](https://github.com/HackYourFuture/JavaScript/tree/master/fundamentalsand) and research/ ask for help (Slack!) with the concepts that are not entirely clear.

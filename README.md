@@ -8,7 +8,7 @@ This is the description of the classes for JavaScript fundamentals.
 |Week|Topic|Read|Homework|
 |----|-----|----|--------|
 |0.|Preparation for first JavaScript session|[Reading Week 0](https://github.com/HackYourFuture/JavaScript/tree/master/Week0)|-|
-|1.|• Values <br>•Operators<br>• Variables.<br> •Primitives Types [Strings, Numbers, Arrays, Functions, Objects literals]<br>• Conditions|[Reading Week 1](https://github.com/HackYourFuture/JavaScript/tree/master/Week1)| [Homework Week 1](https://github.com/HackYourFuture/JavaScript/tree/master/Week1/MAKEME.md)|
+|1.|• Values <br>• Operators<br>• Variables.<br>• Primitives Types [Strings, Numbers, Arrays,<br> Functions, Objects literals]<br>• Conditions|[Reading Week 1](https://github.com/HackYourFuture/JavaScript/tree/master/Week1)| [Homework Week 1](https://github.com/HackYourFuture/JavaScript/tree/master/Week1/MAKEME.md)|
 |2.|• Functions<br>• For and While Loops <br>• String and Array Manipulations |[Reading Week 2](https://github.com/HackYourFuture/JavaScript/tree/master/Week2)|[Homework Week 2](https://github.com/HackYourFuture/JavaScript/tree/master/Week2/MAKEME.md)|
 |3.|• String and Array Manipulations|[Reading Week 3](https://github.com/HackYourFuture/JavaScript/tree/master/Week3)|[Homework Week 3](https://github.com/HackYourFuture/JavaScript/tree/master/Week3/MAKEME.md)|
 |4.|• Closures <br>• Scope<br>• Immediately Invoked function expressions <br> • Callbacks<br>• Promises|[Reading Week 4](https://github.com/HackYourFuture/JavaScript/tree/master/Week4/README.md)|[Homework Week 4](https://github.com/HackYourFuture/JavaScript/tree/master/Week4/MAKEME.md)|

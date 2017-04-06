@@ -1,4 +1,4 @@
-# Homework week 6
+# Homework Week 6
 
 Finish homework week 5: https://github.com/HackYourFuture/JavaScript/blob/master/Week5/MAKEME.md and hand in the link to your Github Repository in Trello
 

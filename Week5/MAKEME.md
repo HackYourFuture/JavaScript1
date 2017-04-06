@@ -1,4 +1,8 @@
-## Homework week 5
+## Homework Week 5
+
+## Git Homework:
+
+[Make these assignments](https://github.com/HackYourFuture/Git/blob/master/Lecture-2.md)
 
 ### Refresher
 http://conceptf1.blogspot.nl/2013/11/javascript-closures.html

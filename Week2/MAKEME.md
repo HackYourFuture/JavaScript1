@@ -1,4 +1,4 @@
-##Assignment week 2
+## Assignment week 2
 
 1. 
 Create a function that takes two objects as parameters and compares them. You will actually need to write two functions - one that compares with == and one that compares with ===. Remember that objects can have objects inside of them so you'll need to find a way to compare every element of every object (types and values). For example: 

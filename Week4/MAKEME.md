@@ -1,5 +1,9 @@
 # Homework Week 4
 
+## Git Homework:
+
+[Make these assignments](https://github.com/HackYourFuture/Git/blob/master/Lecture-1.md)
+
 ## Reading
 
 * code style conventions

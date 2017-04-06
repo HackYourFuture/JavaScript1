@@ -1,4 +1,4 @@
-#Reading material for the second lecture:
+# Reading material for the second lecture:
 
 - Functions ~ http://eloquentjavascript.net/03_functions.html
 - Program structure ~ http://eloquentjavascript.net/02_program_structure.html

@@ -10,6 +10,15 @@ Write a program to answer the following questions:
 
 Create an object and a function that takes the object as a parameter and prints out all of its names and values.
 
+Can you write the following without the `if` statement, but with just as a single line with `console.log(...);`?
+```
+if (3 == 3) {
+    console.log("true")
+} else {
+    console.log("false")
+}
+```
+
 On freecodecamp.com please try to do all [Basic JavaScript](https://www.freecodecamp.com/challenges/learn-how-free-code-camp-works) exercies (there are some topics we did not cover but you can do it). Please make sure you REALLY understand the exercies below:
 
 https://www.freecodecamp.com/challenges/multiply-two-decimals-with-javascript

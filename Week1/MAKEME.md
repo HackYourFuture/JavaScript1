@@ -14,7 +14,9 @@
 
 7. Change the function `vehicle` to use the list of question 5. So that `vehicle("green", 3, 1)` prints "a green new caravan".
 
-8. Use the list of vehicles to write an advertisment. So that it prints something like: `"Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes."`. What if you add one more vehicle to the list, can you have that added to the list without changing your code.
+8. Use the list of vehicles to write an advertisment. So that it prints something like: `"Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes."`. (Hint: use a `for` loop.)
+
+9. What if you add one more vehicle to the list, can you have that added to the advertisement without changing the code for question 8?
 
 On freecodecamp.com please try to do all [Basic JavaScript](https://www.freecodecamp.com/challenges/learn-how-free-code-camp-works) exercises (there are some topics we did not cover but you can do it). Please make sure you REALLY understand the exercises below:
 

@@ -10,10 +10,17 @@
 - https://www.freecodecamp.com/challenges/make-object-properties-private
 
 And a custom DOM manipulation challenge :mortar_board:
-1. Make a list of >= 10 books you've read, store it in an array, log the array
-2. Create a basic html file called inxed.html and use it to load the js file, confirm the console.log show the lists
-3. Generate a `ul` with a `li` for each book in the array using a forloop and a function
-4. Use a forloop to generate objects for each book, then add at least the following properties to each object: title, language, author. Change the function generating the `ul` so that it now generates a section for each object.
-5. Fill each section with the details you have for each book using a function. Make sure you choose the right html elements for each piece of info, for instance, a heading for the title.
-6. Download book covers for each book, give each book object a property storing the location of the cover image for that book. write a function that uses a query selector to select each of the previously generated sections and insert a generated `img` element that shows the books cover.
-7. Beautify your html page with css, add sources and alts to each of the images.
+
+1. Open a new js file and start by declaring in array with in there 10 strings. These strings should be of book title's you have read (or made up) and be lowercase without spaces or special characters so that you can use these later as Id's. (Example: Harry Potter's - The Chamber of Secrets --> `harry_potter_chamber_secrets`). 
+
+2. Create a basic html file called inxed.html and use it to load the js file, confirm the console.log show the array. (This is for debugging and making sure everything is in order. Delete it later when you're done :))
+
+3. Make a function (or functions) that generate a `ul` with `li` elements for each book ID in the array using a for loop. 
+
+4. Make an object containing information for each book. Each item (object) in this object should have the book ID you thought up in point 1 as a key, and it should have at least the following fields: title, language and author. 
+
+5. Now change the function you used to display the book ID's in a list to take the actual information about the book from the object and display that. Make sure you choose the right html elements for each piece of info, for instance, a heading for the title.
+
+6. Beautify your html page with css, add sources and alts to each of the images.
+ 
+7. __Optional (expert)__ Download book covers for each book, construct a new Object which has as keys the bookId's again, and as value the path to the image source (e.g. {"harry_potter_blabla": "./img/harry_potter_blabla.jpg", ...}). Now loop over this array (_hint: Object.keys(objectName) gives you an array containing the keys_). Then write a function which places an image at the corresponding `li` element. Remember that Objects are not ordered, so you cannot guarantee that the first key is the first `li` element. (_Hint: you could give each `li` item an `id` tag by modifying the function you made before_)

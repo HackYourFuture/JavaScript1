@@ -1,45 +1,15 @@
 # Homework Week 4
 
-## Git Homework:
-
-[Make these assignments](https://github.com/HackYourFuture/Git/blob/master/Lecture-1.md)
-
-## Reading
-
-* code style conventions
-  * read <a href="http://javascript.crockford.com/code.html" target="_blank">http://javascript.crockford.com/code.html</a>
-
-* private members, the this keyword, closures
-  * read about: <a href="http://javascript.crockford.com/private.html" target="_blank">private members in javascript</a>
-  * study: <a href="https://dorey.github.io/JavaScript-Equality-Table/" target="_blank">javascript equality table</a>
-  * read about: <a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Closures" target="_blank">closures</a>
-
+## Read:
+- https://github.com/HackYourFuture/JavaScript/blob/laurens_thomas/Week4/README.md
 
 ## Challenges:
 
-### Object Oriented and Functional Programming
-- https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map
-- https://www.freecodecamp.com/challenges/condense-arrays-with-reduce
-- https://www.freecodecamp.com/challenges/filter-arrays-with-filter
-- https://www.freecodecamp.com/challenges/sort-arrays-with-sort
-- https://www.freecodecamp.com/challenges/reverse-arrays-with-reverse
-- https://www.freecodecamp.com/challenges/concatenate-arrays-with-concat
-- https://www.freecodecamp.com/challenges/split-strings-with-split
-- https://www.freecodecamp.com/challenges/join-strings-with-join
 
-
-### Basic Algorithm Scripting
-- https://www.freecodecamp.com/challenges/get-set-for-our-algorithm-challenges
-- https://www.freecodecamp.com/challenges/reverse-a-string
-- https://www.freecodecamp.com/challenges/factorialize-a-number
-- https://www.freecodecamp.com/challenges/check-for-palindromes
-- https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string
-
-## Tutorial
-
-Go through this tutorial from [SoloLearn](https://www.sololearn.com/Course/JavaScript/) to check in with some of the fundamental concepts from the previous weeks. 
-
-## Future readings:
-- http://eloquentjavascript.net/06_object.html
-- http://eloquentjavascript.net/05_higher_order.html
-
+custom challenge:
+1. Go to http://www.omdbapi.com/?s=dog and change the word dog in the url to a different common word. You will get as a result, a list of movie with this word in the title. Make sure you get at least 5 results.
+2. You can copy the JSON and put it at the bottom of your javascript file. Print the title of the 3rd movie in the array to the console.
+3. Make a ul with a li for each title (just like you did with the books in the previous assignment
+4. Use CSS to divide the page in two columns. The left column will have a list of the titles for each movie. The right column will have all the information listed for each movie.
+5. Replace the "Poster" property with the actual image of the poster.
+6. Use the imdbID to create an URL to the IMDB page for that movie (hint: IMDB urls always look like this http://www.imdb.com/title/[imdbId] where [imdbId] would be replaced by the actual Id. If you do this correctly, each movie 

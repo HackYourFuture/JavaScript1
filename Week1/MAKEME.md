@@ -1,6 +1,6 @@
 ## Assignments week 1:
 
-1. Create a `.js` file that prints `Hello` when you run it from the command line. (Hint: `node` is the program that can run your javascript files.)
+1. Create a `.js` file that prints `Hello` when you run it from the command line. (Hint: `node` is the program that can run your JavaScript files.)
 
 2. Create a function named `colorCar` that receives a color, and prints out, "a red car" for example. (Hint: put it in your file and run it like before.)
 

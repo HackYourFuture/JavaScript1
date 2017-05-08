@@ -1,5 +1,17 @@
 ## Homework Week 5
 
+### Git
+
+1. Create a branch called `MyBranch` in the repository `MyFirst`.
+
+2. Create the files `leaf1.txt`, `leaf2.txt`, `flower.txt` and `fruit.txt` and write some content in them.
+
+3. Create a corresponding remote tracking branch on GitHub and push this branch to the Github remote you just created.
+
+4. Merge `MyBranch` with the `master` branch
+
+### JS
+
 You are going to continue using your homework from the previous weeks, and we are going to extend it.
 You will have to change some functions you wrote, and depending on how well you did you may or may
 not have to change all your code ;). 

@@ -1,12 +1,5 @@
 ## Homework Week 5
 
-## Git Homework:
-
-*Verify with Unmesh if this is still up to date*
-[Make these assignments](https://github.com/HackYourFuture/Git/blob/master/Lecture-2.md)
-
-### Homework 
-
 You are going to continue using your homework from the previous weeks, and we are going to extend it.
 You will have to change some functions you wrote, and depending on how well you did you may or may
 not have to change all your code ;). 

@@ -34,3 +34,14 @@ https://www.w3schools.com/jsref/jsref_charat.asp
 - https://www.codewars.com/collections/hyf-homework-number-2
 - If you need to refresh your memory on es6 classes: https://ponyfoo.com/articles/es6-classes-in-depth
 - Also read this article on scopes & closures: https://robertnyman.com/2008/10/09/explaining-javascript-scope-and-closures/
+
+## To read before third lecture:
+The lecture will cover callbacks, ES6 function syntax and promises. Please read the following resources before class this Sunday:
+
+- [JS Promise](https://medium.com/@ramsunvtech/promises-of-promise-part-1-53f769245a53)
+- [JavaScript Promises: an Introduction](https://developers.google.com/web/fundamentals/getting-started/primers/promises)
+- [Promises for asynchronous programming](http://exploringjs.com/es6/ch_promises.html)
+- [ES6 Patterns: Converting Callbacks to Promises](https://benmccormick.org/2015/12/30/es6-patterns-converting-callbacks-to-promises/)
+
+>If you feel you need preparation for the test I recommend to take a look at the topics listed in the [README](https://github.com/HackYourFuture/JavaScript/tree/master) of this repo (up to and including week 9) and look up/refresh these concepts in your __Smarter Way to Learn JavaScript__ book 📚. Also go through the reading material and homework of the last weeks.
+

@@ -16,7 +16,7 @@ Here you can find course content and homework for the JavaScript 1,2 and 3 modul
 |6.|• Async VS Sync <br>• Polling<br>• Structure for a basic SPA <br> TEST :boom:|[Reading Week 6](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week6)|[Homework Week 6](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week6/MAKEME.md)|
 |7.|• Third Git Session (Git Workflow :muscle:) <br>• (re)writing data structures (in JSON)<br>• Map, reduce filter|[Reading Week 7](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week7)|[Homework Week 7](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week7/MAKEME.md)|
 |8.|• Closures <br>• Promises|TBA|TBA|
-|9.|Test Driven Development|TBA|TBA|
+|9.|Test Driven Development<br>TEST :boom:|TBA|TBA|
 
 
 __Kind note:__<br>

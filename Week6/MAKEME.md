@@ -2,6 +2,7 @@
 
 UNDER CONSTRUCTION
 
+Write a script that [polls this API](https://sunrise-sunset.org/api) every 3 seconds and passes a new date everytime where date is previous day ++.
 Write a SPA that follows the pattern outlined in this [codepen](http://codepen.io/Razpudding/pen/MmVpeW).
 
 

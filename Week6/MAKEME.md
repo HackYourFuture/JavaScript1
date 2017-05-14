@@ -6,7 +6,7 @@
 ### Main assignment
 You are going to write a SPA that uses the [Github API](https://developer.github.com/guides/getting-started/). Make sure that your app uses a logical pattern just like [this codepen](http://codepen.io/Razpudding/pen/MmVpeW).
 
-_Requirements_:
+__Requirements__:
 - Make sure you handle user input well. That means you need to think about empty input, and input that doesn't yield any results.
 - Do not duplicate code! This is especially important for making requests since we are making multiple ones with different urls and we want to do different actions based on the call we are making. Here are some handles to get you started:
   - So write a function called `makeRequest` which accepts (at least) the following parameters: `url` and `callback`.

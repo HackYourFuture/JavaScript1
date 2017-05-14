@@ -2,6 +2,9 @@
 
 UNDER CONSTRUCTION
 
+- Add your github/repositories link to the pinned slack file
+- Fix the issues from the last week and make sure you explain how you fixed the issue in a comment (or commit message)
+
 Write a script that [polls this API](https://sunrise-sunset.org/api) every 3 seconds and passes a new date everytime where date is previous day ++.
 Write a SPA that follows the pattern outlined in this [codepen](http://codepen.io/Razpudding/pen/MmVpeW).
 

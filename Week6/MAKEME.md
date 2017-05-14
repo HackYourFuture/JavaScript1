@@ -1,4 +1,6 @@
 # Homework Week 6
+You can find the [reading material here](https://github.com/HackYourFuture/JavaScript/blob/laurens_thomas/Week6/README.md)
+
 - Add your github/repositories link to the pinned slack file
 - Fix the issues from the last week and make sure you explain how you fixed the issue in a comment (or commit message)
 - Write a script that [polls this API](https://sunrise-sunset.org/api) every 3 seconds and passes a new date everytime where date is previous day ++.

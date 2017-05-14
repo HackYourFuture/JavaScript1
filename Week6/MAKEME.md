@@ -6,6 +6,15 @@
 ### Main assignment
 You are going to write a SPA that uses the [Github API](https://developer.github.com/guides/getting-started/). Make sure that your app uses a logical pattern just like [this codepen](http://codepen.io/Razpudding/pen/MmVpeW).
 
+_Requirements_:
+- Make sure you handle user input well. That means you need to think about empty input, and input that doesn't yield any results.
+- Do not duplicate code! This is especially important for making requests since we are making multiple ones with different urls and we want to do different actions based on the call we are making. Here are some handles to get you started:
+  - So write a function called `makeRequest` which accepts (at least) the following parameters: `url` and `callback`.
+  - Make sure your `callback` is called when the request errors or when it sends a response (look at the documentation)
+  - Your `callback` functions should accept two parameters so it can handle both errors: `err` and `response`.
+  So based on your users actions (input, hovering, clicking) you want to call `makeRequest` with a different `url` and supply it with a function that handles both errors (display an error message to the user for example) and responses (render it correctly, as described below). 
+ - Make your functions small and reusable (modular)! That means create seperate functions to handle certain steps. 
+  
 1. Make a call to 'https://api.github.com/users/' + userInput (where userInput is a string typed into a searchfield by a user). You can do this by using some of the code of the previous week. Look at the response data.
 2. show the users name, avatar image (not the link to the image!) and the number of public repos they have
 3. When clicking on the users name, show all the other info you have about that user. When clicking on the avatar image, open their github profile in a new tab. When clicking on the number of public repos, make another API call to 'https://api.github.com/users/user/repos' and build an unorderdered list of the returned repos with just the name of each repo.

@@ -64,8 +64,9 @@ function sayHello(name) {
 }
 ```
 Same as above with arrow (fat arrow) notation
+```
 var sayHello2 = (name) => 'Hello ' + name;
-
+```
 
 ### Return examples
 ```

@@ -15,13 +15,12 @@ Here you can find course content and homework for the JavaScript 1,2 and 3 modul
 |5.|• Second Git Session :see_no_evil:<br>• Events<br>• Callbacks <br>• XHTTP Requests <br>• API calls|[Reading Week 5](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week5)|[Homework Week 5](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week5/MAKEME.md) |
 |6.|• Async VS Sync <br>• Polling<br>• Structure for a basic SPA <br> TEST :boom:|[Reading Week 6](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week6)|[Homework Week 6](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week6/MAKEME.md)|
 |7.|• Third Git Session (Git Workflow :muscle:) <br>• (re)writing data structures (in JSON)<br>• Map, reduce filter|[Reading Week 7](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week7)|[Homework Week 7](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week7/MAKEME.md)|
-|8.|• Closures <br>• Promises|TBA|TBA|
+|8.|• Closures <br>• Promises <br>• Object Literals (and other patterns)|TBA|TBA|
 |9.|Test Driven Development<br>TEST :boom:|TBA|TBA|
 
 
 __Kind note:__<br>
 We expect you to __always__ come prepared to the class on Sunday.
-
 
 ## Module goals:
 
@@ -29,7 +28,7 @@ We expect you to __always__ come prepared to the class on Sunday.
 A basic program with multiple functions (reacting to user input)
 
 ### Week 4-6:
-A tool capable of loading a JSON file and repreenting it in the DOM
+A tool capable of loading a JSON file and representing it in the DOM
 
 ### Week 7-9:
 A web app with external data source using at least one API 《〠_〠》

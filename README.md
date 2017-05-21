@@ -14,9 +14,9 @@ Here you can find course content and homework for the JavaScript 1,2 and 3 modul
 |4.|• First Git Session with Unmesh :smiling_imp:<br>• JSON<br>• Code debugging using the browser<br>• Functions + JSON/Arrays<br>• Code flow (order of execution) <br>• (capturing user input) <br>• Structuring code files|[Reading Week 4](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week4)|[JS](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week4/MAKEME.md) + [Git Homework Week 4](https://github.com/HackYourFuture/Git/blob/master/Lecture-1.md)|
 |5.|• Second Git Session :see_no_evil:<br>• Events<br>• Callbacks <br>• XHTTP Requests <br>• API calls|[Reading Week 5](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week5)|[Homework Week 5](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week5/MAKEME.md) |
 |6.|• Async VS Sync <br>• Polling<br>• Structure for a basic SPA <br> TEST :boom:|[Reading Week 6](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week6)|[Homework Week 6](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week6/MAKEME.md)|
-|7.|• Third Git Session (Git Workflow :muscle:) <br>• (re)writing data structures (in JSON)<br>• Map, reduce filter|[Reading Week 7](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week7)|[Homework Week 7](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week7/MAKEME.md)|
-|8.|• Closures <br>• Promises <br>• Object Literals (and other patterns)|TBA|TBA|
-|9.|Test Driven Development<br>TEST :boom:|TBA|TBA|
+|7.|• Third Git Session (Git Workflow :muscle:) <br>• Map, reduce filter|[Reading Week 7](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week7)|[Homework Week 7](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week7/MAKEME.md)|
+|8.|• (re)writing data structures (in JSON)<br> • Closures <br>• Promises <br>• Object Literals (and other patterns)|TBA|TBA|
+|9.|ES6 :hatching_chick: <br>TEST :boom:|TBA|TBA|
 
 
 __Kind note:__<br>

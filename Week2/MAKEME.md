@@ -2,7 +2,7 @@
 
 1. Create a function that takes two objects as parameters and compares them. You will actually need to write two functions - one that compares with == and one that compares with ===. Remember that objects can have objects inside of them so you'll need to find a way to compare every element of every object (types and values). For example: 
 
-```
+```js
 var obj1 = {
     a: 1, 
     b: 'this is the letter b', 
@@ -24,7 +24,7 @@ in our example we'll say that obj1 == obj2 is true and obj1 === obj2 is false. M
 
 2. We saw that we can pass functions as arguments to other functions. Your task is to write a function that takes another function as an argument and runs it. 
 
-```
+```js
 function foo(func) {
     // What to do here? 
 }
@@ -54,7 +54,7 @@ http://stackoverflow.com/questions/22395357/how-to-compare-two-arrays-are-equal-
 
 6. We did the following example in class: 
 
-```
+```js
  var o1 = { foo: 'bar' };
  var o2 = { foo: 'bar' };
  var o3 = o2;
@@ -63,7 +63,6 @@ Show that changing o2 changes o3 (or not) and changing o2 changes o3 (or not).
 
 Does the order that you assign (o3 = o2 or o2 = o3) matter? 
 
--------------------------------------
 ### Some further reading: 
 Have a look at https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/
  

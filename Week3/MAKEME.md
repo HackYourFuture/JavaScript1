@@ -1,10 +1,7 @@
 # Homework Week 3
 
 ## Read:
-- https://en.wikipedia.org/wiki/Object-oriented_programming
-- https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/this
-- https://developer.mozilla.org/en-US/docs/Glossary/Scope
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
+- https://github.com/HackYourFuture/JavaScript/blob/laurens_thomas/Week3/README.md
 
 ## Challenges:
 - https://www.freecodecamp.com/challenges/declare-javascript-objects-as-variables
@@ -12,110 +9,24 @@
 - https://www.freecodecamp.com/challenges/make-unique-objects-by-passing-parameters-to-our-constructor
 - https://www.freecodecamp.com/challenges/make-object-properties-private
 
-And just for fun ... https://www.freecodecamp.com/challenges/sum-all-numbers-in-a-range
-
 Loops practice - https://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops
 https://www.freecodecamp.com/challenges/iterate-with-javascript-while-loops
 https://developer.mozilla.org/en/docs/Web/JavaScript/Closures
 
+And just for fun ... https://www.freecodecamp.com/challenges/sum-all-numbers-in-a-range
 
-### Refresher
-https://forum.freecodecamp.com/t/javascript-callback-functions/14658/2
+And a custom DOM manipulation challenge :mortar_board:
 
-http://www.learn-js.org/en/Callbacks
+1. Open a new js file and start by declaring in array with in there 10 strings. These strings should be of book title's you have read (or made up) and be lowercase without spaces or special characters so that you can use these later as Id's. (Example: Harry Potter's - The Chamber of Secrets --> `harry_potter_chamber_secrets`). 
 
-### Homework 
+2. Create a basic html file called inxed.html and use it to load the js file, confirm the console.log show the array. (This is for debugging and making sure everything is in order. Delete it later when you're done :))
 
-1. We learned a little bit about callbacks in JS. A callback is simply a function passed to another function that gets executed (run) after a potentially long running operation has completed. There is another function called `setTimeout` that will wait a specified period of time and then execute a function. For example: 
+3. Make a function (or functions) that generate a `ul` with `li` elements for each book ID in the array using a for loop. 
 
-    ``` 
-    function doIt() {
-        console.log('I am done');
-    }
-    setTimeout(doIt, 5000)
-    ```
-    If you run the above code it will wait 5 seconds and print `I am done`. Please read something about setTimeout on MDN. The first argument to the `setTimeout` call is the callback (`doIt`)
+4. Make an object containing information for each book. Each item (object) in this object should have the book ID you thought up in point 1 as a key, and it should have at least the following fields: title, language and author. 
 
-    You must write a function that takes 4 arguments.
-    - A start value 
-    - An end value
-    - A callback to call if the number is divisible by 3 
-    - A callback to use if the number is divisible by 5
+5. Now change the function you used to display the book ID's in a list to take the actual information about the book from the object and display that. Make sure you choose the right html elements for each piece of info, for instance, a heading for the title.
 
-    The function should generate an array containing values from start value to end value (inclusive). 
-
-    Then the function should itereate over the array and call the second argument if the array value is divisible by 3
-
-    The function should call the second argument if the array value is divisible by 5 
-
-    Both functions should be called if the array value is divisible by both 3 and 5
-
-    ```
-    THIS IS FAKE CODE 
-    function threeFive(startIndex, stopIndex, threeCallback, fiveCallback) {
-       // make array 
-       // start at beginning of array and check if you should call threeCallback or fiveCallback or go on to next  
-    }
-    threeFive(10, 15, sayThree, sayFive);
-
-    // Should create an array [10,11,12,13,14,15]
-    // and call sayFive, sayThree, sayThree, sayFive  - please make sure you see why these calls are made before you start coding
-    ```
-
-
-2. Please solve this problem using:
-https://www.freecodecamp.com/challenges/repeat-a-string-repeat-a-string
- 1. A for loop
- 2. A while loop
- 3. A do loop
-
-3. Some practice with objects 
-https://www.freecodecamp.com/challenges/construct-javascript-objects-with-functions
-
-4. Nested loops 
-https://www.freecodecamp.com/challenges/nesting-for-loops
-
-
-5. We did some work with arrays - `var arr = [1,2,3]`
-We can also nest arrays inside arrays like this `var arr2d = [[1,2], [3,4], [5,6]]` (for math people you can think of this as a matrix)
-How would you print all the items of an array with 3 dimensions? 
-How about with K dimensions? 
-What if you didn't know how deep the array was nested? (You don't have to write code for this but think about it)
-
-6. Here are two functions that look like they do the something similar but they print different results. Please explain what's going on here.
-
-```
-var x = 9; 
-function f1(val) { 
-    val = val+1; 
-    return val;
-}
-f1(x);
-console.log(x);
-
-
-var y = { x: 9 };
-function f2(val) {
-    val.x = val.x + 1;
-    return val;
-}
-f2(y);
-console.log(y);
-```
-If you are confused please run the code and then consult the Google for "javascript pass by value pass by reference"
-
-7. Next time we're going to cover the following Javascript topics: 
-- Immediately Invoked Function Execution (IIFE) and anonymous functions
-- The this variable
-- Scope and closures
-- Promises (callbacks part 2)
-- Using APIs 
-
-Please read up on these topics
-
-
-
-
-
-
-
+6. Beautify your html page with css, add sources and alts to each of the images.
+ 
+7. __Optional (expert)__ Download book covers for each book, construct a new Object which has as keys the bookId's again, and as value the path to the image source (e.g. `{"harry_potter_blabla": "./img/harry_potter_blabla.jpg", ...}`). Now loop over these entries (_hint: `Object.keys(objectName)` gives you an array containing the keys_). Then write a function which places an image at the corresponding `li` element. Remember that Objects are not ordered, so you cannot guarantee that the first key is the first `li` element. (_Hint: you could give each `li` item an `id` tag by modifying the function you made before_)

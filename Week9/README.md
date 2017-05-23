@@ -1,6 +1,5 @@
-README.md
+# Reading week 9
 
-https://github.com/HackYourFuture/TicTacToeTDD
-https://github.com/HackYourFuture/OOP-Student-and-Teacher
-
-rewatch the Hangouts session here: https://www.youtube.com/watch?v=oc9ogCJz9rYs
+### Refresher
+https://forum.freecodecamp.com/t/javascript-callback-functions/14658/2
+http://www.learn-js.org/en/Callbacks

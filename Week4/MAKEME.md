@@ -1,7 +1,7 @@
 # Homework Week 4
 
 ## Read:
-- https://github.com/HackYourFuture/JavaScript/blob/laurens_thomas/Week4/README.md
+- https://github.com/HackYourFuture/JavaScript/blob/master/Week4/README.md
 
 ## Challenges:
 - https://www.freecodecamp.com/challenges/using-objects-for-lookups

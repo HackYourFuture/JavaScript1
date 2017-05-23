@@ -1,7 +1,7 @@
 # Homework Week 3
 
 ## Read:
-- https://github.com/HackYourFuture/JavaScript/blob/laurens_thomas/Week3/README.md
+- https://github.com/HackYourFuture/JavaScript/blob/master/Week3/README.md
 
 ## Challenges:
 - https://www.freecodecamp.com/challenges/declare-javascript-objects-as-variables

@@ -3,6 +3,8 @@
 # Hack Your JavaScript
 Here you can find course content and homework for the JavaScript 1,2 and 3 modules
 
+|Week|Topic|Read|Homework|
+|----|-----|----|--------|
 |0.|Preparation for your first JavaScript session|[Reading Week 0](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week0)|-|
 |1.|• Intro JavaScript (What is it, where can you<br> use it for)<br>• Basic Data types [Strings, Numbers, Arrays]<br>• Variables<br>• Operators<br>• Conditions <br>• Naming conventions| [CLI Reading Week 1](https://github.com/HackYourFuture/CommandLine/blob/master/Lecture-1.md)| [Homework Week 1](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week1/MAKEME.md)|
 |2.| [CLI](https://github.com/HackYourFuture/CommandLine) session with Unmesh :heart:|[Reading Week 2](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week2)|[JS](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week2/MAKEME.md) + [CLI Homework Week 2](https://github.com/HackYourFuture/CommandLine/blob/master/HomeWork.md)|

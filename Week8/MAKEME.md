@@ -1,7 +1,9 @@
 # Homework Week 8
-
 This week you will work on finishing your application so it's actually useful!!
 
+[Read this](https://github.com/HackYourFuture/JavaScript/blob/laurens_thomas/Week8/README.md)
+
+Make this
 - Check if you have met all the requirements from the previous 2 weeks of homework
 - Resolve your Github issues (DO NOT CLOSE AN ISSUE WITHOUT AN EXPLANATION OF BY REFERENCING IT FROM A COMMIT)
 - Make sure you have implemented map, filter, reduce. If you lack inspiration, ask on Slack.

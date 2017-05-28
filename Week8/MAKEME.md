@@ -1,7 +1,15 @@
 # Homework Week 8
 
-- Finish last week's assignment
-- Solve all your Git issues. DO NO CLOSE AN ISSUE WITHOUT AN EXPLANATION OR CODE COMMIT REFERENCING THAT ISSUE
-- Add map, filter, reduce to  your existing app to build an application that loads data from github, filters out based on certain value, map->reduces to a data object and render that object to the dom (using map again).
-- Add polling to your app so that it checks every minute or so if a new repo has been made and if it has, adds it to the DOM without reloading the page.
-- Add a readme to your repo explaining  what your app does and how to use your app. Here's a [template](https://gist.github.com/jxson/1784669) and here you can see how to make [your readme awesome](https://gist.github.com/rrgayhart/91bba7bb39ea60136e5c).
+This week you will work on finishing your application so it's actually useful!!
+
+- Check if you have met all the requirements from the previous 2 weeks of homework
+- Resolve your Github issues (DO NOT CLOSE AN ISSUE WITHOUT AN EXPLANATION OF BY REFERENCING IT FROM A COMMIT)
+- Make sure you have implemented map, filter, reduce. If you lack inspiration, ask on Slack.
+- Implement promises in your XHR
+- Add polling to your SPA and make sure new info is loaded every 60 seconds. It's probably not a good idea to do a lot of requests everytime so maybe just check if a user has new repos.
+- Add a local data structure inw hich you ONLY store the info your app needs. So all the properties of your object should be used somewhere in your app. Don't reference the response of the XHR anymore, just reference your own data structure.
+- Make sure you only have one request function that accepts a url parameter and a callback function
+- Implement a loader icon like in [my codepen](https://codepen.io/Razpudding/pen/BRGqJw) for each xhr response the user has to wait for.
+- Add correct HTML/CSS
+
+If you get stuck, remember we have Slack and you can ask questions. On Slack there's also the list of repos of other students so you can check how they did it.

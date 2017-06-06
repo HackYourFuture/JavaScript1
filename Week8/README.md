@@ -1,3 +1,7 @@
-## Homework week 8
+# Reading to be done before the 9th lecture
 
-Code to the sort function source from today's first half of the lesson: https://github.com/davidfurlong/sort-function-TDD
+Some nice resources about promises :ring:
+- [Googles post about Promises](https://developers.google.com/web/fundamentals/getting-started/primers/promises)
+- [A nice article from David Walsh](https://davidwalsh.name/promises)
+- [A real life example](https://github.com/mdn/js-examples/blob/master/promises-test/index.html)
+- [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)

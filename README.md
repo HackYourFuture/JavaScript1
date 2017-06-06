@@ -14,7 +14,7 @@ Here you can find course content and homework for the JavaScript 1,2 and 3 modul
 |6.|• Async VS Sync <br>• Polling<br>• Structure for a basic SPA <br> TEST :boom:|[Reading Week 6](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week6)|[Homework Week 6](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week6/MAKEME.md)|
 |7.|• Third Git Session (Git Workflow :muscle:) <br>• Map, reduce filter|[Reading Week 7](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week7)|[Homework Week 7](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week7/MAKEME.md)|
 |8.|• (re)writing data structures (in JSON)<br> • Closures <br>• Promises|[Reading Week 8](https://github.com/HackYourFuture/JavaScript/blob/laurens_thomas/Week8/README.md)|[Homework Week 8](https://github.com/HackYourFuture/JavaScript/blob/laurens_thomas/Week8/MAKEME.md)|
-|9.|• ES6 :hatching_chick: <br>• Object Literals (and other patterns)<br>TEST :boom:|[Reading Week 9](https://github.com/HackYourFuture/JavaScript/blob/laurens_thomas/Week9/README.md)|[Homework Week 9](https://github.com/HackYourFuture/JavaScript/blob/laurens_thomas/Week9/MAKEME.MD)|
+|9.|• ES6 :hatching_chick: <br>• Object Literals (and other patterns)<br>TEST :boom:|[Reading Week 9](https://github.com/HackYourFuture/JavaScript/blob/laurens_thomas/Week9/README.md)|[Homework Week 9](https://github.com/HackYourFuture/JavaScript/blob/laurens_thomas/Week9/MAKEME.md)|
 
 __Kind note:__
 

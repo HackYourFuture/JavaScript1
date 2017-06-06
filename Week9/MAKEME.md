@@ -9,6 +9,9 @@
 - More about [closures](https://www.reddit.com/r/learnjavascript/comments/1v6n8p/closure_explain_likei_am_in_high_school/?st=ixsp0mbe&sh=5526d150)
 - A VERY popular [StackOverflow article](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
 
+
+
+> Make:
 1. Let's continue to learn a little more about scope and Closures. 
 
 

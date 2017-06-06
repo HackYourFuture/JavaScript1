@@ -12,7 +12,6 @@
 
 ### JS
 
-
 1. Extend your site with an input element. This is so the user will be able to type in text which will be later used to search the movie database for corresponding movies.
 
 2. Also place a button near the input element. Capture the click even for this button and couple it to a function which grabs the user input from the text field and which initially logs the user input.

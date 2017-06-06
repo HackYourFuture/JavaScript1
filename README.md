@@ -3,8 +3,6 @@
 # Hack Your JavaScript
 Here you can find course content and homework for the JavaScript 1,2 and 3 modules
 
-## Composition (Module goals)
-
 |Week|Topic|Read|Homework|
 |----|-----|----|--------|
 |0.|Preparation for your first JavaScript session|[Reading Week 0](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/Week0)|-|
@@ -18,8 +16,8 @@ Here you can find course content and homework for the JavaScript 1,2 and 3 modul
 |8.|• (re)writing data structures (in JSON)<br> • Closures <br>• Promises|[Reading Week 8](https://github.com/HackYourFuture/JavaScript/blob/laurens_thomas/Week8/README.md)|[Homework Week 8](https://github.com/HackYourFuture/JavaScript/blob/laurens_thomas/Week8/MAKEME.md)|
 |9.|• ES6 :hatching_chick: <br>• Object Literals (and other patterns)<br>TEST :boom:|[Reading Week 9](https://github.com/HackYourFuture/JavaScript/blob/laurens_thomas/Week9/README.md)|[Homework Week 9](https://github.com/HackYourFuture/JavaScript/blob/laurens_thomas/Week9/MAKEME.MD)|
 
+__Kind note:__
 
-__Kind note:__<br>
 We expect you to __always__ come prepared to the class on Sunday.
 
 ## Module goals:
@@ -34,5 +32,6 @@ A tool capable of loading a JSON file and representing it in the DOM
 A web app with external data source using at least one API 《〠_〠》
 
 ### Overall
-A good understanding of all the above mentioned topics. Want to check your Knowledge? Go through the [JavaScript Fundamentals README](https://github.com/HackYourFuture/JavaScript/tree/laurens_thomas/fundamentals) and research/ ask for help (Slack!) with the concepts that are not entirely clear.
+A good understanding of all the above mentioned topics. Want to check your Knowledge? Go through the [JavaScript Fundamentals README](https://github.com/HackYourFuture/JavaScript/tree/master/fundamentals) and research/ ask for help (Slack!) with the concepts that are not entirely clear.
+
 

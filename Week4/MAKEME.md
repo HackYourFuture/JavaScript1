@@ -1,14 +1,14 @@
 # Homework Week 4
 
 ## Read:
-- https://github.com/HackYourFuture/JavaScript/blob/laurens_thomas/Week4/README.md
+- https://github.com/HackYourFuture/JavaScript/blob/master/Week4/README.md
 
 ## Challenges:
 - https://www.freecodecamp.com/challenges/using-objects-for-lookups
 - https://www.freecodecamp.com/challenges/manipulating-complex-objects
 - https://www.freecodecamp.com/challenges/convert-json-data-to-html
 
-custom challenge:
+## Custom challenge:
 1. Go to http://www.omdbapi.com/?s=dog and change the word dog in the url to a different common word. You will get as a result, a list of movies with this word in the title. Make sure you get at least 5 results.
 2. You can copy the JSON and put it in a string at the top of your js file. Print the title of the 3rd movie in the array to the console.
 3. Make a ul with a li for each title (just like you did with the books in the previous assignment

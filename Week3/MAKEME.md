@@ -1,13 +1,19 @@
 # Homework Week 3
 
 ## Read:
-- https://github.com/HackYourFuture/JavaScript/blob/laurens_thomas/Week3/README.md
+- https://github.com/HackYourFuture/JavaScript/blob/master/Week3/README.md
 
 ## Challenges:
 - https://www.freecodecamp.com/challenges/declare-javascript-objects-as-variables
 - https://www.freecodecamp.com/challenges/make-instances-of-objects-with-a-constructor-function
 - https://www.freecodecamp.com/challenges/make-unique-objects-by-passing-parameters-to-our-constructor
 - https://www.freecodecamp.com/challenges/make-object-properties-private
+
+Loops practice - https://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops
+https://www.freecodecamp.com/challenges/iterate-with-javascript-while-loops
+https://developer.mozilla.org/en/docs/Web/JavaScript/Closures
+
+And just for fun ... https://www.freecodecamp.com/challenges/sum-all-numbers-in-a-range
 
 And a custom DOM manipulation challenge :mortar_board:
 

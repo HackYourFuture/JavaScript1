@@ -1,5 +1,15 @@
 # Homework Week 9
 
+##First off:
+Now that you've each written a SPA it's time to learn from each other.
+- Check the Repos list in the slack channel for your class. Review the repo of the person below you on the list (bottom will review top)
+- Pull their code, using Git Clone. Test their app locally and browse the code
+- Write issues for both the bad and the good parts you see.
+- Implement solutions that you think the other student handled better, suggest improvements for the parts they did worse.
+- Keep going until you feel you completely understand their code flow.
+
+#Second:
+Here are some resources and exercises to prepare you for the Node module.
 [JavaScript : Closures](http://conceptf1.blogspot.nl/2013/11/javascript-closures.html)
 [Everything you wanted to know about JavaScript scope](https://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/)
 [JavaScript Scoping and Hoisting](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html)
@@ -46,56 +56,4 @@ Don't cheat - but if you get stuck ... http://stackoverflow.com/questions/750486
         };
     }
 </script>
-```
-
-Rewrite to Async: 
-
-```js
-1.
-
-var sum = calculateSum(2, 6);
-console.log(sum);
-
-2.
-
-var results = $.getJSON('http://myapi.com');
-showResults(results);
-
-3.
-
-var sum = calculateSum(2, 6);
-if (sum > 8) {
-    console.log('larger than 8');
-}
-
-4.
-
-var data = $.getJSON('http://myapi.com');
-data = data.map(function (x) { return x * 8; });
-
-writeDataToFile(data);
-```
-
-
-4. You will need to create an HTML document out of the below snippet to run the below code. A hint - the code is syntactically correct but doesn't do what you would expect. Can you see why and fix it?  
-
-## TODO !!!
-
-Choose two "GET" API endpoints from http://reqres.in
-Use $.getJSON to load data from those two endpoints
-Display the data on your web page.
-It should not matter which endpoint is loaded first, the data should always look the same (you can add "?delay=" after the endpoint to simulate a delay).
-
-• Create at least 1 issue (bug / feature / code improvement) on another students github repository. Do this in pairs.
-•  solve the issue proposed by another student in your github repo. More info [here](https://hackyourfuture.slack.com/files/michahell/F31BX1XT6/Merging_a_local_branch_into_master)
-
-# optional Homework week 9
-``` 
-TicTacToe game
-
-https://github.com/HackYourFuture/TicTacToeTDD
-https://github.com/HackYourFuture/OOP-Student-and-Teacher
-
-rewatch the Hangouts session here: https://www.youtube.com/watch?v=oc9ogCJz9rYs
-
 ```

@@ -1,6 +1,6 @@
 # Homework Week 9
 
-##First off:
+## First off:
 Now that you've each written a SPA it's time to learn from each other.
 - Check the Repos list in the slack channel for your class. Review the repo of the person below you on the list (bottom will review top)
 - Pull their code, using Git Clone. Test their app locally and browse the code
@@ -8,7 +8,7 @@ Now that you've each written a SPA it's time to learn from each other.
 - Implement solutions that you think the other student handled better, suggest improvements for the parts they did worse.
 - Keep going until you feel you completely understand their code flow.
 
-#Second:
+## Second:
 Here are some resources and exercises to prepare you for the Node module.
 [JavaScript : Closures](http://conceptf1.blogspot.nl/2013/11/javascript-closures.html)
 [Everything you wanted to know about JavaScript scope](https://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/)

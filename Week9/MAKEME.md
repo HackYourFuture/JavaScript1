@@ -1,8 +1,13 @@
 # Homework week 9
 
-http://conceptf1.blogspot.nl/2013/11/javascript-closures.html https://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/ http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html https://medium.freecodecamp.com/5-javascript-bad-parts-that-are-fixed-in-es6-c7c45d44fd81
+>Read:
+- JavaScript : [Closures](http://conceptf1.blogspot.nl/2013/11/javascript-closures.html)
+- Everything you wanted to know about [JavaScript scope](https://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/)
+- JavaScript [Scoping and Hoisting](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html)
+- 5 JavaScript [“Bad” Parts That Are Fixed In ES6](https://medium.freecodecamp.com/5-javascript-bad-parts-that-are-fixed-in-es6-c7c45d44fd81)
 
-https://www.reddit.com/r/learnjavascript/comments/1v6n8p/closure_explain_likei_am_in_high_school/?st=ixsp0mbe&sh=5526d150 A VERY popular StackOverflow article: http://stackoverflow.com/questions/111102/how-do-javascript-closures-work
+- More about [closures](https://www.reddit.com/r/learnjavascript/comments/1v6n8p/closure_explain_likei_am_in_high_school/?st=ixsp0mbe&sh=5526d150)
+- A VERY popular [StackOverflow article](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
 
 1. Let's continue to learn a little more about scope and Closures. 
 

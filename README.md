@@ -1,5 +1,9 @@
 > Please help us improve and share your feedback! If you find better tutorials or links, please share them by opening a Pull Request.
 
+
+**Class 10: please visit this [link](https://github.com/HackYourFuture/JavaScript/tree/MandT) (your specific branch "MandT") for the most recent information relevant to your class.**
+
+
 # Hack Your JavaScript
 Here you can find course content and homework for the JavaScript 1,2 and 3 modules
 

@@ -1,12 +1,11 @@
-> Please help us improve and share your feedback! If you find better tutorials or links, please share them by opening a Pull Request.
 
-# Hack Your JavaScript
+# Hack Your JavaScript — Class 10 
 Here you can find course content and homework for the JavaScript 1,2 and 3 modules
 
 |Week|Topic|Read|Homework|
 |----|-----|----|--------|
-|0.|Preparation for your first JavaScript session|[Reading Week 0](https://github.com/HackYourFuture/JavaScript/tree/MandT/Week0)|-|
-|1.|• Intro JavaScript (What is it, where can you<br> use it for)<br>• Basic Data types [Strings, Numbers, Arrays]<br>• Variables<br>• Operators<br>• Conditions <br>• Naming conventions| [CLI Reading Week 1](https://github.com/HackYourFuture/CommandLine/blob/MandT/Lecture-1.md)| [Homework Week 1](https://github.com/HackYourFuture/JavaScript/tree/MandT/Week1/MAKEME.md)|
+|0.|Preparation for your first JavaScript session|[Pre-reading](https://github.com/HackYourFuture/JavaScript/tree/MandT/Week0)|-|
+|1.|• Intro JavaScript (What is it, where can you use it for)<br>• Basic Data types [Strings, Numbers, Arrays]<br>• Variables<br>• Operators<br>• Conditions <br>• Naming conventions| [CLI Reading Week 1](https://github.com/HackYourFuture/CommandLine/blob/MandT/Lecture-1.md)| [Homework Week 1](https://github.com/HackYourFuture/JavaScript/tree/MandT/Week1/MAKEME.md)|
 |2.| • [CLI](https://github.com/HackYourFuture/CommandLine) session with Unmesh :heart: <br> • Loops (for/while)<br>• Functions <br>• Closures <br>• Scope |[Reading Week 2](https://github.com/HackYourFuture/JavaScript/tree/MandT/Week2)|[JS](https://github.com/HackYourFuture/JavaScript/tree/MandT/Week2/MAKEME.md) + [CLI Homework Week 2](https://github.com/HackYourFuture/CommandLine/blob/MandT/HomeWork.md)|
 |3.|• [CLI](https://github.com/HackYourFuture/CommandLine) session with Unmesh :balloon:<br>• Advanced data types [Objects] <br>• Array Manipulations <br>• Basic DOM manipulations [img src, innerHTML]<br>• Code commenting|[Reading Week 3](https://github.com/HackYourFuture/JavaScript/tree/MandT/Week3)|[Homework Week 3](https://github.com/HackYourFuture/JavaScript/tree/MandT/Week3/MAKEME.md)|
 |4.|• First Git Session with Unmesh :smiling_imp:<br>• JSON<br>• Code debugging using the browser<br>• Functions + JSON/Arrays<br>• Code flow (order of execution) <br>• (capturing user input) <br>• Structuring code files|[Reading Week 4](https://github.com/HackYourFuture/JavaScript/tree/MandT/Week4)|[JS](https://github.com/HackYourFuture/JavaScript/tree/MandT/Week4/MAKEME.md) + [Git Homework Week 4](https://github.com/HackYourFuture/Git/blob/MandT/Lecture-1.md)|

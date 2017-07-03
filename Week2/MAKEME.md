@@ -38,9 +38,11 @@ foo(bar);
 
 
 Write some code to test two arrays for equality using == and ===. Test the following:
+```
 var x = [1,2,3];
 var y = [1,2,3];
 var z = y;
+```
 What do you think will happen with x == y, x === y and z == y and z == x? Prove it!
 Don't cheat! Seriously - try it first. 
 http://jsfiddle.net/jimschubert/85M4z/

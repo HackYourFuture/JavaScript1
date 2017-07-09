@@ -23,7 +23,7 @@ When we call `greetPerson('Timir')`,  the `greetPerson` function sets its `name`
 
 The return value of `greetPerson` (i.e. the inner function) is subsequently assigned to the variable `greetTimir`.
 
-With `greetTimir('Good morning')` we are now calling effectively calling the inner function, and passing it the string `'Good morning'`. The end result is that we print to the console the message:
+With `greetTimir('Good morning')` we are now calling effectively calling the inner function, and passing it the string `'Good morning'`. Because the inner function still has acces to `name` it can produce the output printed by `console.log`:
 
 ```
 Good morning, Timir

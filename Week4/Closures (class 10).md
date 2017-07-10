@@ -29,7 +29,7 @@ With `greetTimir('Good morning')` we are effectively calling the inner function,
 Good morning, Timir
 ```
 
-Alternatively, we could have obtained the same result by scrapping all lines except the last two and replace them with an equivalent `greetTimir` function as shown below. We wouldn't be able to tell the difference from just looking at the output produced.
+We could have obtained the same result by scrapping all lines except the last two and replace them with an equivalent, custom made `greetTimir` function as shown below. We wouldn't be able to tell the difference from just looking at the output produced.
 
 ```js
 function greetTimir(greeting) {
@@ -41,7 +41,7 @@ const timirGreeting = greetTimir('Good morning');
 console.log(timirGreeting);
 ```
 
-However, with that alternative `greetTimir` we can only greet Timir. In contrast, with `greetPerson` we can easily produce functions to greet any person we like (or don't like :wink:), e.g.:
+However, with that custom made `greetTimir` we can only greet Timir. In contrast, with `greetPerson` we can easily produce functions to greet any person we like (or don't like :wink:), e.g.:
 
 ```js
 const greetMaartje = greetPerson('Maartje');

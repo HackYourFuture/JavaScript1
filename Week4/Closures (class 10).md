@@ -17,19 +17,19 @@ console.log(timirGreeting);
 
 The `greetPerson` function (the "outer" function) contains another function inside its function body, called `innerFunction`. This inner function has access to the `name` argument of `greetPerson`, as well as its own `greeting` argument.
 
-When we call `greetPerson('Timir')`,  the `greetPerson` function sets its `name` argument to the string `'Timir'` and then returns its inner function. This inner function  **retains access to the `name` argument** and its value `'Timir'`, even after `greetPerson` exits. Note that `greetPerson` doesn't call its inner function; it just returns it.
+When we later call `greetPerson('Timir')`,  the `greetPerson` function sets its `name` argument to the string `'Timir'` and returns its inner function. This inner function  **retains access to the `name` argument** and its value `'Timir'`, even after `greetPerson` exits. Note that `greetPerson` doesn't call its inner function; it just returns it.
 
 The returned the inner function is subsequently assigned to the variable `greetTimir`.
 
 > Returning an inner function that accesses arguments and/or variables of its outer function creates (what we call) a **closure**.
 
-With `greetTimir('Good morning')` we are now calling effectively calling the inner function, and passing it the string `'Good morning'`. Because the inner function still has acces to `name` it can produce the output printed by `console.log`:
+With `greetTimir('Good morning')` we are effectively calling the inner function, passing it the string `'Good morning'`. Because the inner function still has acces to `name` it can produce the output as printed by the `console.log`:
 
 ```
 Good morning, Timir
 ```
 
-Alternatively, we could obtain the same result by scrapping all lines except the last two and replace them with the code below. We wouldn't be able to tell the difference from just looking at the output produced.
+Alternatively, we could have obtained the same result by scrapping all lines except the last two and replace them with the code below. We wouldn't be able to tell the difference from just looking at the output produced.
 
 ```js
 function greetTimir(greeting) {
@@ -41,7 +41,7 @@ const timirGreeting = greetTimir('Good morning');
 console.log(timirGreeting);
 ```
 
-However, with that alternative `greetTimir` function we can only greet Timir. In contrast, with the `greetPerson` function we can easily produce functions to greet any person we like (or don't like :wink:), e.g.:
+However, with that alternative `greetTimir` function we can only greet Timir. In contrast, with `greetPerson` we can easily produce functions to greet any person we like (or don't like :wink:), e.g.:
 
 ```js
 const greetMaartje = greetPerson('Maartje');

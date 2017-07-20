@@ -1,5 +1,3 @@
-'use strict';
-
 const obj1 = {
   a: '1',
   b: 'this is the letter b',
@@ -29,21 +27,15 @@ function equal(a, b, mode) {
     typeof b == 'object' &&
     Object.keys(a).length == Object.keys(b).length) {
 
-    const keys = Object.keys(a);
-    for (const key of keys) {
-      if (b.hasOwnProperty(key)) {
-        const aValue = a[key];
-        const bValue = b[key];
-        if (!equal(aValue, bValue, mode)) {
-          return false;
-        }
-      } else {
+    for (const key of Object.keys(a)) {
+      if (!b.hasOwnProperty(key) || !equal(a[key], b[key], mode)) {
         return false;
       }
     }
 
     return true;
   }
+
   return false;
 };
 

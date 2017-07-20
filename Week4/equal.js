@@ -23,9 +23,9 @@ function equal(a, b, mode) {
   }
 
   if (a && b &&
-    typeof a == 'object' &&
-    typeof b == 'object' &&
-    Object.keys(a).length == Object.keys(b).length) {
+    typeof a === 'object' &&
+    typeof b === 'object' &&
+    Object.keys(a).length === Object.keys(b).length) {
 
     for (const key of Object.keys(a)) {
       if (!b.hasOwnProperty(key) || !equal(a[key], b[key], mode)) {

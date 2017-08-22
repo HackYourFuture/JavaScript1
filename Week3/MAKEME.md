@@ -17,7 +17,7 @@ And just for fun ... https://www.freecodecamp.com/challenges/sum-all-numbers-in-
 
 And a custom DOM manipulation challenge :mortar_board:
 
-1. Open a new js file and start by declaring in array with in there 10 strings. These strings should be of book title's you have read (or made up) and be lowercase without spaces or special characters so that you can use these later as Id's. (Example: Harry Potter's - The Chamber of Secrets --> `harry_potter_chamber_secrets`). 
+1. Open a new js file and start by declaring in array with in there 10 strings. These strings should be of book title's you have read (or made up) and be lowercase without spaces or special characters so that you can use these later as Id's. (Example: Harry Potter's - The Chamber of Secrets -> `harry_potter_chamber_secrets`). 
 
 2. Create a basic html file called inxed.html and use it to load the js file, confirm the console.log show the array. (This is for debugging and making sure everything is in order. Delete it later when you're done :))
 

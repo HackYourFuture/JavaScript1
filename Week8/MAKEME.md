@@ -3,8 +3,17 @@ This week you will work on finishing your application so it's actually useful!!
 
 [Read this](https://github.com/HackYourFuture/JavaScript/tree/master/Week8/README.md)
 
-Make this
-- Check if you have met all the requirements from the previous 2 weeks of homework
+## The tools we used in the second lecture
+- [metajs](http://int3.github.io/metajs/)
+- [latentflip](http://latentflip.com/loupe/?code=Y29uc3QgcCA9IG5ldyBQcm9taXNlKGZ1bmN0aW9uKHJlc29sdmUsIHJlamVjdCl7CiAgICBzZXRUaW1lb3V0KGZ1bmN0aW9uKCl7CiAgICAgICAgY29uc3QgZGljZVJvbGwgPSBNYXRoLmNlaWwoTWF0aC5yYW5kb20oKSAqIDYpOwogICAgICAgIGNvbnNvbGUubG9nKGRpY2VSb2xsKTsKICAgICAgICBpZihkaWNlUm9sbCA9PT0gNikKICAgICAgICAgICAgcmVqZWN0KG5ldyBFcnJvcigncm9sbGVkIGEgc2l4JykpCiAgICAgICAgZWxzZQogICAgICAgICAgICByZXNvbHZlKGRpY2VSb2xsKQogICAgfSwgNTAwMCk7Cn0pOwoKCnAKICAgIC50aGVuKGZ1bmN0aW9uKHJvbGwpewogICAgICAgIGNvbnNvbGUubG9nKCdkaWNlIHJvbGxlZCBhICcgKyByb2xsKQogICAgfSkKICAgIC5jYXRjaChmdW5jdGlvbihlcnIpewogICAgICAgIAogICAgfSk7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D)
+
+- [Codewars](https://www.codewars.com/collections/hyf-homework-number-2)
+- If you need to refresh your memory on es6 classes: [es6-classes-in-depth](https://ponyfoo.com/articles/es6-classes-in-depth)
+- Also read this article on scopes & closures: [explaining-javascript-scope-and-closures](https://robertnyman.com/2008/10/09/explaining-javascript-scope-and-closures/)
+
+
+<!-- ###Make this
+
 - Resolve your Github issues (DO NOT CLOSE AN ISSUE WITHOUT AN EXPLANATION OF BY REFERENCING IT FROM A COMMIT)
 - Make sure you have implemented map, filter, reduce. If you lack inspiration, ask on Slack.
 - Implement promises in your XHR
@@ -14,4 +23,5 @@ Make this
 - Implement a loader icon like in [my codepen](https://codepen.io/Razpudding/pen/BRGqJw) for each xhr response the user has to wait for.
 - Add correct HTML/CSS
 
-If you get stuck, remember we have Slack and you can ask questions.
+If you get stuck, remember we have Slack and you can ask questions. -->
+

@@ -15,7 +15,7 @@ https://developer.mozilla.org/en/docs/Web/JavaScript/Closures
 
 And just for fun ... https://www.freecodecamp.com/challenges/sum-all-numbers-in-a-range
 
-And a custom DOM manipulation challenge :mortar_board:
+## And a custom DOM manipulation challenge :mortar_board:
 
 1. Open a new js file and start by declaring in array with in there 10 strings. These strings should be of book title's you have read (or made up) and be lowercase without spaces or special characters so that you can use these later as Id's. (Example: Harry Potter's - The Chamber of Secrets -> `harry_potter_chamber_secrets`). 
 

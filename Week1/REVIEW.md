@@ -1,4 +1,4 @@
-# REVIEW JavaScript Basics
+# REVIEW JavaScript Basics week 1
 
 ## Variables
 
@@ -17,9 +17,7 @@ const bar;
 ### let and const
 - read about [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
 - read about [const](https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Statements/const)
-- [let vs const] (http://wesbos.com/let-vs-const/)
-
->TODO - reconsider resources. 
+- [let vs const] (http://wesbos.com/let-vs-const/) 
 
 Here, we say: "declare variable x and initialize it with the integer (number) 5".
 
@@ -54,15 +52,15 @@ In addition, a variable may be `undefined`. This is also a special type.
 To get the type of a variable, use the following code:
 
 ```js
-var x = 5;
-var typeOfX = typeof x; // -> "number"
+let x = 5;
+let typeOfX = typeof x; // -> "number"
 ```
 
 Note that I've put an asterisk behind 'array'. That is because in JavaScript, array is a special kind of object:
 
 ```js
-var arr = [1, 2, 3];
-var typeOfArr = typeof arr; // -> "object"
+let arr = [1, 2, 3];
+let typeOfArr = typeof arr; // -> "object"
 ```
 
 However, in our communication, we will call these variables arrays.
@@ -74,7 +72,7 @@ The values `null` and `undefined` are very similar in JavaScript, but they behav
 Whenever you declare a variable, but you don't set a value, the variable will become `undefined`. JavaScript will never make a variable `null` unless you explicitly program it.
 
 ```js
-var x;
+let x;
 console.log(typeof x); // -> "undefined"
 ```
 
@@ -97,11 +95,27 @@ The number `0` is the "index of the first element of array `arr`". Conversely, t
 Instead of a number, you can also use a variable to access elements in an array, *as long as this variable is a number*:
 
 ```js
-var arr = ['john', 'jane', 'jack'];
-var a = 1;
+let arr = ['john', 'jane', 'jack'];
+let a = 1;
 console.log(arr[a]); // -> jane
 ```
 
 If the index you use is not an integer (a whole number), or if it's less than `0` or if it's greater than or equal to the array's length, you will get back `undefined`.
+
+
+### 2.3 Basic operators
+
+>Note the two different uses of the equals sign:
+A single equals sign (=) is used to assign a value to a variable.
+A triple equals sign (===) is used to compare two values (see Equality Operators).
+
+### 2.5 Operator precedence
+
+There are compound assignment operators such as +=. The following two assignments are equivalent:
+
+```js
+x += 1;
+x = x + 1;
+```
 
 

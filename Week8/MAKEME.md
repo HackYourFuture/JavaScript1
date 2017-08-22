@@ -14,4 +14,4 @@ Make this
 - Implement a loader icon like in [my codepen](https://codepen.io/Razpudding/pen/BRGqJw) for each xhr response the user has to wait for.
 - Add correct HTML/CSS
 
-If you get stuck, remember we have Slack and you can ask questions. On Slack there's also the list of repos of other students so you can check how they did it.
+If you get stuck, remember we have Slack and you can ask questions.

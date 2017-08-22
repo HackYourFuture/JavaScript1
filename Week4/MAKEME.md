@@ -31,3 +31,4 @@ Notes:
 
 1. Do not bother to make this work for the `Ratings` property which refers to an object rather than a simple value.
 2. It is not necessary to convert property values containing dates or numbers formatted with embedded commas to facilitate sorting for this challenge (but you're welcome to try). You can leave the value 'as is'.
+

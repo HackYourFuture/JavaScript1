@@ -13,7 +13,7 @@ Here you can find course content and homework for the JavaScript 1,2 and 3 modul
 |6.|• Async VS Sync <br>• Polling<br>• Structure for a basic SPA <br> TEST :boom:|[Reading Week 6](https://github.com/HackYourFuture/JavaScript/tree/MandT/Week6)|[Homework Week 6](https://github.com/HackYourFuture/JavaScript/tree/MandT/Week6/MAKEME.md)|
 |7.|• Third Git Session (Git Workflow :muscle:) <br>• Map, reduce filter|[Reading Week 7](https://github.com/HackYourFuture/JavaScript/tree/MandT/Week7)|[Homework Week 7](https://github.com/HackYourFuture/JavaScript/tree/MandT/Week7/MAKEME.md)|
 |8.|• (re)writing data structures (in JSON)<br> • Closures <br>• Promises <br>|[Reading Week 8](https://github.com/HackYourFuture/JavaScript/tree/MandT/Week8/README.md)|[Homework Week 8](https://github.com/HackYourFuture/JavaScript/tree/MandT/Week8/MAKEME.md)|
-|9.|ES6 :hatching_chick: <br>• Object Literals (and other patterns)<br>TEST :boom:|[Reading Week 9](https://github.com/HackYourFuture/JavaScript/blob/MandT/Week9/README.md)|[Homework Week 9](https://github.com/HackYourFuture/JavaScript/blob/MandT/Week9/MAKEME.md)|
+|9.| • Object Literals (and other patterns)<br>TEST :boom:|[Reading Week 9](https://github.com/HackYourFuture/JavaScript/blob/MandT/Week9/README.md)|[Homework Week 9](https://github.com/HackYourFuture/JavaScript/blob/MandT/Week9/MAKEME.md)|
 
 
 __Kind note:__

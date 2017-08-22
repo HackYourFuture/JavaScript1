@@ -1,5 +1,6 @@
-# Homework week 9
+# Homework Week 9
 
+<<<<<<< HEAD
 >Read:
 - JavaScript : [Closures](http://conceptf1.blogspot.nl/2013/11/javascript-closures.html)
 - Everything you wanted to know about [JavaScript scope](https://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/)
@@ -103,4 +104,3 @@ https://github.com/HackYourFuture/TicTacToeTDD
 https://github.com/HackYourFuture/OOP-Student-and-Teacher
 
 rewatch the Hangouts session here: https://www.youtube.com/watch?v=oc9ogCJz9rYs
-```

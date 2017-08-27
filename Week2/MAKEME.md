@@ -1,6 +1,38 @@
 ## Homework Week 2
 
-1. Create a function that takes two objects as parameters and compares them. You will actually need to write two functions — one that compares with `==` and one that compares with `===`. Remember that objects can have objects inside of them so you'll need to find a way to compare every element of every object (types and values). For example: 
+### Step 1: JavaScript
+> For all the following exercises create a new .js file. Try to find a proper name for each file or make a small comment about what it does inside for future reference
+
+1. Create a function that takes 3 arguments and returns the sum of the three arguments.
+
+2. Create a function named `colorCar` that receives a color, and prints out, "a red car" for example. (Hint: put it in your file and run it like before.)
+
+3. Create an object and a function that takes the object as a parameter and prints out all of its names and values.
+
+4. Create a function named `vehicleType` that receives a color, and a code, 1 for car, 2 for motorbike. And prints "a blue motorbike" for example when called as `vehicleType("blue", 2)`
+
+5. Can you write the following without the `if` statement, but with just as a single line with `console.log(...);`?
+```js
+if (3 == 3) {
+    console.log("true")
+} else {
+    console.log("false")
+}
+```
+
+6. Create a function called `vehicle`, like before, but takes another parameter called age, so that `vehicle("blue", 1, 5)` prints "a blue used car"
+
+7. Make a list of vehicles, you can add `"motorbike"`, `"caravan"`, `"bike"`, or more.
+
+8. How do you get the third element from that list?
+
+9. Change the function `vehicle` to use the list of question 5. So that `vehicle("green", 3, 1)` prints "a green new caravan".
+
+10. Use the list of vehicles to write an advertisment. So that it prints something like: `"Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes."`. (Hint: use a `for` loop.)
+
+11. What if you add one more vehicle to the list, can you have that added to the advertisement without changing the code for question 8?
+
+12. Create a function that takes two objects as parameters and compares them. You will actually need to write two functions — one that compares with `==` and one that compares with `===`. Remember that objects can have objects inside of them so you'll need to find a way to compare every element of every object (types and values). For example: 
 
     ```js
     var obj1 = {
@@ -54,7 +86,7 @@
 
     More insights from this [Stack Overflow question](http://stackoverflow.com/questions/22395357/how-to-compare-two-arrays-are-equal-using-javascript).
 
-    **Some freeCodeCamp challenges:**
+### Step 2: **Some freeCodeCamp challenges:**
 
 3. [Comparisons with the Logical And Operator](https://www.freecodecamp.com/challenges/comparisons-with-the-logical-and-operator)
 

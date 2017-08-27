@@ -1,7 +1,7 @@
 # REVIEW JavaScript Basics week 1
 
 ## CLI
->pwd : present working directory
+pwd : present working directory
 ls : List files in the directory
 cd : change the directory
 touch: Create an empty file

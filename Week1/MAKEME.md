@@ -14,7 +14,7 @@ We covered a bit of command line usage in the first class and got a program runn
 
 ## Before you start with the homework:
 
-1. Watch: [What is programming] (https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro) Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though). 
+1. Watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro) Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though). 
 2. Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):
     0. Introduction
     1. Programming Basics
@@ -25,7 +25,7 @@ We covered a bit of command line usage in the first class and got a program runn
 
 1. Create a `.js` file that prints `Hello` when you run it from the command line. (Hint: `node` is the program that can run your JavaScript files.)
 
->2. Write commands to do following:
+2. Write commands to do following:
     1. create a directory. Enter a directory. Create an empty file named blank. 
     2. Then write the content `"Hello"` five times to the file greetings.txt. 
    Then copy the file greetings.txt and paste its contents into 1.txt, 2.txt, 3.txt, 4.txt and 5.txt.

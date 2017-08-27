@@ -2,6 +2,14 @@
 
 >[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week1/README.md) you find the readings you have to complete before the second lecture.
 
+## How to hand in Homework:
+>steps:
+- Create a github account
+- Create a new repository (name it something like hyf-js) make sure you select the option: initialize with readme
+- Upload the file you created on your computer, write a description for this “commit”
+- Open the file in your readme to check if this all worked
+- Post the link here if it worked
+
 We covered a bit of command line usage in the first class and got a program running which is great. If you need a refresher for the command line please have a look here: https://github.com/HackYourFuture/CommandLine
 
 ## Before you start with the homework:

@@ -1,6 +1,7 @@
 # REVIEW JavaScript Basics week 1
 
 ## CLI
+```
 pwd : present working directory
 ls : List files in the directory
 cd : change the directory
@@ -24,6 +25,7 @@ tail <file>: display the last 10 lines of file
 head -n <file> : display first n lines of file
 tail -n <file> : display last n lines of file
 man <COMMAND> : Display manual of the COMMAND
+```
 
 ## Variables
 

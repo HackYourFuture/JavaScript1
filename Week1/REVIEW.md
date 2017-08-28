@@ -27,6 +27,8 @@ tail -n <file> : display last n lines of file
 man <COMMAND> : Display manual of the COMMAND
 ```
 
+:star:Highly recommended:star: :take a look at the Command Line [repository](https://github.com/HackYourFuture/CommandLine) and especially review the preparations of the first lecture: https://github.com/HackYourFuture/CommandLine/blob/master/Lecture-1.md
+
 ## Variables
 
 A "variable" is a place where you can store information, such as a string, or a number. New variables in JavaScript are declared using one of three keywords: let, const, or var.

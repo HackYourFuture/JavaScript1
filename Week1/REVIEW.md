@@ -2,10 +2,10 @@
 
 ```
 This review covers:
-• some commands thought by Unmesh in class today :white_check_mark: 
+• some commands thought by Unmesh in class today 
 • Intro JavaScript (What is it, where can you use it for)
-• Variables [var, let, const] :white_check_mark: 
-• Basic Data types [Strings, Numbers, Arrays] :white_check_mark: 
+• Variables [var, let, const] 
+• Basic Data types [Strings, Numbers, Arrays] 
 • Operators
 ```
 

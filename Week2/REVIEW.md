@@ -3,10 +3,10 @@
 ```
 This review covers:
 • Loops (for/while)
-• Functions :white_check_mark: 
-• Advanced data types [Objects] :white_check_mark: 
+• Functions 
+• Advanced data types [Objects]  
 • Conditions
-• Statements vs Expressions :white_check_mark: 
+• Statements vs Expressions 
 • Naming conventions
 ```
 

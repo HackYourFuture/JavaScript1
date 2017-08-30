@@ -14,6 +14,8 @@ In week two we will discuss the following topics:
 
 - 'Functions' of _A Smarter Way To Learn JavaScript_ : Chapters 35 - 38
 - Functions ~ http://eloquentjavascript.net/03_functions.html
+- 'Objects' of _A Smarter Way To Learn JavaScript_ : Chapters 35 - 38
+- 'Conditions' of _A Smarter Way To Learn JavaScript_ : Chapters 35 - 38
 - Program structure ~ http://eloquentjavascript.net/02_program_structure.html
 
 _Please go through the material and come to class prepared!_

@@ -6,6 +6,7 @@ In week one we will discuss the following topics:
 • Intro JavaScript (What is it, where can you use it for)
 • Variables [var, let, const]
 • Basic Data types [Strings, Numbers, Arrays]
+• Operators
 ```
 
 ### Here are resources that we like you to read as a preparation for the coming lecture:

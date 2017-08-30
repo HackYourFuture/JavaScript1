@@ -1,5 +1,14 @@
 # REVIEW JavaScript Basics week 1
 
+```
+This review covers:
+• some commands thought by Unmesh in class today :white_check_mark: 
+• Intro JavaScript (What is it, where can you use it for)
+• Variables [var, let, const] :white_check_mark: 
+• Basic Data types [Strings, Numbers, Arrays] :white_check_mark: 
+• Operators
+```
+
 ## CLI
 ```
 pwd : present working directory
@@ -33,6 +42,12 @@ man <COMMAND> : Display manual of the COMMAND
 
 A "variable" is a place where you can store information, such as a string, or a number. New variables in JavaScript are declared using one of three keywords: let, const, or var.
 
+> Think of variables names like **labels** on boxes, while the value of the variable are the **contents** of the box - you could change the contents of a box and leave the label intact, the contents of the boxes can have different types, the boxes should have good labels (a box of books being labeled pens would be very confusing),
+>
+![Variables are like boxes](./assets/box.png)
+> Photo from [Khan Academy](http://cs-blog.khanacademy.org/2013/09/teaching-variables-analogies-and.html)
+
+
 ### Variable declaration
 
 Variables are "declared" using the `var`, `let` or `const` keyword:
@@ -61,8 +76,6 @@ foo = 4;  // change variable `foo`
 
 ```
 
-
-Basic Data types [Strings, Numbers, Arrays]
 
 ## Variable types
 
@@ -105,6 +118,13 @@ let x;
 console.log(typeof x); // -> "undefined"
 ```
 
+## Strings
+
+>TODO
+
+## Numbers
+
+>TODO
 
 ## Arrays
 
@@ -131,14 +151,84 @@ console.log(arr[a]); // -> jane
 
 If the index you use is not an integer (a whole number), or if it's less than `0` or if it's greater than or equal to the array's length, you will get back `undefined`.
 
+More about [arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
-### 2.3 Basic operators
+### Comparison operators
 
 >Note the two different uses of the equals sign:
 A single equals sign (=) is used to assign a value to a variable.
 A triple equals sign (===) is used to compare two values (see Equality Operators).
 
-### 2.5 Operator precedence
+#### Equality operators
+* Equality `==`
+* Inequality `!=`
+* Identity / strict equality `===`
+* Non-identity / strict inequality `!==`
+
+How does this work in practice?
+
+```js
+1 == 1 // true
+7 == '7' // true
+1 != 2  // true
+5 === 5   // true
+9 === '9'   // false
+3 !== 3 // true
+3 !== '3' // true
+```
+
+> why does `7 == '7'` returns true and `9 === '9'` returns false?
+
+#### Relational operators
+* Greater than operator `>`
+* Greater than or equal operator `>=`
+* Less than operator `<`
+* Less than or equal operator `<=`
+
+```js 
+4 > 3   // returns true
+3 >= 3  // returns true
+13 < 12 //returns false
+3 <= 4   // returns true
+```
+
+More about [comparison operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
+
+### Arithmetic operators
+
+* Addition `+`
+* Subtraction `-`
+* Multiplication `*`
+* Division `/`       
+* Remainder (sometimes called modulo) `%`   
+<br>Returns the remainder left over after you've shared the left number out into a number of integer portions equal to the right number.
+
+```js
+8 + 9 //returns 17, adds two numbers together.  
+20 - 12 //returns 8, subtracts the right number from the left.
+3 * 4 //returns 12, multiplies two numbers together.
+10 / 5 //return 2, divides the left number by the right.   
+8 % 3 //returns 2, as three goes into 8 twice, leaving 2 left over.
+```
+
+More about [Arithmetic_Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#.25_.28Modulus.29)
+
+### Logical operators
+
+* AND `&&`
+* OR `||` 
+* NOT `!`
+
+Given that x = 6 and y = 3
+```js
+x < 10 && y > 1 // returns true
+x == 5 || y == 5 // returns false
+x !== y // returns true
+```
+
+More about [logical operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
+
+### Operator precedence
 
 There are compound assignment operators such as +=. The following two assignments are equivalent:
 

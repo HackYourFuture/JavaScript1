@@ -90,7 +90,7 @@ More insights from this [Stack Overflow question](http://stackoverflow.com/quest
 
 ### Step 2: **Some freeCodeCamp challenges:**
 
-1.. [Comparisons with the Logical And Operator](https://www.freecodecamp.com/challenges/comparisons-with-the-logical-and-operator)
+1. [Comparisons with the Logical And Operator](https://www.freecodecamp.com/challenges/comparisons-with-the-logical-and-operator)
 
 2. [Record Collection](https://www.freecodecamp.com/challenges/record-collection)
 

@@ -1,4 +1,4 @@
-# Reading material for the ningth lecture:
+# Reading material for the ninth lecture:
 
 ```
 In week nine we will discuss the following topics:

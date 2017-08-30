@@ -36,7 +36,7 @@ tail -n <file> : display last n lines of file
 man <COMMAND> : Display manual of the COMMAND
 ```
 
-:star:Highly recommended:star: :take a look at the Command Line [repository](https://github.com/HackYourFuture/CommandLine) and especially review the preparations of the first lecture: https://github.com/HackYourFuture/CommandLine/blob/master/Lecture-1.md
+:star: Highly recommended :star: :take a look at the Command Line [repository](https://github.com/HackYourFuture/CommandLine) and especially review the preparations of the first lecture: https://github.com/HackYourFuture/CommandLine/blob/master/Lecture-1.md
 
 ## Variables
 

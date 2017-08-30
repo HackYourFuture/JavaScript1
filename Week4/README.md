@@ -14,10 +14,11 @@ In week five we will discuss the following topics:
 
 ### Here are resources that we like you to read as a preparation for the coming lecture. 
 
+- Read about APIS: https://www.programmableweb.com/api-university/what-are-apis-and-how-do-they-work
 - Code conventions: http://javascript.crockford.com/code.html
 - Objects continued: http://eloquentjavascript.net/06_object.html
 - XHTTP requests: https://www.kirupa.com/html5/making_http_requests_js.htm
-- Closures: http://javascriptissexy.com/understand-javascript-closures-with-ease/
+
 
 ### Refresher:
 Read your book ('A Smarter Way To Learn JavaScript')! If you don't do it on yourself, here's the chapters to read next for next week:

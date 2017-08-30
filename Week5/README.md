@@ -10,6 +10,7 @@ In week six we will discuss the following topics:
 
 ### Here are resources that we like you to read as a preparation for the coming lecture:
 
+- Read about Asynchronous vs. Synchronous programming: http://www.hongkiat.com/blog/synchronous-asynchronous-javascript/
 -  [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailnamespacing) up to and including chapter 3
 - [JavaScript Variable Scope and Hoisting Explained](http://javascriptissexy.com/javascript-variable-scope-and-hoisting-explained/)
 
@@ -22,6 +23,5 @@ If you feel you need preparation for the test we recommend to do the following:
 ```
 
 _Please go through the material and come to class prepared!_
-
 
 

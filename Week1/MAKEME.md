@@ -83,5 +83,5 @@ On freeCodeCamp.com please do all [Basic JavaScript](https://www.freecodecamp.co
 
 > Hint, if you solve the FreeCodeCamp challenges and they are new concepts to you and you would like to take a look at them later on in the program, Copy your answers from FCC in a .js file and upload them to Github for future reference. In this way you build your own little documentation, if you look back at them first try to understand what it does before you run them.
 
-Additional resources and review: [here](https://github.com/HackYourFuture/JavaScript/tree/master/Week1/REVIEW.md) (work in progress)
+:star: Additional resources and review: [here](https://github.com/HackYourFuture/JavaScript/tree/master/Week1/REVIEW.md) (work in progress):star:
 

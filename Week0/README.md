@@ -17,4 +17,6 @@ In week one we will discuss the following topics:
 
 - Helpful resource: http://jsbooks.revolunet.com/ (here you can find tons of free JavaScript books online)
 
+:star: You can also already go through the [review](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md) of the upcoming lecture.
+
 _Please go through the material and come to class prepared!_

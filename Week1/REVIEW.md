@@ -168,13 +168,13 @@ A triple equals sign (===) is used to compare two values (see Equality Operators
 How does this work in practice?
 
 ```js
-1 == 1 // true
-7 == '7' // true
-1 != 2  // true
-5 === 5   // true
-9 === '9'   // false
-3 !== 3 // true
-3 !== '3' // true
+1 == 1 // -> true
+7 == '7' // -> true
+1 != 2  // -> true
+5 === 5  // -> true
+9 === '9'  // -> false
+3 !== 3 // -> true
+3 !== '3' // -> true
 ```
 
 > why does `7 == '7'` returns true and `9 === '9'` returns false?
@@ -186,10 +186,10 @@ How does this work in practice?
 * Less than or equal operator `<=`
 
 ```js 
-4 > 3   // returns true
-3 >= 3  // returns true
-13 < 12 //returns false
-3 <= 4   // returns true
+4 > 3   // -> true
+3 >= 3  // -> true
+13 < 12 // -> false
+3 <= 4   // -> true
 ```
 
 More about [comparison operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
@@ -204,11 +204,11 @@ More about [comparison operators](https://developer.mozilla.org/en-US/docs/Web/J
 <br>Returns the remainder left over after you've shared the left number out into a number of integer portions equal to the right number.
 
 ```js
-8 + 9 //returns 17, adds two numbers together.  
-20 - 12 //returns 8, subtracts the right number from the left.
-3 * 4 //returns 12, multiplies two numbers together.
-10 / 5 //return 2, divides the left number by the right.   
-8 % 3 //returns 2, as three goes into 8 twice, leaving 2 left over.
+8 + 9 // -> 17, adds two numbers together.  
+20 - 12 // -> 8, subtracts the right number from the left.
+3 * 4 // -> 12, multiplies two numbers together.
+10 / 5 // -> 2, divides the left number by the right.   
+8 % 3 /// -> 2, as three goes into 8 twice, leaving 2 left over.
 ```
 
 More about [Arithmetic_Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#.25_.28Modulus.29)
@@ -221,9 +221,9 @@ More about [Arithmetic_Operators](https://developer.mozilla.org/en-US/docs/Web/J
 
 Given that x = 6 and y = 3
 ```js
-x < 10 && y > 1 // returns true
-x == 5 || y == 5 // returns false
-x !== y // returns true
+x < 10 && y > 1 // -> true
+x == 5 || y == 5 // -> false
+x !== y // -> true
 ```
 
 More about [logical operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)

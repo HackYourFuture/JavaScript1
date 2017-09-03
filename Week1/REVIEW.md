@@ -173,7 +173,7 @@ How does this work in practice?
 1 != 2  // -> true
 5 === 5  // -> true
 9 === '9'  // -> false
-3 !== 3 // -> true
+3 !== 3 // -> false
 3 !== '3' // -> true
 ```
 

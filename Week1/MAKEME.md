@@ -73,13 +73,7 @@ For example:
 
 ### Step 3: **Some freeCodeCamp challenges (10 hours):**
 
-On freeCodeCamp.com please do all [Basic JavaScript](https://www.freecodecamp.com/challenges/learn-how-free-code-camp-works) exercises (there are some topics we did not cover but you can do it). Please make sure you REALLY understand the exercises below:
-
-- https://www.freecodecamp.com/challenges/multiply-two-decimals-with-javascript
-- https://www.freecodecamp.com/challenges/store-multiple-values-in-one-variable-using-javascript-arrays
-- https://www.freecodecamp.com/challenges/build-javascript-objects
-- https://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object
-- https://www.freecodecamp.com/challenges/delete-properties-from-a-javascript-object
+On freeCodeCamp.com please do the [Basic JavaScript](https://www.freecodecamp.com/challenges/learn-how-free-code-camp-works) exercises up and until the __"Shopping List"__ exercise (there are some topics we did not cover but you can do it).
 
 > Hint, if you solve the FreeCodeCamp challenges and they are new concepts to you and you would like to take a look at them later on in the program, Copy your answers from FCC in a .js file and upload them to Github for future reference. In this way you build your own little documentation, if you look back at them first try to understand what it does before you run them.
 

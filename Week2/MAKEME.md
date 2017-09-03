@@ -1,6 +1,22 @@
 ## Homework Week 2
 
-### Step 1: JavaScript
+### Step 1: Recap/Read
+
+- Have a look at [The Secret Life of JavaScript Primitives](https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/)
+- Go through the review of [last week](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md) (Work in progress, update this week :wrench:)
+- Go through the review of [this week](https://github.com/HackYourFuture/JavaScript/blob/master/Week2/REVIEW.md) (work in progress, update this week :nut_and_bolt:)
+
+### Step 2: Watch
+
+Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):
+    4. Writing Conditional Code
+    5. Modular Code
+    6. Iteration: Writing Loops
+    7. More About Strings
+    8. Collections
+    11. When Things Go Wrong 
+
+### Step 3: JavaScript
 > For all the following exercises create a new .js file. Try to find a proper name for each file or make a small comment about what it does inside for future reference
 
 1. Create a function that takes 3 arguments and returns the sum of the three arguments.
@@ -28,7 +44,7 @@ if (3 == 3) {
 
 9. Change the function `vehicle` to use the list of question 5. So that `vehicle("green", 3, 1)` prints "a green new caravan".
 
-10. Use the list of vehicles to write an advertisment. So that it prints something like: `"Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes."`. (Hint: use a `for` loop.)
+10. Use the list of vehicles to write an advertisement. So that it prints something like: `"Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes."`. (Hint: use a `for` loop.)
 
 11. What if you add one more vehicle to the list, can you have that added to the advertisement without changing the code for question 8?
 
@@ -88,15 +104,8 @@ Check out this [Fiddle](http://jsfiddle.net/jimschubert/85M4z/). You need to ope
 
 More insights from this [Stack Overflow question](http://stackoverflow.com/questions/22395357/how-to-compare-two-arrays-are-equal-using-javascript).
 
-### Step 2: **Some freeCodeCamp challenges:**
 
-1. [Comparisons with the Logical And Operator](https://www.freecodecamp.com/challenges/comparisons-with-the-logical-and-operator)
-
-2. [Record Collection](https://www.freecodecamp.com/challenges/record-collection)
-
-3. [Iterate over Arrays with map](https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map)
-
-4. We did the following example in class: 
+14. Take a look at the following code: 
 
 ```js
      var o1 = { foo: 'bar' };
@@ -109,11 +118,19 @@ More insights from this [Stack Overflow question](http://stackoverflow.com/quest
     
     Does the order that you assign (`o3 = o2` or `o2 = o3`) matter? {Jim Cramer: ???}
 
-### Some further reading: 
-
-Have a look at [The Secret Life of JavaScript Primitives](https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/)
  
 > ‘Coerce' means to try to change - so coercing `var x = '6'` to number means trying to change the type to number temporarily. 
+
+### Step 4: **Finish basic freeCodeCamp challenges:**
+
+Go back to FreeCodeCamp, start where you left of and finish the rest of the Basic JavaScript challenges.
+
+Please make sure you REALLY understand the exercises below:
+- https://www.freecodecamp.com/challenges/multiply-two-decimals-with-javascript
+- https://www.freecodecamp.com/challenges/store-multiple-values-in-one-variable-using-javascript-arrays
+- https://www.freecodecamp.com/challenges/build-javascript-objects
+- https://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object
+- https://www.freecodecamp.com/challenges/delete-properties-from-a-javascript-object
 
 :star: Additional resources and review: [here](https://github.com/HackYourFuture/JavaScript/tree/master/Week2/REVIEW.md) (work in progress):star:
 

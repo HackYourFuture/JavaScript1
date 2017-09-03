@@ -9,12 +9,12 @@
 ### Step 2: Watch
 
 1. Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):
-        4. Writing Conditional Code
-        5. Modular Code
-        6. Iteration: Writing Loops
-        7. More About Strings
-        8. Collections
-        11. When Things Go Wrong 
+    4. Writing Conditional Code
+    5. Modular Code
+    6. Iteration: Writing Loops
+    7. More About Strings
+    8. Collections
+    11. When Things Go Wrong 
 
 ### Step 3: JavaScript
 > For all the following exercises create a new .js file. Try to find a proper name for each file or make a small comment about what it does inside for future reference

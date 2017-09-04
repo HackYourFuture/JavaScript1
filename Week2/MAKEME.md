@@ -45,11 +45,11 @@ if (3 == 3) {
 
 8. How do you get the third element from that list?
 
-9. Change the function `vehicle` to use the list of question 5. So that `vehicle("green", 3, 1)` prints "a green new caravan".
+9. Change the function `vehicle` to use the list of question 4. So that `vehicle("green", 3, 1)` prints "a green new caravan".
 
 10. Use the list of vehicles to write an advertisement. So that it prints something like: `"Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes."`. (Hint: use a `for` loop.)
 
-11. What if you add one more vehicle to the list, can you have that added to the advertisement without changing the code for question 8?
+11. What if you add one more vehicle to the list, can you have that added to the advertisement without changing the code for question 7?
 
 12. Create an empty object
 

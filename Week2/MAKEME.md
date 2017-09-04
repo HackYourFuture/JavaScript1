@@ -1,5 +1,7 @@
 ## Homework Week 2
 
+>[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week2/README.md) you find the readings you have to complete before the third lecture.
+
 ### Step 1: Recap/Read
 
 - Have a look at [The Secret Life of JavaScript Primitives](https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/)
@@ -49,7 +51,9 @@ if (3 == 3) {
 
 11. What if you add one more vehicle to the list, can you have that added to the advertisement without changing the code for question 8?
 
-12. Create a function that takes two objects as parameters and compares them. You will actually need to write two functions — one that compares with `==` and one that compares with `===`. Remember that objects can have objects inside of them so you'll need to find a way to compare every element of every object (types and values). For example: 
+12. Create an empty object
+
+13. Create a function that takes two objects as parameters and compares them. You will actually need to write two functions — one that compares with `==` and one that compares with `===`. Remember that objects can have objects inside of them so you'll need to find a way to compare every element of every object (types and values). For example: 
 
 ```js
     var obj1 = {
@@ -73,7 +77,7 @@ if (3 == 3) {
     
     Note: give this exercise your best shot but don’t spend more than, say, one hour on it.
 
-13. We saw that we can pass functions as arguments to other functions. Your task is to write a function that takes another function as an argument and runs it. 
+14. We saw that we can pass functions as arguments to other functions. Your task is to write a function that takes another function as an argument and runs it. 
 
 ```js
     function foo(func) {
@@ -88,7 +92,7 @@ if (3 == 3) {
 ```
 
 
-14. Write some code to test two arrays for equality using `==` and `===`. Test the following:
+15. Write some code to test two arrays for equality using `==` and `===`. Test the following:
     
 ```js
     var x = [1,2,3];
@@ -106,7 +110,7 @@ Check out this [Fiddle](http://jsfiddle.net/jimschubert/85M4z/). You need to ope
 More insights from this [Stack Overflow question](http://stackoverflow.com/questions/22395357/how-to-compare-two-arrays-are-equal-using-javascript).
 
 
-14. Take a look at the following code: 
+16. Take a look at the following code: 
 
 ```js
      var o1 = { foo: 'bar' };
@@ -118,6 +122,12 @@ More insights from this [Stack Overflow question](http://stackoverflow.com/quest
     Show that changing `o2` changes `o3` (or not) and changing ~~`o2` changes `o3`~~ `o1` changes `o3`(or not). 
     
     Does the order that you assign (`o3 = o2` or `o2 = o3`) matter? {Jim Cramer: ???}
+
+17. What does the following code return? (And why?)
+```js
+let bar = 42; 
+typeof typeof bar;
+```
 
  
 > ‘Coerce' means to try to change - so coercing `var x = '6'` to number means trying to change the type to number temporarily. 

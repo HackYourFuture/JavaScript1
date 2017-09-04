@@ -13,7 +13,9 @@ In week three we will discuss the following topics:
 ### Here are resources that we like you to read as a preparation for the coming lecture. 
 
 - Closures: http://javascriptissexy.com/understand-javascript-closures-with-ease/
+- https://developer.mozilla.org/en/docs/Web/JavaScript/Closures
 - [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype)
+
 
 Refresher:
 * Objects (*important to really understand them, read this if you are unsure! You may also read chapters 72, 73 and 74 if you have time and want to learn more*):</br>

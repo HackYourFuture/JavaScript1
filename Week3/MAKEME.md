@@ -1,24 +1,12 @@
-# Homework Week 3
+## Homework Week 3
 
-## Read:
-- https://github.com/HackYourFuture/JavaScript/blob/master/Week3/README.md
+>[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week3/README.md) you find the readings you have to complete before the fourth lecture.
 
-## Challenges:
-- https://www.freecodecamp.com/challenges/declare-javascript-objects-as-variables
-- https://www.freecodecamp.com/challenges/make-instances-of-objects-with-a-constructor-function
-- https://www.freecodecamp.com/challenges/make-unique-objects-by-passing-parameters-to-our-constructor
-- https://www.freecodecamp.com/challenges/make-object-properties-private
+### Step 1: Recap/Read
 
-Loops practice - https://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops
-https://www.freecodecamp.com/challenges/iterate-with-javascript-while-loops
-https://developer.mozilla.org/en/docs/Web/JavaScript/Closures
+### Step 2: Watch
 
-And just for fun ... https://www.freecodecamp.com/challenges/sum-all-numbers-in-a-range
-
-
-
-
-## And a custom DOM manipulation challenge :mortar_board:
+### Step 3: Custom DOM manipulation challenge :mortar_board:
 
 1. Open a new js file and start by declaring in array with in there 10 strings. These strings should be of book title's you have read (or made up) and be lowercase without spaces or special characters so that you can use these later as Id's. (Example: Harry Potter's - The Chamber of Secrets -> `harry_potter_chamber_secrets`). 
 
@@ -33,3 +21,13 @@ And just for fun ... https://www.freecodecamp.com/challenges/sum-all-numbers-in-
 6. Beautify your html page with css, add sources and alts to each of the images.
  
 7. __Optional (expert)__ Download book covers for each book, construct a new Object which has as keys the bookId's again, and as value the path to the image source (e.g. `{"harry_potter_blabla": "./img/harry_potter_blabla.jpg", ...}`). Now loop over these entries (_hint: `Object.keys(objectName)` gives you an array containing the keys_). Then write a function which places an image at the corresponding `li` element. Remember that Objects are not ordered, so you cannot guarantee that the first key is the first `li` element. (_Hint: you could give each `li` item an `id` tag by modifying the function you made before_)
+
+### Step 4: **FreeCodeCamp challenges:**
+
+- https://www.freecodecamp.com/challenges/declare-javascript-objects-as-variables
+- https://www.freecodecamp.com/challenges/make-instances-of-objects-with-a-constructor-function
+- https://www.freecodecamp.com/challenges/make-unique-objects-by-passing-parameters-to-our-constructor
+- https://www.freecodecamp.com/challenges/make-object-properties-private
+
+
+And just for fun ... https://www.freecodecamp.com/challenges/sum-all-numbers-in-a-range

@@ -95,14 +95,14 @@ To get the type of a variable, use the following code:
 
 ```js
 let x = 5;
-let typeOfX = typeof x; // -> "number"
+let typeOfX = typeof x; // -> 'number'
 ```
 
 Note that I've put an asterisk behind 'array'. That is because in JavaScript, array is a special kind of object:
 
 ```js
 let arr = [1, 2, 3];
-let typeOfArr = typeof arr; // -> "object"
+let typeOfArr = typeof arr; // -> 'object'
 ```
 
 However, in our communication, we will call these variables arrays.
@@ -115,16 +115,54 @@ Whenever you declare a variable, but you don't set a value, the variable will be
 
 ```js
 let x;
-console.log(typeof x); // -> "undefined"
+console.log(typeof x); // -> 'undefined'
 ```
+
+
+### Typeof
+
+You can use `typeof` to get the type of a certain variable as you have seen in the above section 'Variable types'. As you can see in the following examples it returns the type of data that you have stored in your variable. 
 
 ## Strings
 
->TODO
+In JavaScript you can store a series of characters inside a variable, you then call this a string. You can store all sorts of characters (text/numbers, spaces or phrases) in strings. By using the `''` you define that something is a string. You can also use `""` to create a string. Both are fine as long as you are consistent (just make a choice on which one you prefer and stick to it).
+
+```js
+let foo = '42';
+typeof foo   //-> 'string'
+
+let bar = 'I\'m 99 years old '; 
+typeof bar   //-> 'string'
+```
+
+### String indexes and string properties
+The index of a string always starts at 0.
+Strings also have properties, for example `.length` you can use this to find the length of a string.
+
+So for example:
+```js
+let baz = 'Hello World';
+baz[0]; //-> "H"
+baz.length; //-> 11
+```
+
+### String methods
+
+>Todo
 
 ## Numbers
 
->TODO
+All numbers in JavaScript are considered numbers with or without decimal
+
+```js
+let quux = 42;    
+typeof quux  //-> 'number'
+
+let quuux = 3.3333;
+typeof quuux //-> 'number'
+
+```
+
 
 ## Arrays
 

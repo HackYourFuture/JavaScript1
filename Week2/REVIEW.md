@@ -2,6 +2,8 @@
 
 ```
 This review covers:
+• Recap Logical operators
+• Typeof
 • Loops (for/while)
 • Functions 
 • Advanced data types [Objects]  
@@ -30,6 +32,27 @@ This review covers:
 |----|-|-|
 |0|0|1|
 |1|1|1|
+
+So you can say that false in combination with `&&` always returns true
+```js
+true && false //-> false
+false && true //-> false
+false || true //-> true
+true || false //-> true
+```
+
+### Typeof
+
+`typeof` always returns the data type in a string. 
+
+So for example:
+```js
+let bar = 42; 
+typeof bar    //-> 'number' 
+typeof typeof bar; //->  'string'
+```
+
+So the data type of what `typeof` returns is always a string, bar on the other hand is still a number.
 
 ## Objects
 

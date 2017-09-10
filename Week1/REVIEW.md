@@ -67,13 +67,15 @@ Here, we say: "declare variable x and initialize it with the integer (number) 5"
 
 ```js
 let foo;  // declare variable `foo`
+```
+
+```js
 let foo = 6; // declare and assign a variable at the same time
 ```
 
 You can also assign a value to an existing variable:
 ```js
 foo = 4;  // change variable `foo`
-
 ```
 
 

@@ -2,6 +2,12 @@
 
 >[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week3/README.md) you find the readings you have to complete before the fourth lecture.
 
+### Step 0 review:
+- Go through the review of [the first week](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md) (Work in progress, update this week :wrench:)
+- Go through the review of [the second week](https://github.com/HackYourFuture/JavaScript/blob/master/Week2/REVIEW.md) (work in progress, update this week :nut_and_bolt:)
+- Daan will update the review of this week soon, keep an eye on that!
+
+
 ### Step 1: Implement feedback
 
 Your fellow students have provided you with feedback in Trello. Your teachers have provided you with feedback in issues in Github. 
@@ -39,7 +45,21 @@ Your Github should contain two repositories called JavaScript1 and CommandLine .
 
 And just for fun ... https://www.freecodecamp.com/challenges/sum-all-numbers-in-a-range
 
-__Optional (expert)__
+### :boom: Bonus homework :boom:
+the Bonus homework for this week (for those of you want an extra challenge) do the following:
+
+- Sign up on codewars.com
+- In you account setting under “clan” write “Hack Your Future” 
+- Go do the challenges in the following playlist: https://www.codewars.com/collections/fun-fun-fundamentals
+
+Codewars is really a lot of fun, and you can compete against each other who has the most points :trollface:
+it’s a great way to really practice JavaScript a lot in various problems.
+
+Please note, there are various challenges all sorted on difficultly called KIU. Kiu 8 is the easiest, Kiu 1 is the hardest, we expect you to do challenges around level 8, 7 maybe.
+
+enjoy!
+
+:star: Additional resources and review: [here](https://github.com/HackYourFuture/JavaScript/tree/master/Week3/REVIEW.md) (work in progress):star:
 
 
 

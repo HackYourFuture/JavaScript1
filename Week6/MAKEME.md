@@ -1,5 +1,6 @@
 # Homework Week 6
-You can find the [reading material here](https://github.com/HackYourFuture/JavaScript/blob/master/Week6/README.md)
+
+>[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week6/README.md) you find the readings you have to complete before the fourth lecture.
 
 - Add your github/repositories link to [this slack file](https://slack-files.com/T0EJTUQ87-F5DAMGML5-cd687fd9b6)
 - Fix the issues from the last week and make sure you explain how you fixed the issue in a comment (or commit message)
@@ -24,3 +25,9 @@ __Requirements__:
 5. Change the function your previously wrote that handles the hovering event and add functionality to it that shows the collaborators of that repo. Note: to do this, you will need to make ANOTHER API call to https://api.github.com/repos/user/repo/events and that lists the 3 last events. Show the type of the event and if the type is 'PushEvent' show the commit message. Take a look at this [API call](https://api.github.com/repos/Razpudding/realtime-slack/events) to see some sample data.
 6. Make sure that when a user goes to your app, your github account info is loaded. They can then use the search field to find info about other github accounts.
 7. BONUS: Look through the data that Github sends back to you on your first API call and think about what other info would be usefull. Add more functionalities to your app like showing how many people starred a repositories or showing the names of the people followed by the current user.
+
+>Upload your homework in your "hyf-javascript2" Github repository. Make sure to create a new folder "week3" first. 
+Upload your homework files inside the week3 folder and write a description for this “commit”.
+Your hyf-javascript2/week3 should now contain an index.html, main.css and a script.js file (and the images folder)
+Place the link to your repository folder in Trello.
+

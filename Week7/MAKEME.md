@@ -1,5 +1,7 @@
 # Homework Week 7
 
+>[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week7/README.md) you find the readings you have to complete before the fourth lecture.
+
 ## Git Homework:
 
 [Make these assignments](https://github.com/HackYourFuture/Git/blob/master/Lecture-3.md)
@@ -46,4 +48,7 @@ Remember the person with the most kata points gets a prize from Gijs (and you ca
 1. [Stacks/Queues](https://www.youtube.com/watch?v=wjI1WNcIntg) (5 mins)
 2. [JS Event Loops](https://www.youtube.com/watch?v=8aGhZQkoFbQ) (26 mins, watch this one twice or until you understand it)
 
-
+>Create a new repository "hyf-javascript3". Also create a new folder "week1" inside this repository. 
+Upload your homework files inside the week1 folder and write a description for this “commit”.
+Your hyf-javascript3/week1 should now contain the files of your homework.
+Place the link to your repository folder in Trello.

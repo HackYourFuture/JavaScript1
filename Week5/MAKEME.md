@@ -1,5 +1,7 @@
 ## Homework Week 5
 
+>[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week5/README.md) you find the readings you have to complete before the fourth lecture.
+
 ### Git
 
 1. Create a branch called `MyBranch` in the repository `MyFirst`.
@@ -108,4 +110,10 @@ f2(y);
 console.log(y);
 ```
 If you are confused please run the code and then consult the Google for "javascript pass by value pass by reference"
+
+>Upload your homework in your "hyf-javascript2" Github repository. Make sure to create a new folder "week2" first. 
+Upload your homework files inside the week2 folder and write a description for this “commit”.
+Your hyf-javascript2/week2 should now contain all your homework files.
+Place the link to your repository folder in Trello.
+
 

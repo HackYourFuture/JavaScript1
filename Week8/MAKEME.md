@@ -1,7 +1,7 @@
 # Homework Week 8
 This week you will work on finishing your application so it's actually useful!!
 
-[Read this](https://github.com/HackYourFuture/JavaScript/tree/master/Week8/README.md)
+>[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week8/README.md) you find the readings you have to complete before the fourth lecture.
 
 ## The tools we used in the second lecture
 - [metajs](http://int3.github.io/metajs/)
@@ -25,3 +25,7 @@ This week you will work on finishing your application so it's actually useful!!
 
 If you get stuck, remember we have Slack and you can ask questions. -->
 
+>Upload your homework in your "hyf-javascript3" Github repository. Make sure to create a new folder "week2" first. 
+Upload your homework files inside the week2 folder and write a description for this “commit”.
+Your hyf-javascript3/week2 should now contain all your homework files.
+Place the link to your repository folder in Trello.

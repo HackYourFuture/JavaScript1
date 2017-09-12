@@ -103,3 +103,9 @@ https://github.com/HackYourFuture/TicTacToeTDD
 https://github.com/HackYourFuture/OOP-Student-and-Teacher
 
 rewatch the Hangouts session here: https://www.youtube.com/watch?v=oc9ogCJz9rYs
+```
+
+>Upload your homework in your "hyf-javascript3" Github repository. Make sure to create a new folder "week3" first. 
+Upload your homework files inside the week3 folder and write a description for this “commit”.
+Your hyf-javascript3/week3 should now contain all your homework files.
+Place the link to your repository folder in Trello.

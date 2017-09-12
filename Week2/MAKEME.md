@@ -2,13 +2,13 @@
 
 >[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week2/README.md) you find the readings you have to complete before the third lecture.
 
-### Step 1: Recap/Read
+## Step 1: Recap/Read
 
 - Have a look at [The Secret Life of JavaScript Primitives](https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/)
 - Go through the review of [last week](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md) (Work in progress, update this week :wrench:)
 - Go through the review of [this week](https://github.com/HackYourFuture/JavaScript/blob/master/Week2/REVIEW.md) (work in progress, update this week :nut_and_bolt:)
 
-### Step 2: Watch
+## Step 2: Watch
 
 1. If you haven't done already, watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro) Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though). 
 2. Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):
@@ -19,7 +19,7 @@
     <br>8. Collections
     <br>11. When Things Go Wrong 
 
-### Step 3: JavaScript
+## Step 3: JavaScript
 > For all the following exercises create a new .js file. Try to find a proper name for each file or make a small comment about what it does inside for future reference
 
 1. Create a function that takes 3 arguments and returns the sum of the three arguments.
@@ -132,7 +132,7 @@ typeof typeof bar;
  
 > ‘Coerce' means to try to change - so coercing `var x = '6'` to number means trying to change the type to number temporarily. 
 
-### Step 4: **Finish basic freeCodeCamp challenges:**
+## Step 4: **Finish basic freeCodeCamp challenges:**
 
 Go back to FreeCodeCamp, start where you left of and finish the rest of the Basic JavaScript challenges.
 
@@ -142,6 +142,11 @@ Please make sure you REALLY understand the exercises below:
 - https://www.freecodecamp.com/challenges/build-javascript-objects
 - https://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object
 - https://www.freecodecamp.com/challenges/delete-properties-from-a-javascript-object
+
+>Upload your homework in your "hyf-javascript1" Github repository. Make sure to create a new folder "week2" first. 
+Upload your homework files inside the week2 folder and write a description for this “commit”.
+Your hyf-javascript1/week2 should now contain all your homework files.
+Place the link to your repository folder in Trello.
 
 :star: Additional resources and review: [here](https://github.com/HackYourFuture/JavaScript/tree/master/Week2/REVIEW.md) (work in progress):star:
 

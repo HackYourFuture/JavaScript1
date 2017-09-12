@@ -87,7 +87,7 @@ There are *five different ways* we can create a new context in JavaScript:
 - The object method context
 - The event listener context
 
-More info on this in this great post
+More info on this [in this great post](https://zellwk.com/blog/this/)
 
 ## Array Manipulation
 [MDN on Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)

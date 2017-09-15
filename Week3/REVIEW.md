@@ -36,14 +36,14 @@ Now, when this sentence is written down without *he* being defined in the contex
 
 ### Context in programming:
 A JavaScript example: 
-```
+```js
 function myFunction() {
 	const a = 'ravioli'
 	console.log(a)
 }
 ```
 
-```
+```js
 function myFunction() {
 	console.log(a)
 }
@@ -60,12 +60,12 @@ So in words more applicable to our situation scope means:
 > code that is within the reach of our code. 
 
 Consider two completely different JavaScript files
-```
+```js
 // aFile.js
 const a = 10
 ```
 
-```
+```js
 // anotherFile.js
 console.log(a)
 ```
@@ -109,7 +109,7 @@ The basics.
 An array can be created multiple ways 
 
 From scratch: 
-```
+```js
 const a = [] // result: []
 const b = ['item1', 'item2'] // result: ['item1', 'item2']
 const c = new Array() // result: []
@@ -120,14 +120,14 @@ const f = new Array(20, 21) // result: [20, 21]
 ```
 
 From value (as an example, many ways to create an array from another value):
-```
+```js
 const a = 'hello world' // result: 'hello world'
 const b = a.split(' ') // result:  ['hello', 'world' ]
 ```
 
 ### Array length
 Every array has as a 'static' property `length`. Meaning that we can easily get the amount of items in an array.
-```
+```js
 const f = ['hi','there']
 console.log(f.length) // 2
 ```
@@ -135,7 +135,7 @@ console.log(f.length) // 2
 ### Array index
 We can access array elements through the position of the element in the array. This is called an index. Indices (plural of index) are 0-based, meaning that the first item's index is 0, the second element is 1.
 
-```
+```js
 const x = ['first', 'second', 'third']
 console.log(x[0]) // 'first'
 
@@ -143,7 +143,7 @@ x[3] = 'fourth'
 ```
 
 Note that arrays can have empty values. This should be avoided usually to prevent unexpected behaviour. 
-```
+```js
 x[10] = 'eleventh'
 console.log(x) // [ 'first',  'second',  'third',  'fourth',  <6 empty items>,  'eleventh' ]
 ```
@@ -170,13 +170,13 @@ These  methods are essential.
 • [`.map()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)  creates a new array with the results of calling a provided function on every element in the calling array.
 • [`.filter()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) creates a new array with all elements that pass the test implemented by the provided function.
 • [`.sort()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) sorts the elements of an array in place and returns the array
-```
+
 
 ## Basic DOM manipulations
 Using JavaScript we can access and manipulate the Document Object Model (DOM). We access the DOM through a global object called `document`. 
 
 HTML 
-```
+```html
 <body>
 	<div id="hello"></div>
 </body>
@@ -184,18 +184,18 @@ HTML
 
 A common method to access the DOM is by giving a HTML element an ID, and then using the `document` method `getElementById()`
 
-```
+```js
 const x = document.getElementById('hello')
 ```
 
 Now we have stored a *reference* of how that HTML element is accessed through the DOM object. We can use this to manipulate the element.
 
-```
+```js
 x.innerHTML = 'hello'
 ```
 
 We can also create elements
-```
+```js
 const a = document.createElement('li')
 x.appendChild(a)
 ```
@@ -207,13 +207,13 @@ First the straightforward part: how do we place comments in our code?
 
 ### JavaScript
 Single line comments
-```
+```js
 // Change heading:
 document.getElementById("myH").innerHTML = "My First Page";
 ```
 
 Single line comments at end of the line:
-```
+```js
 var x = 5;      // Declare x, give it the value of 5
 ```
 
@@ -222,7 +222,7 @@ Coding **well** in JavaScript: [JSDoc](http://usejsdoc.org/)
 ### HTML
 [W3Schools](https://www.w3schools.com/html/html_comments.asp)
 Comments
-```
+```html
 <!-- Write 
 your comments here -->
 
@@ -232,7 +232,7 @@ your comments here -->
 
 ### CSS
 [MDN on CSS comments](https://developer.mozilla.org/en-US/docs/Web/CSS/Comments)
-```
+```css
 /* Comment */
 
 /*

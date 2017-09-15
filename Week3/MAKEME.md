@@ -5,8 +5,7 @@
 ## Step 0 review:
 - Go through the review of [the first week](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md) (Work in progress, update this week :wrench:)
 - Go through the review of [the second week](https://github.com/HackYourFuture/JavaScript/blob/master/Week2/REVIEW.md) (work in progress, update this week :nut_and_bolt:)
-- Daan will update the review of this week soon, keep an eye on that!
-
+- Go through the review of [the third week](https://github.com/HackYourFuture/JavaScript/blob/master/Week3/REVIEW.md) 
 
 ## Step 1: Implement feedback
 

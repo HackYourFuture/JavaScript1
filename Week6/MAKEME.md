@@ -26,8 +26,10 @@ __Requirements__:
 6. Make sure that when a user goes to your app, your github account info is loaded. They can then use the search field to find info about other github accounts.
 7. BONUS: Look through the data that Github sends back to you on your first API call and think about what other info would be usefull. Add more functionalities to your app like showing how many people starred a repositories or showing the names of the people followed by the current user.
 
->Upload your homework in your "hyf-javascript2" Github repository. Make sure to create a new folder "week3" first. 
-Upload your homework files inside the week3 folder and write a description for this “commit”.
-Your hyf-javascript2/week3 should now contain an index.html, main.css and a script.js file (and the images folder)
-Place the link to your repository folder in Trello.
-
+```
+How to hand in your homework:
+• Upload your homework in your "hyf-javascript2" Github repository. Make sure to create a new folder "week3" first. 
+• Upload your homework files inside the week3 folder and write a description for this “commit”.
+• Your hyf-javascript2/week3 should now contain an index.html, main.css and a script.js file (and the images folder)
+• Place the link to your repository folder in Trello.
+```

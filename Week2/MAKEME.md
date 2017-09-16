@@ -143,10 +143,13 @@ Please make sure you REALLY understand the exercises below:
 - https://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object
 - https://www.freecodecamp.com/challenges/delete-properties-from-a-javascript-object
 
->Upload your homework in your "hyf-javascript1" Github repository. Make sure to create a new folder "week2" first. 
-Upload your homework files inside the week2 folder and write a description for this “commit”.
-Your hyf-javascript1/week2 should now contain all your homework files.
-Place the link to your repository folder in Trello.
+```
+How to hand in your homework:
+• Upload your homework in your "hyf-javascript1" Github repository. Make sure to create a new folder "week2" first. 
+• Upload your homework files inside the week2 folder and write a description for this “commit”.
+• Your hyf-javascript1/week2 should now contain all your homework files.
+• Place the link to your repository folder in Trello.
+```
 
 :star: Additional resources and review: [here](https://github.com/HackYourFuture/JavaScript/tree/master/Week2/REVIEW.md) (work in progress):star:
 

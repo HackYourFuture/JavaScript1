@@ -34,10 +34,13 @@ Your Github should contain two repositories called hyf-javascript1 and hyf-comma
  
 7. Download book covers for each book, construct a new Object which has as keys the bookId's again, and as value the path to the image source (e.g. `{"harry_potter_blabla": "./img/harry_potter_blabla.jpg", ...}`). Now loop over these entries (_hint: `Object.keys(objectName)` gives you an array containing the keys_). Then write a function which places an image at the corresponding `li` element. Remember that Objects are not ordered, so you cannot guarantee that the first key is the first `li` element. (_Hint: you could give each `li` item an `id` tag by modifying the function you made before_)
 
->Upload your homework in your "hyf-javascript1" Github repository. Make sure to create a new folder "week3" first. 
-Upload your homework files inside the week3 folder and write a description for this “commit”.
-Your hyf-javascript1/week3 should now contain an index.html, main.css and a script.js file (and the images folder)
-Place the link to your repository folder in Trello.
+```
+How to hand in your homework:
+• Upload your homework in your "hyf-javascript1" Github repository. Make sure to create a new folder "week3" first. 
+• Upload your homework files inside the week3 folder and write a description for this “commit”.
+• Your hyf-javascript1/week3 should now contain an index.html, main.css and a script.js file (and the images folder)
+• Place the link to your repository folder in Trello.
+```
 
 ## Step 4: **FreeCodeCamp challenges:**
 

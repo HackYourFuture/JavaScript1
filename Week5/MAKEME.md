@@ -22,7 +22,7 @@
 
    Look at the [documentation of the API](https://github.com/typicode/json-server) and see which other query parameters `json-server` support. Mess around with this to see how changing (or adding) parameters modifies your results.
 
-4. Use the code from your previous assignment to render the new results. If you have already displayed previous results make sure you clear them (hint: `someElement.removeChild(someChild)`). Make sure you style these results, use a style sheet for this! Also make sure you do not use javascript to construct static elements. This way you can handle the positioning of elements easier.
+4. Use the code from your previous assignment to render the new results. If you have already displayed previous results make sure you clear them (hint: `someElement.removeChild(someChild)`). Make sure you style these results, use a style sheet for this! Also make sure you do not use JavaScript to construct static elements. This way you can handle the positioning of elements easier.
 
 5. Change the layout of the page so that you only show a list of movie titles on the left side of your page. When the user hovers over a link (or maybe with a click) you want to show the additional information about the movie (poster, year etc.) on the right column. 
 
@@ -111,9 +111,11 @@ console.log(y);
 ```
 If you are confused please run the code and then consult the Google for "javascript pass by value pass by reference"
 
->Upload your homework in your "hyf-javascript2" Github repository. Make sure to create a new folder "week2" first. 
-Upload your homework files inside the week2 folder and write a description for this “commit”.
-Your hyf-javascript2/week2 should now contain all your homework files.
+```
+How to hand in your homework:
+• Upload your homework in your "hyf-javascript2" Github repository. Make sure to create a new folder "week2" first. 
+• Upload your homework files inside the week2 folder and write a description for this “commit”.
+• Your hyf-javascript2/week2 should now contain all your homework files.
 Place the link to your repository folder in Trello.
-
+```
 

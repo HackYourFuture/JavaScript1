@@ -214,7 +214,7 @@ document.getElementById("myH").innerHTML = "My First Page";
 
 Single line comments at end of the line:
 ```js
-var x = 5;      // Declare x, give it the value of 5
+const x = 5;      // Declare x, give it the value of 5
 ```
 
 Coding **well** in JavaScript: [JSDoc](http://usejsdoc.org/)

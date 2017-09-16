@@ -68,17 +68,19 @@ For example:
 On freeCodeCamp.com please do the [Basic JavaScript](https://www.freecodecamp.com/challenges/learn-how-free-code-camp-works) exercises up and until the __"Shopping List"__ exercise (there are some topics we did not cover but you can do it).
 
 ### How to hand in Homework:
->steps:
-- Create a Github account
-- Create a new repository (name it something like hyf-javascript1) make sure you select the option: initialize with README
-- inside this repository create a folder "week1"
-- Upload the files you created on your computer inside the week1 folder, write a description for this “commit”
-- Open the file in your README to check if this all worked
+```
+steps:
+• Create a Github account
+• Create a new repository (name it something like hyf-javascript1) make sure you select the option: initialize with README
+• inside this repository create a folder "week1"
+• Upload the files you created on your computer inside the week1 folder, write a description for this “commit”
+• Open the file in your README to check if this all worked
 
->Create a new repository "hyf-javascript1". Also create a new folder "week1" inside this repository. 
-Upload your homework files inside the week1 folder and write a description for this “commit”.
-Your hyf-javascript1/week1 should now contain all your homework files.
-Place the link to your repository folder in Trello.
+• Create a new repository "hyf-javascript1". Also create a new folder "week1" inside this repository. 
+• Upload your homework files inside the week1 folder and write a description for this “commit”.
+• Your hyf-javascript1/week1 should now contain all your homework files.
+• Place the link to your repository folder in Trello.
+```
 
 ### Hint
 If you solve the FreeCodeCamp challenges and they are new concepts to you and you would like to take a look at them later on in the program, Copy your answers from FCC in a .js file and upload them to Github in a repository for future reference. In this way you build your own little documentation, if you look back at them first try to understand what it does before you run them.

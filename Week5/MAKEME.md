@@ -13,8 +13,14 @@
 4. Merge `MyBranch` with the `master` branch
 
 ### JS
+We are going to continue our github-repo page from last week.
 
-1. Extend the `hyf-movies`  app with an input element. This is so the user will be able to type in text which will be later used to search the movie database for corresponding movies.
+1. For each repository, show (in the right column) who the contributers are. You will need to use the `contributors_url` for this.
+2. Make all the repositories link their own page in Github. Use the value of the key: `name` to make this work (hint: Github urls always look like this https://api.github.com/repos/HackYourFuture/[repositoryName] where [repositoryName] would be replaced by the actual `name` of the repository, for example `CommandLine`). Make sure the link opens in a new tab.
+
+>TODO
+
+<!-- 1. Extend the `hyf-movies`  app with an input element. This is so the user will be able to type in text which will be later used to search the movie database for corresponding movies.
 
 2. Also place a button near the input element. Capture the click even for this button and couple it to a function which grabs the user input from the text field and which initially logs the user input.
 
@@ -30,7 +36,7 @@
 
 
 __Bonus__: Write a function takes this array `['a', 'b', 'c', 'd', 'a', 'e', 'f', 'c']` and returns an array which only has unique values in it (so it removes the duplicate ones). Make it a 'smart' algorithm that could do it for every array (only strings/number). Try to make it as fast as possible!
-
+ -->
 
 ### More homework 
 

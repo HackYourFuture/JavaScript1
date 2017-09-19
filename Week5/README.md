@@ -2,6 +2,7 @@
 
 ```
 In week six we will discuss the following topics:
+• Second Git Session
 • Async VS Sync
 • Polling
 • Structure for a basic SPA

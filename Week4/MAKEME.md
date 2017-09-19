@@ -6,9 +6,7 @@
 Give yourself (or your neighbor) a little tap on the shoulder, you've made it to JS2! :muscle:
 
 ## Step 1: Some Challenges
-- https://www.freecodecamp.com/challenges/using-objects-for-lookups
-- https://www.freecodecamp.com/challenges/manipulating-complex-objects
-- https://www.freecodecamp.com/challenges/convert-json-data-to-html
+Let's practise working with Objects and Arrays. Go to FreeCodeCamp and complete all challenges under "Object Oriented and Functional Programming" and the _first four challenges_ under "Basic Algorithm Scripting", up until 'Find the longest word in a string.'
 
 ## Step 2: Custom challenge 
 1. Go to http://www.omdbapi.com/?s=dog and change the word dog in the url to a different common word. You will get as a result, a list of movies with this word in the title. Make sure you get at least 5 results.

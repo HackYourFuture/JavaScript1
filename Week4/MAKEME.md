@@ -3,7 +3,7 @@
 >[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week4/README.md) you find the readings you have to complete before the fourth lecture.
 
 ## Step 0: 
-Give yourself (or your neighbor) a little tap on the shoulder, you've made it to JS2! :muscle:
+Give yourself (or your neighbour) a little tap on the shoulder, you've made it to JS2! :muscle:
 
 ## Step 1: Some Challenges
 Let's practice working with Objects and Arrays. Go to FreeCodeCamp and complete all challenges under "Object Oriented and Functional Programming" and the _first four challenges_ under "Basic Algorithm Scripting", up until 'Find the longest word in a string.'

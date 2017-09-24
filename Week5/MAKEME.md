@@ -84,10 +84,10 @@ console.log(y);
 ```
 If you are confused please run the code and then consult the Google for "javaScript pass by value pass by reference"
 
-### Step 3: Feedback
+### Step 2: Feedback
 Give feedback on step 2 of the homework to one of your fellow classmates.
 
-### Step 4: continue your Custom challenge :boom:
+### Step 3: continue your Custom challenge :boom:
 
 We are going to continue our github-repo page from last week.
 <!-- 

@@ -2,9 +2,19 @@
 
 >[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week6/README.md) you find the readings you have to complete before the fourth lecture.
 
-- Add your github/repositories link to [this slack file](https://slack-files.com/T0EJTUQ87-F5DAMGML5-cd687fd9b6)
+### Git
+
+1. Create a branch called `MyBranch` in the repository `MyFirst`.
+
+2. Create the files `leaf1.txt`, `leaf2.txt`, `flower.txt` and `fruit.txt` and write some content in them.
+
+3. Create a corresponding remote tracking branch on GitHub and push this branch to the Github remote you just created.
+
+4. Merge `MyBranch` with the `master` branch
+
+<!-- - Add your github/repositories link to [this slack file](https://slack-files.com/T0EJTUQ87-F5DAMGML5-cd687fd9b6) -->
 - Fix the issues from the last week and make sure you explain how you fixed the issue in a comment (or commit message)
-- Write a script that [polls this API](https://sunrise-sunset.org/api) every 3 seconds and passes a new date everytime where date is previous day ++.
+- Write a script that [polls this API](https://sunrise-sunset.org/api) every 3 seconds and passes a new date every time where date is previous day ++.
 
 ### Main assignment
 You are going to write a SPA that uses the [Github API](https://developer.github.com/guides/getting-started/). Make sure that your app uses a logical pattern just like [this codepen](http://codepen.io/Razpudding/pen/MmVpeW).

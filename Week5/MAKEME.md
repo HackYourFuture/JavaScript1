@@ -90,10 +90,10 @@ Give feedback on step 2 of the homework to one of your fellow classmates.
 ### Step 4: continue your Custom challenge :boom:
 
 We are going to continue our github-repo page from last week.
-
+<!-- 
 1. For each repository, show (in the right column) who the contributers are. You will need to use the `contributors_url` for this.
 2. Make all the repositories link their own page in Github. Use the value of the key: `name` to make this work (hint: Github urls always look like this https://api.github.com/repos/HackYourFuture/[repositoryName] where [repositoryName] would be replaced by the actual `name` of the repository, for example `CommandLine`). Make sure the link opens in a new tab.
-
+ -->
 >TODO
 
 <!-- 1. Extend the `hyf-movies`  app with an input element. This is so the user will be able to type in text which will be later used to search the movie database for corresponding movies.

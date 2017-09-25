@@ -13,15 +13,16 @@ In week six we will discuss the following topics:
 
 - Read about Asynchronous vs. Synchronous programming: http://www.hongkiat.com/blog/synchronous-asynchronous-javascript/
 -  [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailnamespacing) up to and including chapter 3
+- [Polling](https://davidwalsh.name/javascript-polling) 
 - [JavaScript Variable Scope and Hoisting Explained](http://javascriptissexy.com/javascript-variable-scope-and-hoisting-explained/)
 
-```
+This Sunday we have a test :boom:
 If you feel you need preparation for the test we recommend to do the following:
-• Take a look at the topics listed in the [README](https://github.com/HackYourFuture) of this repo (up to and including week 6). 
+• Take a look at the topics listed in the [README](https://github.com/HackYourFuture) of this repo (up to and including week 5). 
 • Review all the _REVIEW.md_ files in every week.
 • Look up the concepts you are struggling with in your __Smarter Way to Learn JavaScript__ book :books:. 
 • It's also useful to go through the reading material and homework of the last weeks.
-```
+
 
 _Please go through the material and come to class prepared!_
 

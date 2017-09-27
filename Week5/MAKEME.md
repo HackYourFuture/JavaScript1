@@ -87,9 +87,30 @@ If you are confused please run the code and then consult the Google for "javaScr
 ### Step 2: Feedback
 Give feedback on step 2 of the homework to one of your fellow classmates.
 
-### Step 3: continue your Custom challenge :boom:
+### Step 3: Homework for JavaScript
 
-We are going to continue our github-repo page from last week.
+Make a website that fetches (= to get) data asynchronously.
+
+1) Create a new website with external js file
+
+2) Add a button (e.g. 'click me') that when clicked `console.logs` 'you clicked me!'
+
+3) Create a function that fetches from [this weather API](https://openweathermap.org/current). For example from [this page] (http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b1b15e88fa797225412429c1c50c122a1). For help on this check this [SO post](https://stackoverflow.com/questions/247483/http-get-request-in-javascript)
+
+4) Display the data that you get from the weather API on your web page.
+
+5) Now link the two together: When you click the button -> get the data from the weather API and display it on your website
+
+6) BONUS: if you look at this:
+
+```
+http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b1b15e88fa797225412429c1c50c122a1
+```
+
+you can see `?q=London,uk` in the URL. These are called "query parameters" and let us specify in detail what we want from the API. Play around with this. For example you can make two buttons that either get data for London or Amsterdam. Or go even more crazy and make users type in a search box 'amsterdam' and then send that to the API by changing the location.
+
+
+
 <!-- 
 1. For each repository, show (in the right column) who the contributers are. You will need to use the `contributors_url` for this.
 2. Make all the repositories link their own page in Github. Use the value of the key: `name` to make this work (hint: Github urls always look like this https://api.github.com/repos/HackYourFuture/[repositoryName] where [repositoryName] would be replaced by the actual `name` of the repository, for example `CommandLine`). Make sure the link opens in a new tab.

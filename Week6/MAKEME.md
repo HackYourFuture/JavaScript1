@@ -43,3 +43,27 @@ How to hand in your homework:
 • Your hyf-javascript2/week3 should now contain an index.html, main.css and a script.js file (and the images folder)
 • Place the link to your repository folder in Trello.
 ```
+
+
+## Homework for JavaScript
+Make a website that fetches (= to get) data asynchronously.
+
+1) Create a new website with external js file
+
+2) Add a button (e.g. 'click me') that when clicked `console.logs` 'you clicked me!'
+
+3) Create a function that fetches from [this weather API](https://openweathermap.org/current). For example from [this page] (http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b1b15e88fa797225412429c1c50c122a1). For help on this check this [SO post](https://stackoverflow.com/questions/247483/http-get-request-in-javascript)
+
+4) Display the data that you get from the weather API on your web page.
+
+5) Now link the two together: When you click the button -> get the data from the weather API and display it on your website
+
+6) BONUS: if you look at this:
+
+```
+http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b1b15e88fa797225412429c1c50c122a1
+```
+
+you can see `?q=London,uk` in the URL. These are called "query parameters" and let us specify in detail what we want from the API. Play around with this. For example you can make two buttons that either get data for London or Amsterdam. Or go even more crazy and make users type in a search box 'amsterdam' and then send that to the API by changing the location.
+
+

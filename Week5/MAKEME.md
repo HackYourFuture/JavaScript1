@@ -95,32 +95,26 @@ Make a website that fetches (= to get) data asynchronously.
 
 2) Add a button (e.g. 'click me') that when clicked `console.logs` 'you clicked me!'
 
-3) Create a function that fetches from [this weather API](https://openweathermap.org/current). For example from [this page] (http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b1b15e88fa797225412429c1c50c122a1). For help on this check this [SO post](https://stackoverflow.com/questions/247483/http-get-request-in-javascript)
+3) Create a function that fetches from [The Github API](https://developer.github.com/v3/). For example from [this page] (https://api.github.com/orgs/HackYourFuture/repos) (the one we used last week). For help on this check this [SO post](https://stackoverflow.com/questions/247483/http-get-request-in-javascript)
 
-4) Display the data that you get from the weather API on your web page.
+4) Display the data that you get from the Github API on your web page.
 
-5) Now link the two together: When you click the button -> get the data from the weather API and display it on your website
+5) Now link the two together: When you click the button -> get the data from the Github API and display it on your website
 
-6) BONUS: if you look at this:
+6) Make all the repositories link their own page in Github. Use the value of the key: `name` to make this work (hint: Github urls always look like this https://api.github.com/repos/HackYourFuture/[repositoryName] where [repositoryName] would be replaced by the actual `name` of the repository, for example `CommandLine`). Make sure the link opens in a new tab.
 
+7) BONUS: if you look at this:
+
+```js
+https://api.github.com/repos/HackYourFuture/CommandLine
 ```
-http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b1b15e88fa797225412429c1c50c122a1
-```
 
-you can see `?q=London,uk` in the URL. These are called "query parameters" and let us specify in detail what we want from the API. Play around with this. For example you can make two buttons that either get data for London or Amsterdam. Or go even more crazy and make users type in a search box 'amsterdam' and then send that to the API by changing the location.
+You can see `CommandLine` in the URL. These are called "query parameters" and let us specify in detail what we want from the API. Play around with this. For example you can make two buttons that either get data for a specific repository, JavaScript or Node.js. Or go even more crazy and make users type in a search box 'JavaScript' and then send that to the API by changing the repository.
 
 
 
-<!-- 
-1. For each repository, show (in the right column) who the contributers are. You will need to use the `contributors_url` for this.
-2. Make all the repositories link their own page in Github. Use the value of the key: `name` to make this work (hint: Github urls always look like this https://api.github.com/repos/HackYourFuture/[repositoryName] where [repositoryName] would be replaced by the actual `name` of the repository, for example `CommandLine`). Make sure the link opens in a new tab.
- -->
->TODO
 
-<!-- 1. Extend the `hyf-movies`  app with an input element. This is so the user will be able to type in text which will be later used to search the movie database for corresponding movies.
-
-2. Also place a button near the input element. Capture the click even for this button and couple it to a function which grabs the user input from the text field and which initially logs the user input.
-
+<!---
 3. Make a function which takes a single argument. The function should make an XHR request to `localhost:3000/movies?q=[SEARCH_TERM]` where the search term will be the argument. This argument will be the input the user has given you, so make sure that when the user clicks the button you call this function with the argument. 
 
    Look at the [documentation of the API](https://github.com/typicode/json-server) and see which other query parameters `json-server` support. Mess around with this to see how changing (or adding) parameters modifies your results.
@@ -129,11 +123,10 @@ you can see `?q=London,uk` in the URL. These are called "query parameters" and l
 
 5. Change the layout of the page so that you only show a list of movie titles on the left side of your page. When the user hovers over a link (or maybe with a click) you want to show the additional information about the movie (poster, year etc.) on the right column. 
 
-6. If you have any questions, ask them on slack in the class 10 channel. We want to see more questions as both you and we can learn from them, also try to help each other!
 
-
-__Bonus__: Write a function takes this array `['a', 'b', 'c', 'd', 'a', 'e', 'f', 'c']` and returns an array which only has unique values in it (so it removes the duplicate ones). Make it a 'smart' algorithm that could do it for every array (only strings/number). Try to make it as fast as possible!
  -->
+__Bonus__: Write a function takes this array `['a', 'b', 'c', 'd', 'a', 'e', 'f', 'c']` and returns an array which only has unique values in it (so it removes the duplicate ones). Make it a 'smart' algorithm that could do it for every array (only strings/number). Try to make it as fast as possible!
+
 
 
 ```

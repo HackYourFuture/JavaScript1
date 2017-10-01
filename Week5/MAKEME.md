@@ -111,9 +111,6 @@ https://api.github.com/repos/HackYourFuture/CommandLine
 
 You can see `CommandLine` in the URL. These are called "query parameters" and let us specify in detail what we want from the API. Play around with this. For example you can make two buttons that either get data for a specific repository, JavaScript or Node.js. Or go even more crazy and make users type in a search box 'JavaScript' and then send that to the API by changing the repository.
 
-
-
-
 <!---
 3. Make a function which takes a single argument. The function should make an XHR request to `localhost:3000/movies?q=[SEARCH_TERM]` where the search term will be the argument. This argument will be the input the user has given you, so make sure that when the user clicks the button you call this function with the argument. 
 
@@ -125,8 +122,6 @@ You can see `CommandLine` in the URL. These are called "query parameters" and le
 
 
  -->
-__Bonus__: Write a function takes this array `['a', 'b', 'c', 'd', 'a', 'e', 'f', 'c']` and returns an array which only has unique values in it (so it removes the duplicate ones). Make it a 'smart' algorithm that could do it for every array (only strings/number). Try to make it as fast as possible!
-
 
 
 ```

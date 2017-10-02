@@ -2,25 +2,14 @@
 
 >[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week6/README.md) you find the readings you have to complete before the fourth lecture.
 
-### Step 0: Feedback
+### Step 1: Feedback
 
 Give feedback on `step 3` of `week 5` to one of your fellow students (do this by creating issues in Github). 
-
-### Step 1: Git
-
-1. Create a branch called `MyBranch` in the repository `MyFirst`.
-
-2. Create the files `leaf1.txt`, `leaf2.txt`, `flower.txt` and `fruit.txt` and write some content in them.
-
-3. Create a corresponding remote tracking branch on GitHub and push this branch to the Github remote you just created.
-
-4. Merge `MyBranch` with the `master` branch
 
 ### Step 2: Fix issues and API
 
 - Fix the issues from the last week and make sure you explain how you fixed the issue in a comment (or commit message)
 - Write a script that [polls this API](https://sunrise-sunset.org/api) every 3 seconds and passes a new date every time where date is previous day ++.
-
 
 ### Step 3: SPA :sweat_drops:
 You are going to write a SPA that uses the [Github API](https://developer.github.com/guides/getting-started/). Make sure that your app uses a logical pattern just like [this codepen](http://codepen.io/Razpudding/pen/MmVpeW).
@@ -50,10 +39,11 @@ https://api.github.com/repos/HackYourFuture/CommandLine
 7) Make a function which takes a single argument. The function should make an XHR request to `https://api.github.com/repos/HackYourFuture/[SearchTerm]` where the search term will be the argument. This argument will be the input the user has given you, so make sure that when the user clicks the button you call this function with the argument. 
 
 8) Make all the repositories link their own page in Github. Use the value of the key: `name` to make this work (hint: Github urls always look like this https://api.github.com/repos/HackYourFuture/[repositoryName] where [repositoryName] would be replaced by the actual `name` of the repository, for example `CommandLine`). Make sure the link opens in a new tab.
+
 - Make sure you handle user input well. That means you need to think about empty input, and input that doesn't yield any results.
 
 So Github has this really nice documentation :octocat: :
-Check these out for exmple
+Check these out for example
 https://developer.github.com/v3/repos/collaborators/
 https://developer.github.com/v3/repos/commits/
 
@@ -69,15 +59,29 @@ https://developer.github.com/v3/repos/commits/
   So based on your users actions (input, hovering, clicking) you want to call `makeRequest` with a different `url` and supply it with a function that handles both errors (display an error message to the user for example) and responses (render it correctly, as described below). 
  - Make your functions small and reusable (modular)! That means create separate functions to handle certain steps. 
 
->TODO 
+11) GO WILD
 
-<!-- 1. Make a call to 'https://api.github.com/users/' + userInput (where userInput is a string typed into a searchfield by a user). You can do this by using some of the code of the previous week. Look at the response data.
-2. show the users name, avatar image (not the link to the image!) and the number of public repos they have
-3. When clicking on the users name, show all the other info you have about that user. When clicking on the avatar image, open their Github profile in a new tab. When clicking on the number of public repos, make another API call to 'https://api.github.com/users/user/repos' and build an unordered list of the returned repos with just the name of each repo.
-4. When hovering over the name of the repo, show on the right side of the page in an `<aside>` element the description of that repo, when it was created, and the number of open issues it has.
-5. Change the function your previously wrote that handles the hovering event and add functionality to it that shows the collaborators of that repo. Note: to do this, you will need to make ANOTHER API call to https://api.github.com/repos/user/repo/events and that lists the 3 last events. Show the type of the event and if the type is 'PushEvent' show the commit message. Take a look at this [API call](https://api.github.com/repos/Razpudding/realtime-slack/events) to see some sample data.
-6. Make sure that when a user goes to your app, your github account info is loaded. They can then use the search field to find info about other github accounts.
-7. Look through the data that Github sends back to you on your first API call and think about what other info would be useful. Add more functionalities to your app like showing how many people starred a repositories or showing the names of the people followed by the current user. -->
+Again, check out the Github API documentation to see what kind of magic stuff you can do with it.
+
+The assignment is to implement something extra that is not in the assignment :scream: (nice and vague right?)
+
+So for example, we have teams in our organization. You can find out who are in there and make a call to 'https://api.github.com/users/' + userInput (where userInput is a string typed into a search field by a user). You can show the users name, avatar image (not the link to the image!) and the number of public repos they have. Or you could make an API call to 'https://api.github.com/users/user/repos' to find out the public repo's they have. Or you can show how many people starred a specific repository. 
+
+Anyway, endless fun and possibilities. Need inspiration, check out the Github API documentation. Oh and please make it look nice (hint: use the stuff you learned in HTML/CSS)!
+
+
+### Step 1: Git
+
+> Unmesh will assign you with Git homework later this week
+
+<!-- 1. Create a branch called `MyBranch` in the repository `MyFirst`.
+
+2. Create the files `leaf1.txt`, `leaf2.txt`, `flower.txt` and `fruit.txt` and write some content in them.
+
+3. Create a corresponding remote tracking branch on GitHub and push this branch to the Github remote you just created.
+
+4. Merge `MyBranch` with the `master` branch -->
+
 
 __Bonus__: Write a function takes this array `['a', 'b', 'c', 'd', 'a', 'e', 'f', 'c']` and returns an array which only has unique values in it (so it removes the duplicate ones). Make it a 'smart' algorithm that could do it for every array (only strings/number). Try to make it as fast as possible!
 

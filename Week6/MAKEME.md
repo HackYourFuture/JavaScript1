@@ -70,17 +70,23 @@ So for example, we have teams in our organization. You can find out who are in t
 Anyway, endless fun and possibilities. Need inspiration, check out the Github API documentation. Oh and please make it look nice (hint: use the stuff you learned in HTML/CSS)!
 
 
-### Step 1: Git
+### Step 4: Git branching homework
 
-> Unmesh will assign you with Git homework later this week
+1) Use the unmeshvrije/MyFirst repository (the one you cloned) for this homework.
 
-<!-- 1. Create a branch called `MyBranch` in the repository `MyFirst`.
+2) Make a branch.
 
-2. Create the files `leaf1.txt`, `leaf2.txt`, `flower.txt` and `fruit.txt` and write some content in them.
+3) Name it YOUR-GITHUB-NAME-dev
 
-3. Create a corresponding remote tracking branch on GitHub and push this branch to the Github remote you just created.
+4) Create a file commands.txt in your branch.
 
-4. Merge `MyBranch` with the `master` branch -->
+5) Add bash commands that you have learnt with descriptions
+
+6) Then git add, commit and push them in a remote branch.
+
+**Do not merge the changes to master branch.
+
+** Do not make any changes to master branch.
 
 
 __Bonus__: Write a function takes this array `['a', 'b', 'c', 'd', 'a', 'e', 'f', 'c']` and returns an array which only has unique values in it (so it removes the duplicate ones). Make it a 'smart' algorithm that could do it for every array (only strings/number). Try to make it as fast as possible!

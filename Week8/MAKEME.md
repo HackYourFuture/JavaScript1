@@ -1,7 +1,7 @@
 # Homework Week 8
 This week you will work on finishing your application so it's actually useful!!
 
->[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week8/README.md) you find the readings you have to complete before the fourth lecture.
+>[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week8/README.md) you find the readings you have to complete before the ninth lecture.
 
 ## The tools we used in the second lecture
 - [metajs](http://int3.github.io/metajs/)

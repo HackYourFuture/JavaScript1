@@ -1,6 +1,6 @@
 # Homework Week 6
 
->[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week6/README.md) you find the readings you have to complete before the fourth lecture.
+>[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week6/README.md) you find the readings you have to complete before the seventh lecture.
 
 ### Step 1: Feedback
 

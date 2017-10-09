@@ -1,6 +1,6 @@
 # Homework Week 7
 
->[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week7/README.md) you find the readings you have to complete before the fourth lecture.
+>[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week7/README.md) you find the readings you have to complete before the eighth lecture.
 
 ## Step 1: Git Homework
 

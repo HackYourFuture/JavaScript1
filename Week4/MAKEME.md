@@ -1,6 +1,6 @@
 # Homework Week 4
 
->[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week4/README.md) you find the readings you have to complete before the fourth lecture.
+>[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week4/README.md) you find the readings you have to complete before the fifth lecture.
 
 ## Step 0: 
 Give yourself (or your neighbour) a little tap on the shoulder, you've made it to JS2! :muscle:

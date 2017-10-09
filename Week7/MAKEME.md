@@ -28,7 +28,8 @@ Give feedback on the SPA (Github API) and git branching homework of one of you f
 
 3. [Iterate over Arrays with map](https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map)
 
-## Step 6: Code Kata Race
+## Step 6: Pair programming assignment!!!!!! (TBA before Thursday)
+<!-- ## Step 6: Code Kata Race
 
 If you haven't already join our clan: "Hack Your Future" in codewars
 
@@ -44,7 +45,7 @@ _Hints_
 - Also potentially useful: [JavaScript String charAt() Method](https://www.w3schools.com/jsref/jsref_charat.asp)
 - [Hint for Q2](https://www.w3schools.com/jsref/jsref_sort.asp) Also there are no sample tests, you need to use submit
 
-Remember the person with the most kata points gets a prize from Gijs (and you can do exercises on this website without us assigning them - anything kyu 7 or kyu 8 you can try to do - kyu 6 or lower is probably too hard)
+Remember the person with the most kata points gets a prize from Gijs (and you can do exercises on this website without us assigning them - anything kyu 7 or kyu 8 you can try to do - kyu 6 or lower is probably too hard) -->
 
 _BONUS_
 [BONUS](https://www.codewars.com/collections/hyf-homework-1-bonus-credit) :collision:

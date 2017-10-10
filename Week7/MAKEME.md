@@ -17,8 +17,8 @@ Give feedback on the SPA (Github API) and git branching homework of one of you f
 ## Step 4: map, filter, reduce
 
 - Add map, filter, reduce to  your existing app to build an application that loads data from github, filters out based on certain value, map->reduces to a data object and render that object to the dom (using map again).
+- For example you can try to use map, filter and reduce to show the most and the least forked repositories, watched repositories. And the total number of forks for all repo's. Also you can work with the data provided about the amount of commits or contributers.
 <!-- - Add polling to your app so that it checks every minute or so if a new repo has been made and if it has, adds it to the DOM without reloading the page. -->
-- Try to use map, filter and reduce to help the user to find the most and the less forked, watched repo. and the total number of fork for all repos.
 - Add a readme to your repo explaining  what your app does and how to use your app. Here's a [template](https://gist.github.com/jxson/1784669) and here you can see how to make [your readme awesome](https://gist.github.com/rrgayhart/91bba7bb39ea60136e5c).
 
 ### Step 5: **Some freeCodeCamp challenges:**

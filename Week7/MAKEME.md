@@ -29,8 +29,96 @@ Give feedback on the SPA (Github API) and git branching homework of one of you f
 
 3. [Iterate over Arrays with map](https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map)
 
-## Step 6: Pair programming assignment!!!!!! (TBA before Thursday)
-<!-- ## Step 6: Code Kata Race
+## Step 6: More, map filter reduce and =>
+
+1. Say you would like to write a program that doubles the odd numbers in an array and throws away the even number.
+
+Your solution could be something like this:
+```js
+let numbers = [1, 2, 3, 4];
+let newNumbers = [];
+
+for(let i = 0; i < numbers.length; i++) {
+    if(numbers[i] % 2 !== 0) {
+        newNumbers[i] = numbers[i] * 2;
+    }
+}
+
+console.log("The doubled numbers are", newNumbers); // [2, 6]
+
+```
+
+rewrite the above program using `map` and `filter` don't forget to use `=>`
+
+2. Use the array of the previous assignment, write a program that add the even numbers to the resulting array twice, but the odd numbers only once. Don't forget to use `=>`.
+
+Your output should be:
+```js
+console.log("The final numbers are", newNumbers);// [1, 2, 2, 3, 4, 4]
+```
+
+Underneath you see a very interesting small insight in Maartje's work:
+```js
+let monday = [
+        {
+            name     : 'Write a summary HTML/CSS',
+            duration : 180
+        },
+        {
+            name     : 'Some web development',
+            duration : 120
+        },
+        {
+            name     : 'Try to convince teachers to fix homework class10',
+            duration : 30
+        },
+        {
+            name     : 'Fix homework for class10 myself',
+            duration : 20
+        },
+        {
+            name     : 'Talk to a lot of people',
+            duration : 200
+        }
+    ];
+ 
+let tuesday = [
+        {
+            name     : 'Keep writing summery',
+            duration : 240
+        },
+        {
+            name     : 'Some more web development',
+            duration : 180
+        },
+        {
+            name     : 'Staring out the window',
+            duration  : 10
+        },
+        {
+            name     : 'Talk to a lot of people',
+            duration : 200
+        },
+        {
+            name     : 'Look at application assignments new students',
+            duration : 40
+        }
+    ];
+     
+let tasks = [monday, tuesday];
+```
+
+3. Write a program that does the following:
+
+- Collect two days' worth of tasks.
+- Convert the task durations to hours, instead of minutes.
+- Filter out everything that took two hours or more.
+- Sum it all up.
+- Multiply the result by a per-hour rate for billing (you can decide yourself what Maartje should make per hour).
+- Output a formatted Euro amount.
+- Don't forget to use `=>`
+
+_BONUS_ : Code Kata Race
 
 If you haven't already join our clan: "Hack Your Future" in codewars
 
@@ -48,8 +136,7 @@ _Hints_
 
 Remember the person with the most kata points gets a prize from Gijs (and you can do exercises on this website without us assigning them - anything kyu 7 or kyu 8 you can try to do - kyu 6 or lower is probably too hard) -->
 
-_BONUS_
-[BONUS](https://www.codewars.com/collections/hyf-homework-1-bonus-credit) :collision:
+-[MORE BONUS](https://www.codewars.com/collections/hyf-homework-1-bonus-credit) :collision:
 
 ## To watch before the next lecture:
 

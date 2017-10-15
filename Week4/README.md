@@ -5,7 +5,7 @@
 
 ```
 In week five we will discuss the following topics:
-• Second Git Session :see_no_evil:<br>
+• First Git Session
 • Events
 • Callbacks
 • XHTTP Requests

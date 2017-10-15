@@ -4,6 +4,7 @@
 In week seven we will discuss the following topics:
 • Git Workflow :muscle: 
 • Map, reduce filter
+• Arrow functions
 ```
 
 ### Here are resources that we like you to read as a preparation for the coming lecture:

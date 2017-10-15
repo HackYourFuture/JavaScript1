@@ -1,6 +1,6 @@
 ## Homework week 1:
 
->[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week1/README.md) you find the readings you have to complete before the second lecture.
+>[Here](/Week1/README.md) you find the readings you have to complete before the second lecture.
 
 We covered a bit of command line usage in the first class and got a program running which is great. If you need a refresher for the command line please have a look here: https://github.com/HackYourFuture/CommandLine
 
@@ -85,5 +85,5 @@ steps:
 ### Hint
 If you solve the FreeCodeCamp challenges and they are new concepts to you and you would like to take a look at them later on in the program, Copy your answers from FCC in a .js file and upload them to Github in a repository for future reference. In this way you build your own little documentation, if you look back at them first try to understand what it does before you run them.
 
-:star: Additional resources and review: [here](https://github.com/HackYourFuture/JavaScript/tree/master/Week1/REVIEW.md) (work in progress):star:
+:star: Additional resources and review: [here](/Week1/REVIEW.md) (work in progress):star:
 

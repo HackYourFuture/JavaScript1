@@ -1,12 +1,12 @@
 ## Homework Week 2
 
->[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week2/README.md) you find the readings you have to complete before the third lecture.
+>[Here](/Week2/README.md) you find the readings you have to complete before the third lecture.
 
 ## Step 1: Recap/Read
 
 - Have a look at [The Secret Life of JavaScript Primitives](https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/)
-- Go through the review of [last week](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md) (Work in progress, update this week :wrench:)
-- Go through the review of [this week](https://github.com/HackYourFuture/JavaScript/blob/master/Week2/REVIEW.md) (work in progress, update this week :nut_and_bolt:)
+- Go through the review of [last week](/Week1/REVIEW.md) (Work in progress, update this week :wrench:)
+- Go through the review of [this week](/Week2/REVIEW.md) (work in progress, update this week :nut_and_bolt:)
 
 ## Step 2: Watch
 
@@ -151,5 +151,5 @@ How to hand in your homework:
 • Place the link to your repository folder in Trello.
 ```
 
-:star: Additional resources and review: [here](https://github.com/HackYourFuture/JavaScript/tree/master/Week2/REVIEW.md) (work in progress):star:
+:star: Additional resources and review: [here](/Week2/REVIEW.md) (work in progress):star:
 

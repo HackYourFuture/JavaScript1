@@ -1,11 +1,11 @@
 ## Homework Week 3
 
->[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week3/README.md) you find the readings you have to complete before the fourth lecture.
+>[Here](/Week3/README.md) you find the readings you have to complete before the fourth lecture.
 
 ## Step 0 review:
-- Go through the review of [the first week](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md) (Work in progress, update this week :wrench:)
-- Go through the review of [the second week](https://github.com/HackYourFuture/JavaScript/blob/master/Week2/REVIEW.md) (work in progress, update this week :nut_and_bolt:)
-- Go through the review of [the third week](https://github.com/HackYourFuture/JavaScript/blob/master/Week3/REVIEW.md) 
+- Go through the review of [the first week](/Week1/REVIEW.md) (Work in progress, update this week :wrench:)
+- Go through the review of [the second week](/Week2/REVIEW.md) (work in progress, update this week :nut_and_bolt:)
+- Go through the review of [the third week](/Week3/REVIEW.md) 
 
 ## Step 1: Implement feedback
 
@@ -66,7 +66,7 @@ Please note, there are various challenges all sorted on difficultly called KIU. 
 
 enjoy!
 
-:star: Additional resources and review: [here](https://github.com/HackYourFuture/JavaScript/tree/master/Week3/REVIEW.md) (work in progress):star:
+:star: Additional resources and review: [here](/Week3/REVIEW.md) (work in progress):star:
 
 
 

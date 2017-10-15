@@ -73,13 +73,9 @@ steps:
 • Create a Github account
 • Create a new repository (name it something like hyf-javascript1) make sure you select the option: initialize with README
 • inside this repository create a folder "week1"
-• Upload the files you created on your computer inside the week1 folder, write a description for this “commit”
-• Open the file in your README to check if this all worked
-
-• Create a new repository "hyf-javascript1". Also create a new folder "week1" inside this repository. 
-• Upload your homework files inside the week1 folder and write a description for this “commit”.
-• Your hyf-javascript1/week1 should now contain all your homework files.
-• Place the link to your repository folder in Trello.
+• Upload the files you created on your computer inside the week1 folder, write a description for this "commit"
+• Your repository should now contain all your homework files. Open the files from the github website to check if this all worked out
+• Post the link to your repository folder in Slack
 ```
 
 ### Hint

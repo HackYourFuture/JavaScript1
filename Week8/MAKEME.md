@@ -7,7 +7,11 @@ This week you will work on finishing your application so it's actually useful!!
 
 Give feedback on the SPA (Github API) and git branching homework of one of you fellow students. Please provide the feedback in an issue.
 
-## Step 2: Pair programming promises challenge
+## Step 2: FINISH ALL YOUR JAVASCRIPT HOMEWORK
+
+:point_up:
+
+## Step 3: Pair programming promises challenge
 
 >TODO
 

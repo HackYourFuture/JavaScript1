@@ -29,7 +29,7 @@ Give feedback on the SPA (Github API) and git branching homework of one of you f
 
 3. [Iterate over Arrays with map](https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map)
 
-## Step 6: More, map filter reduce and =>
+## Step 6: More map, filter, reduce, and =>
 
 1. Say you would like to write a program that doubles the odd numbers in an array and throws away the even number.
 

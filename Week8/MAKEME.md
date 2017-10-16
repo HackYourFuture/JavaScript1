@@ -1,7 +1,7 @@
 # Homework Week 8
 This week you will work on finishing your application so it's actually useful!!
 
->[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week8/README.md) you find the readings you have to complete before the ninth lecture.
+>[Here](/Week8/README.md) you find the readings you have to complete before the ninth lecture.
 
 ## Step 1: Feedback step 4 and 6 week 7
 

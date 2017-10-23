@@ -1,6 +1,6 @@
 # Homework Week 9
 
-### Step 0: Read
+## Step 0: Read
 
 >Read:
 - JavaScript : [Closures](http://conceptf1.blogspot.nl/2013/11/javascript-closures.html)
@@ -11,7 +11,7 @@
 - More about [closures](https://www.reddit.com/r/learnjavascript/comments/1v6n8p/closure_explain_likei_am_in_high_school/?st=ixsp0mbe&sh=5526d150)
 - A VERY popular [StackOverflow article](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
 
-### Step 1: Scope and Closures
+## Step 1: Scope and Closures
 
 > Let's continue to learn a little more about scope and Closures. 
 
@@ -83,7 +83,7 @@ writeDataToFile(data);
 ```
 
 
-### Step 2: Feedback
+## Step 2: Feedback
 
 - Create at least 2 issues (bug / feature / code improvement) on another teams github repository. Do this in pairs. 
 -  Solve the issue proposed by another students in your github repo. More info [here](https://hackyourfuture.slack.com/files/michahell/F31BX1XT6/Merging_a_local_branch_into_master)

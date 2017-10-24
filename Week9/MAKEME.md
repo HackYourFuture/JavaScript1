@@ -90,8 +90,8 @@ writeDataToFile(data);
 
 ## Step 3: Pair programming homework
 
-You will complete the TicTacToe game we started building in class. The code we build in class is available here: *(will be here by the end of the day)*.
-One of your teammates should fork the repo. Work in this repository *together* so you can see who wrote which code. Make a Pull Request to hand in this part of the homework.
+You will complete the TicTacToe game we started building in class. The code we build in class is available here: https://github.com/HackYourFuture/TicTacToeTDD. 
+One of your teammates should fork the above repo. Work in this repository *together* so you can see who wrote which code. Make a Pull Request to hand in this part of the homework.
 
 <!-- rewatch the Hangouts session here: https://www.youtube.com/watch?v=oc9ogCJz9rYs -->
 

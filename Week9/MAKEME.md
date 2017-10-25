@@ -1,5 +1,7 @@
 # Homework Week 9
 
+## Step 0: Read
+
 >Read:
 - JavaScript : [Closures](http://conceptf1.blogspot.nl/2013/11/javascript-closures.html)
 - Everything you wanted to know about [JavaScript scope](https://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/)
@@ -9,16 +11,15 @@
 - More about [closures](https://www.reddit.com/r/learnjavascript/comments/1v6n8p/closure_explain_likei_am_in_high_school/?st=ixsp0mbe&sh=5526d150)
 - A VERY popular [StackOverflow article](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
 
+## Step 1: Scope and Closures
 
-
-> Make:
-1. Let's continue to learn a little more about scope and Closures. 
+> Let's continue to learn a little more about scope and Closures. 
 
 
 2. What will be the output of the following code - and more importantly - WHY? 
 
 ```js
-for (var i = 0; i < 3; i++) {
+for (let i = 0; i < 3; i++) {
       setTimeout(function() { alert(i); }, 1000 + i);
 }
 ```
@@ -26,7 +27,7 @@ for (var i = 0; i < 3; i++) {
 
 3. Write a function that would allow you to do this:
 ```js
-var addSix = createBase(6);
+let addSix = createBase(6);
 addSix(10); // returns 16
 addSix(21); // returns 27
 ```
@@ -42,8 +43,8 @@ Don't cheat - but if you get stuck ... http://stackoverflow.com/questions/750486
 
 <script type="text/javascript">
     
-    var prizes = ['A Unicorn!', 'A Hug!', 'Fresh Laundry!'];
-    for (var btnNum = 0; btnNum < prizes.length; btnNum++) {
+    let prizes = ['A Unicorn!', 'A Hug!', 'Fresh Laundry!'];
+    for (let btnNum = 0; btnNum < prizes.length; btnNum++) {
         // for each of our buttons, when the user clicks it...
         document.getElementById('btn-' + btnNum).onclick = function() {
             // tell her what she's won!
@@ -53,57 +54,46 @@ Don't cheat - but if you get stuck ... http://stackoverflow.com/questions/750486
 </script>
 ```
 
-Rewrite to Async: 
+5. Rewrite the code below to Async: 
 
 ```js
 1.
 
-var sum = calculateSum(2, 6);
+let sum = calculateSum(2, 6);
 console.log(sum);
 
 2.
 
-var results = $.getJSON('http://myapi.com');
+let results = $.getJSON('http://myapi.com');
 showResults(results);
 
 3.
 
-var sum = calculateSum(2, 6);
+let sum = calculateSum(2, 6);
 if (sum > 8) {
     console.log('larger than 8');
 }
 
 4.
 
-var data = $.getJSON('http://myapi.com');
+let data = $.getJSON('http://myapi.com');
 data = data.map(function (x) { return x * 8; });
 
 writeDataToFile(data);
 ```
 
 
-4. You will need to create an HTML document out of the below snippet to run the below code. A hint - the code is syntactically correct but doesn't do what you would expect. Can you see why and fix it?  
+## Step 2: Feedback
 
-TODO !!!
+- Create at least 2 issues (bug / feature / code improvement) on another teams github repository. Do this in pairs. 
+-  Solve the issue proposed by another students in your github repo. More info [here](https://hackyourfuture.slack.com/files/michahell/F31BX1XT6/Merging_a_local_branch_into_master)
 
-Choose two "GET" API endpoints from http://reqres.in
-Use $.getJSON to load data from those two endpoints
-Display the data on your web page.
-It should not matter which endpoint is loaded first, the data should always look the same (you can add "?delay=" after the endpoint to simulate a delay).
+## Step 3: Pair programming homework
 
-• Create at least 1 issue (bug / feature / code improvement) on another students github repository. Do this in pairs.
-•  solve the issue proposed by another student in your github repo. More info [here](https://hackyourfuture.slack.com/files/michahell/F31BX1XT6/Merging_a_local_branch_into_master)
+You will complete the TicTacToe game we started building in class. The code we build in class is available here: https://github.com/HackYourFuture/TicTacToeTDD. 
+One of your teammates should fork the above repo. Work in this repository *together* so you can see who wrote which code. Make a Pull Request to hand in this part of the homework.
 
-
-## Optional homework
-```
-TicTacToe game
-
-https://github.com/HackYourFuture/TicTacToeTDD
-https://github.com/HackYourFuture/OOP-Student-and-Teacher
-
-rewatch the Hangouts session here: https://www.youtube.com/watch?v=oc9ogCJz9rYs
-```
+<!-- rewatch the Hangouts session here: https://www.youtube.com/watch?v=oc9ogCJz9rYs -->
 
 >Upload your homework in your "hyf-javascript3" Github repository. Make sure to create a new folder "week3" first. 
 Upload your homework files inside the week3 folder and write a description for this “commit”.

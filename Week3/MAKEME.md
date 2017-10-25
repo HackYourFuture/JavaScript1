@@ -16,9 +16,34 @@ Your fellow students have provided you with feedback in Trello. Your teachers ha
 
 ## Step 2: Reorganize your Github 
 
-Your Github should contain two repositories called hyf-javascript1 and hyf-commandline . Inside the JavaScript repository you should have three folders, called week1, week2, and week3 (or something similar). Inside these folders you should have the different assignments (a file per exercises). Ty and find proper names for the exercises that reflect somehow what is going on in the code. Avoid using spaces in your file names, this makes it harder to "run" you files. Also make sure that all your JavaScript files have a .js extension.
+Your Github should contain two repositories called hyf-javascript1 and hyf-commandline . Inside the JavaScript repository you should have three folders, called week1, week2, and week3 (or something similar). Inside these folders you should have the different assignments (a file per exercises). Ty and find proper names for the exercises that reflect somehow what is going on in the code. Avoid using spaces in your file names, this makes it harder to "run" you files. Also make sure that all your JavaScript files have a `.js` extension.
 
-## Step 3: Custom DOM manipulation challenge :mortar_board:
+## Step 3: String and Array challenges
+
+1. Strings!
+  1.1 Let's consider the following string: `let myString = "hello,this,is,a,difficult,to,read,sentence"`
+  1.2 Add the string to your file and console.log it.
+  1.4 Console.log the length of `myString`.
+  1.5 The comma's make that the sentence is quite hard to read. Find a way to remove the comma's from the sting and replace them with a spaces
+  1.6 Console.log `myString` to see if you succeeded. 
+
+2. Arrays!
+  consider the following array:
+```js
+let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
+```
+  2.6 Add a statement that adds Mauro's favorite animal (turtle) to the existing array
+  2.7 Log your new array!
+  2.8 Now add Jim's favorite animal to the array, its a meerkat, but make sure it will be placed after 'blowfish' and before 'capricorn'.
+  2.9 Write a console.log statement that explains in words _you think_ the new value of the array is.
+  2.10 Log your new new array!
+  2.11 Log the length of the array, add a message: "The array has a length of: "(here you should show the length of the array)
+  2.12 Jason does not like giraffes, delete this animal from the array
+  2.13 Again log your new array.
+  2.14 Now if unlike Jim, you don't like meerkats and you want to delete it from the array, but you don't know the position or the `index` of the item in the array, how can you find it?
+  2.15 Log the index of meerkat to the console. Add a message so it says: "The item you are looking for is at index: " (here you should show the index of the item)
+
+## Step 4: Custom DOM manipulation challenge :mortar_board:
 
 1. Open a new js file and start by declaring an array that contains 10 strings. These strings should be of book titles you have read (or made up) and be lowercase without spaces or special characters so that you can use these later as Id's. (Example: Harry Potter's - The Chamber of Secrets -> `harry_potter_chamber_secrets`). 
 
@@ -42,7 +67,7 @@ How to hand in your homework:
 • Place the link to your repository folder in Trello.
 ```
 
-## Step 4: **FreeCodeCamp challenges:**
+## Step 5: **FreeCodeCamp challenges:**
 
 - https://www.freecodecamp.com/challenges/declare-javascript-objects-as-variables
 - https://www.freecodecamp.com/challenges/make-instances-of-objects-with-a-constructor-function

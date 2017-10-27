@@ -310,12 +310,12 @@ More about [logical operators](https://developer.mozilla.org/en-US/docs/Web/Java
 We already mentioned the `typeof` operator:
 
 ```js
-typeof 5 // -> 'number' 
+typeof 5 // -> 'number'
 ```
 
 ### Assignment operators
 
-In addition to the simple asignment operator `=` there are also compound assignment operators such as `+=`. The following two assignments are equivalent:
+In addition to the simple assignment operator `=` there are also compound assignment operators such as `+=`. The following two assignments are equivalent:
 
 ```js
 x += 1;

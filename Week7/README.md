@@ -9,6 +9,13 @@ In week eight we will discuss the following topics:
 
 ### Here are resources that we like you to read as a preparation for the coming lecture:
 
-Some nice resources about map, filter, reduce
-- :dizzy: [Fun fun functional](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84) :dizzy: Check the first 3-4 videos.
-- Wes Bos' awesome free tutorials. Just make a free account and do Array Cardio #1 [here](https://javascript30.com/)
+Some nice resources about promises :ring:
+- [Googles post about Promises](https://developers.google.com/web/fundamentals/getting-started/primers/promises)
+- [A nice article from David Walsh](https://davidwalsh.name/promises)
+- [A real life example](https://github.com/mdn/js-examples/blob/master/promises-test/index.html)
+- [stackoverflow]http://stackoverflow.com/questions/13343340/calling-an-asynchronous-function-within-a-for-loop-in-javascript
+
+- [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+- [Why closures are helpful with async code](http://stackoverflow.com/questions/13343340/calling-an-asynchronous-function-within-a-for-loop-in-javascript)
+
+The last one about [promises](https://www.youtube.com/watch?v=WBupia9oidU)...

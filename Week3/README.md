@@ -15,6 +15,7 @@ In week four we will discuss the following topics:
 
 - [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) (MDN)
 - In you next lecture **Unmesh** will give you your first Git session, please look through the [GIT](https://github.com/HackYourFuture/Gitrepository) and read the learning goals.
+- Chrome DevTools [Debugging](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3) 
 
 ### A Refresher from some previous covered topics:
 
@@ -24,8 +25,10 @@ Links to MDN (Mozilla Developer Network) topics:
 - [Function.prototype.apply()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
 - [Function.prototype.bind()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
 - [Arguments object](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/arguments)
-- [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype)
 - [Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
+
+- If you want to find out more about (mouse) events, check out this resource: https://www.quirksmode.org/js/events_mouse.html
+
 
 _Please go through the material and come to class prepared!_
 

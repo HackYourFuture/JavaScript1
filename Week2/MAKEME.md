@@ -1,6 +1,25 @@
 ## Homework Week 2
 
-### Step 1: JavaScript
+>[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week2/README.md) you find the readings you have to complete before the third lecture.
+
+## Step 1: Recap/Read
+
+- Have a look at [The Secret Life of JavaScript Primitives](https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/)
+- Go through the review of [last week](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md) (Work in progress, update this week :wrench:)
+- Go through the review of [this week](https://github.com/HackYourFuture/JavaScript/blob/master/Week2/REVIEW.md) (work in progress, update this week :nut_and_bolt:)
+
+## Step 2: Watch
+
+1. If you haven't done already, watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro) Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though). 
+2. Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):
+    <br>4. Writing Conditional Code
+    <br>5. Modular Code
+    <br>6. Iteration: Writing Loops
+    <br>7. More About Strings
+    <br>8. Collections
+    <br>11. When Things Go Wrong 
+
+## Step 3: JavaScript
 > For all the following exercises create a new .js file. Try to find a proper name for each file or make a small comment about what it does inside for future reference
 
 1. Create a function that takes 3 arguments and returns the sum of the three arguments.
@@ -26,13 +45,15 @@ if (3 == 3) {
 
 8. How do you get the third element from that list?
 
-9. Change the function `vehicle` to use the list of question 5. So that `vehicle("green", 3, 1)` prints "a green new caravan".
+9. Change the function `vehicle` to use the list of question 4. So that `vehicle("green", 3, 1)` prints "a green new caravan".
 
-10. Use the list of vehicles to write an advertisment. So that it prints something like: `"Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes."`. (Hint: use a `for` loop.)
+10. Use the list of vehicles to write an advertisement. So that it prints something like: `"Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes."`. (Hint: use a `for` loop.)
 
-11. What if you add one more vehicle to the list, can you have that added to the advertisement without changing the code for question 8?
+11. What if you add one more vehicle to the list, can you have that added to the advertisement without changing the code for question 7?
 
-12. Create a function that takes two objects as parameters and compares them. You will actually need to write two functions — one that compares with `==` and one that compares with `===`. Remember that objects can have objects inside of them so you'll need to find a way to compare every element of every object (types and values). For example: 
+12. Create an empty object
+
+13. Create a function that takes two objects as parameters and compares them. You will actually need to write two functions — one that compares with `==` and one that compares with `===`. Remember that objects can have objects inside of them so you'll need to find a way to compare every element of every object (types and values). For example: 
 
 ```js
     var obj1 = {
@@ -56,7 +77,7 @@ if (3 == 3) {
     
     Note: give this exercise your best shot but don’t spend more than, say, one hour on it.
 
-13. We saw that we can pass functions as arguments to other functions. Your task is to write a function that takes another function as an argument and runs it. 
+14. We saw that we can pass functions as arguments to other functions. Your task is to write a function that takes another function as an argument and runs it. 
 
 ```js
     function foo(func) {
@@ -71,7 +92,7 @@ if (3 == 3) {
 ```
 
 
-14. Write some code to test two arrays for equality using `==` and `===`. Test the following:
+15. Write some code to test two arrays for equality using `==` and `===`. Test the following:
     
 ```js
     var x = [1,2,3];
@@ -88,15 +109,8 @@ Check out this [Fiddle](http://jsfiddle.net/jimschubert/85M4z/). You need to ope
 
 More insights from this [Stack Overflow question](http://stackoverflow.com/questions/22395357/how-to-compare-two-arrays-are-equal-using-javascript).
 
-### Step 2: **Some freeCodeCamp challenges:**
 
-1.. [Comparisons with the Logical And Operator](https://www.freecodecamp.com/challenges/comparisons-with-the-logical-and-operator)
-
-2. [Record Collection](https://www.freecodecamp.com/challenges/record-collection)
-
-3. [Iterate over Arrays with map](https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map)
-
-4. We did the following example in class: 
+16. Take a look at the following code: 
 
 ```js
      var o1 = { foo: 'bar' };
@@ -109,8 +123,33 @@ More insights from this [Stack Overflow question](http://stackoverflow.com/quest
     
     Does the order that you assign (`o3 = o2` or `o2 = o3`) matter? {Jim Cramer: ???}
 
-### Some further reading: 
+17. What does the following code return? (And why?)
+```js
+let bar = 42; 
+typeof typeof bar;
+```
 
-Have a look at [The Secret Life of JavaScript Primitives](https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/)
  
 > ‘Coerce' means to try to change - so coercing `var x = '6'` to number means trying to change the type to number temporarily. 
+
+## Step 4: **Finish basic freeCodeCamp challenges:**
+
+Go back to FreeCodeCamp, start where you left of and finish the rest of the Basic JavaScript challenges.
+
+Please make sure you REALLY understand the exercises below:
+- https://www.freecodecamp.com/challenges/multiply-two-decimals-with-javascript
+- https://www.freecodecamp.com/challenges/store-multiple-values-in-one-variable-using-javascript-arrays
+- https://www.freecodecamp.com/challenges/build-javascript-objects
+- https://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object
+- https://www.freecodecamp.com/challenges/delete-properties-from-a-javascript-object
+
+```
+How to hand in your homework:
+• Upload your homework in your "hyf-javascript1" Github repository. Make sure to create a new folder "week2" first. 
+• Upload your homework files inside the week2 folder and write a description for this “commit”.
+• Your hyf-javascript1/week2 should now contain all your homework files.
+• Place the link to your repository folder in Trello.
+```
+
+:star: Additional resources and review: [here](https://github.com/HackYourFuture/JavaScript/tree/master/Week2/REVIEW.md) (work in progress):star:
+

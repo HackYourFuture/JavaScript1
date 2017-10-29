@@ -9,6 +9,11 @@ In week one we will discuss the following topics:
 • Operators
 ```
 
+
+## How to get started
+1. Download and install the latest Current version of NodeJS - from https://nodejs.org/en/download/current/
+To test that it was installed and running properly, go to your terminal and run the command: node -v You should get the node version printed on your terminal, for example, v8.8.0
+
 ### Here are resources that we like you to read as a preparation for the coming lecture:
 
 Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):

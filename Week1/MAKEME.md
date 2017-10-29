@@ -47,7 +47,7 @@ console.log('I'm awesome');
 
 3. Declare a variable `x` and initialize it with an integer.  
    3.1 First, _declare_ your variable `x`.
-<br>   3.2 Add a console.log statement that explains that explains in words what _you think_the value of `x` is, like in this example:
+<br>   3.2 Add a console.log statement that explains that explains in words what _you think_ the value of `x` is, like in this example:
   ```js
   // TODO -> here you initialize your variable
   console.log('the value of my variable x will be: whateverYouThinkItWillLog');
@@ -100,7 +100,7 @@ console.log('I'm awesome');
 <br>    6.7 Log your new array!
 
 7. More strings 
-    7.1 Let's consider the following string: `let myString = "this,is,a,test"`.
+<br>    7.1 Let's consider the following string: `let myString = "this,is,a,test"`.
 <br>    7.2 Add the string to your file and console.log it.
 <br>    7.3 Find a way to get the length of `myString`.
 <br>    7.4 Console.log the length of `myString`.
@@ -116,11 +116,13 @@ console.log('I'm awesome');
 <br>    8.4 Now use `typeof` to log the actual _type_ of your variables.
 <br>    8.5 Now compare the types of your different variables with one another.
 <br>    8.6 Make sure to also show a message when the variables you are comparing are not the same type.
-For example:    
+
+For example:
+
     ```js
     let x = 9;
     let y = 'Hello';
-
+    
     if () {
       console.log('SAME TYPE');
     }

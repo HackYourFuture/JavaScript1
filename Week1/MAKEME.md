@@ -46,7 +46,7 @@ console.log('I'm awesome');
 2.1 Copy the code in your `.js` file and run it. You will see that you will get a SyntaxError. Find a solution for this error, Hint read the error message carefully, it also gives an indication of where the problem is.
 
 3. Declare a variable `x` and initialize it with an integer.  
-<br>   3.1 First, _declare_ your variable `x`.
+   3.1 First, _declare_ your variable `x`.
 <br>   3.2 Add a console.log statement that explains that explains in words what _you think_the value of `x` is, like in this example:
   ```js
   // TODO -> here you initialize your variable
@@ -68,7 +68,7 @@ console.log('I'm awesome');
   ```
 
 4. Declare a variable `y` and assign a string to it.  
-<br>    4.1 Write a console.log statement in which you explain in words what _you think_ the value of the string is
+    4.1 Write a console.log statement in which you explain in words what _you think_ the value of the string is
 <br>    4.2 Now console.log the variable `y`.
 <br>    4.3 Now assign a new string to the variable `y`
 <br>    4.4 Just like you did before write a console.log statement that explains in words what you think will be logged to the console.
@@ -83,7 +83,7 @@ console.log('I'm awesome');
   ```
 
 5. How do you round the number 7.25, to the nearest integer?  
-<br>    5.1 Declare a variable `z` and assign the number 7.25 to it.
+    5.1 Declare a variable `z` and assign the number 7.25 to it.
 <br>    5.2 Console.log `z`.
 <br>    5.3 Declare another variable `a` that has the value of z but rounded to the nearest integer.
 <br>    5.4 Console.log `a`
@@ -91,7 +91,7 @@ console.log('I'm awesome');
 <br>    5.6 Console.log the highest value.
 
 6. Arrays!  
-<br>    6.1 Declare an empty array (you can decide on how to call it yourself, but read on a bit here and see if you can find a good name that exactly describes what this variable will hold).
+    6.1 Declare an empty array (you can decide on how to call it yourself, but read on a bit here and see if you can find a good name that exactly describes what this variable will hold).
 <br>    6.2 Write a console.log statement that explains in words what you think the value of the array is.
 <br>    6.3 Console.log your array.
 <br>    6.4 Create an array that has your favorite animals inside
@@ -100,13 +100,13 @@ console.log('I'm awesome');
 <br>    6.7 Log your new array!
 
 7. More strings 
-<br>    7.1 Let's consider the following string: `let myString = "this,is,a,test"`.
+    7.1 Let's consider the following string: `let myString = "this,is,a,test"`.
 <br>    7.2 Add the string to your file and console.log it.
 <br>    7.3 Find a way to get the length of `myString`.
 <br>    7.4 Console.log the length of `myString`.
 
 8. Write a program that checks the types of two variables and prints out `SAME TYPE` if they are the same type.  
-<br>    8.1 First declare at least four variables and assign them different data types.
+    8.1 First declare at least four variables and assign them different data types.
 <br>    8.2 For each variable write a `console.log` statement that logs the value 
   ```js 
   let foo = 3;
@@ -131,7 +131,7 @@ For example:
      9.1 Add at least 3 `console.log` statements in which you show that you understand what `%` does.
 
 10. Write a program to answer the following questions:  
-<br>    10.1 Can you store multiple types in an array? Numbers and strings?
+    10.1 Can you store multiple types in an array? Numbers and strings?
 <br>    10.2 Can you compare infinities? (Not in Eyad's world) - does 6/0 === 10/0? How can you test this?
 <br>    10.3 Add console.log statements to the above program's in which you show that you understand the concepts (just like you've done in the above assignments).
 

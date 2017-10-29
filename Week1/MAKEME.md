@@ -43,18 +43,18 @@ Write commands to do following:
 ```
 console.log('I'm awesome');
 ```
-⋅⋅2.1 Copy the code in your `.js` file and run it. You will see that you will get a SyntaxError. Find a solution for this error, Hint read the error message carefully, it also gives an indication of where the problem is.
+⋅⋅1. Copy the code in your `.js` file and run it. You will see that you will get a SyntaxError. Find a solution for this error, Hint read the error message carefully, it also gives an indication of where the problem is.
 
 3. Declare a variable `x` and initialize it with an integer.
-⋅⋅3.1 First, _declare_ your variable `x`.
-⋅⋅3.2 Add a console.log statement that explains that explains in words what _you think_the value of `x` is, like in this example:
+⋅⋅1. First, _declare_ your variable `x`.
+⋅⋅2. Add a console.log statement that explains that explains in words what _you think_the value of `x` is, like in this example:
   ```js
   // TODO -> here you initialize your variable
   console.log('the value of my variable x will be: whateverYouThinkItWillLog');
   ```
-⋅⋅3.3 Add a console.log statement that logs the value of `x`
-⋅⋅3.4 Now _initialize_ your variable `x` with an integer
-⋅⋅3.5 Now add a console.log statement that explains what _you think_ the value of `x` is.
+⋅⋅3. Add a console.log statement that logs the value of `x`
+⋅⋅4. Now _initialize_ your variable `x` with an integer
+⋅⋅5. Now add a console.log statement that explains what _you think_ the value of `x` is.
 ⋅⋅3.6 Add a console.log statement that logs the value of `x`.
   Steps to be taken:
   

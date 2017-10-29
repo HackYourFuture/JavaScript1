@@ -117,6 +117,7 @@ console.log('I'm awesome');
 <br>    8.5 Now compare the types of your different variables with one another.
 <br>    8.6 Make sure to also show a message when the variables you are comparing are not the same type.
 <br>    For example:
+
     ```js
     let x = 9;
     let y = 'Hello';

@@ -118,15 +118,15 @@ console.log('I'm awesome');
 <br>    8.6 Make sure to also show a message when the variables you are comparing are not the same type.
 <br>    For example:
 
-    ```js
-    let x = 9;
-    let y = 'Hello';
+```js
+let x = 9;
+let y = 'Hello';
 
-    if () {
-      console.log('SAME TYPE');
-    }
-    // TODO -> add a way of giving feedback if your variables don't have the same type
-    ```
+if () {
+    console.log('SAME TYPE');
+}
+// TODO -> add a way of giving feedback if your variables don't have the same type
+```
 
 9. If `x` equals 7, and the only other statement is `x = x % 3`, what would be the new value of `x`?  
      9.1 Add at least 3 `console.log` statements in which you show that you understand what `%` does.

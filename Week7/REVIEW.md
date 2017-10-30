@@ -1,12 +1,22 @@
 # REVIEW JavaScript week 7
 
+```
+This review covers:
+ • Git Workflow
+ • Map, 
+ • Reduce 
+ • Filter
+```
+
 ## Git Workflow
 
-To be provided
+Please refer to [Tutorial for HackYourFuture Git pull requests and collaboration workflow](https://github.com/HackYourFuture/Git/blob/master/Lecture-3.md)
 
 ## Map, filter, reduce 
 
 The array methods **map()**, **filter()** and **reduce()** are best understood by looking at how they could be implemented if we were to write them ourselves. In the next few sections we will present simplified versions of the native implementations. We have prefixed the method names with `my` to distinguish them from the built-in versions.
+
+Each of the three methods use a `for` loop internally. You will notice that once you start using these methods the need for `for` loops in your own code is greatly reduced (hurray!). 
 
 ### Array#map\*
 
@@ -24,21 +34,51 @@ Array.prototype.myMap = function (mapFn) {
 
 <small>\* Array#map is a short-hand notation for Array.prototype.map.</small>
 
+Because the **map()** method is called on an array (using dot-notation), the value of `this` refers to that array itself (in this review called the _subject_ array). 
+
+Internally, the **map()** method initializes a new, empty array to which it will push transformed elements, one by one, as it iterates through the subject array, calling the `mapFn` function for each individual element. When the loop has been completed, the new array is returned. Note that the subject array itself remains unmodified.
+
+`this[i]` refers to an element of the subject array at loop index 'i' (because `this` is a reference to the subject array).
+
 As you can see, the `mapFn` function is called with three arguments:
 
 1. the current array element to be transformed
 2. the index of the element (starting with `0`)
 3. the subject array itself
 
-As is usual in JavaScript you do not necessarily have to use all the parameters that were passed to the `mapFn` function. In fact, in many cases you will only need the first argument (the current array element).
-
-In the example below we will use the Array#map method to compute the squares of an array of numbers.
+In the example below we will use the Array#map method to create a new array that holds the squares of a subject array of numbers. The mapping function is represented by an ES6 fat arrow function:<br>`num => num * num`
 
 ```js
 const numbers = [3, 5, 2, 7];
 const squares = numbers.map(num => num * num);
 console.log(squares); // -> [9, 25, 4, 49]
 ```
+
+For illustrative purposes we can add a `console.log` statement to our mapping function and see what we get passed as second and third argument:
+
+```js
+const numbers = [3, 5, 2, 7];
+const mapFn = (num, index, arr) => {
+  console.log(num, index, arr);
+  return num * num;
+}
+const squares = numbers.map(mapFn);
+console.log('squares', squares)
+```
+
+Output:
+
+```js
+3 0 [ 3, 5, 2, 7 ]
+5 1 [ 3, 5, 2, 7 ]
+2 2 [ 3, 5, 2, 7 ]
+7 3 [ 3, 5, 2, 7 ]
+squares [ 9, 25, 4, 49 ]
+```
+
+For each of the first four lines in the output (from the `console.log` inside the `for` loop) the first number is the value of the current element, the second number is the current loop index value and the array value is the original subject array.
+
+As is usual in JavaScript you do not necessarily have to use all the parameters that were passed to the `mapFn` function. In fact, in many cases you will only need the first argument (the current array element) as we saw in the first example.
 
 ### Array#filter
 
@@ -58,7 +98,9 @@ Array.prototype.myFilter = function (predicateFn) {
 
 <small>\*A predicate is a function that returns a boolean, whose value depends on its supplied arguments.</small>
 
-Example:
+This method works in a similar fashion as the **map()** method, but now elements are only pushed to the new array if the predicate function returns `true`.
+
+In the example below the predicate function test whether the current element is even by checking whether its value divided by two has a remainder of zero. The result of this comparison (`true` or `false`) is the return value of the predicate and determines whether the current element gets added to the new array or not.
 
 ```js
 const numbers= [6, 3 , 10, 1];
@@ -83,6 +125,20 @@ Array.prototype.myReduce = function (reducerFn, initialValue) {
   return accumulator;
 };
 ```
+
+The key to understanding the **reduce()** method is in the line:
+
+```js
+accumulator = reducerFn(accumulator, this[i], i, this);
+```
+
+In the case we don't need the current loop index and the subject array in the reducer function (which is oftent the case), we can simplify this to:
+
+```js
+accumulator = reducerFn(accumulator, this[i]);
+```
+
+From this line we can define the reducer function as a function that takes an accumulator value and the current array element and returns a new accumulator value.
 
 The whole process is visualised in the figure below (the term _bucket_ was used here to represent the accumulator).
 
@@ -129,7 +185,7 @@ const arr = [
   { gender: 'F', name: 'Lucy' },
   { gender: 'M', name: 'Ferdinand' }
 ];
-const groupedNames = arr.myReduce((acc, elem) => {
+const groupedNames = arr.reduce((acc, elem) => {
   if (acc[elem.gender]) {
     acc[elem.gender].push(elem);
   } else {

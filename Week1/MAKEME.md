@@ -4,14 +4,17 @@
 
 ## Before you start with the homework:
 
-1. Watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro) Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though). 
-2. Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):
+1. Go through the review of [week 1](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md)
+2. Watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro) Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though). 
+3. Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):
     0. Introduction
     1. Programming Basics
     2. Core Programming Syntax 
     3. Variables and Data Types
 
 ## Step 1: Command Line
+
+_Deadline Tuesday_
 
 >We covered a bit of command line usage in the first class and got a program running which is great. If you need a refresher for the command line please have a look here: https://github.com/HackYourFuture/CommandLine
 
@@ -33,7 +36,15 @@ Write commands to do following:
 ```
 
 
-## Step 2: JavaScript
+## Step 2: Feedback
+
+_Deadline Wednesday_
+
+Provide feedback on the HTML-CSS assignments (week 3) of one of your fellow students. You will be assigned to one of the assignments by the class lead of this week.
+
+## Step 3: JavaScript
+
+_Deadline Thursday_
 
 > For all the following exercises create a new .js file. Try to find a proper name for each file or make a small comment about what it does inside for future reference. All these 
 
@@ -136,7 +147,9 @@ if () {
 <br>    10.2 Can you compare infinities? (Not in Eyad's world) - does 6/0 === 10/0? How can you test this?
 <br>    10.3 Add console.log statements to the above program's in which you show that you understand the concepts (just like you've done in the above assignments).
 
-### Step 3: **Some freeCodeCamp challenges (10 hours):**
+### Step 4: **Some freeCodeCamp challenges (10 hours):**
+
+Deadline Saturday_
 
 On freeCodeCamp.com please do the [Basic JavaScript](https://www.freecodecamp.com/challenges/learn-how-free-code-camp-works) exercises up and until the __"Shopping List"__ exercise (there are some topics we did not cover but you can do it).
 

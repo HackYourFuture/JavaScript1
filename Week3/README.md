@@ -29,6 +29,11 @@ Links to MDN (Mozilla Developer Network) topics:
 
 - If you want to find out more about (mouse) events, check out this resource: https://www.quirksmode.org/js/events_mouse.html
 
+### Review
+- Go through the review of [week 1](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md)
+- Go through the review of [week 2](https://github.com/HackYourFuture/JavaScript/blob/master/Week2/REVIEW.md)
+- Go through the review of [week 3](https://github.com/HackYourFuture/JavaScript/blob/master/Week3/REVIEW.md)
+<!-- - Go through the review of [week 4](https://github.com/HackYourFuture/JavaScript/blob/master/Week4/REVIEW.md) -->
 
 _Please go through the material and come to class prepared!_
 

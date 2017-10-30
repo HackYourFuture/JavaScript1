@@ -9,6 +9,8 @@
 
 ## Step 1: Implement feedback
 
+_Deadline Monday_
+
 Your fellow students have provided you with feedback in Trello. Your teachers have provided you with feedback in issues in Github. 
 
 - Implement both feedback from Trello and Github.
@@ -16,9 +18,13 @@ Your fellow students have provided you with feedback in Trello. Your teachers ha
 
 ## Step 2: Reorganize your Github 
 
+_Deadline Monday_
+
 Your Github should contain two repositories called hyf-javascript1 and hyf-commandline . Inside the JavaScript repository you should have three folders, called week1, week2, and week3 (or something similar). Inside these folders you should have the different assignments (a file per exercises). Ty and find proper names for the exercises that reflect somehow what is going on in the code. Avoid using spaces in your file names, this makes it harder to "run" you files. Also make sure that all your JavaScript files have a `.js` extension.
 
 ## Step 3: String and Array challenges
+
+_Deadline Wednesday_ 
 
 1. Strings!
   1.1 Let's consider the following string: `let myString = "hello,this,is,a,difficult,to,read,sentence"`
@@ -45,6 +51,8 @@ let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
 
 ## Step 4: Custom DOM manipulation challenge :mortar_board:
 
+_Deadline Saturday_
+
 1. Open a new js file and start by declaring an array that contains 10 strings. These strings should be of book titles you have read (or made up) and be lowercase without spaces or special characters so that you can use these later as Id's. (Example: Harry Potter's - The Chamber of Secrets -> `harry_potter_chamber_secrets`). 
 
 2. Create a basic html file called index.html and use it to load the js file, confirm the console.log show the array. (This is for debugging and making sure everything is in order. Delete it later when you're done :))
@@ -68,6 +76,8 @@ How to hand in your homework:
 ```
 
 ## Step 5: **FreeCodeCamp challenges:**
+
+_Deadline Saturday_
 
 - https://www.freecodecamp.com/challenges/declare-javascript-objects-as-variables
 - https://www.freecodecamp.com/challenges/make-instances-of-objects-with-a-constructor-function

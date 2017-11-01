@@ -2,10 +2,13 @@
 
 >[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week3/README.md) you find the readings you have to complete before the fourth lecture.
 
+Go here to see the [Git Homework](https://github.com/HackYourFuture/Git/blob/master/Lecture-1.md)
+
 ## Step 0 review:
 - Go through the review of [the first week](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md) (Work in progress, update this week :wrench:)
 - Go through the review of [the second week](https://github.com/HackYourFuture/JavaScript/blob/master/Week2/REVIEW.md) (work in progress, update this week :nut_and_bolt:)
 - Go through the review of [the third week](https://github.com/HackYourFuture/JavaScript/blob/master/Week3/REVIEW.md) 
+
 
 ## Step 1: Implement feedback
 

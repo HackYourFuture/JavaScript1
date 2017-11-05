@@ -30,7 +30,7 @@ Provide feedback to step 1 and step 3 of the homework of last week to one of you
 Go and try out this cool game: http://hyf-robot.herokuapp.com/index.html, there are different levels, see how far you can get! 
 
 
-## Step 3: JavaScript
+## Step 4: JavaScript
 
 _Deadline Thursday_
 
@@ -153,7 +153,7 @@ typeof typeof bar;
  
 > ‘Coerce' means to try to change - so coercing `var x = '6'` to number means trying to change the type to number temporarily. 
 
-## Step 4: **Finish basic freeCodeCamp challenges:**
+## Step 5: **Finish basic freeCodeCamp challenges:**
 
 _Deadline Saturday_
 

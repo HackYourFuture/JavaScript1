@@ -19,7 +19,7 @@
 2. What will be the output of the following code - and more importantly - WHY? 
 
 ```js
-for (let i = 0; i < 3; i++) {
+for (var i = 0; i < 3; i++) {
       setTimeout(function() { alert(i); }, 1000 + i);
 }
 ```

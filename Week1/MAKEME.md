@@ -114,7 +114,8 @@ console.log('I'm awesome');
 <br>    6.3 Console.log your array.
 <br>    6.4 Create an array that has your favorite animals inside
 <br>    6.5 Log your array
-<br>    6.6 Add a statement that adds Daan's favorite animal (baby pig) to the existing array
+<br>    6.6 Add a statement that adds Daan's favorite animal (baby pig) to the *existing array*
+
 <br>    6.7 Log your new array!
 
 7. More strings 
@@ -150,7 +151,7 @@ if () {
      9.1 Add at least 3 `console.log` statements in which you show that you understand what `%` does.
 
 10. Write a program to answer the following questions:  
-    10.1 Can you store multiple types in an array? Numbers and strings?
+    10.1 Can you store multiple types in an array? Numbers and strings? Make an example that illustrates your answer.
 <br>    10.2 Can you compare infinities? (Not in Eyad's world) - does 6/0 === 10/0? How can you test this?
 <br>    10.3 Add console.log statements to the above program's in which you show that you understand the concepts (just like you've done in the above assignments).
 

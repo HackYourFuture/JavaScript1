@@ -2,6 +2,12 @@
 
 >[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week2/README.md) you find the readings you have to complete before the third lecture.
 
+## Step 0: Feedback
+
+_Deadline Monday_
+
+Provide feedback to step 1 and step 3 of the homework of last week to one of your fellow students. You will be assigned to one of the assignments by the class lead of this week.
+
 ## Step 1: Recap/Read
 
 - Have a look at [The Secret Life of JavaScript Primitives](https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/)
@@ -19,12 +25,23 @@
     <br>8. Collections
     <br>11. When Things Go Wrong 
 
+## Step 3: Rover the Robot 
+
+Go and try out this cool game: http://hyf-robot.herokuapp.com/index.html, there are different levels, see how far you can get! 
+
+
 ## Step 3: JavaScript
+
+_Deadline Thursday_
+
 > For all the following exercises create a new .js file. Try to find a proper name for each file or make a small comment about what it does inside for future reference
+
+*IMPORTANT NOTE*
+In each assignment write at least two `console.log` statements to verify if your code works correctly. In other words proof that you code works as expected. If you need inspiration look at the steps defined in the assignments from last week.
 
 1. Create a function that takes 3 arguments and returns the sum of the three arguments.
 
-2. Create a function named `colorCar` that receives a color, and prints out, "a red car" for example. (Hint: put it in your file and run it like before.)
+2. Create a function named `colorCar` that receives a color, and prints out, "a red car" for example.
 
 3. Create an object and a function that takes the object as a parameter and prints out all of its names and values.
 
@@ -53,10 +70,14 @@ if (3 == 3) {
 
 12. Create an empty object
 
-13. Create a function that takes two objects as parameters and compares them. You will actually need to write two functions — one that compares with `==` and one that compares with `===`. Remember that objects can have objects inside of them so you'll need to find a way to compare every element of every object (types and values). For example: 
+13. Create an object that contains the teachers that you have had so far for the different modules.
+
+14. Add a property to the object you just created that contains the languages that they have taught you.
+
+<!-- 13. Create a function that takes two objects as parameters and compares them. You will actually need to write two functions — one that compares with `==` and one that compares with `===`. Remember that objects can have objects inside of them so you'll need to find a way to compare every element of every object (types and values). For example: 
 
 ```js
-    var obj1 = {
+    let obj1 = {
         a: 1, 
         b: 'this is the letter b', 
         c: { foo: 'what is a foo anyway', 
@@ -64,7 +85,7 @@ if (3 == 3) {
         }
     }
     
-    var obj2 = {
+    let obj2 = {
         a: '1', 
         b: 'this is the letter b', 
         c: { foo: 'what is a foo anyway', 
@@ -76,8 +97,8 @@ if (3 == 3) {
     In our example we'll say that `obj1 == obj2` is `true` and `obj1 === obj2` is `false`. Make sure you can see why before you write any code!
     
     Note: give this exercise your best shot but don’t spend more than, say, one hour on it.
-
-14. We saw that we can pass functions as arguments to other functions. Your task is to write a function that takes another function as an argument and runs it. 
+ -->
+15. We saw that we can pass functions as arguments to other functions. Your task is to write a function that takes another function as an argument and runs it. 
 
 ```js
     function foo(func) {
@@ -92,12 +113,12 @@ if (3 == 3) {
 ```
 
 
-15. Write some code to test two arrays for equality using `==` and `===`. Test the following:
+16. Write some code to test two arrays for equality using `==` and `===`. Test the following:
     
 ```js
-    var x = [1,2,3];
-    var y = [1,2,3];
-    var z = y;
+    let x = [1,2,3];
+    let y = [1,2,3];
+    let z = y;
 ```
 
 What do you think will happen with `x == y`, `x === y` and `z == y` and `z == x`? Prove it!
@@ -110,20 +131,20 @@ Check out this [Fiddle](http://jsfiddle.net/jimschubert/85M4z/). You need to ope
 More insights from this [Stack Overflow question](http://stackoverflow.com/questions/22395357/how-to-compare-two-arrays-are-equal-using-javascript).
 
 
-16. Take a look at the following code: 
+17. Take a look at the following code: 
 
 ```js
-     var o1 = { foo: 'bar' };
-     var o2 = { foo: 'bar' };
-     var o3 = o2;
+     let o1 = { foo: 'bar' };
+     let o2 = { foo: 'bar' };
+     let o3 = o2;
 
 ```
 
-    Show that changing `o2` changes `o3` (or not) and changing ~~`o2` changes `o3`~~ `o1` changes `o3`(or not). 
+Show that changing `o2` changes `o3` (or not) and changing ~~`o2` changes `o3`~~ `o1` changes `o3`(or not). 
     
-    Does the order that you assign (`o3 = o2` or `o2 = o3`) matter? {Jim Cramer: ???}
+Does the order that you assign (`o3 = o2` or `o2 = o3`) matter? {Jim Cramer: ???}
 
-17. What does the following code return? (And why?)
+18. What does the following code return? (And why?)
 ```js
 let bar = 42; 
 typeof typeof bar;
@@ -133,6 +154,8 @@ typeof typeof bar;
 > ‘Coerce' means to try to change - so coercing `var x = '6'` to number means trying to change the type to number temporarily. 
 
 ## Step 4: **Finish basic freeCodeCamp challenges:**
+
+_Deadline Saturday_
 
 Go back to FreeCodeCamp, start where you left of and finish the rest of the Basic JavaScript challenges.
 

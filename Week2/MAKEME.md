@@ -48,13 +48,14 @@ In each assignment write at least two `console.log` statements to verify if your
 4. Create a function named `vehicleType` that receives a color, and a code, 1 for car, 2 for motorbike. And prints "a blue motorbike" for example when called as `vehicleType("blue", 2)`
 
 5. Can you write the following without the `if` statement, but with just as a single line with `console.log(...);`?
-```js
-if (3 == 3) {
-    console.log("true")
-} else {
-    console.log("false")
-}
-```
+
+    ```js
+    if (3 === 3) {
+        console.log("true")
+    } else {
+        console.log("false")
+    }
+    ```
 
 6. Create a function called `vehicle`, like before, but takes another parameter called age, so that `vehicle("blue", 1, 5)` prints "a blue used car"
 
@@ -62,93 +63,70 @@ if (3 == 3) {
 
 8. How do you get the third element from that list?
 
-9. Change the function `vehicle` to use the list of question 4. So that `vehicle("green", 3, 1)` prints "a green new caravan".
+9. Change the function `vehicle` to use the list of question 7. So that `vehicle("green", 3, 1)` prints "a green new caravan".
 
 10. Use the list of vehicles to write an advertisement. So that it prints something like: `"Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes."`. (Hint: use a `for` loop.)
 
-11. What if you add one more vehicle to the list, can you have that added to the advertisement without changing the code for question 7?
+11. What if you add one more vehicle to the list, can you have that added to the advertisement without changing the code for question 10?
 
-12. Create an empty object
+12. Create an empty object.
 
 13. Create an object that contains the teachers that you have had so far for the different modules.
 
 14. Add a property to the object you just created that contains the languages that they have taught you.
 
-<!-- 13. Create a function that takes two objects as parameters and compares them. You will actually need to write two functions — one that compares with `==` and one that compares with `===`. Remember that objects can have objects inside of them so you'll need to find a way to compare every element of every object (types and values). For example: 
-
-```js
-    let obj1 = {
-        a: 1, 
-        b: 'this is the letter b', 
-        c: { foo: 'what is a foo anyway', 
-             bar: [1,2,3,4]
-        }
-    }
-    
-    let obj2 = {
-        a: '1', 
-        b: 'this is the letter b', 
-        c: { foo: 'what is a foo anyway', 
-             bar: [1,2,3,4]
-        }
-    }
-```
-
-    In our example we'll say that `obj1 == obj2` is `true` and `obj1 === obj2` is `false`. Make sure you can see why before you write any code!
-    
-    Note: give this exercise your best shot but don’t spend more than, say, one hour on it.
- -->
 15. We saw that we can pass functions as arguments to other functions. Your task is to write a function that takes another function as an argument and runs it. 
 
-```js
-    function foo(func) {
-        // What to do here? 
-    }
-    
-    function bar() {
-        console.log('Hello, I am bar!');
-    }
-    
-    foo(bar);
-```
+    ```js
+        function foo(func) {
+            // What to do here? 
+        }
+        
+        function bar() {
+            console.log('Hello, I am bar!');
+        }
+        
+        foo(bar);
+    ```
 
 
 16. Write some code to test two arrays for equality using `==` and `===`. Test the following:
     
-```js
-    let x = [1,2,3];
-    let y = [1,2,3];
-    let z = y;
-```
+    ```js
+        let x = [1,2,3];
+        let y = [1,2,3];
+        let z = y;
+    ```
 
-What do you think will happen with `x == y`, `x === y` and `z == y` and `z == x`? Prove it!
-    
-> Don't cheat! Seriously - try it first.
-    
+    What do you think will happen with `x == y`, `x === y` and `z == y` and `z == x`? Prove it!
+        
+    > Don't cheat! Seriously - try it first.
+        
 
-Check out this [Fiddle](http://jsfiddle.net/jimschubert/85M4z/). You need to open your browser’s Developer Tools to see the console output. Press the Run button in the upper right corner to run the code.
+    Check out this [Fiddle](http://jsfiddle.net/jimschubert/85M4z/). You need to open your browser’s Developer Tools to see the console output. Press the Run button in the upper right corner to run the code.
 
-More insights from this [Stack Overflow question](http://stackoverflow.com/questions/22395357/how-to-compare-two-arrays-are-equal-using-javascript).
+    More insights from this [Stack Overflow question](http://stackoverflow.com/questions/22395357/how-to-compare-two-arrays-are-equal-using-javascript).
 
 
 17. Take a look at the following code: 
 
-```js
-     let o1 = { foo: 'bar' };
-     let o2 = { foo: 'bar' };
-     let o3 = o2;
+    ```js
+         let o1 = { foo: 'bar' };
+         let o2 = { foo: 'bar' };
+         let o3 = o2;
 
-```
+    ```
 
-Show that changing `o2` changes `o3` (or not) and changing ~~`o2` changes `o3`~~ `o1` changes `o3`(or not). 
-    
-Does the order that you assign (`o3 = o2` or `o2 = o3`) matter? {Jim Cramer: ???}
+    Show that changing `o2` changes `o3` (or not) and changing `o1` changes `o3`(or not). 
+        
+    Does the order that you assign (`o3 = o2` or `o2 = o3`) matter?
 
 18. What does the following code return? (And why?)
-```js
-let bar = 42; 
-typeof typeof bar;
-```
+
+    ```js
+    let bar = 42; 
+    typeof typeof bar;
+    ```
 
  
 > ‘Coerce' means to try to change - so coercing `var x = '6'` to number means trying to change the type to number temporarily. 
@@ -176,3 +154,27 @@ How to hand in your homework:
 
 :star: Additional resources and review: [here](https://github.com/HackYourFuture/JavaScript/tree/master/Week2/REVIEW.md) (work in progress):star:
 
+<!-- 13. Create a function that takes two objects as parameters and compares them. You will actually need to write two functions — one that compares with `==` and one that compares with `===`. Remember that objects can have objects inside of them so you'll need to find a way to compare every element of every object (types and values). For example: 
+
+```js
+    let obj1 = {
+        a: 1, 
+        b: 'this is the letter b', 
+        c: { foo: 'what is a foo anyway', 
+             bar: [1,2,3,4]
+        }
+    }
+    
+    let obj2 = {
+        a: '1', 
+        b: 'this is the letter b', 
+        c: { foo: 'what is a foo anyway', 
+             bar: [1,2,3,4]
+        }
+    }
+```
+
+    In our example we'll say that `obj1 == obj2` is `true` and `obj1 === obj2` is `false`. Make sure you can see why before you write any code!
+    
+    Note: give this exercise your best shot but don’t spend more than, say, one hour on it.
+ -->

@@ -7,7 +7,7 @@
 Here you can find course content and homework for the JavaScript 1,2 and 3 modules
 
 |Week|Topic|Read|Homework|Review|
-|••••|•••••|••••|••••••••|••••••|
+|----|-----|----|--------|------|
 |0.|Preparation for your first JavaScript session|[Pre•reading](https://github.com/HackYourFuture/JavaScript/tree/master/Week0) + [CLI Reading Week 1](https://github.com/HackYourFuture/CommandLine/blob/master/Lecture•1.md)|•|
 |1.|• [CLI](https://github.com/HackYourFuture/CommandLine) session with Unmesh :heart: <br>• Intro JavaScript (What is it, where can you use it for)<br>• Variables [var, let, const]<br>• Basic Data types [Strings, Numbers, Arrays, Booleans]<br>• Operators|[Reading Week 1](https://github.com/HackYourFuture/JavaScript/tree/master/Week1/README.md) | [Homework Week 1](https://github.com/HackYourFuture/JavaScript/tree/master/Week1/MAKEME.md)|[Review](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md)|
 |2.|• [CLI](https://github.com/HackYourFuture/CommandLine) session with Unmesh :balloon: <br>• Advanced data types [Objects] <br>• Conditions <br>• Statements vs Expressions<br> • Loops (for/while)<br>• Functions <br>• Naming conventions|[Reading Week 2](https://github.com/HackYourFuture/JavaScript/tree/master/Week2/README.md)|[Homework Week 2](https://github.com/HackYourFuture/JavaScript/tree/master/Week2/MAKEME.md)|[Review](https://github.com/HackYourFuture/JavaScript/blob/master/Week2/REVIEW.md)|

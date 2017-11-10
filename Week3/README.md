@@ -13,7 +13,6 @@ In week four we will discuss the following topics:
 
 ### Here are resources that we like you to read as a preparation for the coming lecture. 
 
-- [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) (MDN)
 - In you next lecture **Unmesh** will give you your first Git session, please look through the [GIT](https://github.com/HackYourFuture/Gitrepository) and read the learning goals.
 - Chrome DevTools [Debugging](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3) 
 

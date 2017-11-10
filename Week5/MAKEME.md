@@ -5,111 +5,103 @@
 ### Step 0
 All share a video or a resource (this can be a drawing, article or a pod cast) that was helpful for you the last few weeks with learning JavaScript. Please share this in the channel of your class in Slack. Also write as small note about what the resource i about and why you think it's so helpful (you can share more than one if you like).
 
-### Step 1
+## Step 2: More map, filter, reduce, and =>
 
-1. We learned a little bit about callbacks in JS. A callback is simply a function passed to another function that gets executed (run) after a potentially long running operation has completed. There is another function called `setTimeout` that will wait a specified period of time and then execute a function. For example: 
+1. Say you would like to write a program that doubles the odd numbers in an array and throws away the even number.
 
-    ```js
-    function doIt() {
-        console.log('I am done');
-    }
-    setTimeout(doIt, 5000)
-    ```
-    If you run the above code it will wait 5 seconds and print `I am done`. Please read something about setTimeout on MDN. The first argument to the `setTimeout` call is the callback (`doIt`)
-
-    You must write a function that takes 4 arguments.
-    - A start value 
-    - An end value
-    - A callback to call if the number is divisible by 3 
-    - A callback to use if the number is divisible by 5
-
-    The function should generate an array containing values from start value to end value (inclusive). 
-
-    Then the function should iterate over the array and call the second argument if the array value is divisible by 3
-
-    The function should call the second argument if the array value is divisible by 5 
-
-    Both functions should be called if the array value is divisible by both 3 and 5
-
-    ```js
-    THIS IS FAKE CODE 
-    function threeFive(startIndex, stopIndex, threeCallback, fiveCallback) {
-       // make array 
-       // start at beginning of array and check if you should call threeCallback or fiveCallback or go on to next  
-    }
-    threeFive(10, 15, sayThree, sayFive);
-
-    // Should create an array [10,11,12,13,14,15]
-    // and call sayFive, sayThree, sayThree, sayFive  - please make sure you see why these calls are made before you start coding
-    ```
-
-
-2. Please solve this problem using:
-https://www.freecodecamp.com/challenges/repeat-a-string-repeat-a-string
- 1. A for loop
- 2. A while loop
- 3. A do loop
-
-3. Some practice with objects 
-https://www.freecodecamp.com/challenges/construct-javascript-objects-with-functions
-
-4. Nested loops 
-https://www.freecodecamp.com/challenges/nesting-for-loops
-
-5. We did some work with arrays - `var arr = [1,2,3]`
-We can also nest arrays inside arrays like this `var arr2d = [[1,2], [3,4], [5,6]]` (for math people you can think of this as a matrix)
-How would you print all the items of an array with 3 dimensions? 
-How about with K dimensions? 
-What if you didn't know how deep the array was nested? (You don't have to write code for this but think about it)
-
-6. Here are two functions that look like they do the something similar but they print different results. Please explain what's going on here.
-
+Your solution could be something like this:
 ```js
-var x = 9; 
-function f1(val) { 
-    val = val+1; 
-    return val;
-}
-f1(x);
-console.log(x);
+let numbers = [1, 2, 3, 4];
+let newNumbers = [];
 
-
-var y = { x: 9 };
-function f2(val) {
-    val.x = val.x + 1;
-    return val;
+for(let i = 0; i < numbers.length; i++) {
+    if(numbers[i] % 2 !== 0) {
+        newNumbers[i] = numbers[i] * 2;
+    }
 }
-f2(y);
-console.log(y);
+
+console.log("The doubled numbers are", newNumbers); // [2, 6]
+
 ```
-If you are confused please run the code and then consult the Google for "javaScript pass by value pass by reference"
+
+rewrite the above program using `map` and `filter` don't forget to use `=>`
+
+2. Use the array of the previous assignment, write a program that add the even numbers to the resulting array twice, but the odd numbers only once. Don't forget to use `=>`.
+
+Your output should be:
+```js
+console.log("The final numbers are", newNumbers);// [1, 2, 2, 3, 4, 4]
+```
+
+Underneath you see a very interesting small insight in Maartje's work:
+```js
+let monday = [
+        {
+            name     : 'Write a summary HTML/CSS',
+            duration : 180
+        },
+        {
+            name     : 'Some web development',
+            duration : 120
+        },
+        {
+            name     : 'Fix homework for class10',
+            duration : 20
+        },
+        {
+            name     : 'Talk to a lot of people',
+            duration : 200
+        }
+    ];
+ 
+let tuesday = [
+        {
+            name     : 'Keep writing summery',
+            duration : 240
+        },
+        {
+            name     : 'Some more web development',
+            duration : 180
+        },
+        {
+            name     : 'Staring out the window',
+            duration  : 10
+        },
+        {
+            name     : 'Talk to a lot of people',
+            duration : 200
+        },
+        {
+            name     : 'Look at application assignments new students',
+            duration : 40
+        }
+    ];
+     
+let tasks = [monday, tuesday];
+```
+
+3. Write a program that does the following:
+
+- Collect two days' worth of tasks.
+- Convert the task durations to hours, instead of minutes.
+- Filter out everything that took two hours or more.
+- Sum it all up.
+- Multiply the result by a per-hour rate for billing (you can decide yourself what Maartje should make per hour).
+- Output a formatted Euro amount.
+- Don't forget to use `=>`
+
+<!-- Change this into more fun data challenge -->
+<!-- ## Step 2: Custom challenge 
+1. Go to https://api.github.com/orgs/HackYourFuture/repos, you will see a list of the repositories our HYF organization has (yes it's a lot of JSON).
+2. You can copy the JSON and put it in a string at the top of your `.js` file. Print the name of the 3rd repository in the array to the console.
+3. Make a `<ul>` with a `<li>` for each repository name (just like you did with the books in the previous assignment).
+4. It should only display the modules that are actually being used in the curriculum at the moment, you of course know which those are, but if you need a reminder you can find them in our [curriculum overview](https://github.com/HackYourFuture/curriculum).
+5. Use CSS to divide the page in two columns. The left column will have a list of the names for repository. The right column should have the following information about each repository: the number of `stargazers`, the number of `watchers`, the number of `forks`, the `language` of the repository.
+6. place the `avatar_url` (logo) of our organization somewhere on a nice place in your page. -->
+
 
 ### Step 2: Feedback
 Give feedback on step 2 of the homework to one of your fellow classmates.
-
-### Step 3: Homework for JavaScript
-
-Make a website that fetches (= to get) data asynchronously.
-
-1) Create a new website with external js file
-
-2) Add a button (e.g. 'click me') that when clicked `console.logs` 'you clicked me!'
-
-3) Create a function that fetches from [The Github API](https://developer.github.com/v3/). For example from [this page] (https://api.github.com/orgs/HackYourFuture/repos) (the one we used last week). For help on this check this [SO post](https://stackoverflow.com/questions/247483/http-get-request-in-javascript)
-
-4) Display the data that you get from the Github API on your web page.
-
-5) Now link the two together: When you click the button -> get the data from the Github API and display it on your website
-
-6) Make all the repositories link their own page in Github. Use the value of the key: `name` to make this work (hint: Github urls always look like this https://api.github.com/repos/HackYourFuture/[repositoryName] where [repositoryName] would be replaced by the actual `name` of the repository, for example `CommandLine`). Make sure the link opens in a new tab.
-
-7) BONUS: if you look at this:
-
-```js
-https://api.github.com/repos/HackYourFuture/CommandLine
-```
-
-You can see `CommandLine` in the URL. These are called "query parameters" and let us specify in detail what we want from the API. Play around with this. For example you can make two buttons that either get data for a specific repository, JavaScript or Node.js. Or go even more crazy and make users type in a search box 'JavaScript' and then send that to the API by changing the repository.
 
 ```
 How to hand in your homework:

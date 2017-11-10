@@ -2,6 +2,14 @@
 
 ```
 In week three we will discuss the following topics:
+- Capturing user input
+- Basic DOM manipulations [img src, innerHTML]
+- Code debugging using the browser
+- Code commenting
+- Structuring code files
+
+
+
 • CLI (Command Line Interface)
 • Closures 
 • Scope
@@ -12,8 +20,6 @@ In week three we will discuss the following topics:
 
 ### Here are resources that we like you to read as a preparation for the coming lecture. 
 
-- [Closures](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
-- [MDN Closures](https://developer.mozilla.org/en/docs/Web/JavaScript/Closures)
 - [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype)
 
 

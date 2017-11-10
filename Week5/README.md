@@ -11,6 +11,11 @@ In week six we will discuss the following topics:
 
 ### Here are resources that we like you to read as a preparation for the coming lecture:
 
+#### Closures
+- [Closures](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
+- [MDN Closures](https://developer.mozilla.org/en/docs/Web/JavaScript/Closures)
+
+
 - Read about Asynchronous vs. Synchronous programming: http://www.hongkiat.com/blog/synchronous-asynchronous-javascript/
 -  [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailnamespacing) up to and including chapter 3
 - [Polling](https://davidwalsh.name/javascript-polling) 

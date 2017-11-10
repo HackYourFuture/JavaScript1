@@ -1,3 +1,5 @@
+*Please note: this is the JavaScript planning/curriculum that was used at HackYourFuture Amsterdam until 10 November 2017. We now use a different planning which can be found in the mater branch.**
+
 >Please help us improve and share your feedback! If you find better tutorials or links, please share them by opening a Pull Request.
 
 # HackYourJavaScript

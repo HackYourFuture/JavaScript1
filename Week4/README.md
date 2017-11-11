@@ -5,11 +5,11 @@
 
 ```
 In week five we will discuss the following topics:
-• First Git Session
-• Events
-• Callbacks
-• XHTTP Requests
-• API calls
+• Functions + JSON/Arrays
+• Array Manipulations
+• JSON
+• Map and filter
+• Arrow functions
 ```
 
 ### Here are resources that we like you to read as a preparation for the coming lecture. 

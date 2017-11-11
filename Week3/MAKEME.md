@@ -4,8 +4,8 @@
 
 
 ## Step 0 review:
-- Go through the review of [the first week](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md) (Work in progress, update this week :wrench:)
-- Go through the review of [the second week](https://github.com/HackYourFuture/JavaScript/blob/master/Week2/REVIEW.md) (work in progress, update this week :nut_and_bolt:)
+- Go through the review of [the first week](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md)
+- Go through the review of [the second week](https://github.com/HackYourFuture/JavaScript/blob/master/Week2/REVIEW.md) 
 - Go through the review of [the third week](https://github.com/HackYourFuture/JavaScript/blob/master/Week3/REVIEW.md) 
 
 
@@ -13,7 +13,7 @@
 
 _Deadline Monday_
 
-Your fellow students have provided you with feedback in Trello. Your teachers have provided you with feedback in issues in Github. 
+Your fellow students have provided you with feedback in Trello. 
 
 - Implement both feedback from Trello and Github.
 - Check on one of your fellow students code and issues and see if her or she implemented their feedback correctly. If there are some things that can be improved make an issue suggesting further improvements. If you think that the feedback has been implemented correctly create a issue saying something like: "nice work you can clear your issues".
@@ -22,7 +22,7 @@ Your fellow students have provided you with feedback in Trello. Your teachers ha
 
 _Deadline Monday_
 
-Your Github should contain two repositories called hyf-javascript1 and hyf-commandline. Inside the JavaScript repository you should have three folders, called week1, week2, and week3 (or something similar). Inside these folders you should have the different assignments (a file per exercises). Ty and find proper names for the exercises that reflect somehow what is going on in the code. Avoid using spaces in your file names, this makes it harder to "run" you files. Also make sure that all your JavaScript files have a `.js` extension.
+Your Github should contain two repositories called hyf-javascript1 and hyf-commandline. Inside the JavaScript repository you should have three folders, called week1, week2, and week3 (or something similar). Inside these folders you should have the different assignments (a file per exercises). Try and find proper names for the exercises that reflect somehow what is going on in the code. Avoid using spaces in your file names, this makes it harder to "run" you files. Also make sure that all your JavaScript files have a `.js` extension.
 
 ## Step 3: String and Array challenges
 

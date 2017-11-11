@@ -3,12 +3,7 @@
 ```
 In week four we will discuss the following topics:
 • Git
-• JSON
-• Code debugging using the browser
-• Functions + JSON/Arrays
-• Code flow (order of execution)
-• (capturing user input)
-• Structuring code files
+
 ```
 
 ### Here are resources that we like you to read as a preparation for the coming lecture. 

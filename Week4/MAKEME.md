@@ -5,11 +5,21 @@
 ## Step 0: 
 Give yourself (or your neighbor) a little tap on the shoulder, you've made it to JS2! :muscle:
 
-## Step 1: Feedback
+### Step 1
+
+_Deadline Monday_
+
+All share a video or a resource (this can be a drawing, article or a pod cast) that was helpful for you the last few weeks with learning JavaScript. Please share this in the channel of your class in Slack. Also write as small note about what the resource i about and why you think it's so helpful (you can share more than one if you like).
+
+## Step 2: Feedback
+
+_Deadline Monday_
 
 Give one of your fellow students in Github feedback about their homework of the previous week: create an issue in their repo, telling them what they did great and what they can improve.
 
-### Step 2: Git branching homework
+### Step 3: Git branching homework
+
+_Deadline Wednesday_
 
 1) Use the `unmeshvrije/MyFirst` repository (the one you cloned) for this homework.
 

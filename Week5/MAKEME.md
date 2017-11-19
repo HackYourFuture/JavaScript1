@@ -2,8 +2,9 @@
 
 >[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week5/README.md) you find the readings you have to complete before the sixth lecture.
 
-### Step 0
-All share a video or a resource (this can be a drawing, article or a pod cast) that was helpful for you the last few weeks with learning JavaScript. Please share this in the channel of your class in Slack. Also write as small note about what the resource i about and why you think it's so helpful (you can share more than one if you like).
+## Step1: Feedback
+
+>Todo
 
 ## Step 2: More map, filter, reduce, and =>
 
@@ -99,9 +100,6 @@ let tasks = [monday, tuesday];
 5. Use CSS to divide the page in two columns. The left column will have a list of the names for repository. The right column should have the following information about each repository: the number of `stargazers`, the number of `watchers`, the number of `forks`, the `language` of the repository.
 6. place the `avatar_url` (logo) of our organization somewhere on a nice place in your page. -->
 
-
-### Step 2: Feedback
-Give feedback on step 2 of the homework to one of your fellow classmates.
 
 ```
 How to hand in your homework:

@@ -7,7 +7,7 @@ Give yourself (or your neighbor) a little tap on the shoulder, you've made it to
 
 ## Step 1: Feedback
 
-Give one of you fellow students in Github feedback about their homework of the previous week: create an issue in their repo, telling them what they did great and what they can improve.
+Give one of your fellow students in Github feedback about their homework of the previous week: create an issue in their repo, telling them what they did great and what they can improve.
 
 ### Step 2: Git branching homework
 

@@ -2,10 +2,10 @@
 
 >[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week4/README.md) you find the readings you have to complete before the fifth lecture.
 
-## Step 0: 
+## Step 0: Make a small dance
 Give yourself (or your neighbor) a little tap on the shoulder, you've made it to JS2! :muscle:
 
-### Step 1
+## Step 1: Share a useful resource
 
 _Deadline Monday_
 
@@ -17,7 +17,7 @@ _Deadline Monday_
 
 Give one of your fellow students in Github feedback about their homework of the previous week: create an issue in their repo, telling them what they did great and what they can improve.
 
-### Step 3: Git branching homework
+## Step 3: Git branching homework
 
 _Deadline Wednesday_
 

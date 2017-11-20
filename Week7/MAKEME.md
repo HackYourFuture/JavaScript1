@@ -2,13 +2,15 @@
 
 >[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week7/README.md) you find the readings you have to complete before the eighth lecture.
 
-## Step 1: Git Homework
+## Step 1: Give feedback on Step 3 and 4 of last weeks homework.
 
-[Make these assignments](https://github.com/HackYourFuture/Git/blob/master/Lecture-3.md). For handing in homework follow the Forking workflow that is described  in our lecture-3.md  file of HackYourFuture’s Git repository (there is also a video that explains this).
-
-## Step 2: Give feedback on Step 3 and 4 of last weeks homework.
+_Deadline Monday_
 
 Give feedback on the SPA (Github API) and git branching homework of one of you fellow students. Please provide the feedback in an issue.
+
+## Step 2: Git Homework
+
+[Make these assignments](https://github.com/HackYourFuture/Git/blob/master/Lecture-3.md). For handing in homework follow the Forking workflow that is described  in our lecture-3.md  file of HackYourFuture’s Git repository (there is also a video that explains this).
 
 ## Step 3: Issues
 

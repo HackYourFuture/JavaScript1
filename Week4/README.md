@@ -5,7 +5,6 @@
 
 ```
 In week five we will discuss the following topics:
-• First Git Session
 • Events
 • Callbacks
 • XHTTP Requests

@@ -4,6 +4,8 @@
 
 ### Step 1: Feedback
 
+_Deadline Monday_
+
 Give feedback on `step 3` of `week 5` to one of your fellow students (do this by creating issues in Github). 
 
 ### Step 2: Fix issues and API

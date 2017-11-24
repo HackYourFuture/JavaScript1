@@ -17,25 +17,29 @@ _Deadline Monday_
 
 Give one of your fellow students in Github feedback about their homework of the previous week: create an issue in their repo, telling them what they did great and what they can improve.
 
-## Step 3: Git branching homework
+## Step 3: Git homework
 
 _Deadline Wednesday_
 
-1) Use the `unmeshvrije/MyFirst` repository (the one you cloned) for this homework.
+Git homework for this week:
 
-2) Make a branch.
+Pair up with another student in your class. The homework requires two people to work together. Let us call them admin and user.
 
-3) Name it YOUR-GITHUB-NAME-dev
+1. admin creates a new repository on github called “animals” (without quotes).
+2. admin adds a file called “zoo.txt” with some animal generally found in a zoo.
+3. admin commits and pushes his changes (in master branch)
+4. admin adds user as a collaborator (find out how to add a collaborator to a git repository)
+5. user clones a repository from admin (find out how to clone a repository. Note that `git init` is not required when you clone a repository)
+6. user makes a new branch called user-dev
+7. user adds another file called “pets.txt” with some animals generally found in a home.
+8. user commits and pushes his branch to remote
+9. admin pulls the branch crated by user (find out how to pull changes from the repository)
+10. admin submits the link to his github repository (named animal), where unmesh should be able to see the collaborator’s (i.e. user’s) branch along with his commits.
 
-4) Create a file commands.txt in your branch.
+Note:
 
-5) Add bash commands that you have learnt with descriptions
+The *user* is  *not supposed to fork* the admin’s repository. *admin* is supposed to add user as a collaborator and *user* should just *clone* the repository (i.e. *user* will only have the local copy of the repository). Only *admin* will have the *github* server copy of the repository. Of course, admin will have its local copy of the repository too.
 
-6) Then git add, commit and push them in a remote branch.
-
-**Do not merge the changes to master branch.**
-
-**Do not make any changes to master branch.**
 
 ## Step 3: Some Challenges
 Let's practice working with Objects and Arrays. Go to FreeCodeCamp and complete all challenges under "Object Oriented and Functional Programming" and the _first four challenges_ under "Basic Algorithm Scripting", up until 'Find the longest word in a string.'

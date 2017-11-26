@@ -4,9 +4,13 @@
 
 ## Step1: Feedback
 
->Todo
+_Deadline Monday_
 
-## Step 2: More map, filter, reduce, and =>
+Go through the `html-css`, `javascript1` and `javascript2` Github repositories of one of your fellow students, check if they have neat repository's with the different weeks (eg. `week1`, `week2`, `week3`)of homework for all the modules up and until now. Also check if they have hosted their homework on Github pages. If there is anything that they can improve please provide feedback in an issue.
+
+## Step 2: More map, filter and `=>`
+
+_Deadline Wednesday_
 
 1. Say you would like to write a program that doubles the odd numbers in an array and throws away the even number.
 
@@ -91,14 +95,15 @@ let tasks = [monday, tuesday];
 - Output a formatted Euro amount.
 - Don't forget to use `=>`
 
-<!-- Change this into more fun data challenge -->
-<!-- ## Step 2: Custom challenge 
-1. Go to https://api.github.com/orgs/HackYourFuture/repos, you will see a list of the repositories our HYF organization has (yes it's a lot of JSON).
-2. You can copy the JSON and put it in a string at the top of your `.js` file. Print the name of the 3rd repository in the array to the console.
-3. Make a `<ul>` with a `<li>` for each repository name (just like you did with the books in the previous assignment).
-4. It should only display the modules that are actually being used in the curriculum at the moment, you of course know which those are, but if you need a reminder you can find them in our [curriculum overview](https://github.com/HackYourFuture/curriculum).
-5. Use CSS to divide the page in two columns. The left column will have a list of the names for repository. The right column should have the following information about each repository: the number of `stargazers`, the number of `watchers`, the number of `forks`, the `language` of the repository.
-6. place the `avatar_url` (logo) of our organization somewhere on a nice place in your page. -->
+### Step 3: **Some freeCodeCamp challenges:**
+
+_Deadline Saturday_
+
+1. [Comparisons with the Logical And Operator](https://www.freecodecamp.com/challenges/comparisons-with-the-logical-and-operator)
+
+2. [Record Collection](https://www.freecodecamp.com/challenges/record-collection)
+
+3. [Iterate over Arrays with map](https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map)
 
 
 ```

@@ -66,13 +66,13 @@ Ciao, mondo! // Italian
 Hola, mundo! // Spanish
 ```
 
-\.2. Consider the following code:  
+2\. Consider the following code:  
 ```
 console.log('I'm awesome');
 ```
   2\.1 Copy the code in your `.js` file and run it. You will see that you will get a SyntaxError. Find a solution for this error, Hint read the error message carefully, it also gives an indication of where the problem is.
 
-\.3. Declare a variable `x` and initialize it with an integer.  
+3\. Declare a variable `x` and initialize it with an integer.  
   3\.1 First, _declare_ your variable `x`.
   3\.2 Add a console.log statement that explains that explains in words what _you think_ the value of `x` is, like in this example:
 ```js
@@ -94,7 +94,7 @@ console.log('I'm awesome');
   // TODO -> log value of x again
 ```
 
-\.4. Declare a variable `y` and assign a string to it.  
+4\. Declare a variable `y` and assign a string to it.  
   4\.1 Write a console.log statement in which you explain in words what _you think_ the value of the string is
   4\.2 Now console.log the variable `y`.
   4\.3 Now assign a new string to the variable `y`
@@ -109,7 +109,7 @@ console.log('I'm awesome');
   // TODO -> log the actual value of the string to the console
 ```
 
-\.5. How do you round the number 7.25, to the nearest integer?  
+5\. How do you round the number 7.25, to the nearest integer?  
   5\.1 Declare a variable `z` and assign the number 7.25 to it.
   5\.2 Console.log `z`.
   5\.3 Declare another variable `a` that has the value of z but rounded to the nearest integer.
@@ -117,7 +117,7 @@ console.log('I'm awesome');
   5\.5 So now we have `z` and `a` find a way to compare the two values and store the highest of the two in a new variable.
   5\.6 Console.log the highest value.
 
-\.6. Arrays!  
+6\. Arrays!  
   6\.1 Declare an empty array (you can decide on how to call it yourself, but read on a bit here and see if you can find a good name that exactly describes what this variable will hold).
   6\.2 Write a console.log statement that explains in words what you think the value of the array is.
   6\.3 Console.log your array.
@@ -126,13 +126,13 @@ console.log('I'm awesome');
   6\.6 Add a statement that adds Daan's favorite animal (baby pig) to the *existing array*
   6\.7 Log your new array!
 
-\.7. More strings 
+7\. More strings 
   7\.1 Let's consider the following string: `let myString = "this,is,a,test"`.
   7\.2 Add the string to your file and console.log it.
   7\.3 Find a way to get the length of `myString`.
   7\.4 Console.log the length of `myString`.
 
-\.8. Write a program that checks the types of two variables and prints out `SAME TYPE` if they are the same type.  
+8\. Write a program that checks the types of two variables and prints out `SAME TYPE` if they are the same type.  
   8\.1 First declare at least four variables and assign them different data types.
   8\.2 For each variable write a `console.log` statement that logs the value 
   ```js 
@@ -156,10 +156,10 @@ if () {
 // TODO -> add a way of giving feedback if your variables don't have the same type
 ```
 
-\.9. If `x` equals 7, and the only other statement is `x = x % 3`, what would be the new value of `x`?  
+9\. If `x` equals 7, and the only other statement is `x = x % 3`, what would be the new value of `x`?  
   9\.1 Add at least 3 `console.log` statements in which you show that you understand what `%` does.
 
-\.10. Write a program to answer the following questions:  
+10\. Write a program to answer the following questions:  
   10\.1 Can you store multiple types in an array? Numbers and strings? Make an example that illustrates your answer.
   10\.2 Can you compare infinities? (Not in Eyad's world) - does 6/0 === 10/0? How can you test this?
   10\.3 Add console.log statements to the above program's in which you show that you understand the concepts (just like you've done in the above assignments).

@@ -1,12 +1,24 @@
 # Homework Week 6
 
->[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week6/README.md) you find the readings you have to complete before the seventh lecture.
+```
+Topics discussed this week:
+• Closures
+• Events
+• Callbacks
+• Git work flow
+```
+
+>[Here](/Week6/README.md) you find the readings you have to complete before the seventh lecture.
 
 ### Step 1: Feedback
 
+_Deadline Monday_
+
 Give feedback on `step 3` of `week 5` to one of your fellow students (do this by creating issues in Github). 
 
-### Step 1
+### Step 2: JavaScript
+
+_Deadline Wednesday_
 
 1. We learned a little bit about callbacks in JS. A callback is simply a function passed to another function that gets executed (run) after a potentially long running operation has completed. There is another function called `setTimeout` that will wait a specified period of time and then execute a function. For example: 
 
@@ -87,7 +99,10 @@ If you are confused please run the code and then consult the Google for "javaScr
 
 
 <!-- Write assignment with more fun API -->
-### Step 3: Homework for JavaScript
+
+### Step 3: Some more JavaScript
+
+_Deadline Saturday_
 
 Make a website that fetches (= to get) data asynchronously.
 
@@ -112,6 +127,13 @@ https://api.github.com/repos/HackYourFuture/CommandLine
 You can see `CommandLine` in the URL. These are called "query parameters" and let us specify in detail what we want from the API. Play around with this. For example you can make two buttons that either get data for a specific repository, JavaScript or Node.js. Or go even more crazy and make users type in a search box 'JavaScript' and then send that to the API by changing the repository.
 
 __Bonus__: Write a function takes this array `['a', 'b', 'c', 'd', 'a', 'e', 'f', 'c']` and returns an array which only has unique values in it (so it removes the duplicate ones). Make it a 'smart' algorithm that could do it for every array (only strings/number). Try to make it as fast as possible!
+
+
+### Step 4: Read before next lecture
+
+_Deadline Sunday morning_
+
+Go trough the reading material in the [README.md](/Week6/README.md) to prepare for your next class
 
 
 ```

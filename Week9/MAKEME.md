@@ -1,5 +1,11 @@
 # Homework Week 9
 
+```
+Topics discussed this week:
+• (re)writing data structures (in JSON)
+• Promises
+```
+
 ## Step 0: Read
 
 ## Step 3: Pair programming promises challenge 
@@ -23,6 +29,12 @@ _BONUS_ : Code Kata Race
 
 - Create at least 2 issues (bug / feature / code improvement) on another teams github repository. Do this in pairs. 
 -  Solve the issue proposed by another students in your github repo. More info [here](https://hackyourfuture.slack.com/files/michahell/F31BX1XT6/Merging_a_local_branch_into_master)
+
+### Step 3: Read before next lecture
+
+_Deadline Sunday morning_
+
+Go trough the reading material in the [README.md](/Week9/README.md) to prepare for your next class
 
 <!-- ## Step 3: Pair programming homework/tdd
 

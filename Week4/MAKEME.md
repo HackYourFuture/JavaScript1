@@ -1,6 +1,12 @@
 # Homework Week 4
 
->[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week4/README.md) you find the readings you have to complete before the fifth lecture.
+```
+Topics discussed in class this week:
+• Git
+```
+
+
+>[Here](/Week4/README.md) you find the readings you have to complete before the fifth lecture.
 
 ## Step 0: Make a small dance
 Give yourself (or your neighbor) a little tap on the shoulder, you've made it to JS2! :muscle:
@@ -42,7 +48,16 @@ The *user* is  *not supposed to fork* the admin’s repository. *admin* is suppo
 
 
 ## Step 3: Some Challenges
+
+_Deadline Saturday_
+
 Let's practice working with Objects and Arrays. Go to FreeCodeCamp and complete all challenges under "Object Oriented and Functional Programming" and the _first four challenges_ under "Basic Algorithm Scripting", up until 'Find the longest word in a string.'
+
+### Step 4: Read before next lecture
+
+_Deadline Sunday morning_
+
+Go trough the reading material in the [README.md](/Week4/README.md) to prepare for your next class
 
 :octocat: 
 ```

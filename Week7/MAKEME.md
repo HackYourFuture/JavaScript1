@@ -1,6 +1,13 @@
 # Homework Week 7
 
->[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week7/README.md) you find the readings you have to complete before the eighth lecture.
+```
+Topics discussed this week:
+• Object Oriented Programming
+• Code flow (order of execution)
+• Async VS Sync
+```
+
+>[Here](/Week7/README.md) you find the readings you have to complete before the eighth lecture.
 
 ## Step 1: Git Homework
 
@@ -78,14 +85,6 @@ So for example, we have teams in our organization. You can find out who are in t
 
 Anyway, endless fun and possibilities. Need inspiration, check out the Github API documentation. Oh and please make it look nice (hint: use the stuff you learned in HTML/CSS)!
 
-<!-- add this to more fun api assignment -->
-<!-- ## Step 4: map, filter, reduce
-
-- Add map, filter, reduce to  your existing app to build an application that loads data from github, filters out based on certain value, map->reduces to a data object and render that object to the dom (using map again).
-- For example you can try to use map, filter and reduce to show the most and the least forked repositories, watched repositories. And the total number of forks for all repo's. Also you can work with the data provided about the amount of commits or contributers.
-- Add polling to your app so that it checks every minute or so if a new repo has been made and if it has, adds it to the DOM without reloading the page.
-- Add a readme to your repo explaining  what your app does and how to use your app. Here's a [template](https://gist.github.com/jxson/1784669) and here you can see how to make [your readme awesome](https://gist.github.com/rrgayhart/91bba7bb39ea60136e5c).-->
-
 ### Step 5: **Some freeCodeCamp challenges:**
 
 1. [Comparisons with the Logical And Operator](https://www.freecodecamp.com/challenges/comparisons-with-the-logical-and-operator)
@@ -93,6 +92,12 @@ Anyway, endless fun and possibilities. Need inspiration, check out the Github AP
 2. [Record Collection](https://www.freecodecamp.com/challenges/record-collection)
 
 3. [Iterate over Arrays with map](https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map)
+
+### Step 6: Read before next lecture
+
+_Deadline Sunday morning_
+
+Go trough the reading material in the [README.md](/Week7/README.md) to prepare for your next class
 
 
 _BONUS_ : Code Kata Race

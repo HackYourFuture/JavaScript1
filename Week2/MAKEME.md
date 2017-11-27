@@ -1,6 +1,17 @@
 ## Homework Week 2
 
->[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week2/README.md) you find the readings you have to complete before the third lecture.
+```
+Topics discussed in class this week:
+• CLI
+• Loops (for/while)
+• Functions
+• Advanced data types [Objects]
+• Conditions (if/else statements)
+• Statements vs Expressions
+• Naming conventions
+```
+
+>[Here](/Week2/README.md) you find the readings you have to complete before the third lecture.
 
 ## Step 0: Feedback
 
@@ -144,6 +155,12 @@ Please make sure you REALLY understand the exercises below:
 - https://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object
 - https://www.freecodecamp.com/challenges/delete-properties-from-a-javascript-object
 
+### Step 6: Read before next lecture
+
+_Deadline Sunday morning_
+
+Go trough the reading material in the [README.md](/Week2/README.md) to prepare for your next class
+
 ```
 How to hand in your homework:
 • Upload your homework in your "hyf-javascript1" Github repository. Make sure to create a new folder "week2" first. 
@@ -152,29 +169,4 @@ How to hand in your homework:
 • Place the link to your repository folder in Trello.
 ```
 
-:star: Additional resources and review: [here](https://github.com/HackYourFuture/JavaScript/tree/master/Week2/REVIEW.md) (work in progress):star:
-
-<!-- 13. Create a function that takes two objects as parameters and compares them. You will actually need to write two functions — one that compares with `==` and one that compares with `===`. Remember that objects can have objects inside of them so you'll need to find a way to compare every element of every object (types and values). For example: 
-
-```js
-    let obj1 = {
-        a: 1, 
-        b: 'this is the letter b', 
-        c: { foo: 'what is a foo anyway', 
-             bar: [1,2,3,4]
-        }
-    }
-    
-    let obj2 = {
-        a: '1', 
-        b: 'this is the letter b', 
-        c: { foo: 'what is a foo anyway', 
-             bar: [1,2,3,4]
-        }
-    }
-```
-
-    In our example we'll say that `obj1 == obj2` is `true` and `obj1 === obj2` is `false`. Make sure you can see why before you write any code!
-    
-    Note: give this exercise your best shot but don’t spend more than, say, one hour on it.
- -->
+:star: Additional resources and review: [here](/Week2/REVIEW.md):star:

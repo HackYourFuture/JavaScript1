@@ -1,15 +1,24 @@
 # Homework Week 8
-This week you will work on finishing your application so it's actually useful!!
 
->[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week8/README.md) you find the readings you have to complete before the ninth lecture.
+```
+Topics discussed this week:
+• Structure for a basic SPA
+• XHTTP Requests
+• API calls
+```
 
-## Step 1: Feedback step 4 and 6 week 7
+
+>[Here](/Week8/README.md) you find the readings you have to complete before the ninth lecture.
+
+### Step 1: Feedback step 4 and 6 week 7
 
 Give feedback on the SPA (Github API) and git branching homework of one of you fellow students. Please provide the feedback in an issue.
 
-## Step 2: FINISH ALL YOUR JAVASCRIPT HOMEWORK
+### Step 2: FINISH ALL YOUR JAVASCRIPT HOMEWORK
 
 :point_up:
+
+### Step 3: Read
 
 >Read:
 - JavaScript : [Closures](http://conceptf1.blogspot.nl/2013/11/javascript-closures.html)
@@ -20,7 +29,7 @@ Give feedback on the SPA (Github API) and git branching homework of one of you f
 - More about [closures](https://www.reddit.com/r/learnjavascript/comments/1v6n8p/closure_explain_likei_am_in_high_school/?st=ixsp0mbe&sh=5526d150)
 - A VERY popular [StackOverflow article](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
 
-## Step 1: Scope and Closures
+## Step 4: Scope and Closures
 
 > Let's continue to learn a little more about scope and Closures. 
 
@@ -91,6 +100,12 @@ data = data.map(function (x) { return x * 8; });
 writeDataToFile(data);
 ```
 
+
+### Step 5: Read before next lecture
+
+_Deadline Sunday morning_
+
+Go trough the reading material in the [README.md](/Week8/README.md) to prepare for your next class
 
 >Upload your homework in your "hyf-javascript3" Github repository. Make sure to create a new folder "week2" first. 
 Upload your homework files inside the week2 folder and write a description for this “commit”.

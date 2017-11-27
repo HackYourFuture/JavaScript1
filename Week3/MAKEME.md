@@ -1,13 +1,22 @@
 ## Homework Week 3
 
->[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week3/README.md) you find the readings you have to complete before the fourth lecture.
+```
+Topics discussed in class this week:
+• Capturing user input
+• Basic DOM manipulations [img src, innerHTML]
+• Code debugging using the browser
+• Code commenting
+• Structuring code files
+• Scope
+• State
+```
 
+>[Here](/Week3/README.md) you find the readings you have to complete before the fourth lecture.
 
-## Step 0 review:
-- Go through the review of [the first week](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md)
-- Go through the review of [the second week](https://github.com/HackYourFuture/JavaScript/blob/master/Week2/REVIEW.md) 
-- Go through the review of [the third week](https://github.com/HackYourFuture/JavaScript/blob/master/Week3/REVIEW.md) 
-
+## Step 0: review
+- Go through the review of [the first week](/Week1/REVIEW.md)
+- Go through the review of [the second week](/Week2/REVIEW.md) 
+- Go through the review of [the third week](/Week3/REVIEW.md) 
 
 ## Step 1: Implement feedback
 
@@ -79,7 +88,7 @@ How to hand in your homework:
 
 ## Step 5: **FreeCodeCamp challenges:**
 
-_Deadline Saturday_
+_Deadline Sunday morning_
 
 - https://www.freecodecamp.com/challenges/declare-javascript-objects-as-variables
 - https://www.freecodecamp.com/challenges/make-instances-of-objects-with-a-constructor-function
@@ -103,7 +112,7 @@ Please note, there are various challenges all sorted on difficultly called KIU. 
 
 enjoy!
 
-:star: Additional resources and review: [here](https://github.com/HackYourFuture/JavaScript/tree/master/Week3/REVIEW.md) (work in progress):star:
+:star: Additional resources and review: [here](/Week3/REVIEW.md):star:
 
 
 

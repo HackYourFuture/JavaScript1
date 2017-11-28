@@ -119,11 +119,57 @@ Go trough the reading material in the [README.md](/Week5/README.md) to prepare f
 ```
 How to hand in your homework:
 • Clone your existing "hyf-javascript2" Github repository.
-• Create a new folder "week2" USING THE COMMAND LINE 
-• Save your homework files inside this folder. 
-• When you are done with your homework use add/commit and push to upload your homework. 
+• Create a new folder "week2" USING THE COMMAND LINE
+• Save your homework files inside this folder.
+• When you are done with your homework use add/commit and push to upload your homework.
 • Write a description for your “commit”.
 • Your hyf-javascript2/week2 should now contain all your homework files.
 Place the link to your repository folder in Trello.
 ```
 
+<!--
+let wage = tasks
+  .map((task) => {
+    return {
+      name: task.name,
+      duration: task.duration / 60
+    }
+  })
+  .filter((task) => task.duration >= 2)
+  .reduce((wage, task) => {
+    return wage + task.duration * 50
+  }, 0);
+
+console.log(`Maartje has earned € ${wage.toFixed(2)}`);
+
+let wage2 = 0;
+tasks
+  .map((task) => {
+    return {
+      name: task.name,
+      duration: task.duration / 60
+    }
+  })
+  .filter((task) => task.duration >= 2)
+  .forEach((task) => {
+    wage2 += task.duration * 50
+  }, 0);
+
+console.log(`Maartje has earned € ${wage2.toFixed(2)}`);
+
+let longTasks = tasks
+  .map((task) => {
+    return {
+      name: task.name,
+      duration: task.duration / 60
+    }
+  })
+  .filter((task) => task.duration >= 2);
+
+let wage3 = 0;
+for (let task of longTasks) {
+  wage3 += task.duration * 50
+}
+
+console.log(`Maartje has earned € ${wage3.toFixed(2)}`);
+-->

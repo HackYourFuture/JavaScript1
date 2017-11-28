@@ -23,31 +23,26 @@ _Deadline Wednesday_
 
 1. Say you would like to write a program that doubles the odd numbers in an array and throws away the even number.
 
-Your solution could be something like this:
-```js
-let numbers = [1, 2, 3, 4];
-let newNumbers = [];
+    Your solution could be something like this:
+    ```js
+    let numbers = [1, 2, 3, 4];
+    let newNumbers = [];
 
-for(let i = 0; i < numbers.length; i++) {
-    if(numbers[i] % 2 !== 0) {
-        newNumbers[i] = numbers[i] * 2;
+    for(let i = 0; i < numbers.length; i++) {
+        if(numbers[i] % 2 !== 0) {
+            newNumbers.push(numbers[i] * 2);
+        }
     }
-}
 
-console.log("The doubled numbers are", newNumbers); // [2, 6]
+    console.log("The doubled numbers are", newNumbers); // [2, 6]
 
-```
+    ```
 
-rewrite the above program using `map` and `filter` don't forget to use `=>`
+    Rewrite the above program using `map` and `filter` don't forget to use `=>`
 
-2. Use the array of the previous assignment, write a program that add the even numbers to the resulting array twice, but the odd numbers only once. Don't forget to use `=>`.
-
-Your output should be:
-```js
-console.log("The final numbers are", newNumbers);// [1, 2, 2, 3, 4, 4]
-```
 
 Underneath you see a very interesting small insight in Maartje's work:
+
 ```js
 let monday = [
         {
@@ -67,10 +62,10 @@ let monday = [
             duration : 200
         }
     ];
- 
+
 let tuesday = [
         {
-            name     : 'Keep writing summery',
+            name     : 'Keep writing summary',
             duration : 240
         },
         {
@@ -90,17 +85,16 @@ let tuesday = [
             duration : 40
         }
     ];
-     
-let tasks = [monday, tuesday];
+
+let tasks = monday.concat(tuesday);
 ```
 
-3. Write a program that does the following:
+2. Write a program that does the following below. Use `map` and `filter`. You will also need a `forEach` or a `for` loop for the 'summing up' part.
 
 - Collect two days' worth of tasks.
 - Convert the task durations to hours, instead of minutes.
-- Filter out everything that took two hours or more.
-- Sum it all up.
-- Multiply the result by a per-hour rate for billing (you can decide yourself what Maartje should make per hour).
+- Filter out everything that took two hours or more
+- Multiply the each duration by a per-hour rate for billing (you can decide yourself what Maartje should make per hour) and sum it all up.
 - Output a formatted Euro amount.
 - Don't forget to use `=>`
 
@@ -113,6 +107,7 @@ _Deadline Saturday_
 2. [Record Collection](https://www.freecodecamp.com/challenges/record-collection)
 
 3. [Iterate over Arrays with map](https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map)
+
 
 ### Step 4: Read before next lecture
 

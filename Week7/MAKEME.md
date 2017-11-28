@@ -9,25 +9,21 @@ Topics discussed this week:
 
 >[Here](/Week7/README.md) you find the readings you have to complete before the eighth lecture.
 
-## Step 1: Git Homework
-
-[Make these assignments](https://github.com/HackYourFuture/Git/blob/master/Lecture-3.md). For handing in homework follow the Forking workflow that is described  in our lecture-3.md  file of HackYourFuture’s Git repository (there is also a video that explains this).
-
-## Step 2: Give feedback on Step 3 and 4 of last weeks homework.
+## Step 1: Give feedback on Step 3 and 4 of last weeks homework.
 
 Give feedback on the SPA (Github API) and git branching homework of one of you fellow students. Please provide the feedback in an issue.
 
-## Step 3: Issues
+## Step 2: Issues
 
 - Solve all your Git issues. DO NO CLOSE AN ISSUE WITHOUT AN EXPLANATION OR CODE COMMIT REFERENCING THAT ISSUE. 
 
 
-### Step 2: Fix issues and API
+### Step 3: Fix issues and API
 
 - Fix the issues from the last week and make sure you explain how you fixed the issue in a comment (or commit message)
 
 
-### Step 3: SPA :sweat_drops:
+### Step 4: SPA :sweat_drops:
 You are going to write a SPA (Single Page Application) that uses the [Github API](https://developer.github.com/guides/getting-started/). Make sure that your app uses a logical pattern just like [this codepen](http://codepen.io/Razpudding/pen/MmVpeW).
 
 Just like last week:

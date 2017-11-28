@@ -28,7 +28,7 @@ Please watch the following parts of the course, [Programming Foundations Fundame
 - Program structure ~ http://eloquentjavascript.net/02_program_structure.html
 
 ### Review
-- Go through the review of [week 1](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md)
-- Go through the review of [week 2](https://github.com/HackYourFuture/JavaScript/blob/master/Week2/REVIEW.md)
+- Go through the review of [week 1](/Week1/REVIEW.md)
+- Go through the review of [week 2](/Week2/REVIEW.md)
 
 _Please go through the material and come to class prepared!_

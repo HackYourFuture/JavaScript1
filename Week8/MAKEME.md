@@ -1,7 +1,14 @@
 # Homework Week 8
-This week you will work on finishing your application so it's actually useful!!
 
->[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week8/README.md) you find the readings you have to complete before the ninth lecture.
+```
+Topics discussed this week:
+• Structure for a basic SPA
+• XHTTP Requests
+• API calls
+```
+
+
+>[Here](/Week8/README.md) you find the readings you have to complete before the ninth lecture.
 
 ## Step 1: Feedback step 4 and 6 week 7
 
@@ -11,24 +18,96 @@ Give feedback on the SPA (Github API) and git branching homework of one of you f
 
 :point_up:
 
-## Step 3: Pair programming promises challenge 
+## Step 3: Read
 
-This week you will work in a team!
+>Read:
+- JavaScript : [Closures](http://conceptf1.blogspot.nl/2013/11/javascript-closures.html)
+- Everything you wanted to know about [JavaScript scope](https://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/)
+- JavaScript [Scoping and Hoisting](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html)
+- 5 JavaScript [“Bad” Parts That Are Fixed In ES6](https://medium.freecodecamp.com/5-javascript-bad-parts-that-are-fixed-in-es6-c7c45d44fd81)
 
-So please:
+- More about [closures](https://www.reddit.com/r/learnjavascript/comments/1v6n8p/closure_explain_likei_am_in_high_school/?st=ixsp0mbe&sh=5526d150)
+- A VERY popular [StackOverflow article](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
 
-- (one of your team mates should) Fork this repository: https://github.com/HackYourFuture/PromisessObjectsAndStringRendering
-- make sure you are all collaborators on the same repository
-- Follow the instructions in the REAME of the above repository
-- To hand in your homework you make a PR to the existing repository
+## Step 4: Scope and Closures
 
-_BONUS_ : Code Kata Race
+> Let's continue to learn a little more about scope and Closures. 
 
-- [Codewars](https://www.codewars.com/collections/hyf-homework-number-2)
-- If you need to refresh your memory on es6 classes: [es6-classes-in-depth](https://ponyfoo.com/articles/es6-classes-in-depth)
-- Also read this article on scopes & closures: [explaining-javascript-scope-and-closures](https://robertnyman.com/2008/10/09/explaining-javascript-scope-and-closures/)
-<!-- 
+
+2. What will be the output of the following code - and more importantly - WHY? 
+
+```js
+for (var i = 0; i < 3; i++) {
+      setTimeout(function() { alert(i); }, 1000 + i);
+}
+```
+
+
+3. Write a function that would allow you to do this:
+```js
+let addSix = createBase(6);
+addSix(10); // returns 16
+addSix(21); // returns 27
+```
+
+4. You will need to create an HTML document out of the below snippet to run the below code. A hint - the code is syntactically correct but doesn't do what you would expect. Can you see why and fix it?
+
+Don't cheat - but if you get stuck ... http://stackoverflow.com/questions/750486/javascript-closure-inside-loops-simple-practical-example
+
+```html 
+<button id="btn-0">Button 1!</button>
+<button id="btn-1">Button 2!</button>
+<button id="btn-2">Button 3!</button>
+
+<script type="text/javascript">
+    
+    let prizes = ['A Unicorn!', 'A Hug!', 'Fresh Laundry!'];
+    for (let btnNum = 0; btnNum < prizes.length; btnNum++) {
+        // for each of our buttons, when the user clicks it...
+        document.getElementById('btn-' + btnNum).onclick = function() {
+            // tell her what she's won!
+            alert(prizes[btnNum]);
+        };
+    }
+</script>
+```
+
+5. Rewrite the code below to Async: 
+
+```js
+1.
+
+let sum = calculateSum(2, 6);
+console.log(sum);
+
+2.
+
+let results = $.getJSON('http://myapi.com');
+showResults(results);
+
+3.
+
+let sum = calculateSum(2, 6);
+if (sum > 8) {
+    console.log('larger than 8');
+}
+
+4.
+
+let data = $.getJSON('http://myapi.com');
+data = data.map(function (x) { return x * 8; });
+
+writeDataToFile(data);
+```
+
+
+## Step 5: Read before next lecture
+
+_Deadline Sunday morning_
+
+Go trough the reading material in the [README.md](/Week8/README.md) to prepare for your next class
+
 >Upload your homework in your "hyf-javascript3" Github repository. Make sure to create a new folder "week2" first. 
 Upload your homework files inside the week2 folder and write a description for this “commit”.
 Your hyf-javascript3/week2 should now contain all your homework files.
-Place the link to your repository folder in Trello. -->
+Place the link to your repository folder in Trello.

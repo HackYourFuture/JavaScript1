@@ -1,20 +1,14 @@
 # Reading material for the fourth lecture:
 
 ```
-In week four we will discuss the following topics:
-• Git
-• JSON
+In week three we will discuss the following topics:
+• Capturing user input
+• Basic DOM manipulations[img src, innerHTML]
 • Code debugging using the browser
-• Functions + JSON/Arrays
-• Code flow (order of execution)
-• (capturing user input)
+• Code commenting
 • Structuring code files
 ```
 
-### Here are resources that we like you to read as a preparation for the coming lecture. 
-
-- [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) (MDN)
-- In you next lecture **Unmesh** will give you your first Git session, please look through the [GIT](https://github.com/HackYourFuture/Gitrepository) and read the learning goals.
 - Chrome DevTools [Debugging](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3) 
 
 ### A Refresher from some previous covered topics:

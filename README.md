@@ -7,7 +7,7 @@ Here you can find course content and homework for the JavaScript 1,2 and 3 modul
 |Week|Topic|Read|Homework|Review|
 |----|-----|----|--------|------|
 |0.|Preparation for your first JavaScript session|[Pre-reading](/Week0/README.md) + [CLI Reading Week 1](https://github.com/HackYourFuture/CommandLine/blob/master/Lecture-1.md)|-|-|
-|1.|Git Session with Unmesh||[Reading Week 1](/Week1/README.md) | [Homework Week 1](/Week1/MAKEME.md)|[Review](/Week1/REVIEW.md)|
+|1.|Git Session with Unmesh|[Reading Week 1](/Week1/README.md) | [Homework Week 1](/Week1/MAKEME.md)|[Review](/Week1/REVIEW.md)|
 |2.|• Intro JavaScript (What is it, where can you use it for)<br>• Variables [var, let, const]<br>• Basic Data types [Strings, Numbers, Arrays, Booleans]<br>• Operators <br>• Naming conventions|[Reading Week 2](/Week2/README.md)|[Homework Week 2](/Week2/MAKEME.md)|[Review](/master/Week2/REVIEW.md)|
 |3.|• Git work flow :smiling_imp:<br>• Advanced data types [Objects] <br>• Conditions <br>• Statements vs Expressions<br> • Loops (for/while)<br>• Functions |[Reading Week 2](/Week2/README.md)|[Homework Week 2](/Week2/MAKEME.md)|[Review](/Week2/REVIEW.md)|
 |4.|• Capturing user input <br>• Basic DOM manipulations[img src, innerHTML] <br>• Code debugging using the browser <br>• Code commenting <br>• Structuring code files |[Reading Week 4](/Week4/README.md)|[JS](/Week4/MAKEME.md)|Review|

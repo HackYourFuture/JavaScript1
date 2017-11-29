@@ -14,7 +14,7 @@ In week two we will discuss the following topics:
 To test that it was installed and running properly, go to your terminal and run the command: node -v You should get the node version printed on your terminal, for example, v8.8.0
 2. Although you are free to make you own choice of text/code editor to use during class and homework, we have good experiences with Microsoft's free VSCode editor, which is supported on Windows, Mac and Linux. Please refer to our [VSCode Tips](../VSCodeTips/README.md) for more information.
 
-### Here are resources that we like you to read as a preparation for the coming lecture:
+## Here are resources that we like you to read as a preparation for the coming lecture:
 
 Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):
 
@@ -31,7 +31,7 @@ Only watch the below chapters:
 
 - Helpful resource: http://jsbooks.revolunet.com/ (here you can find tons of free JavaScript books online)
 
-:star: You can also already go through the [review](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md) of the upcoming lecture.
+:star: You can also already go through the [review](/Week2/REVIEW.md) of the upcoming lecture. :star:
 
 _Please go through the material and come to class prepared!_
 

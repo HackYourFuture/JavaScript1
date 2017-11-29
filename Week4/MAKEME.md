@@ -104,13 +104,6 @@ _Deadline Sunday morning_
 
 And just for fun ... https://www.freecodecamp.com/challenges/sum-all-numbers-in-a-range
 
-
-## Step 3: Some Challenges
-
-_Deadline Saturday_
-
-Let's practice working with Objects and Arrays. Go to FreeCodeCamp and complete all challenges under "Object Oriented and Functional Programming" and the _first four challenges_ under "Basic Algorithm Scripting", up until 'Find the longest word in a string.'
-
 ## Step 4: Read before next lecture
 
 _Deadline Sunday morning_
@@ -131,9 +124,6 @@ Please note, there are various challenges all sorted on difficultly called KIU. 
 
 enjoy!
 
-:star: Additional resources and review: [here](/Week3/REVIEW.md):star:
-
-
 :octocat: 
 ```
 How to hand in your homework:
@@ -143,3 +133,4 @@ How to hand in your homework:
 • Place the link to your repository folder in Trello.
 ```
 
+:star: Additional resources and review: [here](/Week3/REVIEW.md):star:

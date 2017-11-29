@@ -103,34 +103,6 @@ console.log(y);
 If you are confused please run the code and then consult the Google for "javaScript pass by value pass by reference"
 
 
-<!-- Write assignment with more fun API -->
-
-## Step 4: Some more JavaScript
-
-_Deadline Saturday_
-
-Make a website that fetches (= to get) data asynchronously.
-
-1) Create a new website with external js file
-
-2) Add a button (e.g. 'click me') that when clicked `console.logs` 'you clicked me!'
-
-3) Create a function that fetches from [The Github API](https://developer.github.com/v3/). For example from [this page] (https://api.github.com/orgs/HackYourFuture/repos) (the one we used last week). For help on this check this [SO post](https://stackoverflow.com/questions/247483/http-get-request-in-javascript)
-
-4) Display the data that you get from the Github API on your web page.
-
-5) Now link the two together: When you click the button -> get the data from the Github API and display it on your website
-
-6) Make all the repositories link their own page in Github. Use the value of the key: `name` to make this work (hint: Github urls always look like this https://api.github.com/repos/HackYourFuture/[repositoryName] where [repositoryName] would be replaced by the actual `name` of the repository, for example `CommandLine`). Make sure the link opens in a new tab.
-
-7) BONUS: if you look at this:
-
-```js
-https://api.github.com/repos/HackYourFuture/CommandLine
-```
-
-You can see `CommandLine` in the URL. These are called "query parameters" and let us specify in detail what we want from the API. Play around with this. For example you can make two buttons that either get data for a specific repository, JavaScript or Node.js. Or go even more crazy and make users type in a search box 'JavaScript' and then send that to the API by changing the repository.
-
 __Bonus__: Write a function takes this array `['a', 'b', 'c', 'd', 'a', 'e', 'f', 'c']` and returns an array which only has unique values in it (so it removes the duplicate ones). Make it a 'smart' algorithm that could do it for every array (only strings/number). Try to make it as fast as possible!
 
 

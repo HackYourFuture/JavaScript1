@@ -93,7 +93,7 @@ console.log('I'm awesome');
 5\.5 So now we have `z` and `a` find a way to compare the two values and store the highest of the two in a new variable.  
 5\.6 Console.log the highest value.  
 
-6\. Arrays!  
+6\. *Arrays!*  
 6\.1 Declare an empty array (you can decide on how to call it yourself, but read on a bit here and see if you can find a good name that exactly describes what this variable will hold).  
 6\.2 Write a console.log statement that explains in words what you think the value of the array is.  
 6\.3 Console.log your array.  
@@ -102,7 +102,7 @@ console.log('I'm awesome');
 6\.6 Add a statement that adds Daan's favorite animal (baby pig) to the *existing array*.  
 6\.7 Log your new array!  
 
-7\. More strings  
+7\. *More strings*  
 7\.1 Let's consider the following string: `let myString = "this,is,a,test"`.  
 7\.2 Add the string to your file and console.log it.  
 7\.3 Find a way to get the length of `myString`.  
@@ -140,13 +140,13 @@ if () {
 10\.2 Can you compare infinities? (Not in Eyad's world) - does 6/0 === 10/0? How can you test this?  
 10\.3 Add console.log statements to the above program's in which you show that you understand the concepts (just like you've done in the above assignments).  
 
-### Step 4: **Some freeCodeCamp challenges (10 hours):**
+## Step 4: **Some freeCodeCamp challenges (10 hours):**
 
 _Deadline Saturday_
 
 On freeCodeCamp.com please do the [Basic JavaScript](https://www.freecodecamp.com/challenges/learn-how-free-code-camp-works) exercises up and until the __"Shopping List"__ exercise (there are some topics we did not cover but you can do it).
 
-### Step 5: Read before next lecture
+## Step 5: Read before next lecture
 
 _Deadline Sunday morning_
 

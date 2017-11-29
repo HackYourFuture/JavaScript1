@@ -20,7 +20,11 @@ Please watch the following parts of the course, [Programming Foundations Fundame
     <br>8. Collections
     <br>11. When Things Go Wrong 
 
+
+## Read
 - [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype)
+
+## From the book _A Smarter Way To Learn JavaScript_ please read:
 - 'Loops' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 18-20
 - 'Functions' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 35 - 38
 - Functions ~ http://eloquentjavascript.net/03_functions.html

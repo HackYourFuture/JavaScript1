@@ -39,7 +39,6 @@ Provide feedback to step 1 and step 3 of the homework of last week to one of you
 
 Go and try out this cool game: http://hyf-robot.herokuapp.com/index.html, there are different levels, see how far you can get! 
 
-
 ## Step 4: JavaScript
 
 _Deadline Thursday_

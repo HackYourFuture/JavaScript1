@@ -98,7 +98,11 @@ let tasks = monday.concat(tuesday);
 - Output a formatted Euro amount.
 - Don't forget to use `=>`
 
-### Step 3: **Some freeCodeCamp challenges:**
+## Step 3: ROVER
+
+Finish up to chapter 7: JSON on [roverjs.com](http://roverjs.com/)!
+
+### Step 4: **Some freeCodeCamp challenges:**
 
 _Deadline Saturday_
 

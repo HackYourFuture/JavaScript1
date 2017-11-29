@@ -43,35 +43,6 @@ Go and try out this cool game: http://hyf-robot.herokuapp.com/index.html, there 
 
 _Deadline Wednesday_ 
 
-1\. **Strings!**  
-1\.1 Let's consider the following string: `let myString = "hello,this,is,a,difficult,to,read,sentence"`   
-1\.2 Add the string to your file and console.log it.   
-1\.4 Console.log the length of `myString`.   
-1\.5 The comma's make that the sentence is quite hard to read. Find a way to remove the comma's from the sting and replace them with a spaces  
-1\.6 Console.log `myString` to see if you succeeded.  
-
-2\. **Arrays!**   
-consider the following array:
-
-```js
-let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
-```
-
-2\.1 Add a statement that adds Mauro's favorite animal (turtle) to the existing array   
-2\.2 Log your new array!   
-2\.3 Now add Jim's favorite animal to the array, its a 'meerkat', but make sure it will be placed after 'blowfish' and before 'capricorn'.   
-2\.4 Write a console.log statement that explains in words _you think_ the new value of the array is.   
-2\.5 Log your new new array!   
-2\.6 Log the length of the array, add a message: "The array has a length of: "(here you should show the length of the array)   
-2\.7 Jason does not like giraffes, delete this animal from the array   
-2\.8 Again log your new array.   
-2\.9 Now if unlike Jim, you don't like meerkats and you want to delete it from the array, but you don't know the position or the `index` of the item in the array, how can you find it?   
-2\.10 Log the index of meerkat to the console. Add a message so it says: "The item you are looking for is at index: " (here you should show the index of the item)
-
-## Step 5: JavaScript
-
-_Deadline Thursday_
-
 > For all the following exercises create a new .js file. Try to find a proper name for each file or make a small comment about what it does inside for future reference
 
 *IMPORTANT NOTE*
@@ -102,7 +73,7 @@ let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
 2\.9 Now if unlike Jim, you don't like meerkats and you want to delete it from the array, but you don't know the position or the `index` of the item in the array, how can you find it?   
 2\.10 Log the index of meerkat to the console. Add a message so it says: "The item you are looking for is at index: " (here you should show the index of the item)
 
-## Step 5: Custom DOM manipulation challenge :mortar_board:
+## Step 6: Custom DOM manipulation challenge :mortar_board:
 
 
 1. Create a function that takes 3 arguments and returns the sum of the three arguments.
@@ -197,7 +168,7 @@ let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
  
 > ‘Coerce' means to try to change - so coercing `var x = '6'` to number means trying to change the type to number temporarily. 
 
-## Step 6: **Finish basic freeCodeCamp challenges:**
+## Step 7: **Finish basic freeCodeCamp challenges:**
 
 _Deadline Saturday_
 
@@ -210,7 +181,7 @@ Please make sure you REALLY understand the exercises below:
 - https://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object
 - https://www.freecodecamp.com/challenges/delete-properties-from-a-javascript-object
 
-## Step 7: Read before next lecture
+## Step 8: Read before next lecture
 
 _Deadline Sunday morning_
 

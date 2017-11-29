@@ -99,11 +99,11 @@ let tasks = monday.concat(tuesday);
 - Don't forget to use `=>`
 
 
-## Step 4: ROVER
+## Step 3: ROVER
 
 Finish up to chapter 7: JSON on [roverjs.com](http://roverjs.com/)!
 
-## Step 3: **Some freeCodeCamp challenges:**
+## Step 4: **Some freeCodeCamp challenges:**
 
 _Deadline Saturday_
 
@@ -114,7 +114,7 @@ _Deadline Saturday_
 3. [Iterate over Arrays with map](https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map)
 
 
-## Step 4: Read before next lecture
+## Step 5: Read before next lecture
 
 _Deadline Sunday morning_
 

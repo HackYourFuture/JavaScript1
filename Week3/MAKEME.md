@@ -73,8 +73,7 @@ let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
 2\.9 Now if unlike Jim, you don't like meerkats and you want to delete it from the array, but you don't know the position or the `index` of the item in the array, how can you find it?   
 2\.10 Log the index of meerkat to the console. Add a message so it says: "The item you are looking for is at index: " (here you should show the index of the item)
 
-## Step 6: Custom DOM manipulation challenge :mortar_board:
-
+## More JavaScript :tada:
 
 1. Create a function that takes 3 arguments and returns the sum of the three arguments.
 
@@ -104,6 +103,8 @@ let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
 
 10. Use the list of vehicles to write an advertisement. So that it prints something like: `"Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes."`. (Hint: use a `for` loop.)
 
+> Hint, the output should be correct English with all the punctuation in place (that's the challenge). So plurals for the vehicle types, commas followed by a single space, the word and to replace the final comma and closed off by a period.
+
 11. What if you add one more vehicle to the list, can you have that added to the advertisement without changing the code for question 10?
 
 12. Create an empty object.
@@ -112,22 +113,7 @@ let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
 
 14. Add a property to the object you just created that contains the languages that they have taught you.
 
-15. We saw that we can pass functions as arguments to other functions. Your task is to write a function that takes another function as an argument and runs it. 
-
-    ```js
-        function foo(func) {
-            // What to do here? 
-        }
-        
-        function bar() {
-            console.log('Hello, I am bar!');
-        }
-        
-        foo(bar);
-    ```
-
-
-16. Write some code to test two arrays for equality using `==` and `===`. Test the following:
+15. Write some code to test two arrays for equality using `==` and `===`. Test the following:
     
     ```js
         let x = [1,2,3];
@@ -145,7 +131,7 @@ let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
     More insights from this [Stack Overflow question](http://stackoverflow.com/questions/22395357/how-to-compare-two-arrays-are-equal-using-javascript).
 
 
-17. Take a look at the following code: 
+16. Take a look at the following code: 
 
     ```js
          let o1 = { foo: 'bar' };
@@ -158,7 +144,7 @@ let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
         
     Does the order that you assign (`o3 = o2` or `o2 = o3`) matter?
 
-18. What does the following code return? (And why?)
+17. What does the following code return? (And why?)
 
     ```js
     let bar = 42; 

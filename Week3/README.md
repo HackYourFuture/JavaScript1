@@ -14,10 +14,6 @@ In week three we will discuss the following topics:
 ### A Refresher from some previous covered topics:
 
 Links to MDN (Mozilla Developer Network) topics:
-
-- [Function.prototype.call()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
-- [Function.prototype.apply()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
-- [Function.prototype.bind()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
 - [Arguments object](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/arguments)
 - [Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
 

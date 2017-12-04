@@ -25,7 +25,21 @@ Give feedback on `step 3` of `week 5` to one of your fellow students (do this by
 
 _Deadline Wednesday_
 
-1. We learned a little bit about callbacks in JS. A callback is simply a function passed to another function that gets executed (run) after a potentially long running operation has completed. There is another function called `setTimeout` that will wait a specified period of time and then execute a function. For example: 
+1. We saw that we can pass functions as arguments to other functions. Your task is to write a function that takes another function as an argument and runs it. 
+
+    ```js
+        function foo(func) {
+            // What to do here? 
+        }
+        
+        function bar() {
+            console.log('Hello, I am bar!');
+        }
+        
+        foo(bar);
+    ```
+
+2. We learned a little bit about callbacks in JS. A callback is simply a function passed to another function that gets executed (run) after a potentially long running operation has completed. There is another function called `setTimeout` that will wait a specified period of time and then execute a function. For example: 
 
     ```js
     function doIt() {
@@ -62,25 +76,25 @@ _Deadline Wednesday_
     ```
 
 
-2. Please solve this problem using:
+3. Please solve this problem using:
 https://www.freecodecamp.com/challenges/repeat-a-string-repeat-a-string
  1. A for loop
  2. A while loop
  3. A do loop
 
-3. Some practice with objects 
+4. Some practice with objects 
 https://www.freecodecamp.com/challenges/construct-javascript-objects-with-functions
 
-4. Nested loops 
+5. Nested loops 
 https://www.freecodecamp.com/challenges/nesting-for-loops
 
-5. We did some work with arrays - `var arr = [1,2,3]`
+6. We did some work with arrays - `var arr = [1,2,3]`
 We can also nest arrays inside arrays like this `var arr2d = [[1,2], [3,4], [5,6]]` (for math people you can think of this as a matrix)
 How would you print all the items of an array with 3 dimensions? 
 How about with K dimensions? 
 What if you didn't know how deep the array was nested? (You don't have to write code for this but think about it)
 
-6. Here are two functions that look like they do the something similar but they print different results. Please explain what's going on here.
+7. Here are two functions that look like they do the something similar but they print different results. Please explain what's going on here.
 
 ```js
 var x = 9; 

@@ -10,15 +10,16 @@ Topics discussed this week:
 
 >[Here](/Week6/README.md) you find the readings you have to complete before the seventh lecture.
 
-### Step 1: Feedback
+## Step 1: Git Homework
+
+[Go through the Git repository](https://github.com/HackYourFuture/Git/blob/master/Lecture-3.md). For handing in homework and follow the Forking workflow that is described  in our lecture-3.md  file of HackYourFuture’s Git repository (there is also a video that explains this).
+
+### Step 2: Feedback
 
 _Deadline Monday_
 
-Give feedback on `step 3` of `week 5` to one of your fellow students (do this by creating issues in Github). 
-
-## Step 2: Git Homework
-
-[Make these assignments](https://github.com/HackYourFuture/Git/blob/master/Lecture-3.md). For handing in homework follow the Forking workflow that is described  in our lecture-3.md  file of HackYourFuture’s Git repository (there is also a video that explains this).
+Give feedback on `step 2` of `week 5` to one of your fellow students (do this by creating a pull request suggesting changes/improvements in Github).
+Read through the git repository linked above to see a recap of what was covered in class this week
 
 
 ### Step 3: JavaScript

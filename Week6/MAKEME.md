@@ -4,7 +4,6 @@
 Topics discussed this week:
 • Closures
 • Scope
-• Events
 • Callbacks
 ```
 
@@ -14,7 +13,7 @@ Topics discussed this week:
 
 _Deadline Monday_
 
-Give feedback on `step 3` of `week 5` to one of your fellow students (do this by creating issues in Github). 
+Give feedback on `step 2` of `week 5` to one of your fellow students (do this by creating issues in Github). 
 
 ## Step 2: Git Homework
 

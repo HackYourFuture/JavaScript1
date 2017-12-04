@@ -5,6 +5,7 @@ In week three we will discuss the following topics:
 • Capturing user input
 • Basic DOM manipulations[img src, innerHTML]
 • Code debugging using the browser
+• Events
 • Code commenting
 • Structuring code files
 ```

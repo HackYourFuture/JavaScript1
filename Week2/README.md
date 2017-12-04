@@ -20,7 +20,6 @@ Please watch the following parts of the course, [Programming Foundations Fundame
     <br>8. Collections
     <br>11. When Things Go Wrong 
 
-
 ## Read
 - [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype)
 
@@ -31,6 +30,9 @@ Please watch the following parts of the course, [Programming Foundations Fundame
 - 'Objects' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 69 - 75
 - 'Conditions' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 10 - 14
 - Program structure ~ http://eloquentjavascript.net/02_program_structure.html
+
+#### Git work flow
+- Check out this video of Daan to see how we use Git Workflow to hand in Homework (from now on): https://www.youtube.com/watch?v=-o0yomUVVpU&index=2&list=PLVYDhqbgYpYUGxRdtQdYVE5Q8h3bt6SIA
 
 ### Review
 - Go through the review of [week 1](/Week1/REVIEW.md)

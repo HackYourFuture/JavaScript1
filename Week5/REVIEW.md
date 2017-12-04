@@ -2,7 +2,6 @@
 
 ```
 this review covers:
-• Git Session
 • Events
 • Callbacks
 • XHTTP Requests

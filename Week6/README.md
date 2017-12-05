@@ -3,6 +3,10 @@
 ```
 In week seven we will discuss the following topics:
 • (Object Oriented Programming)
+    • this
+    • call
+    • apply
+    • bind
 • Code flow (order of execution)
 • Async VS Sync 
 ```

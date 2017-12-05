@@ -10,8 +10,8 @@ In week two we will discuss the following topics:
 ```
 
 ## How to get started
-1. Download and install the latest Current version of NodeJS - from https://nodejs.org/en/download/current/
-To test that it was installed and running properly, go to your terminal and run the command: node -v You should get the node version printed on your terminal, for example, v8.8.0
+1. Download and install the *LTS* version of NodeJS - https://nodejs.org/en/download/
+To test that it was installed and running properly, go to your terminal and run the command: node -v You should get the node version printed on your terminal, for example, v8.9.1
 2. Although you are free to make you own choice of text/code editor to use during class and homework, we have good experiences with Microsoft's free VSCode editor, which is supported on Windows, Mac and Linux. Please refer to our [VSCode Tips](../VSCodeTips/README.md) for more information.
 
 ## Here are resources that we like you to read as a preparation for the coming lecture:

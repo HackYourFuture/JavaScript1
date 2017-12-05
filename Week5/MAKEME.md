@@ -93,7 +93,7 @@ let tasks = monday.concat(tuesday);
 
 - Collect two days' worth of tasks.
 - Convert the task durations to hours, instead of minutes.
-- Filter out everything that took two hours or more
+- Filter out everything that took two hours or more (remove from the collection)
 - Multiply the each duration by a per-hour rate for billing (you can decide yourself what Maartje should make per hour) and sum it all up.
 - Output a formatted Euro amount.
 - Don't forget to use `=>`

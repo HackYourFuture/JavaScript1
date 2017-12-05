@@ -63,8 +63,8 @@ _Deadline Wednesday_
     ```
 
 
-2\. Please solve this problem using:  
-https://www.freecodecamp.com/challenges/repeat-a-string-repeat-a-string
+2\. Please solve this problem using:
+https://www.freecodecamp.com/challenges/repeat-a-string-repeat-a-string  
 2\.1 A for loop.  
 2\.2 A while loop.  
 2\.3 A do loop.  

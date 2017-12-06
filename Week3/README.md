@@ -1,32 +1,14 @@
 # Reading material for the fourth lecture:
 
 ```
-In week three we will discuss the following topics:
-• Capturing user input
-• Basic DOM manipulations[img src, innerHTML]
-• Code debugging using the browser
-• Events
-• Code commenting
-• Structuring code files
+In week four we will discuss the following topics:
+• Git
 ```
 
-- Chrome DevTools [Debugging](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3) 
+### Here are resources that we like you to read as a preparation for the coming lecture. 
 
-### A Refresher from some previous covered topics:
-
-Links to MDN (Mozilla Developer Network) topics:
-- [Arguments object](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/arguments)
-- [Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
-
-- If you want to find out more about (mouse) events, check out this resource: https://www.quirksmode.org/js/events_mouse.html
-
-### Review
-- Go through the review of [week 1](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md)
-- Go through the review of [week 2](https://github.com/HackYourFuture/JavaScript/blob/master/Week2/REVIEW.md)
-- Go through the review of [week 3](https://github.com/HackYourFuture/JavaScript/blob/master/Week3/REVIEW.md)
-<!-- - Go through the review of [week 4](https://github.com/HackYourFuture/JavaScript/blob/master/Week4/REVIEW.md) -->
-
-_Please go through the material and come to class prepared!_
-
-
+- In you next lecture **Unmesh** will give you your first Git session, please look through the [GIT](https://github.com/HackYourFuture/Gitrepository) and read the learning goals.
+- Please watch [Up Running with Bash Scripting](https://www.lynda.com/Bash-tutorials/Up-Running-Bash-Scripting/142989-2.html)
+as a recap on the cli classes you have had (1 hour and 25 min).
+- Please watch the first 5 chapters of the [Git essential training](https://www.lynda.com/Git-tutorials/Git-Essential-Training/100222-2.html)
 

@@ -4,7 +4,9 @@
 Topics discussed this week:
 • Closures
 • Scope
+• Events
 • Callbacks
+• Git work flow
 ```
 
 >[Here](/Week6/README.md) you find the readings you have to complete before the seventh lecture.

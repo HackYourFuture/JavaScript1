@@ -2,26 +2,18 @@
 
 ```
 Topics discussed in class this week:
-• Capturing user input
-• Basic DOM manipulations [img src, innerHTML]
-• Code debugging using the browser
-• Code commenting
-• Structuring code files
-• Scope
-• State
+• Git
 ```
 
->[Here](/Week3/README.md) you find the readings you have to complete before the fourth lecture.
+>[Here](/Week5/README.md) you find the readings you have to complete before the fifth lecture.
 
-## Step 0: Make a small dance
-Give yourself (or your neighbor) a little tap on the shoulder, you've made it to JS2! :muscle:
+## Step 1: Share a useful resource
 
-## Step 0: review
-- Go through the review of [the first week](/Week1/REVIEW.md)
-- Go through the review of [the second week](/Week2/REVIEW.md) 
-- Go through the review of [the third week](/Week3/REVIEW.md) 
+_Deadline Monday_
 
-## Step 1: Implement feedback
+All share a video or a resource (this can be a drawing, article or a pod cast) that was helpful for you the last few weeks with learning JavaScript. Please share this in the channel of your class in Slack. Also write as small note about what the resource i about and why you think it's so helpful (you can share more than one if you like).
+
+## Step 2: Implement Feedback
 
 _Deadline Monday_
 
@@ -30,29 +22,35 @@ Your fellow students have provided you with feedback in Trello.
 - Implement both feedback from Trello and Github.
 - Check on one of your fellow students code and issues and see if her or she implemented their feedback correctly. If there are some things that can be improved make an issue suggesting further improvements. If you think that the feedback has been implemented correctly create a issue saying something like: "nice work you can clear your issues".
 
-## Step 2: Reorganize your Github 
+## Step 3: Reorganize your Github 
 
 _Deadline Monday_
 
 Your Github should contain two repositories called hyf-javascript1 and hyf-commandline. Inside the JavaScript repository you should have three folders, called week1, week2, and week3 (or something similar). Inside these folders you should have the different assignments (a file per exercises). Try and find proper names for the exercises that reflect somehow what is going on in the code. Avoid using spaces in your file names, this makes it harder to "run" you files. Also make sure that all your JavaScript files have a `.js` extension.
 
-## Step 3: Custom DOM manipulation challenge :mortar_board:
+## Step 4: Git homework
 
-_Deadline Saturday_
+_Deadline Wednesday_
 
-1. Open a new js file and start by declaring an array that contains 10 strings. These strings should be of book titles you have read (or made up) and be lowercase without spaces or special characters so that you can use these later as Id's. (Example: Harry Potter's - The Chamber of Secrets -> `harry_potter_chamber_secrets`). 
+Git homework for this week:
 
-2. Create a basic html file called index.html and use it to load the js file, confirm the console.log show the array. (This is for debugging and making sure everything is in order. Delete it later when you're done :))
+Pair up with another student in your class. The homework requires two people to work together. Let us call them admin and user.
 
-3. Make a function (or functions) that generate a `ul` with `li` elements for each book ID in the array using a for loop. 
+1. admin creates a new repository on github called “animals” (without quotes).
+2. admin adds a file called “zoo.txt” with some animal generally found in a zoo.
+3. admin commits and pushes his changes (in master branch)
+4. admin adds user as a collaborator (find out how to add a collaborator to a git repository)
+5. user clones a repository from admin (find out how to clone a repository. Note that `git init` is not required when you clone a repository)
+6. user makes a new branch called user-dev
+7. user adds another file called “pets.txt” with some animals generally found in a home.
+8. user commits and pushes his branch to remote
+9. admin pulls the branch crated by user (find out how to pull changes from the repository)
+10. admin submits the link to his github repository (named animal), where unmesh should be able to see the collaborator’s (i.e. user’s) branch along with his commits.
 
-4. Make an object containing information for each book. Each item (object) in this object should have the book ID you thought up in point 1 as a key, and it should have at least the following fields: title, language and author. 
+Note:
 
-5. Now change the function you used to display the book ID's in a list to take the actual information about the book from the object and display that. Make sure you choose the right html elements for each piece of info, for instance, a heading for the title.
+The *user* is  *not supposed to fork* the admin’s repository. *admin* is supposed to add user as a collaborator and *user* should just *clone* the repository (i.e. *user* will only have the local copy of the repository). Only *admin* will have the *github* server copy of the repository. Of course, admin will have its local copy of the repository too.
 
-6. Beautify your html page with css, add sources and alts to each of the images.
- 
-7. Download book covers for each book, construct a new Object which has as keys the bookId's again, and as value the path to the image source (e.g. `{"harry_potter_blabla": "./img/harry_potter_blabla.jpg", ...}`). Now loop over these entries (_hint: `Object.keys(objectName)` gives you an array containing the keys_). Then write a function which places an image at the corresponding `li` element. Remember that Objects are not ordered, so you cannot guarantee that the first key is the first `li` element. (_Hint: you could give each `li` item an `id` tag by modifying the function you made before_)
 
 ```
 How to hand in your homework:

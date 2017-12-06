@@ -10,7 +10,7 @@ Topics discussed in class this week:
 • Functions
 ```
 
->[Here](/Week2/README.md) you find the readings you have to complete before the third lecture.
+>[Here](/Week3/README.md) you find the readings you have to complete before the third lecture.
 
 ## Step 0: Feedback
 
@@ -126,11 +126,6 @@ let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
     > Don't cheat! Seriously - try it first.
         
 
-    Check out this [Fiddle](http://jsfiddle.net/jimschubert/85M4z/). You need to open your browser’s Developer Tools to see the console output. Press the Run button in the upper right corner to run the code.
-
-    More insights from this [Stack Overflow question](http://stackoverflow.com/questions/22395357/how-to-compare-two-arrays-are-equal-using-javascript).
-
-
 16. Take a look at the following code: 
 
     ```js
@@ -171,7 +166,7 @@ Please make sure you REALLY understand the exercises below:
 
 _Deadline Sunday morning_
 
-Go trough the reading material in the [README.md](/Week2/README.md) to prepare for your next class
+Go trough the reading material in the [README.md](/Week3/README.md) to prepare for your next class
 
 ```
 How to hand in your homework:

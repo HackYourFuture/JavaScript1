@@ -34,6 +34,7 @@ _Deadline Saturday_
 
 Let's practice working with Objects and Arrays. Go to FreeCodeCamp and complete all challenges under "Object Oriented and Functional Programming" and the _first four challenges_ under "Basic Algorithm Scripting", up until 'Find the longest word in a string.'
 
+
 ## Step 5: Async challenge
 
 1. Rewrite the code below to Async: 
@@ -63,7 +64,6 @@ data = data.map(function (x) { return x * 8; });
 
 writeDataToFile(data);
 ```
-
 
 ## Step 6: Some more JavaScript
 

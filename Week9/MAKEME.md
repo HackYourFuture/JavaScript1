@@ -7,7 +7,6 @@ Topics discussed this week:
 ```
 
 ## Step 1: Read
-
 - If you need to refresh your memory on es6 classes: [es6-classes-in-depth](https://ponyfoo.com/articles/es6-classes-in-depth)
 - Also read this article on scopes & closures: [explaining-javascript-scope-and-closures](https://robertnyman.com/2008/10/09/explaining-javascript-scope-and-closures/)
 
@@ -27,6 +26,7 @@ So please:
 - Follow the instructions in the REAME.md of the above repository
 - To hand in your homework you make a PR to the existing repository
 
+
 ## Step 4: Read before next lecture
 
 _Deadline Sunday morning_
@@ -34,3 +34,4 @@ _Deadline Sunday morning_
 Go trough the reading material in the [README.md](/Week9/README.md) to prepare for your next class
 
 > To hand in your homework, make a pull request to the original repository you forked from. Remember, our master branches are protected, you cannot push to a directly cloned repository you first have to make a fork to your own Github.
+

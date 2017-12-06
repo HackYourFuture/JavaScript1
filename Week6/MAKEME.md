@@ -3,28 +3,41 @@
 ```
 Topics discussed this week:
 • Closures
-• Events
+• Scope
 • Callbacks
-• Git work flow
 ```
 
 >[Here](/Week6/README.md) you find the readings you have to complete before the seventh lecture.
 
 ## Step 1: Git Homework
-
 [Go through the Git repository](https://github.com/HackYourFuture/Git/blob/master/Lecture-3.md). For handing in homework and follow the Forking workflow that is described  in our lecture-3.md  file of HackYourFuture’s Git repository (there is also a video that explains this).
 
-### Step 2: Feedback
+
+## Step 2: Feedback
+
+Give feedback on `step 2` of `week 5` to one of your fellow students (do this by creating issues in Github). 
+
 
 _Deadline Monday_
 
 Give feedback on `step 2` of `week 5` to one of your fellow students (do this by creating a pull request suggesting changes/improvements in Github).
 Read through the git repository linked above to see a recap of what was covered in class this week
 
+## Step 3: Read
 
-### Step 3: JavaScript
+>Read:
+- JavaScript : [Closures](http://conceptf1.blogspot.nl/2013/11/javascript-closures.html)
+- Everything you wanted to know about [JavaScript scope](https://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/)
+- JavaScript [Scoping and Hoisting](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html)
+- 5 JavaScript [“Bad” Parts That Are Fixed In ES6](https://medium.freecodecamp.com/5-javascript-bad-parts-that-are-fixed-in-es6-c7c45d44fd81)
+
+- More about [closures](https://www.reddit.com/r/learnjavascript/comments/1v6n8p/closure_explain_likei_am_in_high_school/?st=ixsp0mbe&sh=5526d150)
+- A VERY popular [StackOverflow article](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
+
+## Step 4: JavaScript
 
 _Deadline Wednesday_
+
 
 1\. We learned a little bit about callbacks in JS. A callback is simply a function passed to another function that gets executed (run) after a potentially long running operation has completed. There is another function called `setTimeout` that will wait a specified period of time and then execute a function. For example: 
 
@@ -45,9 +58,11 @@ You must write a function that takes 4 arguments.
 
 The function should generate an array containing values from start value to end value (inclusive). 
 
-Then the function should iterate over the array and call the second argument if the array value is divisible by 3
 
-The function should call the second argument if the array value is divisible by 5 
+Then the function should iterate over the array and call the first callback if the array value is divisible by 3
+
+The function should call the second callback if the array value is divisible by 5 
+
 
 Both functions should be called if the array value is divisible by both 3 and 5
 
@@ -62,7 +77,6 @@ threeFive(10, 15, sayThree, sayFive);
 // Should create an array [10,11,12,13,14,15]
 // and call sayFive, sayThree, sayThree, sayFive  - please make sure you see why these calls are made before you start coding
 ```
-
 
 2\. Please solve this problem using:
 https://www.freecodecamp.com/challenges/repeat-a-string-repeat-a-string  
@@ -85,7 +99,7 @@ What if you didn't know how deep the array was nested? (You don't have to write 
 6\. Here are two functions that look like they do the something similar but they print different results. Please explain what's going on here.
 
 ```js
-var x = 9; 
+let x = 9; 
 function f1(val) { 
     val = val+1; 
     return val;
@@ -94,7 +108,7 @@ f1(x);
 console.log(x);
 
 
-var y = { x: 9 };
+let y = { x: 9 };
 function f2(val) {
     val.x = val.x + 1;
     return val;
@@ -105,7 +119,7 @@ console.log(y);
 If you are confused please run the code and then consult the Google for "javaScript pass by value pass by reference"
 
 
-### Step 4: Read before next lecture
+## Step 4: Read before next lecture
 
 _Deadline Sunday morning_
 

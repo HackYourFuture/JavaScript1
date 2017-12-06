@@ -3,7 +3,7 @@
 ```
 In week eight we will discuss the following topics:
 • Structure for a basic SPA
-• XHTTP Requests
+• XMLHttpRequests
 • API calls
 ```
 
@@ -12,7 +12,7 @@ In week eight we will discuss the following topics:
 #### APIs
 - Read about APIS: https://www.programmableweb.com/api-university/what-are-apis-and-how-do-they-work
 
-#### XHTTP requests
-- XHTTP requests: https://www.kirupa.com/html5/making_http_requests_js.htm
+#### XMLHttpRequests
+- XMLHttpRequests: https://www.kirupa.com/html5/making_http_requests_js.htm
 
 The last one about [promises](https://www.youtube.com/watch?v=WBupia9oidU)...

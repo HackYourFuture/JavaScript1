@@ -23,13 +23,15 @@ So please:
 
 - (one of your team mates should) Fork this repository: https://github.com/HackYourFuture/PromisessObjectsAndStringRendering
 - make sure you are all collaborators on the same repository
-- Follow the instructions in the REAME of the above repository
+- Follow the instructions in the REAME.md of the above repository
 - To hand in your homework you make a PR to the existing repository
 
-### Step 4: Read before next lecture
+
+## Step 4: Read before next lecture
 
 _Deadline Sunday morning_
 
 Go trough the reading material in the [README.md](/Week9/README.md) to prepare for your next class
 
->To hand in your homework, make a pull request to the original repository you forked from. Remember, our master branches are protected, you cannot push to a directly cloned repository you first have to make a fork to your own Github.
+> To hand in your homework, make a pull request to the original repository you forked from. Remember, our master branches are protected, you cannot push to a directly cloned repository you first have to make a fork to your own Github.
+

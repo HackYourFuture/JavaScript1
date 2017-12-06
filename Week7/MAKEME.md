@@ -3,6 +3,10 @@
 ```
 Topics discussed this week:
 • Object Oriented Programming
+    • this
+    • call
+    • apply
+    • bind
 • Code flow (order of execution)
 • Async VS Sync
 ```
@@ -11,6 +15,8 @@ Topics discussed this week:
 
 ## Step 1: Give feedback on Step 3 and 4 of last weeks homework.
 
+_Deadline Monday_
+
 Give feedback on the SPA (Github API) and git branching homework of one of you fellow students. Please provide the feedback in an issue.
 
 ## Step 2: Issues
@@ -18,31 +24,66 @@ Give feedback on the SPA (Github API) and git branching homework of one of you f
 - Solve all your Git issues. DO NO CLOSE AN ISSUE WITHOUT AN EXPLANATION OR CODE COMMIT REFERENCING THAT ISSUE. 
 
 
-### Step 3: Fix issues and API
+## Step 3: Fix issues and API
 
 - Fix the issues from the last week and make sure you explain how you fixed the issue in a comment (or commit message)
 
-<!-- Write assignment with more fun API -->
+## Step 4: Some Challenges
 
-### Step 4: Some more JavaScript
+_Deadline Saturday_
+
+Let's practice working with Objects and Arrays. Go to FreeCodeCamp and complete all challenges under "Object Oriented and Functional Programming" and the _first four challenges_ under "Basic Algorithm Scripting", up until 'Find the longest word in a string.'
+
+
+## Step 5: Async challenge
+
+1. Rewrite the code below to Async: 
+
+```js
+1.
+
+let sum = calculateSum(2, 6);
+console.log(sum);
+
+2.
+
+let results = $.getJSON('http://myapi.com');
+showResults(results);
+
+3.
+
+let sum = calculateSum(2, 6);
+if (sum > 8) {
+    console.log('larger than 8');
+}
+
+4.
+
+let data = $.getJSON('http://myapi.com');
+data = data.map(function (x) { return x * 8; });
+
+writeDataToFile(data);
+```
+
+## Step 6: Some more JavaScript
 
 _Deadline Saturday_
 
 Make a website that fetches (= to get) data asynchronously.
 
-1) Create a new website with external js file
+1. Create a new website with external js file
 
-2) Add a button (e.g. 'click me') that when clicked `console.logs` 'you clicked me!'
+2. Add a button (e.g. 'click me') that when clicked `console.logs` 'you clicked me!'
 
-3) Create a function that fetches from [The Github API](https://developer.github.com/v3/). For example from [this page] (https://api.github.com/orgs/HackYourFuture/repos) (the one we used last week). For help on this check this [SO post](https://stackoverflow.com/questions/247483/http-get-request-in-javascript)
+3. Create a function that fetches from [The Github API](https://developer.github.com/v3/). For example from [this page] (https://api.github.com/orgs/HackYourFuture/repos) (the one we used last week). For help on this check this [SO post](https://stackoverflow.com/questions/247483/http-get-request-in-javascript)
 
-4) Display the data that you get from the Github API on your web page.
+4. Display the data that you get from the Github API on your web page.
 
-5) Now link the two together: When you click the button -> get the data from the Github API and display it on your website
+5. Now link the two together: When you click the button -> get the data from the Github API and display it on your website
 
-6) Make all the repositories link their own page in Github. Use the value of the key: `name` to make this work (hint: Github urls always look like this https://api.github.com/repos/HackYourFuture/[repositoryName] where [repositoryName] would be replaced by the actual `name` of the repository, for example `CommandLine`). Make sure the link opens in a new tab.
+6. Make all the repositories link their own page in Github. Use the value of the key: `name` to make this work (hint: Github urls always look like this https://api.github.com/repos/HackYourFuture/[repositoryName] where [repositoryName] would be replaced by the actual `name` of the repository, for example `CommandLine`). Make sure the link opens in a new tab.
 
-7) BONUS: if you look at this:
+7. BONUS: if you look at this:
 
 ```js
 https://api.github.com/repos/HackYourFuture/CommandLine
@@ -50,11 +91,8 @@ https://api.github.com/repos/HackYourFuture/CommandLine
 
 You can see `CommandLine` in the URL. These are called "query parameters" and let us specify in detail what we want from the API. Play around with this. For example you can make two buttons that either get data for a specific repository, JavaScript or Node.js. Or go even more crazy and make users type in a search box 'JavaScript' and then send that to the API by changing the repository.
 
-__Bonus__: Write a function takes this array `['a', 'b', 'c', 'd', 'a', 'e', 'f', 'c']` and returns an array which only has unique values in it (so it removes the duplicate ones). Make it a 'smart' algorithm that could do it for every array (only strings/number). Try to make it as fast as possible!
 
-
-
-### Step 5: **Some freeCodeCamp challenges:**
+## Step 7: **Some freeCodeCamp challenges:**
 
 1. [Comparisons with the Logical And Operator](https://www.freecodecamp.com/challenges/comparisons-with-the-logical-and-operator)
 
@@ -62,12 +100,11 @@ __Bonus__: Write a function takes this array `['a', 'b', 'c', 'd', 'a', 'e', 'f'
 
 3. [Iterate over Arrays with map](https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map)
 
-### Step 6: Read before next lecture
+## Step 8: Read before next lecture
 
 _Deadline Sunday morning_
 
 Go trough the reading material in the [README.md](/Week7/README.md) to prepare for your next class
-
 
 _BONUS_ : Code Kata Race
 

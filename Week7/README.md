@@ -2,17 +2,20 @@
 
 ```
 In week eight we will discuss the following topics:
-• Structure for a basic SPA
-• XMLHttpRequests
-• API calls
+• (re)writing data structures (in JSON)
+• Closures
+• Promises
 ```
 
 ### Here are resources that we like you to read as a preparation for the coming lecture:
 
-#### APIs
-- Read about APIS: https://www.programmableweb.com/api-university/what-are-apis-and-how-do-they-work
+Some nice resources about promises :ring:
+- [Googles post about Promises](https://developers.google.com/web/fundamentals/getting-started/primers/promises)
+- [A nice article from David Walsh](https://davidwalsh.name/promises)
+- [A real life example](https://github.com/mdn/js-examples/blob/master/promises-test/index.html)
+- [stackoverflow]http://stackoverflow.com/questions/13343340/calling-an-asynchronous-function-within-a-for-loop-in-javascript
 
-#### XMLHttpRequests
-- XMLHttpRequests: https://www.kirupa.com/html5/making_http_requests_js.htm
+- [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+- [Why closures are helpful with async code](http://stackoverflow.com/questions/13343340/calling-an-asynchronous-function-within-a-for-loop-in-javascript)
 
 The last one about [promises](https://www.youtube.com/watch?v=WBupia9oidU)...

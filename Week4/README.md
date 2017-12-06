@@ -1,23 +1,32 @@
 ### Reading Week 4
 
-
 # Reading material for the fifth lecture:
 
 ```
 In week five we will discuss the following topics:
-• First Git Session
-• Events
-• Callbacks
-• XHTTP Requests
-• API calls
+• Functions + JSON/Arrays
+• Array Manipulations
+• JSON
+• Map and filter
+• Arrow functions
 ```
 
 ### Here are resources that we like you to read as a preparation for the coming lecture. 
 
-- Read about APIS: https://www.programmableweb.com/api-university/what-are-apis-and-how-do-they-work
+#### JSON
+- [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) (MDN)
+
+#### Map and Filter
+- :dizzy: [Fun fun functional](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84) :dizzy: Check the first 3-4 videos.
+
+#### Code conventions
 - Code conventions: http://javascript.crockford.com/code.html
+
+#### Array cardio
+- Wes Bos' awesome free tutorials. Just make a free account and do Array Cardio #1 [here](https://javascript30.com/)
+
+#### More objects
 - Objects continued: http://eloquentjavascript.net/06_object.html
-- XHTTP requests: https://www.kirupa.com/html5/making_http_requests_js.htm
 
 
 ### Refresher:

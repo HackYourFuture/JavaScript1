@@ -1,33 +1,52 @@
 ## Homework Week 3
 
->[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week3/README.md) you find the readings you have to complete before the fourth lecture.
+```
+Topics discussed in class this week:
+• Git work flow
+• Advanced data types [Objects]
+• Conditions
+• Statements vs Expressions
+• Loops (for/while)
+• Functions
+```
 
-Go here to see the [Git Homework](https://github.com/HackYourFuture/Git/blob/master/Lecture-1.md)
+>[Here](/Week2/README.md) you find the readings you have to complete before the third lecture.
 
-## Step 0 review:
-- Go through the review of [the first week](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md) (Work in progress, update this week :wrench:)
-- Go through the review of [the second week](https://github.com/HackYourFuture/JavaScript/blob/master/Week2/REVIEW.md) (work in progress, update this week :nut_and_bolt:)
-- Go through the review of [the third week](https://github.com/HackYourFuture/JavaScript/blob/master/Week3/REVIEW.md) 
-
-
-## Step 1: Implement feedback
-
-_Deadline Monday_
-
-Your fellow students have provided you with feedback in Trello. Your teachers have provided you with feedback in issues in Github. 
-
-- Implement both feedback from Trello and Github.
-- Check on one of your fellow students code and issues and see if her or she implemented their feedback correctly. If there are some things that can be improved make an issue suggesting further improvements. If you think that the feedback has been implemented correctly create a issue saying something like: "nice work you can clear your issues".
-
-## Step 2: Reorganize your Github 
+## Step 0: Feedback
 
 _Deadline Monday_
 
-Your Github should contain two repositories called hyf-javascript1 and hyf-commandline . Inside the JavaScript repository you should have three folders, called week1, week2, and week3 (or something similar). Inside these folders you should have the different assignments (a file per exercises). Ty and find proper names for the exercises that reflect somehow what is going on in the code. Avoid using spaces in your file names, this makes it harder to "run" you files. Also make sure that all your JavaScript files have a `.js` extension.
+Provide feedback to step 1 and step 3 of the homework of last week to one of your fellow students. You will be assigned to one of the assignments by the class lead of this week.
 
-## Step 3: String and Array challenges
+## Step 1: Recap/Read
+
+- Have a look at [The Secret Life of JavaScript Primitives](https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/)
+- Go through the review of [last week](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md)
+- Go through the review of [this week](https://github.com/HackYourFuture/JavaScript/blob/master/Week2/REVIEW.md) 
+
+## Step 2: Watch
+
+1. If you haven't done already, watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro) Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though). 
+2. Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):
+    <br>4. Writing Conditional Code
+    <br>5. Modular Code
+    <br>6. Iteration: Writing Loops
+    <br>7. More About Strings
+    <br>8. Collections
+    <br>11. When Things Go Wrong 
+
+## Step 3: Rover the Robot 
+
+Go and try out this cool game: http://hyf-robot.herokuapp.com/index.html, there are different levels, see how far you can get! 
+
+## Step 4: String and Array challenges
 
 _Deadline Wednesday_ 
+
+> For all the following exercises create a new .js file. Try to find a proper name for each file or make a small comment about what it does inside for future reference
+
+*IMPORTANT NOTE*
+In each assignment write at least two `console.log` statements to verify if your code works correctly. In other words proof that you code works as expected. If you need inspiration look at the steps defined in the assignments from last week.
 
 1\. **Strings!**  
 1\.1 Let's consider the following string: `let myString = "hello,this,is,a,difficult,to,read,sentence"`   
@@ -54,59 +73,112 @@ let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
 2\.9 Now if unlike Jim, you don't like meerkats and you want to delete it from the array, but you don't know the position or the `index` of the item in the array, how can you find it?   
 2\.10 Log the index of meerkat to the console. Add a message so it says: "The item you are looking for is at index: " (here you should show the index of the item)
 
-## Step 4: Custom DOM manipulation challenge :mortar_board:
+## More JavaScript :tada:
+
+1. Create a function that takes 3 arguments and returns the sum of the three arguments.
+
+2. Create a function named `colorCar` that receives a color, and prints out, "a red car" for example.
+
+3. Create an object and a function that takes the object as a parameter and prints out all of its names and values.
+
+4. Create a function named `vehicleType` that receives a color, and a code, 1 for car, 2 for motorbike. And prints "a blue motorbike" for example when called as `vehicleType("blue", 2)`
+
+5. Can you write the following without the `if` statement, but with just as a single line with `console.log(...);`?
+
+    ```js
+    if (3 === 3) {
+        console.log("true")
+    } else {
+        console.log("false")
+    }
+    ```
+
+6. Create a function called `vehicle`, like before, but takes another parameter called age, so that `vehicle("blue", 1, 5)` prints "a blue used car"
+
+7. Make a list of vehicles, you can add `"motorbike"`, `"caravan"`, `"bike"`, or more.
+
+8. How do you get the third element from that list?
+
+9. Change the function `vehicle` to use the list of question 7. So that `vehicle("green", 3, 1)` prints "a green new caravan".
+
+10. Use the list of vehicles to write an advertisement. So that it prints something like: `"Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes."`. (Hint: use a `for` loop.)
+
+> Hint, the output should be correct English with all the punctuation in place (that's the challenge). So plurals for the vehicle types, commas followed by a single space, the word and to replace the final comma and closed off by a period.
+
+11. What if you add one more vehicle to the list, can you have that added to the advertisement without changing the code for question 10?
+
+12. Create an empty object.
+
+13. Create an object that contains the teachers that you have had so far for the different modules.
+
+14. Add a property to the object you just created that contains the languages that they have taught you.
+
+15. Write some code to test two arrays for equality using `==` and `===`. Test the following:
+    
+    ```js
+        let x = [1,2,3];
+        let y = [1,2,3];
+        let z = y;
+    ```
+
+    What do you think will happen with `x == y`, `x === y` and `z == y` and `z == x`? Prove it!
+        
+    > Don't cheat! Seriously - try it first.
+        
+
+    Check out this [Fiddle](http://jsfiddle.net/jimschubert/85M4z/). You need to open your browser’s Developer Tools to see the console output. Press the Run button in the upper right corner to run the code.
+
+    More insights from this [Stack Overflow question](http://stackoverflow.com/questions/22395357/how-to-compare-two-arrays-are-equal-using-javascript).
+
+
+16. Take a look at the following code: 
+
+    ```js
+         let o1 = { foo: 'bar' };
+         let o2 = { foo: 'bar' };
+         let o3 = o2;
+
+    ```
+
+    Show that changing `o2` changes `o3` (or not) and changing `o1` changes `o3`(or not). 
+        
+    Does the order that you assign (`o3 = o2` or `o2 = o3`) matter?
+
+17. What does the following code return? (And why?)
+
+    ```js
+    let bar = 42; 
+    typeof typeof bar;
+    ```
+
+ 
+> ‘Coerce' means to try to change - so coercing `var x = '6'` to number means trying to change the type to number temporarily. 
+
+## Step 7: **Finish basic freeCodeCamp challenges:**
 
 _Deadline Saturday_
 
-1. Open a new js file and start by declaring an array that contains 10 strings. These strings should be of book titles you have read (or made up) and be lowercase without spaces or special characters so that you can use these later as Id's. (Example: Harry Potter's - The Chamber of Secrets -> `harry_potter_chamber_secrets`). 
+Go back to FreeCodeCamp, start where you left of and finish the rest of the Basic JavaScript challenges.
 
-2. Create a basic html file called index.html and use it to load the js file, confirm the console.log show the array. (This is for debugging and making sure everything is in order. Delete it later when you're done :))
+Please make sure you REALLY understand the exercises below:
+- https://www.freecodecamp.com/challenges/multiply-two-decimals-with-javascript
+- https://www.freecodecamp.com/challenges/store-multiple-values-in-one-variable-using-javascript-arrays
+- https://www.freecodecamp.com/challenges/build-javascript-objects
+- https://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object
+- https://www.freecodecamp.com/challenges/delete-properties-from-a-javascript-object
 
-3. Make a function (or functions) that generate a `ul` with `li` elements for each book ID in the array using a for loop. 
+## Step 8: Read before next lecture
 
-4. Make an object containing information for each book. Each item (object) in this object should have the book ID you thought up in point 1 as a key, and it should have at least the following fields: title, language and author. 
+_Deadline Sunday morning_
 
-5. Now change the function you used to display the book ID's in a list to take the actual information about the book from the object and display that. Make sure you choose the right html elements for each piece of info, for instance, a heading for the title.
-
-6. Beautify your html page with css, add sources and alts to each of the images.
- 
-7. Download book covers for each book, construct a new Object which has as keys the bookId's again, and as value the path to the image source (e.g. `{"harry_potter_blabla": "./img/harry_potter_blabla.jpg", ...}`). Now loop over these entries (_hint: `Object.keys(objectName)` gives you an array containing the keys_). Then write a function which places an image at the corresponding `li` element. Remember that Objects are not ordered, so you cannot guarantee that the first key is the first `li` element. (_Hint: you could give each `li` item an `id` tag by modifying the function you made before_)
+Go trough the reading material in the [README.md](/Week2/README.md) to prepare for your next class
 
 ```
 How to hand in your homework:
-• Upload your homework in your "hyf-javascript1" Github repository. Make sure to create a new folder "week3" first. 
-• Upload your homework files inside the week3 folder and write a description for this “commit”.
-• Your hyf-javascript1/week3 should now contain an index.html, main.css and a script.js file (and the images folder)
+• Upload your homework in your "hyf-javascript1" Github repository. Make sure to create a new folder "week2" first. 
+• Upload your homework files inside the week2 folder and write a description for this “commit”.
+• Your hyf-javascript1/week2 should now contain all your homework files.
 • Place the link to your repository folder in Trello.
 ```
 
-## Step 5: **FreeCodeCamp challenges:**
-
-_Deadline Saturday_
-
-- https://www.freecodecamp.com/challenges/declare-javascript-objects-as-variables
-- https://www.freecodecamp.com/challenges/make-instances-of-objects-with-a-constructor-function
-- https://www.freecodecamp.com/challenges/make-unique-objects-by-passing-parameters-to-our-constructor
-- https://www.freecodecamp.com/challenges/make-object-properties-private
-
-
-And just for fun ... https://www.freecodecamp.com/challenges/sum-all-numbers-in-a-range
-
-### :boom: Bonus homework :boom:
-the Bonus homework for this week (for those of you want an extra challenge) do the following:
-
-- Sign up on codewars.com
-- In you account setting under “clan” write “Hack Your Future” 
-- Go do the challenges in the following playlist: https://www.codewars.com/collections/fun-fun-fundamentals
-
-Codewars is really a lot of fun, and you can compete against each other who has the most points :trollface:
-it’s a great way to really practice JavaScript a lot in various problems.
-
-Please note, there are various challenges all sorted on difficultly called KIU. Kiu 8 is the easiest, Kiu 1 is the hardest, we expect you to do challenges around level 8, 7 maybe.
-
-enjoy!
-
-:star: Additional resources and review: [here](https://github.com/HackYourFuture/JavaScript/tree/master/Week3/REVIEW.md) (work in progress):star:
-
-
-
+:star: Additional resources and review: [here](/Week2/REVIEW.md):star:

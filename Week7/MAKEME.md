@@ -1,27 +1,98 @@
 # Homework Week 7
 
->[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week7/README.md) you find the readings you have to complete before the eighth lecture.
+```
+Topics discussed this week:
+• Object Oriented Programming
+    • this
+    • call
+    • apply
+    • bind
+• Code flow (order of execution)
+• Async VS Sync
+```
 
-## Step 1: Git Homework
+>[Here](/Week7/README.md) you find the readings you have to complete before the eighth lecture.
 
-[Make these assignments](https://github.com/HackYourFuture/Git/blob/master/Lecture-3.md). For handing in homework follow the Forking workflow that is described  in our lecture-3.md  file of HackYourFuture’s Git repository (there is also a video that explains this).
+## Step 1: Give feedback on Step 3 and 4 of last weeks homework.
 
-## Step 2: Give feedback on Step 3 and 4 of last weeks homework.
+_Deadline Monday_
 
 Give feedback on the SPA (Github API) and git branching homework of one of you fellow students. Please provide the feedback in an issue.
 
-## Step 3: Issues
+## Step 2: Issues
 
 - Solve all your Git issues. DO NO CLOSE AN ISSUE WITHOUT AN EXPLANATION OR CODE COMMIT REFERENCING THAT ISSUE. 
 
-## Step 4: map, filter, reduce
 
-- Add map, filter, reduce to  your existing app to build an application that loads data from github, filters out based on certain value, map->reduces to a data object and render that object to the dom (using map again).
-- For example you can try to use map, filter and reduce to show the most and the least forked repositories, watched repositories. And the total number of forks for all repo's. Also you can work with the data provided about the amount of commits or contributers.
-<!-- - Add polling to your app so that it checks every minute or so if a new repo has been made and if it has, adds it to the DOM without reloading the page. -->
-- Add a readme to your repo explaining  what your app does and how to use your app. Here's a [template](https://gist.github.com/jxson/1784669) and here you can see how to make [your readme awesome](https://gist.github.com/rrgayhart/91bba7bb39ea60136e5c).
+## Step 3: Fix issues and API
 
-### Step 5: **Some freeCodeCamp challenges:**
+- Fix the issues from the last week and make sure you explain how you fixed the issue in a comment (or commit message)
+
+## Step 4: Some Challenges
+
+_Deadline Saturday_
+
+Let's practice working with Objects and Arrays. Go to FreeCodeCamp and complete all challenges under "Object Oriented and Functional Programming" and the _first four challenges_ under "Basic Algorithm Scripting", up until 'Find the longest word in a string.'
+
+## Step 5: Async challenge
+
+1. Rewrite the code below to Async: 
+
+```js
+1.
+
+let sum = calculateSum(2, 6);
+console.log(sum);
+
+2.
+
+let results = $.getJSON('http://myapi.com');
+showResults(results);
+
+3.
+
+let sum = calculateSum(2, 6);
+if (sum > 8) {
+    console.log('larger than 8');
+}
+
+4.
+
+let data = $.getJSON('http://myapi.com');
+data = data.map(function (x) { return x * 8; });
+
+writeDataToFile(data);
+```
+
+
+## Step 6: Some more JavaScript
+
+_Deadline Saturday_
+
+Make a website that fetches (= to get) data asynchronously.
+
+1. Create a new website with external js file
+
+2. Add a button (e.g. 'click me') that when clicked `console.logs` 'you clicked me!'
+
+3. Create a function that fetches from [The Github API](https://developer.github.com/v3/). For example from [this page] (https://api.github.com/orgs/HackYourFuture/repos) (the one we used last week). For help on this check this [SO post](https://stackoverflow.com/questions/247483/http-get-request-in-javascript)
+
+4. Display the data that you get from the Github API on your web page.
+
+5. Now link the two together: When you click the button -> get the data from the Github API and display it on your website
+
+6. Make all the repositories link their own page in Github. Use the value of the key: `name` to make this work (hint: Github urls always look like this https://api.github.com/repos/HackYourFuture/[repositoryName] where [repositoryName] would be replaced by the actual `name` of the repository, for example `CommandLine`). Make sure the link opens in a new tab.
+
+7. BONUS: if you look at this:
+
+```js
+https://api.github.com/repos/HackYourFuture/CommandLine
+```
+
+You can see `CommandLine` in the URL. These are called "query parameters" and let us specify in detail what we want from the API. Play around with this. For example you can make two buttons that either get data for a specific repository, JavaScript or Node.js. Or go even more crazy and make users type in a search box 'JavaScript' and then send that to the API by changing the repository.
+
+
+## Step 7: **Some freeCodeCamp challenges:**
 
 1. [Comparisons with the Logical And Operator](https://www.freecodecamp.com/challenges/comparisons-with-the-logical-and-operator)
 
@@ -29,94 +100,11 @@ Give feedback on the SPA (Github API) and git branching homework of one of you f
 
 3. [Iterate over Arrays with map](https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map)
 
-## Step 6: More map, filter, reduce, and =>
+## Step 8: Read before next lecture
 
-1. Say you would like to write a program that doubles the odd numbers in an array and throws away the even number.
+_Deadline Sunday morning_
 
-Your solution could be something like this:
-```js
-let numbers = [1, 2, 3, 4];
-let newNumbers = [];
-
-for(let i = 0; i < numbers.length; i++) {
-    if(numbers[i] % 2 !== 0) {
-        newNumbers[i] = numbers[i] * 2;
-    }
-}
-
-console.log("The doubled numbers are", newNumbers); // [2, 6]
-
-```
-
-rewrite the above program using `map` and `filter` don't forget to use `=>`
-
-2. Use the array of the previous assignment, write a program that add the even numbers to the resulting array twice, but the odd numbers only once. Don't forget to use `=>`.
-
-Your output should be:
-```js
-console.log("The final numbers are", newNumbers);// [1, 2, 2, 3, 4, 4]
-```
-
-Underneath you see a very interesting small insight in Maartje's work:
-```js
-let monday = [
-        {
-            name     : 'Write a summary HTML/CSS',
-            duration : 180
-        },
-        {
-            name     : 'Some web development',
-            duration : 120
-        },
-        {
-            name     : 'Try to convince teachers to fix homework class10',
-            duration : 30
-        },
-        {
-            name     : 'Fix homework for class10 myself',
-            duration : 20
-        },
-        {
-            name     : 'Talk to a lot of people',
-            duration : 200
-        }
-    ];
- 
-let tuesday = [
-        {
-            name     : 'Keep writing summery',
-            duration : 240
-        },
-        {
-            name     : 'Some more web development',
-            duration : 180
-        },
-        {
-            name     : 'Staring out the window',
-            duration  : 10
-        },
-        {
-            name     : 'Talk to a lot of people',
-            duration : 200
-        },
-        {
-            name     : 'Look at application assignments new students',
-            duration : 40
-        }
-    ];
-     
-let tasks = [monday, tuesday];
-```
-
-3. Write a program that does the following:
-
-- Collect two days' worth of tasks.
-- Convert the task durations to hours, instead of minutes.
-- Filter out everything that took two hours or more.
-- Sum it all up.
-- Multiply the result by a per-hour rate for billing (you can decide yourself what Maartje should make per hour).
-- Output a formatted Euro amount.
-- Don't forget to use `=>`
+Go trough the reading material in the [README.md](/Week7/README.md) to prepare for your next class
 
 _BONUS_ : Code Kata Race
 

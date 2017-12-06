@@ -1,183 +1,46 @@
 ## Homework week 1:
 
->[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week1/README.md) you find the readings you have to complete before the second lecture.
-
-## Before you start with the homework:
-
-1. Go through the review of [week 1](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md)
-2. Watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro) Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though). 
-3. Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):
-    0. Introduction
-    1. Programming Basics
-    2. Core Programming Syntax 
-    3. Variables and Data Types
-
-## Step 1: Command Line
-
-_Deadline Tuesday_
-
->We covered a bit of command line usage in the first class and got a program running which is great. If you need a refresher for the command line please have a look here: https://github.com/HackYourFuture/CommandLine
-
-1. Create a `.js` file that prints `Hello` when you run it from the command line. (Hint: `node` is the program that can run your JavaScript files.)
-
 ```
-Write commands to do following:
-1. create a directory. Enter a directory. Create an empty file named blank. 
-    2. Then write the content `"Hello"` five times to the file greetings.txt. 
-   Then copy the file greetings.txt and paste its contents into 1.txt, 2.txt, 3.txt, 4.txt and 5.txt.
-    3. Then write the text "cat" to pets.txt
-   Then append the text "dog" to pets.txt
-   Then append the text "hamster" to pets.txt
-    4. Then write the text "cat" to commands.txt
-   Then append the text "ls" to commands.txt
-   Then append the text "pwd" to commands.txt
-    5. Then find unique strings from these two files pets.txt and commands.txt
-   and store the unique strings in lovelyCommands.txt
+Topics discussed in class this week:
+• Git
 ```
 
+>[Here](/Week1/README.md) you find the readings you have to complete before the fifth lecture.
+
+## Step 1: Share a useful resource
+
+_Deadline Monday_
+
+All share a video or a resource (this can be a drawing, article or a pod cast) that was helpful for you the last few weeks with learning JavaScript. Please share this in the channel of your class in Slack. Also write as small note about what the resource i about and why you think it's so helpful (you can share more than one if you like).
 
 ## Step 2: Feedback
 
+_Deadline Monday_
+
+Give one of your fellow students in Github feedback about their homework of the previous week: create an issue in their repo, telling them what they did great and what they can improve.
+
+Step3 
+
+## Step 3: Git homework
+
 _Deadline Wednesday_
 
-Provide feedback on the HTML-CSS assignments (week 3) of one of your fellow students. You will be assigned to one of the assignments by the class lead of this week.
+Git homework for this week:
 
-## Step 3: JavaScript
+Pair up with another student in your class. The homework requires two people to work together. Let us call them admin and user.
 
-_Deadline Thursday_
+1. admin creates a new repository on github called “animals” (without quotes).
+2. admin adds a file called “zoo.txt” with some animal generally found in a zoo.
+3. admin commits and pushes his changes (in master branch)
+4. admin adds user as a collaborator (find out how to add a collaborator to a git repository)
+5. user clones a repository from admin (find out how to clone a repository. Note that `git init` is not required when you clone a repository)
+6. user makes a new branch called user-dev
+7. user adds another file called “pets.txt” with some animals generally found in a home.
+8. user commits and pushes his branch to remote
+9. admin pulls the branch crated by user (find out how to pull changes from the repository)
+10. admin submits the link to his github repository (named animal), where unmesh should be able to see the collaborator’s (i.e. user’s) branch along with his commits.
 
-> For all the following exercises create a new .js file. Try to find a proper name for each file or make a small comment about what it does inside for future reference. All these 
+Note:
 
-1. Write a `console.log` statement saying "Hello World!" for each language that you know. 
-
-For example:
-```
-Halo, dunia! // Indonesian
-Ciao, mondo! // Italian
-Hola, mundo! // Spanish
-```
-
-2. Consider the following code:  
-```
-console.log('I'm awesome');
-```
-2.1 Copy the code in your `.js` file and run it. You will see that you will get a SyntaxError. Find a solution for this error, Hint read the error message carefully, it also gives an indication of where the problem is.
-
-3. Declare a variable `x` and initialize it with an integer.  
-   3.1 First, _declare_ your variable `x`.
-<br>   3.2 Add a console.log statement that explains that explains in words what _you think_ the value of `x` is, like in this example:
-  ```js
-  // TODO -> here you initialize your variable
-  console.log('the value of my variable x will be: whateverYouThinkItWillLog');
-  ```
-<br>    3.3 Add a console.log statement that logs the value of `x`
-<br>    3.4 Now _initialize_ your variable `x` with an integer
-<br>    3.5 Now add a console.log statement that explains what _you think_ the value of `x` is.
-<br>    3.6 Add a console.log statement that logs the value of `x`.
-  Steps to be taken:
-  
-  ```js
-  // TODO -> here you declare your variable
-  console.log('the value of x will be: whateverYouThinkItWillLog');
-  // TODO -> log the actual value of x
-  // TODO -> here you initialize your variable
-  console.log('the value of x will be: whateverYouThinkItWillLog');
-  // TODO -> log value of x again
-  ```
-
-4. Declare a variable `y` and assign a string to it.  
-    4.1 Write a console.log statement in which you explain in words what _you think_ the value of the string is
-<br>    4.2 Now console.log the variable `y`.
-<br>    4.3 Now assign a new string to the variable `y`
-<br>    4.4 Just like you did before write a console.log statement that explains in words what you think will be logged to the console.
-<br>    4.5 Now console.log `y` again.
-  ```js
-  // TODO -> here you declare AND assign your string
-  console.log('the value of my string will be: whateverYouThinkItWillLog');
-  // TODO -> log the actual value of the string to the console
-  // TODO -> assign a new value to your variable x
-  console.log('the value of my string will be: whateverYouThinkItWillLog');
-  // TODO -> log the actual value of the string to the console
-  ```
-
-5. How do you round the number 7.25, to the nearest integer?  
-    5.1 Declare a variable `z` and assign the number 7.25 to it.
-<br>    5.2 Console.log `z`.
-<br>    5.3 Declare another variable `a` that has the value of z but rounded to the nearest integer.
-<br>    5.4 Console.log `a`
-<br>    5.5 So now we have `z` and `a` find a way to compare the two values and store the highest of the two in a new variable.
-<br>    5.6 Console.log the highest value.
-
-6. Arrays!  
-    6.1 Declare an empty array (you can decide on how to call it yourself, but read on a bit here and see if you can find a good name that exactly describes what this variable will hold).
-<br>    6.2 Write a console.log statement that explains in words what you think the value of the array is.
-<br>    6.3 Console.log your array.
-<br>    6.4 Create an array that has your favorite animals inside
-<br>    6.5 Log your array
-<br>    6.6 Add a statement that adds Daan's favorite animal (baby pig) to the *existing array*
-
-<br>    6.7 Log your new array!
-
-7. More strings 
-<br>    7.1 Let's consider the following string: `let myString = "this,is,a,test"`.
-<br>    7.2 Add the string to your file and console.log it.
-<br>    7.3 Find a way to get the length of `myString`.
-<br>    7.4 Console.log the length of `myString`.
-
-8. Write a program that checks the types of two variables and prints out `SAME TYPE` if they are the same type.  
-    8.1 First declare at least four variables and assign them different data types.
-<br>    8.2 For each variable write a `console.log` statement that logs the value 
-  ```js 
-  let foo = 3;
-  console.log('The value of my variable foo is: ' + foo);
-  ```
-<br>    8.3 Now write a console.log statement wherein you first explain in words what you think the _type_ of your variables is.
-<br>    8.4 Now use `typeof` to log the actual _type_ of your variables.
-<br>    8.5 Now compare the types of your different variables with one another.
-<br>    8.6 Make sure to also show a message when the variables you are comparing are not the same type.
-<br>    For example:
-
-```js
-let x = 9;
-let y = 'Hello';
-
-if () {
-    console.log('SAME TYPE');
-}
-// TODO -> add a way of giving feedback if your variables don't have the same type
-```
-
-9. If `x` equals 7, and the only other statement is `x = x % 3`, what would be the new value of `x`?  
-     9.1 Add at least 3 `console.log` statements in which you show that you understand what `%` does.
-
-10. Write a program to answer the following questions:  
-    10.1 Can you store multiple types in an array? Numbers and strings? Make an example that illustrates your answer.
-<br>    10.2 Can you compare infinities? (Not in Eyad's world) - does 6/0 === 10/0? How can you test this?
-<br>    10.3 Add console.log statements to the above program's in which you show that you understand the concepts (just like you've done in the above assignments).
-
-### Step 4: **Some freeCodeCamp challenges (10 hours):**
-
-Deadline Saturday_
-
-On freeCodeCamp.com please do the [Basic JavaScript](https://www.freecodecamp.com/challenges/learn-how-free-code-camp-works) exercises up and until the __"Shopping List"__ exercise (there are some topics we did not cover but you can do it).
-
-### How to hand in Homework:
-```
-steps:
-• Create a Github account
-• Create a new repository (name it something like hyf-javascript1) make sure you select the option: initialize with README
-• inside this repository create a folder "week1"
-• Upload the files you created on your computer inside the week1 folder, write a description for this “commit”
-• Open the file in your README to check if this all worked
-
-• Create a new repository "hyf-javascript1". Also create a new folder "week1" inside this repository. 
-• Upload your homework files inside the week1 folder and write a description for this “commit”.
-• Your hyf-javascript1/week1 should now contain all your homework files.
-• Place the link to your repository folder in Trello.
-```
-
-### Hint
-If you solve the FreeCodeCamp challenges and they are new concepts to you and you would like to take a look at them later on in the program, Copy your answers from FCC in a `.js` file and upload them to Github in a repository for future reference. In this way you build your own little documentation, if you look back at them first try to understand what it does before you run them.
-
-:star: Additional resources and review: [here](https://github.com/HackYourFuture/JavaScript/tree/master/Week1/REVIEW.md) (work in progress):star:
+The *user* is  *not supposed to fork* the admin’s repository. *admin* is supposed to add user as a collaborator and *user* should just *clone* the repository (i.e. *user* will only have the local copy of the repository). Only *admin* will have the *github* server copy of the repository. Of course, admin will have its local copy of the repository too.
 

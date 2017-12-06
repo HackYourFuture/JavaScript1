@@ -1,180 +1,166 @@
 ## Homework Week 2
 
->[Here](https://github.com/HackYourFuture/JavaScript/tree/master/Week2/README.md) you find the readings you have to complete before the third lecture.
+```
+Topics discussed in class this week:
+• Intro JavaScript (What is it, where can you use it for)
+• Variables [var, let, const]
+• Basic Data types [Strings, Numbers, Arrays, Booleans]
+• Operators
+```
 
-## Step 0: Feedback
+>[Here](/Week1/README.md) you find the readings you have to complete before the second lecture.
 
-_Deadline Monday_
+## Before you start with the homework:
 
-Provide feedback to step 1 and step 3 of the homework of last week to one of your fellow students. You will be assigned to one of the assignments by the class lead of this week.
-
-## Step 1: Recap/Read
-
-- Have a look at [The Secret Life of JavaScript Primitives](https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/)
-- Go through the review of [last week](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md)
-- Go through the review of [this week](https://github.com/HackYourFuture/JavaScript/blob/master/Week2/REVIEW.md) 
-
-## Step 2: Watch
-
-1. If you haven't done already, watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro) Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though). 
-2. Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):
-    <br>4. Writing Conditional Code
-    <br>5. Modular Code
-    <br>6. Iteration: Writing Loops
-    <br>7. More About Strings
-    <br>8. Collections
-    <br>11. When Things Go Wrong 
-
-## Step 3: Rover the Robot 
-
-Go and try out this cool game: http://hyf-robot.herokuapp.com/index.html, there are different levels, see how far you can get! 
+1. Go through the review of [week 1](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md)
+2. Watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro) Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though). 
+3. Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):
+    <br>0. Introduction
+    1. Programming Basics
+    2. Core Programming Syntax 
+    3. Variables and Data Types
 
 
-## Step 4: JavaScript
+## Step 2: Feedback
+
+_Deadline Wednesday_
+
+Provide feedback on the HTML-CSS assignments (week 3) of one of your fellow students. You will be assigned to one of the assignments by the class lead of this week.
+
+## Step 3: JavaScript
 
 _Deadline Thursday_
 
-> For all the following exercises create a new .js file. Try to find a proper name for each file or make a small comment about what it does inside for future reference
+> For all the following exercises create a new .js file. Try to find a proper name for each file or make a small comment about what it does inside for future reference. 
 
-*IMPORTANT NOTE*
-In each assignment write at least two `console.log` statements to verify if your code works correctly. In other words proof that you code works as expected. If you need inspiration look at the steps defined in the assignments from last week.
+1\. Write a `console.log` statement saying "Hello World!" for each language that you know. 
 
-1. Create a function that takes 3 arguments and returns the sum of the three arguments.
+For example:
+```
+Halo, dunia! // Indonesian
+Ciao, mondo! // Italian
+Hola, mundo! // Spanish
+```
 
-2. Create a function named `colorCar` that receives a color, and prints out, "a red car" for example.
+2\. Consider the following code:  
+```
+console.log('I'm awesome');
+```
+2\.1 Copy the code in your `.js` file and run it. You will see that you will get a SyntaxError. Find a solution for this error, Hint read the error message carefully, it also gives an indication of where the problem is.
 
-3. Create an object and a function that takes the object as a parameter and prints out all of its names and values.
+3\. Declare a variable `x` and initialize it with an integer.    
+3\.1 First, _declare_ your variable `x`.  
+3\.2 Add a console.log statement that explains that explains in words what _you think_ the value of `x` is, like in this example:
+```js
+  // TODO -> here you initialize your variable
+  console.log('the value of my variable x will be: whateverYouThinkItWillLog');
+```
+3\.3 Add a console.log statement that logs the value of `x`.  
+3\.4 Now _initialize_ your variable `x` with an integer.  
+3\.5 Now add a console.log statement that explains what _you think_ the value of `x` is.  
+3\.6 Add a console.log statement that logs the value of `x`.
+  Steps to be taken:
+  
+```js
+  // TODO -> here you declare your variable
+  console.log('the value of x will be: whateverYouThinkItWillLog');
+  // TODO -> log the actual value of x
+  // TODO -> here you initialize your variable
+  console.log('the value of x will be: whateverYouThinkItWillLog');
+  // TODO -> log value of x again
+```
 
-4. Create a function named `vehicleType` that receives a color, and a code, 1 for car, 2 for motorbike. And prints "a blue motorbike" for example when called as `vehicleType("blue", 2)`
+4\. Declare a variable `y` and assign a string to it.  
+4\.1 Write a console.log statement in which you explain in words what _you think_ the value of the string is.  
+4\.2 Now console.log the variable `y`.  
+4\.3 Now assign a new string to the variable `y`.  
+4\.4 Just like you did before write a console.log statement that explains in words what you think will be logged to the console.  
+4\.5 Now console.log `y` again.  
+```js
+  // TODO -> here you declare AND assign your string
+  console.log('the value of my string will be: whateverYouThinkItWillLog');
+  // TODO -> log the actual value of the string to the console
+  // TODO -> assign a new value to your variable x
+  console.log('the value of my string will be: whateverYouThinkItWillLog');
+  // TODO -> log the actual value of the string to the console
+```
 
-5. Can you write the following without the `if` statement, but with just as a single line with `console.log(...);`?
+5\. How do you round the number 7.25, to the nearest integer?  
+5\.1 Declare a variable `z` and assign the number 7.25 to it.  
+5\.2 Console.log `z`.  
+5\.3 Declare another variable `a` that has the value of z but rounded to the nearest integer.  
+5\.4 Console.log `a`.  
+5\.5 So now we have `z` and `a` find a way to compare the two values and store the highest of the two in a new variable.  
+5\.6 Console.log the highest value.  
 
-    ```js
-    if (3 === 3) {
-        console.log("true")
-    } else {
-        console.log("false")
-    }
-    ```
+6\. *Arrays!*  
+6\.1 Declare an empty array.  
+6\.2 Write a console.log statement that explains in words what you think the value of the array is.  
+6\.3 Console.log your array.  
+6\.4 Create an array that has your favorite animals inside (you can decide on how to call it yourself, but read on a bit here and see if you can find a good name that exactly describes what this variable will hold).
+6\.5 Log your array.  
+6\.6 Add a statement that adds Daan's favorite animal (baby pig) to the *existing array*.  
+6\.7 Log your new array!  
 
-6. Create a function called `vehicle`, like before, but takes another parameter called age, so that `vehicle("blue", 1, 5)` prints "a blue used car"
+7\. *More strings*  
+7\.1 Let's consider the following string: `let myString = "this,is,a,test"`.  
+7\.2 Add the string to your file and console.log it.  
+7\.3 Find a way to get the length of `myString`.  
+7\.4 Console.log the length of `myString`.  
 
-7. Make a list of vehicles, you can add `"motorbike"`, `"caravan"`, `"bike"`, or more.
+8\. Write a program that checks the types of two variables and prints out `SAME TYPE` if they are the same type.  
+8\.1 First declare at least four variables and assign them different data types.  
+8\.2 For each variable write a `console.log` statement that logs the value  
+  ```js 
+  let foo = 3;
+  console.log('The value of my variable foo is: ' + foo);
+  ```
+8\.3 Now write a console.log statement wherein you first explain in words what you think the _type_ of your variables is.  
+8\.4 Now use `typeof` to log the actual _type_ of your variables.  
+8\.5 Now compare the types of your different variables with one another.  
+8\.6 Make sure to also show a message when the variables you are comparing are not the same type.  
 
-8. How do you get the third element from that list?
+For example:
 
-9. Change the function `vehicle` to use the list of question 7. So that `vehicle("green", 3, 1)` prints "a green new caravan".
+```js
+let x = 9;
+let y = 'Hello';
 
-10. Use the list of vehicles to write an advertisement. So that it prints something like: `"Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes."`. (Hint: use a `for` loop.)
+if () {
+    console.log('SAME TYPE');
+}
+// TODO -> add a way of giving feedback if your variables don't have the same type
+```
 
-11. What if you add one more vehicle to the list, can you have that added to the advertisement without changing the code for question 10?
+9\. If `x` equals 7, and the only other statement is `x = x % 3`, what would be the new value of `x`?  
+9\.1 Add at least 3 `console.log` statements in which you show that you understand what `%` does.  
 
-12. Create an empty object.
+10\. Write a program to answer the following questions:  
+10\.1 Can you store multiple types in an array? Numbers and strings? Make an example that illustrates your answer.  
+10\.2 Can you compare infinities? (Not in Eyad's world) - does 6/0 === 10/0? How can you test this?  
+10\.3 Add console.log statements to the above program's in which you show that you understand the concepts (just like you've done in the above assignments).  
 
-13. Create an object that contains the teachers that you have had so far for the different modules.
-
-14. Add a property to the object you just created that contains the languages that they have taught you.
-
-15. We saw that we can pass functions as arguments to other functions. Your task is to write a function that takes another function as an argument and runs it. 
-
-    ```js
-        function foo(func) {
-            // What to do here? 
-        }
-        
-        function bar() {
-            console.log('Hello, I am bar!');
-        }
-        
-        foo(bar);
-    ```
-
-
-16. Write some code to test two arrays for equality using `==` and `===`. Test the following:
-    
-    ```js
-        let x = [1,2,3];
-        let y = [1,2,3];
-        let z = y;
-    ```
-
-    What do you think will happen with `x == y`, `x === y` and `z == y` and `z == x`? Prove it!
-        
-    > Don't cheat! Seriously - try it first.
-        
-
-    Check out this [Fiddle](http://jsfiddle.net/jimschubert/85M4z/). You need to open your browser’s Developer Tools to see the console output. Press the Run button in the upper right corner to run the code.
-
-    More insights from this [Stack Overflow question](http://stackoverflow.com/questions/22395357/how-to-compare-two-arrays-are-equal-using-javascript).
-
-
-17. Take a look at the following code: 
-
-    ```js
-         let o1 = { foo: 'bar' };
-         let o2 = { foo: 'bar' };
-         let o3 = o2;
-
-    ```
-
-    Show that changing `o2` changes `o3` (or not) and changing `o1` changes `o3`(or not). 
-        
-    Does the order that you assign (`o3 = o2` or `o2 = o3`) matter?
-
-18. What does the following code return? (And why?)
-
-    ```js
-    let bar = 42; 
-    typeof typeof bar;
-    ```
-
- 
-> ‘Coerce' means to try to change - so coercing `var x = '6'` to number means trying to change the type to number temporarily. 
-
-## Step 5: **Finish basic freeCodeCamp challenges:**
+## Step 4: **Some freeCodeCamp challenges (10 hours):**
 
 _Deadline Saturday_
 
-Go back to FreeCodeCamp, start where you left of and finish the rest of the Basic JavaScript challenges.
+On freeCodeCamp.com please do the [Basic JavaScript](https://www.freecodecamp.com/challenges/learn-how-free-code-camp-works) exercises up and until the __"Shopping List"__ exercise (there are some topics we did not cover but you can do it).
 
-Please make sure you REALLY understand the exercises below:
-- https://www.freecodecamp.com/challenges/multiply-two-decimals-with-javascript
-- https://www.freecodecamp.com/challenges/store-multiple-values-in-one-variable-using-javascript-arrays
-- https://www.freecodecamp.com/challenges/build-javascript-objects
-- https://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object
-- https://www.freecodecamp.com/challenges/delete-properties-from-a-javascript-object
+## Step 5: Read before next lecture
 
+_Deadline Sunday morning_
+
+Go trough the reading material in the [README.md](/Week1/README.md) to prepare for your next class
+
+### How to hand in Homework:
 ```
-How to hand in your homework:
-• Upload your homework in your "hyf-javascript1" Github repository. Make sure to create a new folder "week2" first. 
-• Upload your homework files inside the week2 folder and write a description for this “commit”.
-• Your hyf-javascript1/week2 should now contain all your homework files.
+• Create a new repository "hyf-javascript1". Also create a new folder "week1" inside this repository. 
+• Upload your homework files inside the week1 folder and write a description for this “commit”.
+• Your hyf-javascript1/week1 should now contain all your homework files.
 • Place the link to your repository folder in Trello.
 ```
 
-:star: Additional resources and review: [here](https://github.com/HackYourFuture/JavaScript/tree/master/Week2/REVIEW.md) (work in progress):star:
+### Hint
+If you solve the FreeCodeCamp challenges and they are new concepts to you and you would like to take a look at them later on in the program, Copy your answers from FCC in a `.js` file and upload them to Github in a repository for future reference. In this way you build your own little documentation, if you look back at them first try to understand what it does before you run them.
 
-<!-- 13. Create a function that takes two objects as parameters and compares them. You will actually need to write two functions — one that compares with `==` and one that compares with `===`. Remember that objects can have objects inside of them so you'll need to find a way to compare every element of every object (types and values). For example: 
-
-```js
-    let obj1 = {
-        a: 1, 
-        b: 'this is the letter b', 
-        c: { foo: 'what is a foo anyway', 
-             bar: [1,2,3,4]
-        }
-    }
-    
-    let obj2 = {
-        a: '1', 
-        b: 'this is the letter b', 
-        c: { foo: 'what is a foo anyway', 
-             bar: [1,2,3,4]
-        }
-    }
-```
-
-    In our example we'll say that `obj1 == obj2` is `true` and `obj1 === obj2` is `false`. Make sure you can see why before you write any code!
-    
-    Note: give this exercise your best shot but don’t spend more than, say, one hour on it.
- -->
+:star: Additional resources and review: [here](/Week1/REVIEW.md):star:

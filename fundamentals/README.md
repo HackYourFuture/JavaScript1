@@ -8,10 +8,10 @@ A "variable" is a place where you can store information, such as a string, or a 
 
 ### Variable declaration
 
-Variables are "declared" using the `var` keyword:
+Variables are "declared" using the `let` and `const` keywords (or the older `var` keyword):
 
 ```js
-var x = 5;
+let x = 5;
 ```
 
 Here, we say: "declare variable x and initialize it with the number 5".
@@ -33,15 +33,15 @@ In addition, a variable may be `undefined`. This is also a special type.
 To get the type of a variable, use the following code:
 
 ```js
-var x = 5;
-var typeOfX = typeof x; // -> "number"
+let x = 5;
+let typeOfX = typeof x; // -> "number"
 ```
 
 Note that I've put an asterisk behind 'array'. That is because in JavaScript, array is a special kind of object:
 
 ```js
-var arr = [1, 2, 3];
-var typeOfArr = typeof arr; // -> "object"
+let arr = [1, 2, 3];
+let typeOfArr = typeof arr; // -> "object"
 ```
 
 However, in our communication, we will call these variables arrays.
@@ -53,7 +53,7 @@ The values `null` and `undefined` are very similar in JavaScript, but they behav
 Whenever you declare a variable, but you don't set a value, the variable will become `undefined`. JavaScript will never make a variable `null` unless you explicitly program it.
 
 ```js
-var x;
+let x;
 console.log(typeof x); // -> "undefined"
 ```
 
@@ -67,7 +67,7 @@ When you want to access an element inside an array, you use an "index". This is 
 Given the following code:
 
 ```js
-var arr = ['john', 'jane', 'jack'];
+let arr = ['john', 'jane', 'jack'];
 console.log(arr[0]);
 ```
 
@@ -76,8 +76,8 @@ The number `0` is the "index of the first element of array `arr`". Conversely, t
 Instead of a number, you can also use a variable to access elements in an array, *as long as this variable is a number*:
 
 ```js
-var arr = ['john', 'jane', 'jack'];
-var a = 1;
+let arr = ['john', 'jane', 'jack'];
+let a = 1;
 console.log(arr[a]); // -> jane
 ```
 
@@ -91,7 +91,7 @@ Variables that are objects also contain a list of things, but instead of them be
 
 
 ```js
-var obj = {name: 'John', age: 24};
+let obj = {name: 'John', age: 24};
 ```
 
 This object has two properties: `name` and `age`. The "value" of the property `name` is the string `'John'`. The "value" of the property `age` is the number `24`.
@@ -106,7 +106,7 @@ console.log(obj['name']); // -> 'John'
 Just like with arrays, you can also use a variable to access properties, as long as these variables are strings. In this case you cannot use the dot-notation!
 
 ```js
-var ageKey = 'age';
+let ageKey = 'age';
 console.log(obj[ageKey]); // -> 24
 ```
 
@@ -132,7 +132,7 @@ function sum(a, b) {
 and
 
 ```js
-var sum = function (a, b) {
+let sum = function (a, b) {
   return a + b;
 }
 ```
@@ -145,7 +145,7 @@ var sum = function (a, b) {
 
 When writing `function sum(a, b)`, `a` and `b` are the "parameters" of the function. We say that this function has two parameters. (Sometimes, you'll see the word "arity": this function has "arity" 2, but that is something you don't have to use for now.)
 
-Now, when *calling* function sum, e.g. `var s = sum(4, 5);`, we say that the numbers `4` and `5` are the "arguments" of the function. Arguments are "passed" to the function: "we pass `4` and `5` to the function `sum`".
+Now, when *calling* function sum, e.g. `let s = sum(4, 5);`, we say that the numbers `4` and `5` are the "arguments" of the function. Arguments are "passed" to the function: "we pass `4` and `5` to the function `sum`".
 
 So remember the difference between the word "parameter" and "argument". Many people confuse them, and that's not a big problem, but understanding the difference is always nice:
 
@@ -159,7 +159,7 @@ A function that "has two parameters" is also said to "take/accept two arguments"
 In JavaScript, you can call functions *on* something. By this, we mean that you use the dot to call the function. For instance, when we say "call method `trim` on string `s`", we mean:
 
 ```js
-var s = " this is a string  ";
+let s = " this is a string  ";
 s.trim(); // -> "this is a string"
 ```
 
@@ -207,7 +207,7 @@ Similarly, a statement in JavaScript should provide a command by itself. JavaScr
 This is a complete statement:
 
 ```js
-var s = "HackYourFuture";
+let s = "HackYourFuture";
 ```
 
 It is a full command: declare a variable `s` and initialize it with `"HackYourFuture"`. JavaScript doesn't need any other information to know what we want. The statement is terminated with a semicolon.
@@ -218,7 +218,7 @@ However, this is not a complete statement:
 4 + 5
 ```
 
-This equals `9`, but what is JavaScript to do with it? It doesn't provide a command. You'd need to do something with it, e.g. `var x = 4 + 5;` or `callFunction(4 + 5)`. We call these parts of statements "expressions". Expressions are not terminated by semicolons. Expressions always "evaluate into a value". In our example, the expression `4 + 5` "evaluates into `9`". If expressions cannot be evaluated into a value, they are invalid. For instance, `4 +` is not a valid expression, it is incomplete, because we need something else after the plus sign.
+This equals `9`, but what is JavaScript to do with it? It doesn't provide a command. You'd need to do something with it, e.g. `let x = 4 + 5;` or `callFunction(4 + 5)`. We call these parts of statements "expressions". Expressions are not terminated by semicolons. Expressions always "evaluate into a value". In our example, the expression `4 + 5` "evaluates into `9`". If expressions cannot be evaluated into a value, they are invalid. For instance, `4 +` is not a valid expression, it is incomplete, because we need something else after the plus sign.
 
 So, statements can *contain* expressions. Can expressions contain statements? No, they cannot. However, they can themselves contain expressions. Think about `4 + 5`: it contains the expressions `4` and `5`, as these both evaluate into a value: the expression `4` evaluates into the number `4`, it is a very simple expression. Similarly, `true`, `null`, `undefined` are all expressions.
 
@@ -247,7 +247,7 @@ function a() { return 4; }
 by itself, this is a *statement* (a function declaration statement). However, if you write it as part of a statement, such as:
 
 ```js
-var b = function a() { return 4; }
+let b = function a() { return 4; }
 ```
 
 now it is an expression. This is an exceptional situation where something can be a statement or an expression.
@@ -256,8 +256,8 @@ now it is an expression. This is an exceptional situation where something can be
 
 The following are not expressions:
 
-* `var` -> this is a keyword, see below
-* `var x;` -> this is a statement
+* `let` -> this is a keyword, see below
+* `let x;` -> this is a statement
 * `+` -> this is only an operator
 * `if (a > 4) { return "yes"; } else { return "no"; }`
 

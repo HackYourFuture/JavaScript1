@@ -28,6 +28,8 @@ This review covers:
 
 ## Objects
 
+Variables that are objects also contain a list of things, but instead of them being in some specific order, they can be assigned to words, called "keys". Instead of "elements" the things that are inside objects are called "properties".
+
 [Read more...](../fundamentals/object.md)
 
 ## Functions

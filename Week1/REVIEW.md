@@ -13,7 +13,7 @@ This review covers:
 
 Command Line Interface
 
-[Read more...](../topics/CLI.md)
+[Read more...](../fundamentals/CLI.md)
 
 >:star: Highly recommended :star: :take a look at the Command Line [repository](https://github.com/HackYourFuture/CommandLine) and especially review the preparations of the first lecture: https://github.com/HackYourFuture/CommandLine/blob/master/Lecture-1.md
 
@@ -21,13 +21,13 @@ Command Line Interface
 
 A "variable" is a place where you can store information, such as a string, or a number. A variable has a _name_ (that you choose) and a _value_. New variables in JavaScript are declared using one of three keywords: `let`, `const`, or `var`.
 
-[Read more...](../topics/variables.md)
+[Read more...](../fundamentals/variables.md)
 
 ## Values
 
 Values are the "things" that you assign to a variable. All values have a type. In our example above, the variable `x` is assigned a value of type `number`. JavaScript supports the following types:
 
-[Read more...](../topics/values.md)
+[Read more...](../fundamentals/values.md)
 
 ## Operators
 
@@ -37,4 +37,4 @@ Values are the "things" that you assign to a variable. All values have a type. I
 - `typeof` operator
 - Assignment operators
 
-[Read more...](../topics/operators.md)
+[Read more...](../fundamentals/operators.md)

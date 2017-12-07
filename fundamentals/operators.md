@@ -68,7 +68,13 @@ More about [Arithmetic operators](https://developer.mozilla.org/en-US/docs/Web/J
 
 * AND `&&`
 * OR `||`
-* NOT `!`
+
+```js
+true && false //-> false
+false && true //-> false
+false || true //-> true
+true || false //-> true
+```
 
 Given that x = 6 and y = 3
 ```js
@@ -79,6 +85,8 @@ x !== y // -> true
 
 Logical NOT
 
+* NOT `!`
+
 ```js
 true === !false
 false === !true
@@ -88,11 +96,15 @@ More about [logical operators](https://developer.mozilla.org/en-US/docs/Web/Java
 
 ### typeof operator
 
-We already mentioned the `typeof` operator:
+To get the type of a value assigned to a variable, use the following code:
 
 ```js
-typeof 5 // -> 'number'
+let bar = 42; 
+typeof bar    //-> 'number' 
+typeof typeof bar; //->  'string'
 ```
+
+So the data type of what `typeof` returns is always a string, bar on the other hand is still a number.
 
 ## Assignment operators
 

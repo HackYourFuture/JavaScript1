@@ -24,20 +24,20 @@ This review covers:
 
 `typeof` always returns the data type in a string. 
 
-[Read more...]((../fundamentals/operators.md#typeof-operator)
+[Read more...](../fundamentals/operators.md#typeof-operator)
 
 ## Objects
 
-[Read more...]((../fundamentals/object.md)
+[Read more...]../fundamentals/object.md)
 
 ## Functions
 
 A function is a reusable piece of code. Functions are *very* important in JavaScript, to the extent that some people call JavaScript a "function-oriented" language. As mentioned above, variables can be of type function. In fact, *every function is a variable*.
 
-[Read more...]((../fundamentals/functions.md)
+[Read more...](../fundamentals/functions.md)
 
 ## Statements & expressions
 
 Most programming languages that you'll encounter in real life are called "imperative" programming languages. JavaScript is such an imperative programming language. Imperative is another word for command-like. That is, you give the computer a bunch of commands after each other. First do this, then do that, etc.
 
-[Read more...]((../fundamentals/statements_expressions.md)
+[Read more...](../fundamentals/statements_expressions.md)

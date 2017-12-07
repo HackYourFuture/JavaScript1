@@ -28,7 +28,7 @@ This review covers:
 
 ## Objects
 
-[Read more...]../fundamentals/object.md)
+[Read more...](../fundamentals/object.md)
 
 ## Functions
 

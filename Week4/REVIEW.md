@@ -2,10 +2,10 @@
 
 ```
 This review covers:
-• JSON
-• Code debugging using the browser
-• Functions + JSON/Arrays
-• Code flow (order of execution)
-• (capturing user input)
+• Capturing user input 
+• Events
+• Basic DOM manipulations[img src, innerHTML] 
+• Code debugging using the browser 
+• Code commenting 
 • Structuring code files
 ```

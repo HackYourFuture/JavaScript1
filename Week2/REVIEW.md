@@ -2,44 +2,38 @@
 
 ```
 This review covers:
-• Recap Logical operators
-• Typeof
-• Loops (for/while)
-• Functions 
-• Advanced data types [Objects]  
-• Conditions
-• Statements vs Expressions 
+•• Intro JavaScript (What is it, where can you use it for)
+• Variables [var, let, const]
+• Basic value types [Strings, Numbers, Arrays, Booleans]
+• Operators 
 • Naming conventions
 ```
 
-## Recap Logical operators
 
-* AND `&&`
-* OR `||`
-* NOT `!`
+## Variables
 
-[Read more...](../fundamentals/operators.md#logical-operators)
+A "variable" is a place where you can store information, such as a string, or a number. A variable has a _name_ (that you choose) and a _value_. New variables in JavaScript are declared using one of three keywords: `let`, `const`, or `var`.
 
-## Typeof
+[Read more...](../fundamentals/variables.md)
 
-`typeof` always returns the data type in a string. 
+## Values
 
-[Read more...](../fundamentals/operators.md#typeof-operator)
+Values are the "things" that you assign to a variable. All values have a type. In our example above, the variable `x` is assigned a value of type `number`. JavaScript supports the following types:
 
-## Objects
+[Read more...](../fundamentals/values.md)
 
-Variables that are objects also contain a list of things, but instead of them being in some specific order, they can be assigned to words, called "keys". Instead of "elements" the things that are inside objects are called "properties".
+## Operators
 
-[Read more...](../fundamentals/object.md)
+- Comparison operators (equality, relational)
+- Arithmetic operators
+- Logical operators
+- `typeof` operator
+- Assignment operators
 
-## Functions
+[Read more...](../fundamentals/operators.md)
 
-A function is a reusable piece of code. Functions are *very* important in JavaScript, to the extent that some people call JavaScript a "function-oriented" language. As mentioned above, variables can be of type function. In fact, *every function is a variable*.
+## Naming conventions
 
-[Read more...](../fundamentals/functions.md)
+In programming you will need to come up with appropriate names for your variables and functions.
 
-## Statements & expressions
-
-Most programming languages that you'll encounter in real life are called "imperative" programming languages. JavaScript is such an imperative programming language. Imperative is another word for command-like. That is, you give the computer a bunch of commands after each other. First do this, then do that, etc.
-
-[Read more...](../fundamentals/statements_expressions.md)
+[Read more...](../fundamentals/naming_convensions.md)

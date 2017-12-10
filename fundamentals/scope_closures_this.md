@@ -75,3 +75,6 @@ There are *five different ways* we can create a new context in JavaScript:
 - The event listener context
 
 More info on this [in this great post](https://zellwk.com/blog/this/)
+
+Another great article about `this`: [Understanding JavaScript Function Invocation and "this"](http://yehudakatz.com/2011/08/11/understanding-javascript-function-invocation-and-this/).
+

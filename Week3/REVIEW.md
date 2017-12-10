@@ -2,44 +2,43 @@
 
 ```
 This review covers:
-- More CLI
-- Scope, closures and 'this'
-- Array Manipulations
-- Basic DOM manipulations
-- Code commenting
+• Git work flow
+• Advanced data types [Objects] 
+• Conditions 
+• Statements vs Expressions
+• Loops (for/while)
+• Functions 
+• Scope
 ```
 
-## More CLI
-Check out the CLI review here: https://github.com/HackYourFuture/CommandLine/blob/master/Lecture-2.md
+## Recap Logical operators
 
-## Scope, closures and 'this'
+* AND `&&`
+* OR `||`
+* NOT `!`
 
-Scope, closure and 'this' are about *context*.
+[Read more...](../fundamentals/operators.md#logical-operators)
 
-[Read more...](../fundamentals/scope_closures_this.md)
+## Typeof
 
-## Array Manipulation
+`typeof` always returns the data type in a string. 
 
-As we know by now, arrays are collections of values.
+[Read more...](../fundamentals/operators.md#typeof-operator)
 
-As we will see, there are often many ways to achieve the same thing when working arrays. Over time, you will add different techniques to your mental toolbox to achieve the result you want quickly.
+## Objects
 
-[Read more...](../fundamentals/array_manipulation.md)
+Variables that are objects also contain a list of things, but instead of them being in some specific order, they can be assigned to words, called "keys". Instead of "elements" the things that are inside objects are called "properties".
 
-## Basic DOM manipulations
+[Read more...](../fundamentals/object.md)
 
-Using JavaScript we can access and manipulate the Document Object Model (DOM). We access the DOM through a global object called `document`.
+## Functions
 
-[Read more...](../fundamentals/DOM_manipulation.md)
+A function is a reusable piece of code. Functions are *very* important in JavaScript, to the extent that some people call JavaScript a "function-oriented" language. As mentioned above, variables can be of type function. In fact, *every function is a variable*.
 
-## Code Commenting
-First the straightforward part: how do we place comments in our code?
+[Read more...](../fundamentals/functions.md)
 
-### JavaScript
-Single line comments
-```js
-// Change heading:
-document.getElementById("myH").innerHTML = "My First Page";
-```
+## Statements & expressions
 
-[Read more...](../fundamentals/code_commenting.md)
+Most programming languages that you'll encounter in real life are called "imperative" programming languages. JavaScript is such an imperative programming language. Imperative is another word for command-like. That is, you give the computer a bunch of commands after each other. First do this, then do that, etc.
+
+[Read more...](../fundamentals/statements_expressions.md)

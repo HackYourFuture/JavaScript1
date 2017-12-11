@@ -1,12 +1,12 @@
 # Map, filter
 
-The array methods **map()**, **filter()** and **reduce()** are best understood by looking at how they could be implemented if we were to write them ourselves. In the next few sections we will present simplified versions of the native implementations. We have prefixed the method names with `my` to distinguish them from the built-in versions.
+The array methods **map()** and **filter()** are best understood by looking at how they could be implemented if we were to write them ourselves. In the next few sections we will present simplified versions of the native implementations. We have prefixed the method names with `my` to distinguish them from the built-in versions.
 
-Each of the three methods use a `for` loop internally. You will notice that once you start using these methods the need for `for` loops in your own code is greatly reduced (hurray!). 
+Each of the three methods use a `for` loop internally. You will notice that once you start using these methods the need for `for` loops in your own code is greatly reduced (hurray!).
 
 ## Array#map()\*
 
-The **map** method returns a new array where each element of the subject array is transformed by a user-supplied transformation (= _mapping_) function. 
+The **map** method returns a new array where each element of the subject array is transformed by a user-supplied transformation (= _mapping_) function.
 
 ```js
 Array.prototype.myMap = function (mapFn) {
@@ -20,7 +20,7 @@ Array.prototype.myMap = function (mapFn) {
 
 <small>\* Array#map is a short-hand notation for Array.prototype.map.</small>
 
-Because the **map()** method is called on an array (using dot-notation), the value of `this` refers to that array itself (in this review called the _subject_ array). 
+Because the **map()** method is called on an array (using dot-notation), the value of `this` refers to that array itself (in this review called the _subject_ array).
 
 Internally, the **map()** method initializes a new, empty array to which it will push transformed elements, one by one, as it iterates through the subject array, calling the `mapFn` function for each individual element. When the loop has been completed, the new array is returned. Note that the subject array itself remains unmodified.
 
@@ -68,7 +68,7 @@ As is usual in JavaScript you do not necessarily have to use all the parameters 
 
 ## Array#filter()
 
-The **filter()** method returns a new array with all elements that pass the test implemented by a user-supplied (predicate\*) function. 
+The **filter()** method returns a new array with all elements that pass the test implemented by a user-supplied (predicate\*) function.
 
 ```js
 Array.prototype.myFilter = function (predicateFn) {
@@ -132,7 +132,7 @@ The whole process is visualised in the figure below (the term _bucket_ was used 
 
 ![image](assets/reduce-bucket.png)
 
-The **reduce()** method is the most flexible of the map/filter/reduce triplet. In fact, it is possible to rewrite **map()** and **filter** using **reduce()**. 
+The **reduce()** method is the most flexible of the map/filter/reduce triplet. In fact, it is possible to rewrite **map()** and **filter** using **reduce()**.
 
 ### Using reduce() to filter
 

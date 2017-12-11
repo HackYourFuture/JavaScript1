@@ -1,4 +1,4 @@
-# Array Manipulation
+# Array Manipulations
 
 [MDN on Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 As we know by now, arrays are collections of values.

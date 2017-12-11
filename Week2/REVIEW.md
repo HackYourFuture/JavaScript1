@@ -2,13 +2,12 @@
 
 ```
 This review covers:
-•• Intro JavaScript (What is it, where can you use it for)
+• Intro JavaScript (What is it, where can you use it for)
 • Variables [var, let, const]
 • Basic value types [Strings, Numbers, Arrays, Booleans]
 • Operators
 • Naming conventions
 ```
-
 
 ## Variables
 

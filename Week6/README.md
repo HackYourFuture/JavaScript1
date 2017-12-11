@@ -8,13 +8,10 @@ In week seven we will discuss the following topics:
     • apply
     • bind
 • Code flow (order of execution)
-• Async VS Sync 
+
 ```
 
 ### Here are resources that we like you to read as a preparation for the coming lecture:
-
-#### Async VS Sync 
-- Read about Asynchronous vs. Synchronous programming: http://www.hongkiat.com/blog/synchronous-asynchronous-javascript/
 
 #### Closures and async code
 - [Why closures are helpful with async code](http://stackoverflow.com/questions/13343340/calling-an-asynchronous-function-within-a-for-loop-in-javascript)

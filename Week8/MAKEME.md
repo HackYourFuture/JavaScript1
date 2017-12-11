@@ -5,21 +5,64 @@ Topics discussed this week:
 • Structure for a basic SPA
 • XMLHttpRequests
 • API calls
+• Async VS Sync
 ```
 
 
 >[Here](/Week8/README.md) you find the readings you have to complete before the ninth lecture.
 
-## Step 1: Feedback step 4 and 6 week 7
+## Step 1: Feedback
 
-Give feedback on the SPA (Github API) and git branching homework of one of you fellow students. Please provide the feedback in an issue.
+_Deadline Monday_
+
+Please provide feedback in an issue.
+
+_Deadline Monday_
 
 ## Step 2: FINISH ALL YOUR JAVASCRIPT HOMEWORK
 
+_Deadline Saturday_
+
 :point_up:
+
+## Step 3: Async challenge
+
+_Deadline Saturday_
+
+1. Rewrite the code below to Async: 
+
+```js
+1.
+
+let sum = calculateSum(2, 6);
+console.log(sum);
+
+2.
+
+let results = $.getJSON('http://myapi.com');
+showResults(results);
+
+3.
+
+let sum = calculateSum(2, 6);
+if (sum > 8) {
+    console.log('larger than 8');
+}
+
+4.
+
+let data = $.getJSON('http://myapi.com');
+data = data.map(function (x) { return x * 8; });
+
+writeDataToFile(data);
+```
+
 
 
 ## Step 4: SPA :sweat_drops:
+
+_Deadline Saturday_
+
 You are going to write a SPA (Single Page Application) that uses the [Github API](https://developer.github.com/guides/getting-started/). Make sure that your app uses a logical pattern just like [this codepen](http://codepen.io/Razpudding/pen/MmVpeW).
 
 Just like last week:

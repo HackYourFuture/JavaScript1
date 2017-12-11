@@ -17,6 +17,8 @@ Give feedback on `step 2` of `week 5` to one of your fellow students (do this by
 
 ## Step 2: Git Homework
 
+_Deadline Saturday_
+
 [Make these assignments](https://github.com/HackYourFuture/Git/blob/master/Lecture-3.md). For handing in homework follow the Forking workflow that is described  in our lecture-3.md  file of HackYourFuture’s Git repository (there is also a video that explains this).
 
 ## Step 3: Read
@@ -36,15 +38,17 @@ _Deadline Wednesday_
 
 1\.We saw that we can pass functions as arguments to other functions. Your task is to write a function that takes another function as an argument and runs it.
 
-    function foo(func) {
+```js
+function foo(func) {
         // What to do here? 
-    }
+}
     
-    function bar() {
-        console.log('Hello, I am bar!');
-    }
+function bar() {
+    console.log('Hello, I am bar!');
+}
+```
     
-    foo(bar);
+foo(bar);
 
 2\.We learned a little bit about callbacks in JS. A callback is simply a function passed to another function that gets executed (run) after a potentially long running operation has completed. There is another function called `setTimeout` that will wait a specified period of time and then execute a function. For example: 
 
@@ -126,6 +130,8 @@ If you are confused please run the code and then consult the Google for "javaScr
 
 
 ## Step 5: Scope and Closures
+
+_Deadline Saturday_
 
 > Let's continue to learn a little more about scope and Closures. 
 

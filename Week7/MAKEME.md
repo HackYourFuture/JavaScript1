@@ -12,11 +12,11 @@ Topics discussed this week:
 
 >[Here](/Week7/README.md) you find the readings you have to complete before the eighth lecture.
 
-## Step 1: Give feedback on Step 4 and 5 of last weeks homework.
+## Step 1: Give feedback
 
 _Deadline Monday_
 
-Give feedback on the SPA (Github API) and git branching homework of one of you fellow students. Please provide the feedback in an issue.
+Give feedback on Step 4 and 5 of last weeks homework. Please provide the feedback in an issue.
 
 ## Step 2: Issues
 

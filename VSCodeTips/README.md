@@ -53,17 +53,18 @@ We recommend that you apply two changes to the default settings of VSCode to hel
 
 1. Press the cog-wheel icon in the lower-left corner of the VSCode screen, as indicated here:
 
-	![settings-btn](assets/settings.png) 
+	![settings-btn](assets/settings.png)
 
 2. From the menu, select **Settings**.
 3. In the `USER SETTINGS` tab in the right-hand half of the screen add the two lines indicated below between the curly braces:
-	```json
-	/// Place your settings in this file to overwrite the default settings
+
+```json
+/// Place your settings in this file to overwrite the default settings
 {
   "editor.formatOnType": true,
   "editor.formatOnPaste": true
 }
-	```
+```
 
 4. Close the User Settings tab.
 

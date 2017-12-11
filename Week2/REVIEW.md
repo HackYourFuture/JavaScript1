@@ -5,7 +5,7 @@ This review covers:
 •• Intro JavaScript (What is it, where can you use it for)
 • Variables [var, let, const]
 • Basic value types [Strings, Numbers, Arrays, Booleans]
-• Operators 
+• Operators
 • Naming conventions
 ```
 
@@ -36,4 +36,4 @@ Values are the "things" that you assign to a variable. All values have a type. I
 
 In programming you will need to come up with appropriate names for your variables and functions.
 
-[Read more...](../fundamentals/naming_convensions.md)
+[Read more...](../fundamentals/naming_conventions.md)

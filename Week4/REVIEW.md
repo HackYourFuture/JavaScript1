@@ -14,4 +14,4 @@ This review covers:
 
 First the straightforward part: how do we place comments in our code?
 
-[Read more...](../fundamentals/code_commenting)
+[Read more...](../fundamentals/code_commenting.md)

@@ -1,4 +1,4 @@
-# REVIEW week 5
+# REVIEW week 6
 
 ```
 This review covers:
@@ -7,7 +7,7 @@ This review covers:
 • Callbacks
 ```
 
-##Scope, closures and 'this'
+## Scope, closures and 'this'
 
 Scope, closure and 'this' are about *context*.
 

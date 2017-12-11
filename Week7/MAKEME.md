@@ -45,7 +45,7 @@ Also make:
 
 3. [Iterate over Arrays with map](https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map)
 
-## Step 5: 
+## Step 5: OOP
 
 _Deadline Wednesday_
 
@@ -88,7 +88,7 @@ _Deadline Sunday morning_
 
 Go trough the reading material in the [README.md](/Week7/README.md) to prepare for your next class
 
-_BONUS_ : Code Kata Race
+## _BONUS_ : Code Kata Race
 
 If you haven't already join our clan: "Hack Your Future" in codewars
 

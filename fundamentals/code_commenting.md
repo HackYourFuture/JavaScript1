@@ -1,4 +1,5 @@
 # Code Commenting
+
 First the straightforward part: how do we place comments in our code?
 
 ## JavaScript

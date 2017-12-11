@@ -15,7 +15,7 @@ As we know by now, arrays are collections of values.
 
 As we will see, there are often many ways to achieve the same thing when working arrays. Over time, you will add different techniques to your mental toolbox to achieve the result you want quickly.
 
-[Read more...](assets/array_manipulation)
+[Read more...](assets/array_manipulation.md)
 
 ## Map and filter
 

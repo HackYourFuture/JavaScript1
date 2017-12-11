@@ -79,6 +79,9 @@ console.log(`Director: ${director.getName()}`);
 // Be creative with this let's see what you come up with :-)
 ```
 
+Fun extra step: If you get bored, template them and make a page by rendering the results in HTML :slightly_smiling_face:
+with something like `document.querySelector('.move').innerHTML = MovieHTML`
+
 ## Step 6: Read before next lecture
 
 _Deadline Sunday morning_

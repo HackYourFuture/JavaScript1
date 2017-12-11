@@ -3,11 +3,11 @@
 ```
 This review covers:
 • Git work flow
-• Advanced data types [Objects] 
-• Conditions 
+• Advanced data types [Objects]
+• Conditions
 • Statements vs Expressions
 • Loops (for/while)
-• Functions 
+• Functions
 • Scope
 ```
 
@@ -21,7 +21,7 @@ This review covers:
 
 ## Typeof
 
-`typeof` always returns the data type in a string. 
+`typeof` always returns the data type in a string.
 
 [Read more...](../fundamentals/operators.md#typeof-operator)
 
@@ -29,7 +29,7 @@ This review covers:
 
 Variables that are objects also contain a list of things, but instead of them being in some specific order, they can be assigned to words, called "keys". Instead of "elements" the things that are inside objects are called "properties".
 
-[Read more...](../fundamentals/object.md)
+[Read more...](../fundamentals/objects.md)
 
 ## Functions
 

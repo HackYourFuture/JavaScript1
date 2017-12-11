@@ -45,8 +45,39 @@ Also make:
 
 3. [Iterate over Arrays with map](https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map)
 
-## Step 5: TBA after hangout session.
+## Step 5: 
 
+_Deadline Wednesday_
+
+```js
+// Inspired by the lesson.
+// Create the following objects: Movies, Staff.
+
+//Fill the following methods:
+Movies {
+  getStars()
+  getWrites()
+  getDirector()
+  getRating()
+  rate()
+  // ... Add yours :-) Look to IMDB for inspiration
+}
+
+Staff {
+  getName()
+  getRole()
+  getAge()
+  // ... Add yours :-) Look to IMDB for inspiration
+}
+
+// Initialize the objects
+// by pick your favorite movie from http://www.imdb.com/
+// and make sure that the following actions work.
+console.log(InstanceMovie.getStarts().map(actor => `${actor.getName()} ${actor.getAge}`));
+const director = InstanceMovie.getDirector();
+console.log(`Director: ${director.getName()}`);
+// Be creative with this let's see what you come up with :-)
+```
 
 ## Step 6: Read before next lecture
 

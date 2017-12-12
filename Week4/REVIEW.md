@@ -2,10 +2,16 @@
 
 ```
 This review covers:
-• JSON
+• Capturing user input
+• Events
+• Basic DOM manipulations[img src, innerHTML]
 • Code debugging using the browser
-• Functions + JSON/Arrays
-• Code flow (order of execution)
-• (capturing user input)
+• Code commenting
 • Structuring code files
 ```
+
+## Code Commenting
+
+First the straightforward part: how do we place comments in our code?
+
+[Read more...](../fundamentals/code_commenting.md)

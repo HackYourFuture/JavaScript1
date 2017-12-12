@@ -1,6 +1,16 @@
 # VSCode Tips
 
+Although you are free to make you own choice of text/code editor to use during class and homework, we have good experiences with Microsoft's free Visual Studio Code (VSCode) editor.
+
+From the [VSCode web site](https://code.visualstudio.com/):
+
+> Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity).
+
 Here are some tips for getting up to speed with VSCode as you progress through this course.
+
+## Installation
+
+Download and install the appropriate version of VSCode for your operating system from the [VSCode web site](https://code.visualstudio.com/).
 
 ## Some useful extensions
 
@@ -21,10 +31,8 @@ VSCode can be extended with _extensions_. There are two that we recommend you in
 
 	![Figure 1. Spell checker extension](assets/27807986-f1f76762-6044-11e7-831d-dd2a6551f027.PNG)
 
-	(The indication 122K in this picture means that this extension has been downloaded 122,000 times. The five star rating indicates users like it a lot.)
-
 4. Press the green `install` button of **Code Spellchecker**.
-5. When the installation has finished, install the ESLint extension in a similar fashion (1.2 million downloads!):
+5. When the installation has finished, install the ESLint extension in a similar fashion:
 
 	![Figure 2. ESLint extension](assets/27807987-f1fa8406-6044-11e7-8284-b51cd1251921.PNG)
 
@@ -38,6 +46,27 @@ VSCode can be extended with _extensions_. There are two that we recommend you in
 
 
 9. Once the installation has finished close VSCode for now.
+
+## Customise VSCode Settings
+
+We recommend that you apply two changes to the default settings of VSCode to help you create well-formatted JavaScript code. Follow these steps:
+
+1. Press the cog-wheel icon in the lower-left corner of the VSCode screen, as indicated here:
+
+	![settings-btn](assets/settings.png)
+
+2. From the menu, select **Settings**.
+3. In the `USER SETTINGS` tab in the right-hand half of the screen add the two lines indicated below between the curly braces:
+
+```json
+/// Place your settings in this file to overwrite the default settings
+{
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true
+}
+```
+
+4. Close the User Settings tab.
 
 ## Using VSCode for your homework
 
@@ -107,55 +136,15 @@ Here are some short-cut commands that you will use many times a day and that we 
 
 ## Running and debugging your code with the VSCode Node debugger
 
-If your JavaScript program is contained in a single file the easiest way to run and examine your code is the start straight in VSCode. Before you can run it you need to do a small preparation. This needs to be done only once per project folder.
+If your JavaScript program is contained in a single file the easiest way to run and examine your code is the start straight in VSCode.
 
-1. As illustrated in the figure below, press the **Debug** button in the left margin as indicated by the red triangle.
+1. Press the F5 function key to start the VSCode debugger.
 
-	![debug_1](assets/27833250-393c5a82-60d2-11e7-8713-648ec54abbed.png)
+2. You will prompted to select an environment. Choose `Node.js` as show below.
 
-2. You'll see the Debugger Pane in the left hand side of the screen as shown below. Press the "cog" button as indicated by the red triangle.
+	![debug_3](assets/debug-3.png)
 
-	![debug_2](assets/27833256-3d44da32-60d2-11e7-8f34-0bc0579a10c3.png)
-
-3. Next you will prompted to select an environment. Choose `Node.js`. This produces a JSON file, displayed in a new editor tab with a contents as shown below.
-
-	```
-	{
-    // Use IntelliSense to learn about possible Node.js debug attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-	    "version": "0.2.0",
-	    "configurations": [
-	        {
-            "type": "node",
-            "request": "launch",
-            "name": "Launch Program",
-            "program": "${file}"
-	        }
-	    ]
-	}
-	```
-
-	At this his time no changes are necessary to this file. You can just close the editor tab.
-
-4. Next, press the **Explorer** button in the left margin as indicated by the red triangle in the figure below.
-
-	![debug_3](assets/27833921-189a16f4-60d5-11e7-87ee-996cf97921ac.png)
-
-5. Observe that VSCode has created a `.vscode` subfolder in your project folder where it keeps the JSON file just created and potentially other VSCode settings.
-6. You can now run your code in the debugger. Switch to the editor tab contains your program and press the green triangular button or, alternatively, press F5.
-7. Note that when your program finishes execution the debugger is still active. You can stop it by pressing the square red button.
-
-If you do not really need to debug your program (e.g., by placing breakpoints) etc, you may prefer to run your program in a terminal window. You can open an Integrated Terminal as explained earlier and type:
-
-```
-node prog.js
-```
-
-Replace `prog.js` with the actual file name of your program.
-
-If you want to run your program in terminal window independent of VSCode you should make sure you are in the same directory as the program you want to run.
-
+This starts your program in the VSCode debugger.
 
 ### Placing break points and inspecting variables
 

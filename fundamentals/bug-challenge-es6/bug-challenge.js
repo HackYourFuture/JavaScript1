@@ -70,7 +70,7 @@ export default class BugChallenge {
 
     bug4() {
       // We list all movies, except the top 3.
-      var index = 3;
+      let index = 3;
       for (index; index < this.top10Movies.length; index++) {
         console.log(`movie: ${this.top10Movies[index]}`);
       }
@@ -125,7 +125,7 @@ export default class BugChallenge {
     }
 
     bug8() {
-      for (var i = 0; i < 5; i++) {
+      for (let i = 0; i < 5; i++) {
         setTimeout(function () {
           console.log(i+1);
         }, 100*i);
@@ -205,7 +205,7 @@ export default class BugChallenge {
     }
 
     bug13() {
-      var notInTop10 = (movieName) => {
+      let notInTop10 = (movieName) => {
         return !this.top10Movies.indexOf(movieName)
       }
       console.log('Independence Day is ' + (notInTop10('Independence Day')?'not ':'') + 'in the top 10!');
@@ -217,12 +217,12 @@ export default class BugChallenge {
 
       console.log('AI is ' + (isInFirstPlace('AI')?'':'not ') + 'best movie ever')
       console.log('Godfather is ' + (isInFirstPlace('Godfather')?'':'not ') + 'best movie ever')
-      var isInFirstPlace = (movieName) => {
+      let isInFirstPlace = (movieName) => {
         return this.top10Movies[0] === movieName
       }
     }
     bug15() {
-      var getAlphabeticalFirst = function() {
+      let getAlphabeticalFirst = function() {
         return this.top10Actors.sort()[0]
       }
 
@@ -230,7 +230,7 @@ export default class BugChallenge {
     }
     bug16() {
       const ranking = this.top10Actors.indexOf('Al Pacino');
-      // var thirdRankedActor = this.top10Actors['2'];
+      // let thirdRankedActor = this.top10Actors['2'];
       console.log(`Al Pacino is ranked ${ranking + '1'}`)
     }
 

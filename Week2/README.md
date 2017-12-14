@@ -35,7 +35,12 @@ Please watch the following parts of the course, [Programming Foundations Fundame
 - Check out this video of Daan to see how we use Git Workflow to hand in Homework (from now on): https://www.youtube.com/watch?v=-o0yomUVVpU&index=2&list=PLVYDhqbgYpYUGxRdtQdYVE5Q8h3bt6SIA
 
 ### Review
-- Go through the review of [week 1](/Week1/REVIEW.md)
-- Go through the review of [week 2](/Week2/REVIEW.md)
+
+Review the topics of week 2:
+
+- [Variables](../fundamentals/variables.md)
+- [Values](../fundamentals/values.md)
+- [Operators](../fundamentals/operators.md)
+- [Naming conventions](../fundamentals/naming_conventions.md)
 
 _Please go through the material and come to class prepared!_

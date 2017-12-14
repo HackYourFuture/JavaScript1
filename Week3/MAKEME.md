@@ -16,28 +16,43 @@ Topics discussed in class this week:
 
 _Deadline Monday_
 
-Provide feedback to step 1 and step 3 of the homework of last week to one of your fellow students. You will be assigned to one of the assignments by the class lead of this week.
+Provide feedback to the homework of last week to one of your fellow students. You will be assigned to one of the assignments by the class lead of this week.
 
 ## Step 1: Recap/Read
 
 - Have a look at [The Secret Life of JavaScript Primitives](https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/)
-- Go through the review of [last week](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md)
-- Go through the review of [this week](https://github.com/HackYourFuture/JavaScript/blob/master/Week2/REVIEW.md) 
 
+- Review the topics of last week:
+    - [Variables](../fundamentals/variables.md)
+    - [Values](../fundamentals/values.md)
+    - [Operators](../fundamentals/operators.md)
+    - [Naming conventions](../fundamentals/naming_conventions.md)
+
+- Go through the topics of this week:
+    - Git work flow
+    - [Advanced data types (Objects)](../fundamentals/objects.md)
+    - Conditions
+    - [Statements vs Expressions](../fundamentals/statements_expressions.md)
+    - Loops (for/while)
+    - [Functions](../fundamentals/functions.md)
+    - Scope
+    
 ## Step 2: Watch
 
-1. If you haven't done already, watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro) Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though). 
-2. Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):
-    <br>4. Writing Conditional Code
-    <br>5. Modular Code
-    <br>6. Iteration: Writing Loops
-    <br>7. More About Strings
-    <br>8. Collections
-    <br>11. When Things Go Wrong 
+1. If you haven't done already, watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro)  
+Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though).
+
+2. Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):  
+    <br>**4. Writing Conditional Code**
+    <br>**5. Modular Code**
+    <br>**6. Iteration: Writing Loops**
+    <br>**7. More About Strings**
+    <br>**8. Collections**
+    <br>**11. When Things Go Wrong** 
 
 ## Step 3: Rover the Robot 
 
-Go and try out this cool game: http://hyf-robot.herokuapp.com/index.html, there are different levels, see how far you can get! 
+Go and try out this cool game: [roverjs.com](http://roverjs.com), written by one of our HYF teachers, Joost Lubach. There are different levels, see how far you can get! 
 
 ## Step 4: String and Array challenges
 
@@ -52,17 +67,18 @@ In each assignment write at least two `console.log` statements to verify if your
 1\.1 Let's consider the following string: `let myString = "hello,this,is,a,difficult,to,read,sentence"`   
 1\.2 Add the string to your file and console.log it.   
 1\.4 Console.log the length of `myString`.   
-1\.5 The comma's make that the sentence is quite hard to read. Find a way to remove the comma's from the sting and replace them with a spaces  
+1\.5 The commas make that the sentence is quite hard to read. Find a way to remove the comma's from the sting and replace them with a spaces  
 1\.6 Console.log `myString` to see if you succeeded.  
 
-2\. **Arrays!**   
-consider the following array:
+2\. **Arrays!**  
+
+Consider the following array:
 
 ```js
 let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
 ```
 
-2\.1 Add a statement that adds Mauro's favorite animal (turtle) to the existing array   
+2\.1 Add a statement that adds Mauro's favorite animal ('turtle') to the existing array   
 2\.2 Log your new array!   
 2\.3 Now add Jim's favorite animal to the array, its a 'meerkat', but make sure it will be placed after 'blowfish' and before 'capricorn'.   
 2\.4 Write a console.log statement that explains in words _you think_ the new value of the array is.   
@@ -103,7 +119,7 @@ let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
 
 10. Use the list of vehicles to write an advertisement. So that it prints something like: `"Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes."`. (Hint: use a `for` loop.)
 
-> Hint, the output should be correct English with all the punctuation in place (that's the challenge). So plurals for the vehicle types, commas followed by a single space, the word and to replace the final comma and closed off by a period.
+    > Hint, the output should be correct English with all the punctuation in place (that's the challenge). So plurals for the vehicle types, commas followed by a single space, the word and to replace the final comma and closed off by a period.
 
 11. What if you add one more vehicle to the list, can you have that added to the advertisement without changing the code for question 10?
 
@@ -180,5 +196,3 @@ How to hand in your homework:
 • Your hyf-javascript1/week2 should now contain all your homework files.
 • Place the link to your repository folder in Trello.
 ```
-
-:star: Additional resources and review: [here](/Week2/REVIEW.md):star:

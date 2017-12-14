@@ -31,7 +31,7 @@ Provide feedback to the homework of last week to one of your fellow students. Yo
 - Go through the topics of this week:
     - Git work flow
     - [Advanced data types (Objects)](../fundamentals/objects.md)
-    - Conditions
+    - [Conditional execution](../fundamentals/conditional_execution.md)
     - [Statements vs Expressions](../fundamentals/statements_expressions.md)
     - Loops (for/while)
     - [Functions](../fundamentals/functions.md)
@@ -187,7 +187,7 @@ Please make sure you REALLY understand the exercises below:
 
 _Deadline Sunday morning_
 
-Go trough the reading material in the [README.md](/Week2/README.md) to prepare for your next class
+Go through the reading material in the [README.md](/Week2/README.md) to prepare for your next class
 
 ```
 How to hand in your homework:

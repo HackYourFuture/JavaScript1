@@ -25,7 +25,7 @@ getJSON(HYFReposApiEndpoint)
 
 Listing 1. Asynchronous XMLHttpRequest using a promise
 
-The `getchJSON()` function call in Listing 1 returns a `promise` that resolves to some value converted from JSON data received from some remote API end point. The `fetchJSON()` function does the same, using a more modern browser Web API.
+The `getJSON()` function call in Listing 1 returns a `promise` that resolves to some value converted from JSON data received from some remote API end point. The `fetchJSON()` function does the same, using a more modern browser Web API.
 
 ## What is a promise?
 
@@ -58,7 +58,7 @@ A promise object exposes a `.then()` method through which you can obtain its ful
 somePromise.then(onFulfilled, onRejected)
 ```
 
-The `.then()` method takes two **optional** functions (technically they could be called *callbacks*), the first one dealing with the 'happy' scenario (the promise is fullfilled) and the second one dealing with the error case (the promise is rejected). If you are only interested in the success case you can leave out the second callback:
+The `.then()` method takes two **optional** functions (technically they could be called *callbacks*), the first one dealing with the 'happy' scenario (the promise is fulfilled) and the second one dealing with the error case (the promise is rejected). If you are only interested in the success case you can leave out the second callback:
 
 ```js
 somePromise.then(onFulfilled)
@@ -76,7 +76,7 @@ or you can use a second method exposed by a promise object, which is just a shor
 somePromise.catch(onRejected)
 ```
 
-It is important to understand that the `.then()` method returns a new promise that resolves to the return value of the `onFulfilled` callback (if specified) in case of the 'happy' scenario or the return value of the `onRejected` callback (if specified) in case of an error. If the return value of these functions is a plain JavaScript value, the new promise is immediately fulfilled with that value. If the return value is yet another promise then that promise itself is the fulfilment value. If the function does not return a value, the new promise is immediately fulfilled with the value `undefined`.
+It is important to understand that the `.then()` method returns a new promise that resolves to the return value of the `onFulfilled` callback (if specified) in case of the 'happy' scenario or the return value of the `onRejected` callback (if specified) in case of an error. If the return value of these functions is a plain JavaScript value, the new promise is immediately fulfilled with that value. If the return value is yet another promise then that promise itself is the fulfillment value. If the function does not return a value, the new promise is immediately fulfilled with the value `undefined`.
 
 Because `.then()` (and `.catch`) return new promises, you can chain them together such that your code can be read as: do *this*, then do *that* and then *that*, etc.:
 
@@ -94,8 +94,8 @@ Listing 2. Chaining of `then` and `catch`
 Let's analyze the code snippet of Listing 2 a bit more in light of what we have discussed up until now.
 
 1. The `getJSON(HYFReposApiEndpoint)` function call returns a promise that will be fulfilled with an array of objects, describing the GitHub repositories of the HackYourFuture organisation.
-2. In the first `.then()` the arrow function `res => getHtmlRepoList(res)` takes the place of `onFulfilled` from the discussion above. The *array-of-objects* from step 1 is passed as the `res` parameter and subsequently passed on to the `getHtmlReposList(res)` function call. This function in its turn returns a string of HTML tags, which becomes the fulfilment value of the new promise returned by the first `.then()`.
-3. In the second `.then()` the arrow function `html => renderList($repoList, html)` uses the HTML string (the fulfilment value of the first `.then()`) to render the repo data to DOM.
+2. In the first `.then()` the arrow function `res => getHtmlRepoList(res)` takes the place of `onFulfilled` from the discussion above. The *array-of-objects* from step 1 is passed as the `res` parameter and subsequently passed on to the `getHtmlReposList(res)` function call. This function in its turn returns a string of HTML tags, which becomes the fulfillment value of the new promise returned by the first `.then()`.
+3. In the second `.then()` the arrow function `html => renderList($repoList, html)` uses the HTML string (the fulfillment value of the first `.then()`) to render the repo data to DOM.
 4. The callback function from `.catch()` is only called when one of the promises in the chain is rejected. Otherwise is not called at all.
 
 See also:

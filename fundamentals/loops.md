@@ -2,7 +2,7 @@
 
 A loop is a programming construct to perform a repetitive action. Often (but not always) the repetitive action involves accessing or manipulating the individual elements of an array.
 
-We will use the array of month names given below to illustrate the various types of loop constructs available in JavaScript. In the examples we will print out the names of the invidual months using a `console.log` statement.
+We will use the array of month names given below to illustrate the various types of loop constructs available in JavaScript. In the examples we will print out the names of the individual months using a `console.log` statement.
 
 ```js
 const months = [

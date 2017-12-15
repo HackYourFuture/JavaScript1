@@ -120,7 +120,7 @@ The key to understanding the **reduce()** method is in the line:
 accumulator = reducerFn(accumulator, this[i], i, this);
 ```
 
-In the case we don't need the current loop index and the subject array in the reducer function (which is oftent the case), we can simplify this to:
+In the case we don't need the current loop index and the subject array in the reducer function (which is often the case), we can simplify this to:
 
 ```js
 accumulator = reducerFn(accumulator, this[i]);

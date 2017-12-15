@@ -37,7 +37,7 @@ if (distance < 10) {
 }
 ```
 
-A condition can take more complex forms, using `&&` (logival AND) and `||` (logical OR) operators:
+A condition can take more complex forms, using `&&` (logical AND) and `||` (logical OR) operators:
 
 ```js
 if (distance < 10 && !raining) {
@@ -70,16 +70,16 @@ if (distance < 10) {
     if (raining) {
         console.log('I will go public transportation.');
     } else {
-        console.log('I will walk.');        
+        console.log('I will walk.');
     }
 } else {
-    console.log('I will go by car.');    
+    console.log('I will go by car.');
 }
 ```
 
 > As (nested) `if` statements can become quite complex it is very important that you indent your source code so that there can be no confusion about which statement blocks are executed for each condition, as was done in the examples.
 
->More informaton on MDN: [if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+>More information on MDN: [if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 
 ## The conditional (ternary) operator
 
@@ -91,7 +91,7 @@ The general format is:
 condition ? expr1 : expr2
 ```
 
-('ternary' means: _composed of three parts_) 
+('ternary' means: _composed of three parts_)
 
 It is often used in combination with an assignment, as in this example:
 
@@ -108,7 +108,7 @@ It is **not** recommended to use the conditional operator if you do not intend t
 age < 1 ? console.log('new') : console.log('used');
 ```
 
->More informaton on MDN: [Conditional (ternary) Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+>More information on MDN: [Conditional (ternary) Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 
 ## The switch statement
 
@@ -151,11 +151,11 @@ Depending on the value of the expression specified in the `switch` clause, one o
 
 The `default` statement at the end is executed when none of the preceding cases hold true. The `default` statement is not strictly required, but is a best practice to always specify one.
 
->More informaton on MDN: [switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
+>More information on MDN: [switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 
 ## truthy, falsy
 
-**truthy**: 'sort of' `true`  
+**truthy**: 'sort of' `true`
 **falsy**: 'sort of' `false`
 
 From MDN:
@@ -182,4 +182,4 @@ if (x) {
 }
 ```
 
->More informaton on MDN: [Truthy](https://developer.mozilla.org/en-US/docs/Glossary/Truthy), [Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)
+>More information on MDN: [Truthy](https://developer.mozilla.org/en-US/docs/Glossary/Truthy), [Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)

@@ -4,7 +4,7 @@
 
 Definition from [Dictionary.com](http://www.dictionary.com/browse/scope):
 
-> noun  
+> noun
 1\. extent or range of view, outlook, application, operation, effectiveness, etc.:
 
 If you imagine yourself as the computer that is executing your JavaScript code, you can think of scope as meaning:
@@ -22,7 +22,7 @@ a = 10; // don't do this
 console.log(a);
 ```
 
-In this example we have assigned the value `10` to a variable that we forgot to declare (we forgot to use `let`, `const` or `var`). The JavaScript engine tries to be helpful and defines a variable `a` for us in **global** scope. More recently, the JavaScript community considered this friendliness to be an error and with ES5 instroduced `strict` mode: place the string `'use strict';` at the top of your file.
+In this example we have assigned the value `10` to a variable that we forgot to declare (we forgot to use `let`, `const` or `var`). The JavaScript engine tries to be helpful and defines a variable `a` for us in **global** scope. More recently, the JavaScript community considered this friendliness to be a mistake and with ES5 introduced `strict` mode: place the string `'use strict';` at the top of your file.
 
 ```js
 'use strict';
@@ -79,7 +79,7 @@ You might think that the variable `b` is in global scope. Actually, variables de
 
 The keywords `let` and `const` were introduced in ES6 as alternative to the older `var` keyword and we recommend that you use these newer keywords instead of `var`. They adhere to the rules for block scope, whereas `var` is completely oblivious of the concept.
 
-A new block scope (sometimes called _lexical_ scope) is created whenever you create a block of code inside a pair of curly braces. Variables defined with `let` and `const` at the file level (i.e., not inside a function) are considered to be in a (file-level) block scope. That's why the varable `b` in the previous code snippet is not in global scope. Had we replaced `const b` with `var b` then variable `b` _would be_ in global scope.
+A new block scope (sometimes called _lexical_ scope) is created whenever you create a block of code inside a pair of curly braces. Variables defined with `let` and `const` at the file level (i.e., not inside a function) are considered to be in a (file-level) block scope. That's why the variable `b` in the previous code snippet is not in global scope. Had we replaced `const b` with `var b` then variable `b` _would be_ in global scope.
 
 ## Guidance
 
@@ -97,7 +97,7 @@ The `document` object resides in global scope, conveniently provided there by th
 
 We were left with the issue that functions defined at the file level still end up in global scope. The traditional method of solving this in JavaScript is to use an Immediately Invoked Function Expression (IIFE). We present it here for info. When you build web applications with modern tools such as React and Node, you do not need to use IFFEs.
 
-To use an IFFE you must wrap all of your JavaScript code in a function body of an anonymous function (i.e., a function with no name) and immediately call that function (as indicated by the empty set of parentheses on the last line). This creates a local scope for your code. Now even the `myFunction` function is in local scope. 
+To use an IFFE you must wrap all of your JavaScript code in a function body of an anonymous function (i.e., a function with no name) and immediately call that function (as indicated by the empty set of parentheses on the last line). This creates a local scope for your code. Now even the `myFunction` function is in local scope.
 
 ```js
 (function () {

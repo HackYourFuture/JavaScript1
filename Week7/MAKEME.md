@@ -73,9 +73,9 @@ Staff {
 // Initialize the objects
 // by pick your favorite movie from http://www.imdb.com/
 // and make sure that the following actions work.
-console.log(InstanceMovie.getStarts().map(actor => `${actor.getName()} ${actor.getAge}`));
+console.log(InstanceMovie.getStars().map(actor => `${actor.getName()} ${actor.getAge()}`));
 const director = InstanceMovie.getDirector();
-console.log(`Director: ${director.getName()}`);
+console.log(`Director: ${director.map(director => `${director.getName()}`)}`);
 // Be creative with this let's see what you come up with :-)
 ```
 

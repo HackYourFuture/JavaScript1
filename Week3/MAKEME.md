@@ -35,7 +35,7 @@ Provide feedback to the homework of last week to one of your fellow students. Yo
     - [Statements vs Expressions](../fundamentals/statements_expressions.md)
     - [Loops (for/while)](../fundamentals/loops.md)
     - [Functions](../fundamentals/functions.md)
-    - Scope
+    - [Scope](../fundamentals/scope.md)
     
 ## Step 2: Watch
 

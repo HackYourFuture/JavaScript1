@@ -33,7 +33,7 @@ Provide feedback to the homework of last week to one of your fellow students. Yo
     - [Advanced data types (Objects)](../fundamentals/objects.md)
     - [Conditional execution](../fundamentals/conditional_execution.md)
     - [Statements vs Expressions](../fundamentals/statements_expressions.md)
-    - Loops (for/while)
+    - [Loops (for/while)](../fundamentals/loops.md)
     - [Functions](../fundamentals/functions.md)
     - Scope
     

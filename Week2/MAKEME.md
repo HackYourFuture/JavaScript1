@@ -4,7 +4,7 @@
 Topics discussed in class this week:
 • Intro JavaScript (What is it, where can you use it for)
 • Variables (var, let, const)
-• Basic Data types (strings, numbers, arrays, booleans)
+• Basic Data types (Strings, Numbers, Arrays, Booleans)
 • Operators
 ```
 

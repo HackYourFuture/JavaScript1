@@ -5,7 +5,6 @@ Topics discussed this week:
 • Structure for a basic SPA
 • XMLHttpRequests
 • API calls
-• Async VS Sync
 ```
 
 
@@ -25,41 +24,7 @@ _Deadline Saturday_
 
 :point_up:
 
-## Step 3: Async challenge
-
-_Deadline Saturday_
-
-1. Rewrite the code below to Async: 
-
-```js
-1.
-
-let sum = calculateSum(2, 6);
-console.log(sum);
-
-2.
-
-let results = $.getJSON('http://myapi.com');
-showResults(results);
-
-3.
-
-let sum = calculateSum(2, 6);
-if (sum > 8) {
-    console.log('larger than 8');
-}
-
-4.
-
-let data = $.getJSON('http://myapi.com');
-data = data.map(function (x) { return x * 8; });
-
-writeDataToFile(data);
-```
-
-
-
-## Step 4: SPA :sweat_drops:
+## Step 3: SPA :sweat_drops:
 
 _Deadline Saturday_
 

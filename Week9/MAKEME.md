@@ -3,7 +3,8 @@
 ```
 Topics discussed this week:
 • (re)writing data structures (in JSON)
-• Promises
+• Async VS Sync 
+• Code flow (order of execution)
 ```
 
 ## Step 1: Read
@@ -27,7 +28,39 @@ So please:
 - Follow the instructions in the REAME.md of the above repository
 - To hand in your homework you make a PR to the existing repository
 
-## Step 4: Read before next lecture
+## Step 4: Async challenge
+
+_Deadline Saturday_
+
+1. Rewrite the code below to Async: 
+
+```js
+1.
+
+let sum = calculateSum(2, 6);
+console.log(sum);
+
+2.
+
+let results = $.getJSON('http://myapi.com');
+showResults(results);
+
+3.
+
+let sum = calculateSum(2, 6);
+if (sum > 8) {
+    console.log('larger than 8');
+}
+
+4.
+
+let data = $.getJSON('http://myapi.com');
+data = data.map(function (x) { return x * 8; });
+
+writeDataToFile(data);
+```
+
+## Step 5: Read before next lecture
 
 _Deadline Sunday morning_
 

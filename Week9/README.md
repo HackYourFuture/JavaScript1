@@ -1,7 +1,7 @@
 # Reading material for your first Node lecture:
 
 ```
-Next week you will start with Node :balloon:
+Next week you will start with Node
 ```
 
 ### Refresher

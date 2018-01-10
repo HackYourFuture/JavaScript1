@@ -17,9 +17,33 @@ Topics discussed in class this week:
 Give yourself (or your neighbor) a little tap on the shoulder, you've made it to JS2! :muscle:
 
 ## Step 0: review
-- Go through the review of [the first week](/Week1/REVIEW.md)
-- Go through the review of [the second week](/Week2/REVIEW.md) 
-- Go through the review of [the third week](/Week3/REVIEW.md) 
+
+Week 2
+
+- [Variables (var, let, const)](../fundamentals/variables.md)
+- [Basic Data types (Strings, Numbers, Arrays, Booleans)](../fundamentals/values.md)
+- [Operators](../fundamentals/operators.md)
+- [Naming conventions](../fundamentals/naming_conventions.md)
+
+Week 3
+
+- [Advanced data types (objects)](../fundamentals/objects.md)
+- [Conditional execution](../fundamentals/conditional_execution.md) <br>
+- [Statements vs Expressions](../fundamentals/statements_expressions.md)<br>
+- [Loops (for/while)](../fundamentals/loops.md)
+- [Functions](../fundamentals/functions.md)
+- [Scope](../fundamentals/scope.md)
+
+Week 4
+
+- Capturing user input
+- Events
+- [Basic DOM manipulations (img src, innerHTML)](../fundamentals/DOM_manipulation.md)
+- Code debugging using the browser
+- [Code commenting](../fundamentals/code_commenting.md)
+- Structuring code files
+- [Code formatting](../fundamentals/code_formatting.md)
+
 
 ## Step 1: Implement feedback
 
@@ -34,7 +58,7 @@ Your fellow students have provided you with feedback in Trello.
 
 _Deadline Monday_
 
-Your Github should contain two repositories called hyf-javascript1 and hyf-commandline. Inside the JavaScript repository you should have three folders, called week1, week2, and week3 (or something similar). Inside these folders you should have the different assignments (a file per exercises). Try and find proper names for the exercises that reflect somehow what is going on in the code. Avoid using spaces in your file names, this makes it harder to "run" you files. Also make sure that all your JavaScript files have a `.js` extension.
+Your Github should contain two repositories called `hyf-javascript1` and `hyf-javascript2`. Inside the JavaScript repositories you should have three folders, called week1, week2, and week3 (or something similar). Inside these folders you should have the different assignments (a file per exercises). Try and find proper names for the exercises that reflect somehow what is going on in the code. Avoid using spaces in your file names, this makes it harder to "run" you files. Also make sure that all your JavaScript files have a `.js` extension.
 
 ## Step 3: Custom DOM manipulation challenge :mortar_board:
 
@@ -56,9 +80,9 @@ _Deadline Saturday_
 
 ```
 How to hand in your homework:
-• Upload your homework in your "hyf-javascript1" Github repository. Make sure to create a new folder "week3" first. 
-• Upload your homework files inside the week3 folder and write a description for this “commit”.
-• Your hyf-javascript1/week3 should now contain an index.html, main.css and a script.js file (and the images folder)
+• Upload your homework in your "hyf-javascript2" Github repository. Make sure to create a new folder "week1" first. 
+• Upload your homework files inside the week1 folder and write a description for this “commit”.
+• Your hyf-javascript2/week1 should now contain an index.html, main.css and a script.js file (and the images folder)
 • Place the link to your repository folder in Trello.
 ```
 

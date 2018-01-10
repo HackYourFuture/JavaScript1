@@ -16,8 +16,8 @@ So here's an example of a SYNCHRONOUS request (it waits for the request to come 
 Code from: `https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests#Example_HTTP_synchronous_request`
 
 ```js
-var SECRET_MESSAGE_URL = 'https://gist.githubusercontent.com/tkaria/08325583e7411f7de6b80871780fd917/raw/61dae2869ae5013652bbeba1da2487097d8869b1/SecretMessage.txt'
-var request = new XMLHttpRequest(SECRET_MESSAGE_URL);
+const SECRET_MESSAGE_URL = 'https://gist.githubusercontent.com/tkaria/08325583e7411f7de6b80871780fd917/raw/61dae2869ae5013652bbeba1da2487097d8869b1/SecretMessage.txt'
+const request = new XMLHttpRequest(SECRET_MESSAGE_URL);
 request.open('GET', SECRET_MESSAGE_URL, false);  // `false` makes the request synchronous
 request.send(null);
 
@@ -32,8 +32,8 @@ console.log('Made the request')
 And here's an example of an ASYNCHRONOUS version of the same request as above. Look carefully at the output.
 
 ```js
-var SECRET_MESSAGE_URL = 'https://gist.githubusercontent.com/tkaria/08325583e7411f7de6b80871780fd917/raw/61dae2869ae5013652bbeba1da2487097d8869b1/SecretMessage.txt'
-var xhr = new XMLHttpRequest();
+const SECRET_MESSAGE_URL = 'https://gist.githubusercontent.com/tkaria/08325583e7411f7de6b80871780fd917/raw/61dae2869ae5013652bbeba1da2487097d8869b1/SecretMessage.txt'
+const xhr = new XMLHttpRequest();
 xhr.open("GET", SECRET_MESSAGE_URL, true);
 xhr.onload = function (e) {
   if (xhr.readyState === 4) {
@@ -66,9 +66,9 @@ In this case we see the `Made the request` message before we see the response be
 Note that we used an anonymous function here - it has no name. There's nothing special about an anonymous function. We could equally use a named function in the above example:
 
 ```js
-var SECRET_MESSAGE_URL = 'https://gist.githubusercontent.com/tkaria/08325583e7411f7de6b80871780fd917/raw/61dae2869ae5013652bbeba1da2487097d8869b1/SecretMessage.txt'
+const SECRET_MESSAGE_URL = 'https://gist.githubusercontent.com/tkaria/08325583e7411f7de6b80871780fd917/raw/61dae2869ae5013652bbeba1da2487097d8869b1/SecretMessage.txt'
 
-var xhr = new XMLHttpRequest();
+const xhr = new XMLHttpRequest();
 function NOT_ANONYMOUS_ON_LOAD_FUNCTION(parameter) {
    if (xhr.readyState === 4) {
     if (xhr.status === 200) {
@@ -139,7 +139,7 @@ https://developer.mozilla.org/en/docs/Web/JavaScript/Closures
 Please TYPE these exercises - do NOT copy and paste.  BEFORE you run them please make a guess in your head about what will happen.
 ```js
 function init() {
-  var name = 'Mozilla'; // name is a local variable created by init
+  const name = 'Mozilla'; // name is a local variable created by init
   function displayName() { // displayName() is the inner function, a closure
     alert(name); // use variable declared in the parent function
   }
@@ -150,7 +150,7 @@ init();
 
 ```js
 function init() {
-  var name = 'Mozilla'; // name is a local variable created by init
+  const name = 'Mozilla'; // name is a local variable created by init
   function displayName() { // displayName() is the inner function, a closure
     alert(name); // use variable declared in the parent function
   }
@@ -159,9 +159,9 @@ displayName();
 ```
 
 ```js
-var name = 'Hack your future'
+const name = 'Hack your future'
 function init() {
-  var name = 'Mozilla'; // name is a local variable created by init
+  const name = 'Mozilla'; // name is a local variable created by init
   function displayName() { // displayName() is the inner function, a closure
     alert(name); // use variable declared in the parent function
   }
@@ -171,7 +171,7 @@ init();
 ```
 
 ```js
-var name = 'Hack your future'
+const name = 'Hack your future'
 function init(name) {
   function displayName(name) { // displayName() is the inner function, a closure
     alert(name); // use variable declared in the parent function
@@ -201,12 +201,12 @@ function sayHello(name) {
 
 Same as above with arrow (fat arrow) notation - shorthand notation. This is easy to mess up. Notice no return.
 ```js
-var sayHello2 = (name) => 'Hello ' + name;
+const sayHello2 = (name) => 'Hello ' + name;
 ```
 
 Same as above with arrow (fat arrow) notation - shorthand notation.  Better - easier to read - with return.
 ```js
-var sayHello2 = (name) => {return 'Hello ' + name;}
+const sayHello2 = (name) => {return 'Hello ' + name;}
 ```
 
 Think about this one
@@ -218,14 +218,13 @@ function Person(firstName) {
 
 Looks the same but what happens? See if you can figure out why from reading the documentation.
 ```js
-var Person = (firstName) => {this.firstName = firstName}
+const Person = (firstName) => {this.firstName = firstName}
 ```
 
 Closures and async functions
 What's going on here - I would expect 3 alerts with 1,2,3 in them but noooooooooo
 ```js
-var i;
-for (i = 0; i < 3; i++) {
+for (var i = 0; i < 3; i++) {
     setTimeout(function callBackFunction() {
         alert(i);
     }, 100);

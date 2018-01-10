@@ -15,16 +15,39 @@ In week three we will discuss the following topics:
 ### A Refresher from some previous covered topics:
 
 Links to MDN (Mozilla Developer Network) topics:
-- [Arguments object](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/arguments)
+
 - [Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
 
-- If you want to find out more about (mouse) events, check out this resource: https://www.quirksmode.org/js/events_mouse.html
+## Review
 
-### Review
-- Go through the review of [week 1](https://github.com/HackYourFuture/JavaScript/blob/master/Week1/REVIEW.md)
-- Go through the review of [week 2](https://github.com/HackYourFuture/JavaScript/blob/master/Week2/REVIEW.md)
-- Go through the review of [week 3](https://github.com/HackYourFuture/JavaScript/blob/master/Week3/REVIEW.md)
-<!-- - Go through the review of [week 4](https://github.com/HackYourFuture/JavaScript/blob/master/Week4/REVIEW.md) -->
+Go through the topics of week 2-4.
+
+### Week 2
+
+- [Variables (var, let, const)](../fundamentals/variables.md)
+- [Basic Data types (Strings, Numbers, Arrays, Booleans)](../fundamentals/values.md)
+- [Operators](../fundamentals/operators.md)
+- [Naming conventions](../fundamentals/naming_conventions.md)
+
+### Week 3
+
+- [Advanced data types (objects)](../fundamentals/objects.md)
+- [Conditional execution](../fundamentals/conditional_execution.md) <br>
+- [Statements vs Expressions](../fundamentals/statements_expressions.md)<br>
+- [Loops (for/while)](../fundamentals/loops.md)
+- [Functions](../fundamentals/functions.md)
+- [Scope](../fundamentals/scope.md)
+
+### Week 4
+
+- Capturing user input
+- Events
+- [Basic DOM manipulations (img src, innerHTML)](../fundamentals/DOM_manipulation.md)
+- Code debugging using the browser
+- [Code commenting](../fundamentals/code_commenting.md)
+- Structuring code files
+- [Code formatting](../fundamentals/code_formatting.md)
+
 
 _Please go through the material and come to class prepared!_
 

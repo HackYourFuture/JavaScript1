@@ -19,7 +19,7 @@ console.log(obj['name']); // -> 'John'
 Just like with arrays, you can also use a variable to access properties, as long as these variables are strings. In this case you cannot use the dot-notation!
 
 ```js
-var ageKey = 'age';
+const ageKey = 'age';
 console.log(obj[ageKey]); // -> 24
 ```
 

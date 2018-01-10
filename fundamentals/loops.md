@@ -113,6 +113,21 @@ The `for` statement combines three parts of the loop construct in a single state
 2. The second part is the loop condition, and is evaluated for every loop [iteration](http://www.dictionary.com/browse/iteration). The loop body is executed while this condition holds true. Note that this condition is tested at the beginning of the loop (like `while` above) and **not** at the end (like `do...while`).
 3. The last part is where the loop index variable is updated, in this case incremented by one (`index++` is short for `index += 1`, which in itself is short for `index = index + 1`). This update is effectively done at the end of the loop (in the example, after the console.log has been executed).
 
+This form of the `for` loop is roughly equivalent<sup>1</sup> to the following:
+
+```js
+// for (let index = 0; index < len; index++) {
+//          ↑A            ↑B          ↑C
+
+let index = 0; // ← A
+while (index < len) {  // ← B
+  console.log(months[index]);
+  index++;  // ← C
+}
+```
+
+<sup>1</sup> In this `while` loop version, the `index` variable is accessible both inside and outside of the loop body (i.e., the code block inside the curly braces). In the case of an equivalent `for` loop, the scope of the index variable depends on whether it is declared with `let` or `var`. See this [article from Web Bos](http://wesbos.com/for-of-es6/) for details.
+
 More info on MDN: [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
 
 ## for...of

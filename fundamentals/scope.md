@@ -30,11 +30,11 @@ a = 10; // produces: ReferenceError: a is not defined
 console.log(a);
 ```
 
-You can correct this by declaring your variable with `var`:
+You can correct this by declaring your variable with `let`, `const` or `var`:
 
 ```js
 'use strict';
-var a = 10;
+let a = 10;
 console.log(a);
 ```
 

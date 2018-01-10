@@ -24,29 +24,29 @@ Go through the topics of week 2-4.
 
 ### Week 2
 
-- [Variables (var, let, const)](fundamentals/variables.md)
-- [Basic Data types (Strings, Numbers, Arrays, Booleans)](fundamentals/values.md)
-- [Operators](fundamentals/operators.md)
-- [Naming conventions](fundamentals/naming_conventions.md)
+- [Variables (var, let, const)](../fundamentals/variables.md)
+- [Basic Data types (Strings, Numbers, Arrays, Booleans)](../fundamentals/values.md)
+- [Operators](../fundamentals/operators.md)
+- [Naming conventions](../fundamentals/naming_conventions.md)
 
 ### Week 3
 
-- [Advanced data types (objects)](fundamentals/objects.md)
-- [Conditional execution](fundamentals/conditional_execution.md) <br>
-- [Statements vs Expressions](fundamentals/statements_expressions.md)<br>
-- [Loops (for/while)](fundamentals/loops.md)
-- [Functions](fundamentals/functions.md)
-- [Scope](fundamentals/scope.md)
+- [Advanced data types (objects)](../fundamentals/objects.md)
+- [Conditional execution](../fundamentals/conditional_execution.md) <br>
+- [Statements vs Expressions](../fundamentals/statements_expressions.md)<br>
+- [Loops (for/while)](../fundamentals/loops.md)
+- [Functions](../fundamentals/functions.md)
+- [Scope](../fundamentals/scope.md)
 
 ### Week 4
 
 - Capturing user input
 - Events
-- [Basic DOM manipulations (img src, innerHTML)](fundamentals/DOM_manipulation.md)
+- [Basic DOM manipulations (img src, innerHTML)](../fundamentals/DOM_manipulation.md)
 - Code debugging using the browser
-- [Code commenting](fundamentals/code_commenting.md)
+- [Code commenting](../fundamentals/code_commenting.md)
 - Structuring code files
-- [Code formatting](fundamentals/code_formatting.md)
+- [Code formatting](../fundamentals/code_formatting.md)
 
 
 _Please go through the material and come to class prepared!_

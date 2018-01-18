@@ -1,6 +1,30 @@
 # Functions
 
-A function is a reusable piece of code (see _Why Use Functions_ below). Functions are *very* important in JavaScript, to the extent that some people call JavaScript a "function-oriented" language. As mentioned above, variables can be of type function. In fact, *every function is a variable*.
+Consider this **function** from [high-school math](https://www.mathplanet.com/education/algebra-2/how-to-graph-functions-and-linear-equations/functions-and-linear-equations):
+
+> 𝑓(x) = x + 7
+>
+> _if x = 2 then_
+>
+> 𝑓(2) = 2 + 7 = 9
+
+The value of the function 𝑓(x) is dependent on the value you supply for its argument x. (Instead of the term 'argument', sometimes the word 'parameter' is used). This function adds 7 to the value of its argument. Whenever we need to add 7 to some number we can reuse this same function over and over again.
+
+Here is the equivalent JavaScript function:
+
+```js
+// function definition
+function f(x) {
+    return x + 7;
+}
+
+// call the function and log its value for x = 2
+console.log(f(2));  // -> 9
+```
+
+During execution, the value of x in the function body (the part between the curly braces) is substituted with the value 'passed' during the function call.
+
+A function thus is a reusable piece of code (see _Why Use Functions_ below). Functions are *very* important in JavaScript, to the extent that some people call JavaScript a "function-oriented" language. As mentioned above, variables can be of type function. In fact, *every function is a variable*.
 
 The following two pieces of code have the exact same result:
 

@@ -26,3 +26,17 @@ We can also create elements
 const a = document.createElement('li');
 x.appendChild(a);
 ```
+
+We can set attributes on elements
+ ```js
+ a.setAttribute('id', 'hackyourfuture');
+ ```
+
+ We can add event listeners to elements:
+
+ ```js
+ turnLeftButton.addEventListener('click', function () {
+    turn('left');
+});
+ ```
+

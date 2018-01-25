@@ -101,6 +101,19 @@ const conditionOfCar = age < 1 ? 'new' : 'used';
 
 The `conditionOfCar` variable will be assigned the string `'new'` if the `age < 1` condition holds true, otherwise it is assigned the string `'used'`.
 
+It is always possible to rewrite a ternary operator as an `if-then-else` statement, for example:
+
+```js
+let conditionOfCar;
+if (age < 1) {
+  conditionOfCar = 'new';
+} else {
+  conditionOfCar = 'used';
+}
+```
+
+Note that you can't use `const` here for `conditionOfCar` because we can't combine declaration and initialization in a single statement. Therefore we must now use `let`.
+
 It is **not** recommended to use the conditional operator if you do not intend to use its value:
 
 ```js

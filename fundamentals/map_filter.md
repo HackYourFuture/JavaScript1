@@ -40,7 +40,7 @@ const squares = numbers.map(num => num * num);
 console.log(squares); // -> [9, 25, 4, 49]
 ```
 
-For illustrative purposes we can add a `console.log` statement to our mapping function and see what we get passed as second and third argument:
+For illustrative purposes we can add a `console.log`<sup>†</sup> statement to our mapping function and see what we get passed as second and third argument:
 
 ```js
 const numbers = [3, 5, 2, 7];
@@ -65,6 +65,8 @@ squares [ 9, 25, 4, 49 ]
 For each of the first four lines in the output (from the `console.log` inside the `for` loop) the first number is the value of the current element, the second number is the current loop index value and the array value is the original subject array.
 
 As is usual in JavaScript you do not necessarily have to use all the parameters that were passed to the `mapFn` function. In fact, in many cases you will only need the first argument (the current array element) as we saw in the first example.
+
+<sup>†</sup>You should normally not use `console.log` inside the function you pass to the `map` (or `filter`) method. These functions should also **not modify** any variables outside their own function scope, although they can reference these variables for read-only purposes. In computer science terms, these functions should be [pure with no 'side-effects'](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976).
 
 ## Array#filter()
 

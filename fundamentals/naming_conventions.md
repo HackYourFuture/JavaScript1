@@ -2,7 +2,7 @@
 
 ## Background
 
-In programming you will need to come up with appropriate names for your variables and functions.
+In programming you will need to come up with appropriate names for your variables, functions and function parameters.
 
 > _The most important consideration in naming a variable is that the name fully and accurately describes the entity the variable represents. An effective technique for coming up with a good name is to state in words what the variable represents. Often that statement itself is the best variable name. It’s easy to read because it doesn’t contain cryptic abbreviations, and it’s unambiguous. Because it’s a full description of the
 entity, it won’t be confused with something else. And it’s easy to remember because the name is similar to the concept._
@@ -86,6 +86,11 @@ class Movie {
 }
 ```
 
+## Reserved keywords
+
+Certain names are reserved by JavaScript for its own use. You cannot use the names for your variable. For example, you can't name a variable `if`. 
+
+For a complete list of reserved names, see the MDN page for [Keywords](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords). 
 
 
 

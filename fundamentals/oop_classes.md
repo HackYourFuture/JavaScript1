@@ -108,3 +108,28 @@ const months = [
 const longMonths = months.filter(month => month.isLongMonth());
 longMonths.forEach(month => console.log(month.toString()));
 ```
+
+### Bonus: Array.prototype.map & Array.prototype.filter implementations
+
+```js
+Array.prototype.myMap = function (mapFn) {
+  const arr = [];
+  for (let i = 0; i < this.length; i++) {
+    arr.push(mapFn(this[i], i, this));
+  }
+  return arr;
+};
+```
+
+
+```js
+Array.prototype.myFilter = function (predicateFn) {
+  const arr = [];
+  for (let i = 0; i < this.length; i++) {
+    if (predicateFn(this[i], i, this)) {
+      arr.push(this[i]);
+    }
+  }
+  return arr;
+};
+```

@@ -130,10 +130,6 @@ accumulator = reducerFn(accumulator, this[i]);
 
 From this line we can define the reducer function as a function that takes an accumulator value and the current array element and returns a new accumulator value.
 
-The whole process is visualised in the figure below (the term _bucket_ was used here to represent the accumulator).
-
-![image](assets/reduce-bucket.png)
-
 The **reduce()** method is the most flexible of the map/filter/reduce triplet. In fact, it is possible to rewrite **map()** and **filter** using **reduce()**.
 
 ### Using reduce() to filter

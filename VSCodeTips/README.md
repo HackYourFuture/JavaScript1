@@ -50,13 +50,14 @@ We recommend that you apply two changes to the default settings of VSCode to hel
 	![settings-btn](assets/settings.png)
 
 2. From the menu, select **Settings**.
-3. In the `USER SETTINGS` tab in the right-hand half of the screen add the two lines indicated below between the curly braces:
+3. In the `USER SETTINGS` tab in the right-hand half of the screen add the three lines indicated below between the curly braces:
 
 ```json
 /// Place your settings in this file to overwrite the default settings
 {
   "editor.formatOnType": true,
-  "editor.formatOnPaste": true
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true
 }
 ```
 

@@ -2,9 +2,9 @@
 
 ### Object literals and Imperative Programming
 
-In earlier JavaScript lectures we saw that we can define object literals and use functions to access and manipulate their properties. A typical example is shown below, where have defined an array of objects, in this case each representing the name of a month and its associated number of days.
+In earlier JavaScript lectures we saw that we can define object literals and use functions to access and manipulate their properties. A typical example is shown below, where we have defined an array of objects, in this case each representing the name of a month and its associated number of days.
 
-We're looping through the month and printing a message to the console for each month with 31 days.
+We're looping through the months and printing a message to the console for each month having 31 days.
 
 This style of programming is called Imperative Programming: we instruct the computer how to perform the task(s) at hand.
 
@@ -35,9 +35,11 @@ for (const month of months) {
 
 In the Functional Programming style (also referred to as Declarative Programming), we prefer to declare what the computer should do.
 
-In the next example we have used the `filter` method to extract a subset of months with 31 days, used the `map` method to create an informational string about each month and a `forEach` method to output those strings to the console.
+In the next example we have used the `filter` method to extract a subset of months having 31 days, used the `map` method to create an informational string for each month and a `forEach` method to output those strings to the console.
 
-Put in other words, we state or declare that the computer should **filter** our array according to some defined criterion, then it should **map** the filtered object to string and print out each string to the console. In contrast to the imperative style we do not have to infer from looking at the code what we are actually doing. Instead, the names of out functions and methods already imply what it is we want to achieve.
+Or, put in other words, we state or **declare** that the computer should **filter** our array according to some predefined criterion, then **map** each filtered object to a string and print out each string to the console.
+
+In contrast to the imperative style we do not have to infer from looking at the code what we are actually doing. Instead, the names of our functions and methods already imply what it is we want to achieve.
 
 ```js
 const months = [

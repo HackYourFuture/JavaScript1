@@ -1,6 +1,6 @@
 # Object-Oriented Programming & Classes
 
-### Object literals and Imperative Programming
+### Object Literals and Imperative Programming
 
 In earlier JavaScript lectures we saw that we can define object literals and use functions to access and manipulate their properties. A typical example is shown below, where we have defined an array of objects, in this case each representing the name of a month and its associated number of days.
 
@@ -63,6 +63,70 @@ months
   .forEach(string => console.log(string));
 ```
 
+### Constructor Functions (pre-ES6)
+
+```js
+function Month(name, days) {
+  this.name = name;
+  this.days = days;
+}
+
+const months = [
+  new Month('January', 31),
+  new Month('February', 28),
+  new Month('March', 31),
+  new Month('April', 30),
+  new Month('May', 31),
+  new Month('June', 30),
+  new Month('July', 31),
+  new Month('August', 31),
+  new Month('September', 30),
+  new Month('October', 31),
+  new Month('November', 30),
+  new Month('December', 31)
+];
+
+months
+  .filter(month => month.days === 31)
+  .map(month => `${month.name} has ${month.days} days.`)
+  .forEach(string => console.log(string));
+```
+
+### JavaScript Functions and `this`
+
+[Understanding JavaScript Function Invocation and "this"](http://yehudakatz.com/2011/08/11/understanding-javascript-function-invocation-and-this/), by Yehuda Katz.
+
+### ES6 Classes vs pre-ES6 Constructor Functions
+
+```js
+class Month {
+  constructor(name, days) {
+    this.name = name;
+    this.days = days;
+  }
+}
+
+const months = [
+  new Month('January', 31),
+  new Month('February', 28),
+  new Month('March', 31),
+  new Month('April', 30),
+  new Month('May', 31),
+  new Month('June', 30),
+  new Month('July', 31),
+  new Month('August', 31),
+  new Month('September', 30),
+  new Month('October', 31),
+  new Month('November', 30),
+  new Month('December', 31)
+];
+
+months
+  .filter(month => month.days === 31)
+  .map(month => `${month.name} has ${month.days} days.`)
+  .forEach(string => console.log(string));
+```
+
 ### ES6 Classes and Object-Oriented Programming
 
 The remaining style of programming we will discuss here is called Object-Oriented Programming. 
@@ -113,11 +177,11 @@ months
   .forEach(month => month.toConsole());
 ```
 
-### The prototype chain
+### The Prototype Chain
 
 ![prototype](assets/prototype.png)
 
-### Pre-ES6 constructor functions and prototypes
+### Pre-ES6 Constructor Functions and Prototypes
 
 ```js
 function Month(name, days) {
@@ -161,7 +225,7 @@ months
   .forEach(month => month.toConsole());
 ```
 
-### Bonus: Array.prototype.map & Array.prototype.filter implementations
+### Bonus: Array.prototype.map & Array.prototype.filter Implementations
 
 ```js
 Array.prototype.myMap = function (mapFn) {

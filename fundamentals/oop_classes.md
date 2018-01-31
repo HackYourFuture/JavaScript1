@@ -92,9 +92,9 @@ months
   .forEach(string => console.log(string));
 ```
 
-### JavaScript Functions and `this`
+- [Understanding JavaScript Function Invocation and "this"](http://yehudakatz.com/2011/08/11/understanding-javascript-function-invocation-and-this/), by Yehuda Katz.
 
-[Understanding JavaScript Function Invocation and "this"](http://yehudakatz.com/2011/08/11/understanding-javascript-function-invocation-and-this/), by Yehuda Katz.
+- StackOverflow: [What is the 'new' keyword in JavaScript?](https://stackoverflow.com/questions/1646698/what-is-the-new-keyword-in-javascript)
 
 ### ES6 Classes vs pre-ES6 Constructor Functions
 

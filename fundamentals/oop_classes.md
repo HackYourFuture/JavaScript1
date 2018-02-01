@@ -67,7 +67,7 @@ months
 
 ### Constructor Functions (pre-ES6) and the `new` keyword
 
-In the example below we use a function that is used in conjunction with the `new` keyword. Such a function is called a **constructor** function, and, by convention, we start its name with an uppercase letter.
+In the example below, instead of using object literals,  we use a function in conjunction with the `new` keyword to create objects. Such a function is called a **constructor** function, and, by convention, we start its name with an uppercase letter.
 
 When a function is called and preceded by the `new` keyword, something special happens. The JavaScript engine creates a new, empty object and assigns that object to the `this` variable.
 

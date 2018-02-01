@@ -75,6 +75,8 @@ When a function is called and preceded by the `new` keyword, something special h
 
 We can now add properties to the new object through the `this` variable, as shown below.
 
+When the constructor function finishes, it returns the newly constructed object as its return value.
+
 ```js
 function Month(name, days) {
   this.name = name;

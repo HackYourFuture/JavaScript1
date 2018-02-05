@@ -1,10 +1,8 @@
 # What is 'this'?
 
-At any point during the execution of a JavaScript program there is a context-dependent value that you can access through the keyword `this`. In many cases the value of `this` is `undefined` and as such not of significance for use in your own code.
+At any point during the execution of a JavaScript program there is a context-dependent value that you can access through the keyword `this`. Often, the value of `this` is simply `undefined` and therefore not of much significance for use in your own code.
 
-Note: The value of `this` is only useful if used inside a function.
-
-> When accessed outside of any function, the value of `this` is different depending on whether you run your program in the browser or in Node. In the case of the browser, the value of `this` refers to the global `window` object. In the case of Node, the value of `this` outside any function is an empty object (`{}`).
+> Note: The value of `this` is only useful if used inside a function. When accessed outside of any function, the value of `this` is different depending on whether you run your program in the browser or in Node. In the case of the browser, the value of `this` refers to the global `window` object. In the case of Node, the value of `this` outside any function is an empty object (`{}`).
 
 ## Regular functions and `this`
 
@@ -20,7 +18,7 @@ function whatIsThis(arg) {
 whatIsThis('Hello'); // --> Hello undefined
 ```
 
-As mentioned, the value of `this` in this case is `undefined`. Note however that this is only the case if we start our file with the string literal `'use strict'`. In versions of JavaScript prior to ES5 the `'use strict'` option did not exist. If you leave out `'use strict'` then `this` refers to the 'global context' (in the browser this is the `window` object, in Node it is the `global` object).
+As mentioned, the value of `this` in this case is `undefined`. Note however that this is only the case if we start our file with the string literal `'use strict'`. (In versions of JavaScript prior to ES5 the `'use strict'` option did not exist.) If you leave out `'use strict'` then `this` refers to the 'global context' (in the browser this is the `window` object, in Node it is the `global` object).
 
 In the example below you can see the effect (the shown output is for the browser).
 
@@ -35,13 +33,13 @@ whatIsThis('Hello'); // --> Hello
                      //     ▶︎ Window {postMessage: f, ...}
 ```
 
-Accessing the global context through `this` (accidentally on or on purpose) is never a good idea, especially when it comes to forgetting to declare a variable. The designers of JavaScript recognised this as an issue and provided the `'use strict'` option in ES5 to remedy the issue.
+Accessing the global context through `this` (accidentally or on purpose) is never a good idea, especially when it comes to forgetting to declare a variable. The designers of JavaScript recognised this as an issue and provided the `'use strict'` option in ES5 as a remedy.
 
 More info on MDN: [Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
 
 ## Function invocation through the `call` method
 
-When you call a regular function by specifying its name followed by zero or more arguments enclosed within parentheses, the JavaScript engine actually invokes the `call` method that exists on every function (yes, functions are actually a special type of JavaScript objects). The code snippet show how a regular function is invoked behind the scenes by the JavaScript engine, setting the `this` value (the first argument of the `call` method) to `undefined`.
+When you call a regular function by specifying its name followed by zero or more arguments enclosed within parentheses, the JavaScript engine in fact invokes the `call` method that exists on every function (yes, a function is actually a special type of JavaScript object). The code snippet below shows how a regular function is invoked behind the scenes by the JavaScript engine, setting the `this` value (the first argument of the `call` method) to `undefined`.
 
 ```js
 'use strict';
@@ -53,7 +51,7 @@ function whatIsThis(arg) {
 whatIsThis.call(undefined, 'Hello'); // --> Hello undefined
 ```
 
-We can use the `call` method ourselves and pass something else in place of `undefined`, as show in the next snippet:
+We can use the `call` method ourselves and pass something else in place of `undefined`, as shown in the next snippet:
 
 ```js
 whatIsThis.call('world!', 'Hello'); // --> Hello world!
@@ -70,9 +68,9 @@ More info on `this` and JavaScript function properties and methods:
 
 ## JavaScript objects and 'this'
 
-When used in conjunction with JavaScript object methods (including those from ES6 classes) the `this` keyword gets overriding importance.
+When used in conjunction with JavaScript methods (including those from ES6 classes) the `this` keyword gets overriding importance.
 
-**What is a method?** A method is a regular JavaScript function that is 'called on' an object, using dot notation. In almost all cases this function will be defined as a property of the object (or it's prototype) it is called upon. In ES6 classes, methods are directly defined as member functions on the class.
+> **What is a method?** A method is a regular JavaScript function that is 'called on' an object, using dot notation. In almost all cases this function will be defined as a property of the object (or it's prototype) it is called upon. In ES6 classes, methods are directly defined as member functions on the class.
 
 The example below shows a simple object with a data property `myData` and a method property `myMethod`. When `myMethod` is called using dot notation such as shown in the example below, the `this` value inside the method is set to the object itself. Hence, `myMethod` has access to the `myData` property through the `this` keyword.
 
@@ -89,9 +87,9 @@ myObj.myMethod(); // --> Hello world!
 
 ## Function.prototype.bind
 
-There is yet another way to set the `this` value, this time fixing it's value. This can be done through the `bind` method that is avaiable on every function (although it has no effect on fat arrow functions).
+There is yet another way to set the `this` value. This can be done through the `bind` method that is avaiable on every function (although it has no effect on fat arrow functions).
 
-To just fix the value of `this` you call the `bind` method with a single parameter, passing the value to be assigned to `this`. (The `bind` method accepts additional parameters, but their use is beyond the scope of this article. See the reference below for more information).
+To set the value of `this` you call the `bind` method with a single parameter, passing the value to be assigned to `this`. (The `bind` method accepts additional parameters, but their use is beyond the scope of this article. See the reference below for more information).
 
 The `bind` method returns a new function for which the `this` value is fixed to the value specified in the `bind` parameter, as shown below.
 
@@ -132,6 +130,47 @@ class MyClass {
   sayDelayed() {
     setTimeout(() => {
       console.log(this.myData);
+    }, 1000);
+  }
+}
+
+const myClass = new MyClass();
+myClass.sayDelayed();
+```
+
+Nevertheless, there are ways to use regular functions in this scenario as was the common case before fat arrow functions were introduced in ES6. One way is to use `bind` as in this example:
+
+```js
+class MyClass {
+
+  constructor() {
+    this.myData = 'Hello world'
+  }
+
+  sayDelayed() {
+    setTimeout(function () {
+      console.log(this.myData);
+    }.bind(this), 1000);
+  }
+}
+
+const myClass = new MyClass();
+myClass.sayDelayed();
+```
+
+Another way is to introduce an intermediate variable, often named `self` or `that`, in a closure:
+
+```js
+class MyClass {
+
+  constructor() {
+    this.myData = 'Hello world'
+  }
+
+  sayDelayed() {
+    const self = this;
+    setTimeout(function () {
+      console.log(self.myData);
     }, 1000);
   }
 }

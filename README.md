@@ -13,9 +13,9 @@ Here you can find course content and homework for the JavaScript 1,2 and 3 modul
 |4.|• Capturing user input <br>• Events<br>• [Basic DOM manipulations (img src, innerHTML)](fundamentals/DOM_manipulation.md)<br>• Code debugging using the browser <br>• [Code commenting](fundamentals/code_commenting.md)<br>• Structuring code files<br>• [Code formatting](fundamentals/code_formatting.md) |[Reading Week 4](/Week4/README.md)|[Homework Week 4](/Week4/MAKEME.md)|
 |5.|• Functions + JSON/Arrays<br>• [Array Manipulations](fundamentals/array_manipulation.md)<br>• JSON<br>• [Map and filter](fundamentals/map_filter.md)<br>• Arrow functions |[Reading Week 5](/Week5/README.md)|[Homework Week 5](/Week5/MAKEME.md)|
 |6.|• [Closures](fundamentals/scope_closures_this.md) <br>• Callbacks|[Reading Week 6](/Week6/README.md)|[Homework Week 6](/Week6/MAKEME.md)|
-|7.|• Object Oriented Programming  <br>• [Promises](fundamentals/promises.md)|[Reading Week 7](/Week7/README.md)|[Homework Week 7](/Week7/MAKEME.md)|
+|7.|• [Object Oriented Programming and Classes](fundamentals/oop_classes.md)<br>• [The `this` keyword](fundamentals/this.md) |[Reading Week 7](/Week7/README.md)|[Homework Week 7](/Week7/MAKEME.md)|
 |8.|• Structure for a basic SPA (Single Page Application) <br>• [XMLHttpRequests](fundamentals/XMLHttpRequest.md) <br>• API calls|[Reading Week 8](/Week8/README.md)|[Homework Week 8](/Week8/MAKEME.md)|
-|9.|• (re)writing data structures (in JSON) <br>• Async vs Sync • Code flow (order of execution) |[Reading Week 9](/Week9/README.md)|[Homework Week 9](/Week9/MAKEME.md)|
+|9.|• [Promises](fundamentals/promises.md)<br> • (re)writing data structures (in JSON) <br>• Async vs Sync <br>• Code flow (order of execution) |[Reading Week 9](/Week9/README.md)|[Homework Week 9](/Week9/MAKEME.md)|
 
 __Kind note:__
 

@@ -22,7 +22,7 @@ Give feedback on Step 4 and 5 of last weeks homework. Please provide the feedbac
 
 _Deadline Monday_
 
-- Solve all your Git issues. DO NO CLOSE AN ISSUE WITHOUT AN EXPLANATION OR CODE COMMIT REFERENCING THAT ISSUE. 
+- Solve all your Git issues. DO NO CLOSE AN ISSUE WITHOUT AN EXPLANATION OR CODE COMMIT REFERENCING THAT ISSUE.
 
 
 ## Step 3: Fix issues
@@ -37,7 +37,7 @@ _Deadline Saturday_
 
 Let's practice working with Objects and Arrays. Go to FreeCodeCamp and complete all challenges under "Object Oriented and Functional Programming" and the _first four challenges_ under "Basic Algorithm Scripting", up until 'Find the longest word in a string.'
 
-Also make: 
+Also make:
 
 1. [Comparisons with the Logical And Operator](https://www.freecodecamp.com/challenges/comparisons-with-the-logical-and-operator)
 
@@ -49,38 +49,86 @@ Also make:
 
 _Deadline Wednesday_
 
+Complete the following code:
+
 ```js
-// Inspired by the lesson.
-// Create the following objects: Movies, Staff.
+class Movie {
+  constructor(title, director) {
+    // add your code here
+  }
 
-//Fill the following methods:
-Movies {
-  getStars()
-  getWrites()
-  getDirector()
-  getRating()
-  rate()
+  getTitle() {
+    // add your code here
+  }
+
+  getDirector() {
+    // add your code here
+  }
+
+  addStar(star) {
+    // add your code here
+  }
+
+  getStars() {
+    // add your code here
+  }
+
+  addWriter(writer) {
+    // add your code here
+  }
+
+  getWriters() {
+    // add your code here
+  }
+
+  addRating(rating) {
+    // add your code here
+  }
+
+  getAverageRating() {
+    // add your code here
+  }
+
   // ... Add yours :-) Look to IMDB for inspiration
 }
 
-Staff {
-  getName()
-  getRole()
-  getAge()
-  // ... Add yours :-) Look to IMDB for inspiration
+class StaffMember {
+  constructor(name, role, dateOfBirth) {
+    // add your code here
+  }
+
+  addMovie(movie) {
+    // add your code here
+  }
+
+  getName() {
+    // add your code here
+  }
+
+  getRole() {
+    // add your code here
+  }
+
+  getAge() {
+    // add your code here
+  }
 }
 
-// Initialize the objects
-// by pick your favorite movie from http://www.imdb.com/
-// and make sure that the following actions work.
-console.log(InstanceMovie.getStars().map(actor => `${actor.getName()} ${actor.getAge()}`));
-const director = InstanceMovie.getDirector();
+// Pick your favorite movie from http://www.imdb.com/
+
+const myMovie = new Movie(...);
+
+const firstActor = new StaffMember(...);
+myMovie.addStar(firstActor);
+// create and add more staff members
+
+// Make sure that the following actions work.
+console.log(myMovie.getStars().map(actor => `${actor.getName()} ${actor.getAge()}`));
+const director = myMovie.getDirector();
 console.log(`Director: ${director.map(director => `${director.getName()}`)}`);
-// Be creative with this let's see what you come up with :-)
 ```
 
-Fun extra step: If you get bored, template them and make a page by rendering the results in HTML :slightly_smiling_face:
-with something like `document.querySelector('.move').innerHTML = MovieHTML`
+Fun extra step: If you get bored, template them and make a page by rendering the results in HTML :smile: with something like `document.querySelector('.move').innerHTML = ...`
 
 ## Step 6: Read before next lecture
 
@@ -115,7 +163,7 @@ Remember the person with the most kata points gets a prize from Gijs (and you ca
 1. [Stacks/Queues](https://www.youtube.com/watch?v=wjI1WNcIntg) (5 mins)
 2. [JS Event Loops](https://www.youtube.com/watch?v=8aGhZQkoFbQ) (26 mins, watch this one twice or until you understand it)
 
->Create a new repository "hyf-javascript3". Also create a new folder "week1" inside this repository. 
+>Create a new repository "hyf-javascript3". Also create a new folder "week1" inside this repository.
 Upload your homework files inside the week1 folder and write a description for this “commit”.
 Your hyf-javascript3/week1 should now contain the files of your homework.
 Place the link to your repository folder in Trello.

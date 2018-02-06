@@ -31,8 +31,7 @@ Only watch the below chapters:
 
 - Helpful resource: http://jsbooks.revolunet.com/ (here you can find tons of free JavaScript books online)
 
--You are here: Home / Learn To Program / The 50 Best Websites to Learn JavaScript
-The 50 Best Websites to Learn JavaScript:http://www.codeconquest.com/blog/top-50-websites-to-learn-javascript/
+-The 50 Best Websites to Learn JavaScript:http://www.codeconquest.com/blog/top-50-websites-to-learn-javascript/
 
 :star: You can also already go through the [review](/Week2/REVIEW.md) of the upcoming lecture. :star:
 

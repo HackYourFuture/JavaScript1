@@ -214,9 +214,37 @@ months
 ```
 
 
-The diagram below depicts how this sharing works out. At this time it is not necessary that you understand every detail. Just note how there is a single copy of functions, shared by all instances of the `Months` objects.
-
 ![prototype](assets/prototype.png)
+
+### Prototype vs __prototype
+
+The above diagram depicts how this sharing works out.
+
+The `prototype` property exists on all functions but is only relevant when that function is used as a **constructor function**. By assigning methods to the  `prototype` property you are basically defining a ‘prototype’ object that will be shared by all objects created through the constructor function when called in conjunction with the `new` keyword.
+
+In contrast to `prototype`, the `__proto__` property (in documentation sometimes denoted as `[[proto]]`) is a property that exist on objects created through the constructor function. This `__proto__` property points to the shared ‘prototype’ object, as defined on the constructor function’s `prototype` property.
+
+The prototype object itself also has a `__proto__` property. In most cases this property points to the prototype of the standard JavaScript `Object` prototype. This is because, ultimately, all objects in JavaScript are prototype-linked to the `Object` prototype. In OOP terms one would say that all JavaScript objects ultimately derive from `Object`.
+
+The `__proto__` property of the `Object` prototype itself has the value `null`. This signals the end of the prototype chain.
+
+When you call a method on an object that does not exist on the object itself, the JavaScript engine will 'walk' down the prototype chain until it finds the requested method _or_ until it reaches the end of the chain.
+
+If the method is found, JavaScript calls the method, setting its `this` value to the object the method was called on. This happens behind the scenes without requiring intervention from the programmer.
+
+If the method was not found by walking the prototype chain, a run-time error is produced, e.g:
+
+```js
+myObj.someNonExistingMethod();
+
+```
+
+```
+myObj.someNonExistingMethod();
+      ^
+
+TypeError: myObj.someNonExistingMethod is not a function
+```
 
 ### ES6 Classes
 
@@ -313,3 +341,4 @@ Array.prototype.myFilter = function (callback) {
   return arr;
 };
 ```
+

@@ -33,7 +33,13 @@ Only watch the below chapters:
 
 - The 50 best websites to Learn JavaScript: http://www.codeconquest.com/blog/top-50-websites-to-learn-javascript/
 
-:star: You can also already go through the [review](/Week2/REVIEW.md) of the upcoming lecture. :star:
+:star: You can also already go through the topics of the upcoming lecture. :star:
+
+- Intro JavaScript (What is it, where can you use it for)
+- [Variables (var, let, const)](../fundamentals/variables.md)<br>
+- [Basic Data types (Strings, Numbers, Arrays, Booleans)](../fundamentals/values.md)<br>
+- [Operators](../fundamentals/operators.md)<br>
+- [Naming conventions](../fundamentals/naming_conventions.md)
 
 _Please go through the material and come to class prepared!_
 

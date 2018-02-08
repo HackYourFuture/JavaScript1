@@ -125,7 +125,7 @@ myMovie.addStar(firstActor);
 // Make sure that the following actions work.
 console.log(myMovie.getStars().map(actor => `${actor.getName()} ${actor.getAge()}`));
 const director = myMovie.getDirector();
-console.log(`Director: ${director.map(director => `${director.getName()}`)}`);
+console.log(`Director: ${director.getName()}`);
 ```
 
 Fun extra step: If you get bored, template them and make a page by rendering the results in HTML :smile: with something like `document.querySelector('.move').innerHTML = ...`

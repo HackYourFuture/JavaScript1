@@ -11,6 +11,8 @@ In week eight we will discuss the following topics:
 
 Some nice resources about promises :ring:
 - [Googles post about Promises](https://developers.google.com/web/fundamentals/getting-started/primers/promises)
+- https://scotch.io/tutorials/javascript-promises-for-dummies
+- https://javascript.info/async ( very recommended ).
 - [A nice article from David Walsh](https://davidwalsh.name/promises)
 - [A real life example](https://github.com/mdn/js-examples/blob/master/promises-test/index.html)
 - [stackoverflow]http://stackoverflow.com/questions/13343340/calling-an-asynchronous-function-within-a-for-loop-in-javascript

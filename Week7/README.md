@@ -14,5 +14,3 @@ In week eight we will discuss the following topics:
 
 #### XMLHttpRequests
 - XMLHttpRequests: https://www.kirupa.com/html5/making_http_requests_js.htm
-
-The last one about [promises](https://www.youtube.com/watch?v=WBupia9oidU)...

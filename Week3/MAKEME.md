@@ -64,10 +64,10 @@ _Deadline Wednesday_
 In each assignment write at least two `console.log` statements to verify if your code works correctly. In other words proof that you code works as expected. If you need inspiration look at the steps defined in the assignments from last week.
 
 1\. **Strings!**
-1\.1 Let's consider the following string: `let myString = "hello,this,is,a,difficult,to,read,sentence"`
+1\.1 Let's consider the following string: `let myString = "hello,this,is,a,difficult,to,read,sentence"`.
 1\.2 Add the string to your file and console.log it.
 1\.4 Console.log the length of `myString`.
-1\.5 The commas make that the sentence is quite hard to read. Find a way to remove the comma's from the sting and replace them with a spaces
+1\.5 The commas make that the sentence is quite hard to read. Find a way to remove the commas from the string and replace them with spaces.
 1\.6 Console.log `myString` to see if you succeeded.
 
 2\. **Arrays!**
@@ -80,9 +80,9 @@ let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
 
 2\.1 Add a statement that adds Mauro's favorite animal ('turtle') to the existing array
 2\.2 Log your new array!
-2\.3 Now add Jim's favorite animal to the array, its a 'meerkat', but make sure it will be placed after 'blowfish' and before 'capricorn'.
+2\.3 Now add Jim's favorite animal to the array, it's a 'meerkat', but make sure it will be placed after 'blowfish' and before 'capricorn'.
 2\.4 Write a console.log statement that explains in words _you think_ the new value of the array is.
-2\.5 Log your new new array!
+2\.5 Log your new array!
 2\.6 Log the length of the array, add a message: "The array has a length of: "(here you should show the length of the array)
 2\.7 Jason does not like giraffes, delete this animal from the array
 2\.8 Again log your new array.

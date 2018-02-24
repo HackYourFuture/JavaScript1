@@ -64,11 +64,17 @@ _Deadline Wednesday_
 In each assignment write at least two `console.log` statements to verify if your code works correctly. In other words proof that you code works as expected. If you need inspiration look at the steps defined in the assignments from last week.
 
 1\. **Strings!**
-1\.1 Let's consider the following string: `let myString = "hello,this,is,a,difficult,to,read,sentence"`.
-1\.2 Add the string to your file and console.log it.
-1\.4 Console.log the length of `myString`.
-1\.5 The commas make that the sentence is quite hard to read. Find a way to remove the commas from the string and replace them with spaces.
-1\.6 Console.log `myString` to see if you succeeded.
+
+Consider the following string:
+
+```js
+let myString = "hello,this,is,a,difficult,to,read,sentence";
+```
+
+1\.1 Add the string to your file and console.log it.
+1\.2 Console.log the length of `myString`.
+1\.3 The commas make that the sentence is quite hard to read. Find a way to remove the commas from the string and replace them with spaces.
+1\.4 Console.log `myString` to see if you succeeded.
 
 2\. **Arrays!**
 

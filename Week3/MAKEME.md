@@ -109,9 +109,9 @@ let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
 
     ```js
     if (3 === 3) {
-        console.log("true")
+        console.log("yes")
     } else {
-        console.log("false")
+        console.log("no")
     }
     ```
 

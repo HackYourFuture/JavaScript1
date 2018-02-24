@@ -84,26 +84,26 @@ Consider the following array:
 let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
 ```
 
-2\.1 Add a statement that adds Mauro's favorite animal ('turtle') to the existing array
+2\.1 Add a statement that adds Mauro's favorite animal *'turtle'* to the existing array.
 2\.2 Log your new array!
-2\.3 Now add Jim's favorite animal to the array, it's a 'meerkat', but make sure it will be placed after 'blowfish' and before 'capricorn'.
+2\.3 Now add Jim's favorite animal to the array, it's *'meerkat'*, but make sure it will be placed after *'blowfish'* and before *'capricorn'*.
 2\.4 Write a console.log statement that explains in words _you think_ the new value of the array is.
 2\.5 Log your new array!
-2\.6 Log the length of the array, add a message: "The array has a length of: "(here you should show the length of the array)
-2\.7 Jason does not like giraffes, delete this animal from the array
+2\.6 Log the length of the array, add a message: *'The array has a length of: '* (here you should show the length of the array).
+2\.7 Jason does not like *'giraffe'*, delete this animal from the array.
 2\.8 Again log your new array.
-2\.9 Now if unlike Jim, you don't like meerkats and you want to delete it from the array, but you don't know the position or the `index` of the item in the array, how can you find it?
-2\.10 Log the index of meerkat to the console. Add a message so it says: "The item you are looking for is at index: " (here you should show the index of the item)
+2\.9 Now if unlike Jim, you don't like *'meerkat'* and you want to delete it from the array, but you don't know the position or the `index` of the item in the array, how can you find it?
+2\.10 Log the index of *'meerkat'*. Add a message so it says: *'The item you are looking for is at index: '* (here you should show the index of the item).
 
 ## More JavaScript :tada:
 
-1. Create a function that takes 3 arguments and returns the sum of the three arguments.
+1. Create a function that takes 3 arguments and returns the sum of the these arguments.
 
-2. Create a function named `colorCar` that receives a color, and prints out, "a red car" for example.
+2. Create a function named `colorCar` that receives a color, and prints out, *'a red car'* for example.
 
 3. Create an object and a function that takes the object as a parameter and prints out all of its properties and values.
 
-4. Create a function named `vehicleType` that receives a color, and a code, 1 for car, 2 for motorbike. And prints "a blue motorbike" for example when called as `vehicleType("blue", 2)`
+4. Create a function named `vehicleType` that receives a color, and a code, 1 for car, 2 for motorbike. And prints *'a blue motorbike'* for example when called as `vehicleType("blue", 2)`
 
 5. Can you write the following without the `if` statement, but with just as a single line with `console.log(...);`?
 
@@ -115,7 +115,7 @@ let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
     }
     ```
 
-6. Create a function called `vehicle`, like before, but takes another parameter called age, so that `vehicle("blue", 1, 5)` prints "a blue used car"
+6. Create a function called `vehicle`, like before, but takes another parameter called `age`, so that `vehicle("blue", 1, 5)` prints *'a blue used car'*
 
 7. Make a list of vehicles, you can add `"motorbike"`, `"caravan"`, `"bike"`, or more.
 

@@ -101,7 +101,7 @@ let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
 
 2. Create a function named `colorCar` that receives a color, and prints out, "a red car" for example.
 
-3. Create an object and a function that takes the object as a parameter and prints out all of its names and values.
+3. Create an object and a function that takes the object as a parameter and prints out all of its properties and values.
 
 4. Create a function named `vehicleType` that receives a color, and a code, 1 for car, 2 for motorbike. And prints "a blue motorbike" for example when called as `vehicleType("blue", 2)`
 

@@ -98,7 +98,16 @@ Let's analyze the code snippet of Listing 2 a bit more in light of what we have 
 3. In the second `.then()` the arrow function `html => renderList($repoList, html)` uses the HTML string (the fulfillment value of the first `.then()`) to render the repo data to DOM.
 4. The callback function from `.catch()` is only called when one of the promises in the chain is rejected. Otherwise is not called at all.
 
-See also:
+Our previous students also enjoyed learning about promises at:
+
+In text: 
+- http://javascript.info/promise-basics|
+- https://blog.cloudboost.io/explaining-basic-javascript-promises-in-jip-en-janneketaal-c98763c0abd6
+- https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261
+
+Video: The net Ninja: https://www.youtube.com/watch?v=yswb4SkDoj0
+
+MDN: 
 - [MDN - Promise definition](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 - [MDN - Using Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
 - [Promises/A+ specification](https://promisesaplus.com/)

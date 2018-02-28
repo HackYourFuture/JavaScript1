@@ -199,7 +199,9 @@ Result:
 
 ### Method chaining
 
-The methods **map()**, **filter()** and **reduce()** each return a new array. This makes it possible to chain these methods and create a 'pipeline' of operations, to be applied in sequence. Let's take the last example, but now filtering out only those array elements for which the name starts with a 'J':
+The methods **map()** and **filter()** each return a new array. This makes it possible to chain these methods and create a 'pipeline' of operations, to be applied in sequence. The **reduce** method can return anything, including an array. If a **reduce** method returns something other than an array it can only be included at the end of an array method chain.
+
+Let's take the last example, but now filtering out only those array elements for which the name starts with a 'J':
 
 ```js
 const arr = [

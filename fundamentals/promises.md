@@ -91,7 +91,7 @@ somePromise
 
 > Note that `onFulfilled` and `onRejected` execute asynchronously, after the [event loop](./event_loop.md) turn in which then is called, and with a fresh stack.
 
-It is also important to understand that the `.then()` method returns a new promise that resolves to the return value of `onFulfilled` (if specified) in case of the 'happy' scenario or the return value of `onRejected` (if specified) in case of an error. If the return value of these functions is a plain JavaScript value, the new promise is immediately fulfilled with that value. If the return value is yet another promise then the settlement value is of that inner promise, when settled. If the function does not return a value, the new promise is immediately fulfilled with the value `undefined`.
+It is also important to understand that the `.then()` method returns a new promise that resolves to the return value of `onFulfilled` (if specified) in case of the 'happy' scenario or the return value of `onRejected` (if specified) in case of an error. If the return value of these functions is a plain JavaScript value, the new promise is immediately fulfilled with that value. If the return value is yet another promise then the settlement value is that of the inner promise, when settled. If the function does not return a value, the new promise is immediately fulfilled with the value `undefined`.
 
 Because `.then()` (and `.catch`) return new promises, you can chain them together such that your code can be read as: do *this*, then do *that* and then *that*, etc.:
 

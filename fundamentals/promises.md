@@ -81,7 +81,7 @@ If you are only interested in the error case, you can pass `null` for the first 
 somePromise.then(null, onRejected)
 ```
 
-or you can use another method available on a promise, which is just a shorthand for calling `then()` with `null` as its first argument:
+or you can use another method available on a promise, `.catch()`, which is just a shorthand for calling `then()` with `null` as its first argument:
 
 ```js
 somePromise

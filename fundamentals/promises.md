@@ -81,10 +81,12 @@ If you are only interested in the error case, you can pass `null` for the first 
 somePromise.then(null, onRejected)
 ```
 
-or you can use a second method exposed by a promise, which is just a short-hand for calling `then()` with `null` as its first argument:
+or you can use another method available on a promise, which is just a shorthand for calling `then()` with `null` as its first argument:
 
 ```js
-somePromise.catch(onRejected)
+somePromise
+  .then(onFulfilled)
+  .catch(onRejected)
 ```
 
 > Note that `onFulfilled` and `onRejected` execute asynchronously, after the [event loop](./event_loop.md) turn in which then is called, and with a fresh stack.

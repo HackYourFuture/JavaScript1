@@ -15,7 +15,7 @@ Here you can find course content and homework for the JavaScript 1,2 and 3 modul
 |6.|• [Closures](fundamentals/scope_closures_this.md) <br>• Callbacks|[Reading Week 6](/Week6/README.md)|[Homework Week 6](/Week6/MAKEME.md)|
 |7.|• [Object Oriented Programming and Classes](fundamentals/oop_classes.md)<br>• [The `this` keyword](fundamentals/this.md) |[Reading Week 7](/Week7/README.md)|[Homework Week 7](/Week7/MAKEME.md)|
 |8.|• Structure for a basic SPA (Single Page Application) <br>• [XMLHttpRequests](fundamentals/XMLHttpRequest.md) <br>• API calls|[Reading Week 8](/Week8/README.md)|[Homework Week 8](/Week8/MAKEME.md)|
-|9.|• [Promises](fundamentals/promises.md)<br> • (re)writing data structures (in JSON) <br>• Async vs Sync <br>• Code flow (order of execution) |[Reading Week 9](/Week9/README.md)|[Homework Week 9](/Week9/MAKEME.md)|
+|9.|• [Promises](fundamentals/promises.md)<br> • (re)writing data structures (in JSON) <br>• Async vs Sync <br>• [Event Loop (order of execution)](fundamentals/event_loop.md) |[Reading Week 9](/Week9/README.md)|[Homework Week 9](/Week9/MAKEME.md)|
 
 __Kind note:__
 

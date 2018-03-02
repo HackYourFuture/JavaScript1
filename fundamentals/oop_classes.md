@@ -216,7 +216,7 @@ months
 
 ![prototype](assets/prototype.png)
 
-### Prototype vs __prototype
+### Prototype vs \_\_prototype\_\_
 
 The above diagram depicts how this sharing works out.
 

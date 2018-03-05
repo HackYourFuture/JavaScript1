@@ -91,7 +91,7 @@ somePromise
 
 > Note that `onFulfilled` and `onRejected` execute asynchronously, after the [event loop](./event_loop.md) turn in which then is called, and with a fresh stack.
 
-It is also important to understand that the `.then()` method returns a new promise that resolves to the return value of `onFulfilled` (if specified) in case of the 'happy' scenario or the return value of `onRejected` (if specified) in case of an error. If the return value of these functions is a plain JavaScript value, the new promise is immediately fulfilled with that value. If the return value is yet another promise then the settlement value is that of the inner promise, when settled. If the function does not return a value, the new promise is immediately fulfilled with the value `undefined`.
+It is also important to understand that the `.then()` method returns a new promise that resolves to the return value of `onFulfilled` (if specified) in case of the 'happy' scenario or the return value of `onRejected` (if specified) in case of an error. If the return value of these functions is a plain JavaScript value, the new promise is immediately fulfilled with that value. If the return value is yet another promise then the outcome is determined by the inner promise, once settled. If the function does not return a value, the new promise is immediately fulfilled with the value `undefined`.
 
 Because `.then()` (and `.catch`) return new promises, you can chain them together such that your code can be read as: do *this*, then do *that* and then *that*, etc.:
 
@@ -114,7 +114,7 @@ Listing 2. Chaining of `then` and `catch`
 
 Let's examine Listing 2 in a bit more detail. There two calls to `getJSON()`. Errors are to be handled in one place, by means of the `.catch()` method that terminates the promise "chain".
 
-If you embed another promise inside the function that you pass to the `.then()` method you should return that promise as the function's return value. If you don't return the promise, you will break the promise chain and the single `.catch()` at the end of the chain will not catch all errors.
+If you embed another promise inside the function that you pass to the `.then()` method you should return that promise as the function's return value. If you don't return the promise, there is no way for the `.catch()` at the end of the chain to "see" a `reject()` of the inner promise, leaving the rejection unhandled.
 
 Note the expression assigned to the `innerPromise` variable. The `getJSON()` function returns a promise, but the `.then()` method chained to `getJSON()` also returns a promise (resolved to the value `undefined` because no value is returned). Therefore `innerPromise` is indeed a promise. In this case we are not interested in the value it resolves to (which is `undefined` as we saw), only in the fact that the promise is resolved (i.e. the async operation we were waiting for has been completed).
 
@@ -122,7 +122,30 @@ In case a promise in the chain is rejected due to some error, the promise chain 
 
 Handling errors at the end of a promise chain is a major advantage over the repetition of error handling code in the case of callbacks.
 
-\* Note: `.catch(onRejected)` is a shorthand for `.then(null, onRejected)`.
+Note however that a `.catch()` method does not necessarily have to be the last method in the chain. It can be used to handle errors midway. As mentioned previously, the `.catch()` method returns a new promise which can be used to provide some "fallback" value in case of errors.
+
+In the example below a promise is created that (for the purpose of demonstration) is immediately rejected. The promise is subsequently "consumed" twice.
+
+1. In the first case ('consumer 1'), the rejection is caught by a `.catch()` method and the rejection value `'bad'` is printed on the console.
+
+2. In the second case ('consumer 2'), the rejection is also caught by a `.catch()` method, but now the catch handler completely ignores the rejection value and just returns the fallback value `'good.`. This becomes the fulfillment value of the promise returned by `.catch()`. The next `.then()` in the chain, completely oblivious that an error ever occurred, now prints the fulfillment value `'good'` on the console.
+ 
+```js
+const promise = new Promise((resolve, reject) => {
+  reject('bad');
+});
+
+// consumer 1
+promise
+  .catch(console.log); // -> "bad"
+
+// consumer 2
+promise
+  .catch(() => 'good')
+  .then(console.log); // -> "good"
+```
+
+\* The syntax `.catch(onRejected)` is a shorthand for `.then(null, onRejected)`.
 
 ## Further readings
 

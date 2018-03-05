@@ -33,9 +33,14 @@ while (waiting_for_event) {
 
 ## Call Stack
 
-In Figure 1 below, when function **A** ① calls function **B** ②, which in turn calls function **C** ③, the JavaScript engine must keep track where function **B** was at the moment that **C** was called, so that it can continue executing **B** when function **C** returns ④ . The same applies to function **A** when function **B** returns ⑤.
+The JavaScript engine maintains a [call stack](https://developer.mozilla.org/en-US/docs/Glossary/Call_stack) to keep track of nested function calls. (The call stack is similar to a JavaScript array to which items are pushed and from which items are popped.)
 
-For this purpose the JavaScript engine maintains a [call stack](https://developer.mozilla.org/en-US/docs/Glossary/Call_stack) as shown in Figure 1, The call stack is a first-in, first-out data structure. When a function is called it is pushed onto the call stack and when it returns it is popped of the call stack.
+Figure 1 below depicts the call stack for a scenario where function **A**() calls function **B**(). The currently executing function is always the one at the top of the call stack. In this case, execution starts with function **A**().
+
+1. The JavaScript engine pushes **A**() on the call stack and starts its execution.
+2. Function **A**() calls function **B()**: the JavaScript engine suspends the execution of **A**() (taking note where it left off), pushes **B**() on the call stack and starts executing **B**().
+3. When function **B**() returns, the JavaScript engine pops **B**() off the stack. Since function **A**() is now again at the top the stack, the JavaScript engine resumes **A**() at the point where it left off.
+4. Finally, when function **A**() returns it is popped of the stack and with the call stack now empty, the JavaScript engine enters its event loop. 
 
 ![Call Stack](assets/call-stack.png)
 

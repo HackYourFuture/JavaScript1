@@ -19,4 +19,4 @@ We expect you to __always__ come prepared to the class on Sunday.
 A good understanding of all the above mentioned topics. Want to check your Knowledge? Go through the [JavaScript Fundamentals README](fundamentals/README.md) and research/ ask for help (Slack!) with the concepts that are not entirely clear.
 
 
-The HackYourFuture curriculum is subject to CC BY copyright. This means you can freely use our materials, but just make sure to give us credit for it :)
+*The HackYourFuture curriculum is subject to CC BY copyright. This means you can freely use our materials, but just make sure to give us credit for it :)*

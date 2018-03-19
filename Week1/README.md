@@ -36,10 +36,10 @@ Only watch the below chapters:
 :star: You can also already go through the topics of the upcoming lecture. :star:
 
 - Intro JavaScript (What is it, where can you use it for)
-- [Variables (var, let, const)](../fundamentals/variables.md)<br>
-- [Basic Data types (Strings, Numbers, Arrays, Booleans)](../fundamentals/values.md)<br>
-- [Operators](../fundamentals/operators.md)<br>
-- [Naming conventions](../fundamentals/naming_conventions.md)
+- [Variables (var, let, const)](./../../../../fundamentals/blob/master/fundamentals/variables.md)<br>
+- [Basic Data types (Strings, Numbers, Arrays, Booleans)](./../../../../fundamentals/blob/master/fundamentals/values.md)<br>
+- [Operators](./../../../../fundamentals/blob/master/fundamentals/operators.md)<br>
+- [Naming conventions](./../../../../fundamentals/blob/master/fundamentals/naming_conventions.md)
 
 _Please go through the material and come to class prepared!_
 

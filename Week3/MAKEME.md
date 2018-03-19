@@ -23,19 +23,19 @@ Provide feedback to the homework of last week to one of your fellow students. Yo
 - Have a look at [The Secret Life of JavaScript Primitives](https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/)
 
 - Review the topics of last week:
-    - [Variables](../fundamentals/variables.md)
-    - [Values](../fundamentals/values.md)
-    - [Operators](../fundamentals/operators.md)
-    - [Naming conventions](../fundamentals/naming_conventions.md)
+    - [Variables](./../../../../fundamentals/blob/master/fundamentals/variables.md)
+    - [Values](./../../../../fundamentals/blob/master/fundamentals/values.md)
+    - [Operators](./../../../../fundamentals/blob/master/fundamentals/operators.md)
+    - [Naming conventions](./../../../../fundamentals/blob/master/fundamentals/naming_conventions.md)
 
 - Go through the topics of this week:
     - Git work flow
-    - [Advanced data types (Objects)](../fundamentals/objects.md)
-    - [Conditional execution](../fundamentals/conditional_execution.md)
-    - [Statements vs Expressions](../fundamentals/statements_expressions.md)
-    - [Loops (for/while)](../fundamentals/loops.md)
-    - [Functions](../fundamentals/functions.md)
-    - [Scope](../fundamentals/scope.md)
+    - [Advanced data types (Objects)](./../../../../fundamentals/blob/master/fundamentals/objects.md)
+    - [Conditional execution](./../../../../fundamentals/blob/master/fundamentals/conditional_execution.md)
+    - [Statements vs Expressions](./../../../../fundamentals/blob/master/fundamentals/statements_expressions.md)
+    - [Loops (for/while)](./../../../../fundamentals/blob/master/fundamentals/loops.md)
+    - [Functions](./../../../../fundamentals/blob/master/fundamentals/functions.md)
+    - [Scope](./../../../../fundamentals/blob/master/fundamentals/scope.md)
 
 ## Step 2: Watch
 

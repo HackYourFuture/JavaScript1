@@ -170,7 +170,7 @@ If you solve the FreeCodeCamp challenges and they are new concepts to you and yo
 
 :star: Additional resources and review: :star:
 
-- [Variables](../fundamentals/variables.md)
-- [Basic value types](../fundamentals/values.md)
-- [Operators](../fundamentals/operators.md)
-- [Naming conventions](../fundamentals/naming_conventions.md)
+- [Variables](./../../../../fundamentals/blob/master/fundamentals/variables.md)
+- [Basic value types](./../../../../fundamentals/blob/master/fundamentals/values.md)
+- [Operators](./../../../../fundamentals/blob/master/fundamentals/operators.md)
+- [Naming conventions](./../../../../fundamentals/blob/master/fundamentals/naming_conventions.md)

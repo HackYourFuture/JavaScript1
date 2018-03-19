@@ -38,9 +38,9 @@ Please watch the following parts of the course, [Programming Foundations Fundame
 
 Review the topics of week 2:
 
-- [Variables](../fundamentals/variables.md)
-- [Values](../fundamentals/values.md)
-- [Operators](../fundamentals/operators.md)
+- [Variables](./../../../../fundamentals/blob/master/fundamentals/variables.md)
+- [Values](./../../../../fundamentals/blob/master/fundamentals/values.md)
+- [Operators](./../../../../fundamentals/blob/master/fundamentals/operators.md)
 - [Naming conventions](../fundamentals/naming_conventions.md)
 
 _Please go through the material and come to class prepared!_

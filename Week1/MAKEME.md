@@ -5,7 +5,7 @@ Topics discussed in class this week:
 • Git
 ```
 
->[Here](/Week1/README.md) you find the readings you have to complete before the fifth lecture.
+>[Here](/Week2/README.md) you find the readings you have to complete before the second lecture.
 
 ## Step 1: Share a useful resource
 

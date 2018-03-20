@@ -1,52 +1,51 @@
-# Reading material for the fourth lecture:
+# Reading material for the third lecture:
 
 ```
 In week three we will discuss the following topics:
-• Capturing user input
-• Basic DOM manipulations[img src, innerHTML]
-• Code debugging using the browser
-• Events
-• Code commenting
-• Structuring code files
+• Git work flow
+• Advanced data types [Objects]
+• Conditions
+• Statements vs Expressions
+• Loops (for/while)
+• Functions
 ```
 
-- Chrome DevTools [Debugging](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3) 
+### Here are resources that we like you to read as a preparation for the coming lecture:
 
-### A Refresher from some previous covered topics:
+Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):
+    <br>4. Writing Conditional Code
+    <br>5. Modular Code
+    <br>6. Iteration: Writing Loops
+    <br>7. More About Strings
+    <br>8. Collections
+    <br>11. When Things Go Wrong 
 
-Links to MDN (Mozilla Developer Network) topics:
+## Read
+- [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype)
 
-- [Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
+## From the book _A Smarter Way To Learn JavaScript_ please read:
+- 'Loops' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 18-20
+- 'Functions' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 35 - 38
+- Functions ~ http://eloquentjavascript.net/03_functions.html
+- 'Objects' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 69 - 75
+- 'Conditions' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 10 - 14
+- Program structure ~ http://eloquentjavascript.net/02_program_structure.html
 
-## Review
+#### Git work flow
+- Check out this video of Daan to see how we use Git Workflow to hand in Homework (from now on): https://www.youtube.com/watch?v=-o0yomUVVpU&index=2&list=PLVYDhqbgYpYUGxRdtQdYVE5Q8h3bt6SIA
 
-Go through the topics of week 2-4.
+### Review
 
-### Week 2
+Review the topics of week 2:
 
-- [Variables (var, let, const)](./../../../../fundamentals/blob/master/fundamentals/variables.md)
-- [Basic Data types (Strings, Numbers, Arrays, Booleans)](./../../../../fundamentals/blob/master/fundamentals/values.md)
+- [Variables](./../../../../fundamentals/blob/master/fundamentals/variables.md)
+- [Values](./../../../../fundamentals/blob/master/fundamentals/values.md)
 - [Operators](./../../../../fundamentals/blob/master/fundamentals/operators.md)
-- [Naming conventions](./../../../../fundamentals/blob/master/fundamentals/naming_conventions.md)
-
-### Week 3
-
-- [Advanced data types (objects)](./../../../../fundamentals/blob/master/fundamentals/objects.md)
-- [Conditional execution](./../../../../fundamentals/blob/master/fundamentals/conditional_execution.md) <br>
-- [Statements vs Expressions](./../../../../fundamentals/blob/master/fundamentals/statements_expressions.md)<br>
-- [Loops (for/while)](./../../../../fundamentals/blob/master/fundamentals/loops.md)
-- [Functions](./../../../../fundamentals/blob/master/fundamentals/functions.md)
-- [Scope](./../../../../fundamentals/blob/master/fundamentals/scope.md)
-
-### Week 4
-
-- Capturing user input
-- Events
-- [Basic DOM manipulations (img src, innerHTML)](./../../../../fundamentals/blob/master/fundamentals/DOM_manipulation.md)
-- Code debugging using the browser
-- [Code commenting](./../../../../fundamentals/blob/master/fundamentals/code_commenting.md)
-- Structuring code files
-- [Code formatting](./../../../../fundamentals/blob/master/fundamentals/code_formatting.md)
-
+- [Naming conventions](./../../../../fundamentals/naming_conventions.md)
 
 _Please go through the material and come to class prepared!_
+
+
+
+
+

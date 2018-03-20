@@ -10,7 +10,7 @@ Topics discussed in class this week:
 • Functions
 ```
 
->[Here](./../../../../JavaScript3/tree/master/Week1) you find the readings you have to complete before the first JavaScript2 lecture.
+>[Here](./../../../../JavaScript2/tree/master/Week1) you find the readings you have to complete before the first JavaScript2 lecture.
 
 ## Step 0: Feedback
 
@@ -193,7 +193,7 @@ Please make sure you REALLY understand the exercises below:
 
 _Deadline Sunday morning_
 
-Go through the reading material in the [README.md](./../../../../JavaScript3/tree/master/Week1) to prepare for your next class
+Go through the reading material in the [README.md](./../../../../JavaScript2/tree/master/Week1) to prepare for your next class
 
 ```
 How to hand in your homework:

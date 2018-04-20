@@ -15,10 +15,10 @@ Topics discussed in class this week:
 1. Review the [Git course material](https://github.com/HackYourFuture/Git) of last week.
 2. Watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro), just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though).
 3. Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):
-    0\. Introduction
-    1\. Programming Basics
-    2\. Core Programming Syntax
-    3\. Variables and Data Types
+    <br>**0. Introduction**
+    <br>**1. Programming Basics** 
+    <br>**2. Core Programming Syntax**
+    <br>**3. Variables and Data Types**
 
 
 ## Step 2: Feedback

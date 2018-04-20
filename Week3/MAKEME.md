@@ -10,7 +10,7 @@ Topics discussed in class this week:
 • Functions
 ```
 
->[Here](/Week2/README.md) you find the readings you have to complete before the third lecture.
+>[Here](./../../../../JavaScript2/tree/master/Week1) you find the readings you have to complete before the first JavaScript2 lecture.
 
 ## Step 0: Feedback
 
@@ -23,19 +23,19 @@ Provide feedback to the homework of last week to one of your fellow students. Yo
 - Have a look at [The Secret Life of JavaScript Primitives](https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/)
 
 - Review the topics of last week:
-    - [Variables](../fundamentals/variables.md)
-    - [Values](../fundamentals/values.md)
-    - [Operators](../fundamentals/operators.md)
-    - [Naming conventions](../fundamentals/naming_conventions.md)
+    - [Variables](./../../../../fundamentals/blob/master/fundamentals/variables.md)
+    - [Values](./../../../../fundamentals/blob/master/fundamentals/values.md)
+    - [Operators](./../../../../fundamentals/blob/master/fundamentals/operators.md)
+    - [Naming conventions](./../../../../fundamentals/blob/master/fundamentals/naming_conventions.md)
 
 - Go through the topics of this week:
     - Git work flow
-    - [Advanced data types (Objects)](../fundamentals/objects.md)
-    - [Conditional execution](../fundamentals/conditional_execution.md)
-    - [Statements vs Expressions](../fundamentals/statements_expressions.md)
-    - [Loops (for/while)](../fundamentals/loops.md)
-    - [Functions](../fundamentals/functions.md)
-    - [Scope](../fundamentals/scope.md)
+    - [Advanced data types (Objects)](./../../../../fundamentals/blob/master/fundamentals/objects.md)
+    - [Conditional execution](./../../../../fundamentals/blob/master/fundamentals/conditional_execution.md)
+    - [Statements vs Expressions](./../../../../fundamentals/blob/master/fundamentals/statements_expressions.md)
+    - [Loops (for/while)](./../../../../fundamentals/blob/master/fundamentals/loops.md)
+    - [Functions](./../../../../fundamentals/blob/master/fundamentals/functions.md)
+    - [Scope](./../../../../fundamentals/blob/master/fundamentals/scope.md)
 
 ## Step 2: Watch
 
@@ -193,7 +193,7 @@ Please make sure you REALLY understand the exercises below:
 
 _Deadline Sunday morning_
 
-Go through the reading material in the [README.md](/Week2/README.md) to prepare for your next class
+Go through the reading material in the [README.md](./../../../../JavaScript2/tree/master/Week1) to prepare for your next class
 
 ```
 How to hand in your homework:

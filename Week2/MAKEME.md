@@ -8,7 +8,7 @@ Topics discussed in class this week:
 • Operators
 ```
 
->[Here](/Week1/README.md) you find the readings you have to complete before the second lecture.
+>[Here](/Week3/README.md) you find the readings you have to complete before the third lecture.
 
 ## Before you start with the homework:
 
@@ -155,7 +155,7 @@ On freeCodeCamp.com please do the [Basic JavaScript](https://www.freecodecamp.co
 
 _Deadline Sunday morning_
 
-Go trough the reading material in the [README.md](/Week2/README.md) to prepare for your next class
+Go trough the reading material in the [README.md](/Week3/README.md) to prepare for your next class
 
 ### How to hand in Homework:
 ```
@@ -170,7 +170,7 @@ If you solve the FreeCodeCamp challenges and they are new concepts to you and yo
 
 :star: Additional resources and review: :star:
 
-- [Variables](../fundamentals/variables.md)
-- [Basic value types](../fundamentals/values.md)
-- [Operators](../fundamentals/operators.md)
-- [Naming conventions](../fundamentals/naming_conventions.md)
+- [Variables](./../../../../fundamentals/blob/master/fundamentals/variables.md)
+- [Basic value types](./../../../../fundamentals/blob/master/fundamentals/values.md)
+- [Operators](./../../../../fundamentals/blob/master/fundamentals/operators.md)
+- [Naming conventions](./../../../../fundamentals/blob/master/fundamentals/naming_conventions.md)

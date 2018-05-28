@@ -26,7 +26,7 @@ Provide feedback to the homework of last week to one of your fellow students. Yo
     - [Variables](./../../../../fundamentals/blob/master/fundamentals/variables.md)
     - [Values](./../../../../fundamentals/blob/master/fundamentals/values.md)
     - [Operators](./../../../../fundamentals/blob/master/fundamentals/operators.md)
-    - [Special characters and their names](./../../../fundamentals/names_of_special_characters.md)
+    - [Special characters and their names](./../../../../fundamentals/blob/master/fundamentals/names_of_special_characters.md)
     - [Naming conventions](./../../../../fundamentals/blob/master/fundamentals/naming_conventions.md)
 
 - Go through the topics of this week:
@@ -110,10 +110,10 @@ let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
 
     ```js
     if (3 === 3) {
-        console.log("yes")
+        console.log("yes");
     } else {
-        console.log("no")
-    };
+        console.log("no");
+    }
     ```
 
 6. Create a function called `vehicle`, like before, but takes another parameter called `age`, so that `vehicle("blue", 1, 5)` prints *'a blue used car'*

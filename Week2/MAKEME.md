@@ -177,5 +177,5 @@ If you solve the FreeCodeCamp challenges and they are new concepts to you and yo
 - [Variables](./../../../../fundamentals/blob/master/fundamentals/variables.md)
 - [Basic value types](./../../../../fundamentals/blob/master/fundamentals/values.md)
 - [Operators](./../../../../fundamentals/blob/master/fundamentals/operators.md)
-- [Special characters and their names](./../../../fundamentals/names_of_special_characters.md)
+- [Special characters and their names](./../../../../fundamentals/blob/master/fundamentals/names_of_special_characters.md)
 - [Naming conventions](./../../../../fundamentals/blob/master/fundamentals/naming_conventions.md)

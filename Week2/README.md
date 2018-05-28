@@ -40,7 +40,7 @@ Only watch the below chapters:
 - [Variables (var, let, const)](./../../../../fundamentals/blob/master/fundamentals/variables.md)  
 - [Basic Data types (Strings, Numbers, Arrays, Booleans)](./../../../../fundamentals/blob/master/fundamentals/values.md)  
 - [Operators](./../../../../fundamentals/blob/master/fundamentals/operators.md)  
-- [Special characters and their names](./../../../fundamentals/names_of_special_characters.md)  
+- [Special characters and their names](./../../../../fundamentals/blob/master/fundamentals/names_of_special_characters.md)  
 - [Naming conventions](./../../../../fundamentals/blob/master/fundamentals/naming_conventions.md)
 
 _Please go through the material and come to class prepared!_

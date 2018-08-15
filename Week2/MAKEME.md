@@ -100,7 +100,7 @@ Copy the code in your `.js` file and run it. You will see that you will get a Sy
 5\.6 `console.log` the highest value.  
 
 6\. *Arrays*  
-6\.1 Declare an empty array. Make sure that the name you choose indicates 'plurality', because an array is capable of containing more than one element. (See [Naming conventions](../fundamentals/naming_conventions.md)).  
+6\.1 Declare an empty array. Make sure that the name you choose indicates 'plurality', because an array is capable of containing more than one element. (See [Naming conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)).  
 6\.2 Write a `console.log` statement that explains in words what you think the value of the array is.  
 6\.3 `console.log` your array.  
 6\.4 Create an array that has your favorite animals inside (see if you can find a good name that exactly describes what this variable will hold).  

@@ -25,6 +25,15 @@ Only watch the below chapters:
 2. Core Programming Syntax 
 3. Variables and Data Types
 
+Read up on the most important topics of next week:
+
+[Variables (var, let, const)](http://javascript.info/variables)
+[Basic Data types (Strings, Numbers, Arrays, Booleans)](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/values.md)
+[Operators](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/operators.md)
+[Special characters and their names](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/names_of_special_characters.md)
+[Naming conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)
+
+
 - Read this ~ http://speakingjs.com/es5/ch01.html read up to and including the *Strings* chapter (it’s okay if you don’t understand all of it yet, we will cover these concepts in class as well. Do make sure to write or document the questions you have so we can discuss them in class)
 
 - Read the entire JavaScript Introduction at MDN~ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
@@ -32,16 +41,6 @@ Only watch the below chapters:
 - Helpful resource: http://jsbooks.revolunet.com/ (here you can find tons of free JavaScript books online)
 
 - The 50 best websites to Learn JavaScript: http://www.codeconquest.com/blog/top-50-websites-to-learn-javascript/
-
-:star: You can also already go through the topics of the upcoming lecture. :star:
-
-
-- Intro JavaScript (What is it, where can you use it for)  
-- [Variables (var, let, const)](./../../../../fundamentals/blob/master/fundamentals/variables.md)  
-- [Basic Data types (Strings, Numbers, Arrays, Booleans)](./../../../../fundamentals/blob/master/fundamentals/values.md)  
-- [Operators](./../../../../fundamentals/blob/master/fundamentals/operators.md)  
-- [Special characters and their names](./../../../../fundamentals/blob/master/fundamentals/names_of_special_characters.md)  
-- [Naming conventions](./../../../../fundamentals/blob/master/fundamentals/naming_conventions.md)
 
 _Please go through the material and come to class prepared!_
 

@@ -20,16 +20,14 @@ Please watch the following parts of the course, [Programming Foundations Fundame
     <br>8. Collections
     <br>11. When Things Go Wrong 
 
-## Read
-- [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype)
-
-## From the book _A Smarter Way To Learn JavaScript_ please read:
-- 'Loops' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 18-20
-- 'Functions' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 35 - 38
-- Functions ~ http://eloquentjavascript.net/03_functions.html
-- 'Objects' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 69 - 75
-- 'Conditions' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 10 - 14
-- Program structure ~ http://eloquentjavascript.net/02_program_structure.html
+## Read the following articles that are very important to programming!
+- [Array](http://javascript.info/array)
+- [Loops](http://javascript.info/while-for)
+- [Functions](http://javascript.info/function-basics)
+- [Functions](http://eloquentjavascript.net/03_functions.html)
+- [Objects](http://javascript.info/object)
+- [Conditions](http://javascript.info/ifelse)
+- [Program structure](http://eloquentjavascript.net/02_program_structure.html)
 
 #### Git work flow
 - Check out this video of Daan to see how we use Git Workflow to hand in Homework (from now on): https://www.youtube.com/watch?v=-o0yomUVVpU&index=2&list=PLVYDhqbgYpYUGxRdtQdYVE5Q8h3bt6SIA
@@ -45,8 +43,3 @@ Review the topics of week 2:
 - [Naming conventions](./../../../../fundamentals/blob/master/fundamentals/naming_conventions.md)
 
 _Please go through the material and come to class prepared!_
-
-
-
-
-

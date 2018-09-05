@@ -28,9 +28,13 @@ Only watch the below chapters:
 Read up on the most important topics of next week:
 
 [Variables (var, let, const)](http://javascript.info/variables)
-[Basic Data types (Strings, Numbers, Arrays, Booleans)](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/values.md)
+
+[Basic Data types(Strings, Numbers, Arrays, Booleans)](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/values.md)
+
 [Operators](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/operators.md)
+
 [Special characters and their names](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/names_of_special_characters.md)
+
 [Naming conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)
 
 

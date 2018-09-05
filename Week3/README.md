@@ -21,18 +21,18 @@ In week three we will discuss the following topics:
 
 Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):
 
-    <br>4. Writing Conditional Code
-    <br>5. Modular Code
-    <br>6. Iteration: Writing Loops
-    <br>7. More About Strings
-    <br>8. Collections
-    <br>11. When Things Go Wrong 
+    4. Writing Conditional Code
+    5. Modular Code
+    6. Iteration: Writing Loops
+    7. More About Strings
+    8. Collections
+    11. When Things Go Wrong 
 
 ## Read the following articles that are very important to programming!
 - [Array](http://javascript.info/array)
 - [Loops](http://javascript.info/while-for)
 - [Functions](http://javascript.info/function-basics)
-- [Functions](http://eloquentjavascript.net/03_functions.html)
+- [Another Functions article](http://eloquentjavascript.net/03_functions.html)
 - [Objects](http://javascript.info/object)
 - [Conditions](http://javascript.info/ifelse)
 - [Program structure](http://eloquentjavascript.net/02_program_structure.html)

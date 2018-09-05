@@ -39,9 +39,5 @@ Read up on the most important topics of next week:
 [Naming conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)
 
 
-- Helpful resource: http://jsbooks.revolunet.com/ (here you can find tons of free JavaScript books online)
-
-- The 50 best websites to Learn JavaScript: http://www.codeconquest.com/blog/top-50-websites-to-learn-javascript/
-
 _Please go through the material and come to class prepared!_
 

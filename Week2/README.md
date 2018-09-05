@@ -25,6 +25,7 @@ Only watch the below chapters:
 2. Core Programming Syntax 
 3. Variables and Data Types
 
+
 Read up on the most important topics of next week:
 
 [Variables (var, let, const)](http://javascript.info/variables)

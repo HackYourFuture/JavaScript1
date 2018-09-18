@@ -7,7 +7,7 @@ Here you can find course content and homework for the JavaScript 1 module
 
 |Week|Topic|Read|Homework|
 |----|-----|----|--------|
-|1.|Git Session with Unmesh|[Reading Week 1](/Week1/README.md) | [Homework Week 1](/Week1/MAKEME.md)|
+|1.|Git Session|[Reading Week 1](/Week1/README.md) | [Homework Week 1](/Week1/MAKEME.md)|
 |2.|• Intro JavaScript (What is it, where can you use it for)<br>• [Variables (var, let, const)](../../../fundamentals/blob/master/fundamentals/variables.md)<br>• [Basic Data types (Strings, Numbers, Arrays, Booleans)](../../../fundamentals/blob/master/fundamentals/values.md)<br>• [Operators](../../../fundamentals/blob/master/fundamentals/operators.md)<br>• [Special characters and their names](../../../fundamentals/blob/master/fundamentals/names_of_special_characters.md)<br>• [Naming conventions](../../../fundamentals/blob/master/fundamentals/naming_conventions.md)|[Reading Week 2](/Week2/README.md)|[Homework Week 2](/Week2/MAKEME.md)|
 |3.|• Git work flow :smiling_imp:<br>• [Advanced data types (objects)](../../../fundamentals/blob/master/fundamentals/objects.md) <br>• [Conditional execution](../../../fundamentals/blob/master/fundamentals/conditional_execution.md) <br>• [Statements vs Expressions](../../../fundamentals/blob/master/fundamentals/statements_expressions.md)<br> • [Loops (for/while)](../../../fundamentals/blob/master/fundamentals/loops.md)<br>• [Functions](../../../fundamentals/blob/master/fundamentals/functions.md) <br>• [Scope](../../../fundamentals/blob/master/fundamentals/scope.md)|[Reading Week 3](/Week3/README.md)|[Homework Week 3](/Week3/MAKEME.md)|
 

@@ -11,14 +11,13 @@ Topics discussed in class this week:
 
 _Deadline Monday_
 
-All share a video or a resource (this can be a drawing, an article or a podcast) that was helpful for you the last few weeks with learning JavaScript. Please share this in the channel of your class in Slack. Also write as small note about what the resource is about and why you think it's so helpful (you can share more than one if you like).
+All share a video or a resource (this can be a drawing, an article or a podcast) that was helpful for you the last few weeks with learning HTML/CSS. Please share this in the channel of your class in Slack. Also write as small note about what the resource is about and why you think it's so helpful (you can share more than one if you like).
 
 ## Step 2: Feedback
 
 _Deadline Monday_
 
-Give one of your fellow students feedback in Github about their homework of the previous week: Create an issue in their repo, telling them what they did great and what they can improve.
-
+Give feedback on a fellow student on their last HTML/CSS assignment via trello. Make sure to give constructive feedback where you make clear what the person did well, and what parts they can improve of their code / what parts of the website are missing. 
 
 ## Step 3: Git homework
 

@@ -32,10 +32,10 @@ Please watch the following parts of the course, [Programming Foundations Fundame
 - [Array](http://javascript.info/array)
 - [Loops](http://javascript.info/while-for)
 - [Functions](http://javascript.info/function-basics)
-- [Another Functions article](http://eloquentjavascript.net/03_functions.html)
+- [Scope](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/scope.md)
 - [Objects](http://javascript.info/object)
 - [Conditions](http://javascript.info/ifelse)
-- [Program structure](http://eloquentjavascript.net/02_program_structure.html)
+- [Expressions vs statements](https://www.youtube.com/watch?v=WVyCrI1cHi8)
 
 #### Git work flow
 - Check out this video of Daan to see how we use Git Workflow to hand in Homework (from now on): https://www.youtube.com/watch?v=-o0yomUVVpU&index=2&list=PLVYDhqbgYpYUGxRdtQdYVE5Q8h3bt6SIA

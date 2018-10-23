@@ -51,7 +51,7 @@ console.log('I'm awesome');
 
 Copy the code in your `.js` file and run it. You will see that you will get a SyntaxError. Find a solution for this error. Hint: read the error message carefully, it also gives an indication of where the problem is.
 
-3\. Declare a variable `x` and initialize it with an integer, using these exact steps:  
+3\. Declare a variable `x` and assign it the value (initialize) of an integer( = whole number), using these exact steps:  
 3\.1 First, _declare_ your variable `x` (do not initialize it yet).  
 3\.2 Add a `console.log` statement that explains in words what _you think_ the value of `x` is, like in this example:  
 

@@ -5,7 +5,7 @@ Topics discussed in class this week:
 • Git
 ```
 
->[Here](/Week2/README.md) you find the readings you have to complete before the second lecture.
+> [Here](/Week2/README.md) you find the readings you have to complete before the second lecture.
 
 ## Step 1: Share a useful resource
 
@@ -13,13 +13,7 @@ _Deadline Monday_
 
 All share a video or a resource (this can be a drawing, an article or a podcast) that was helpful for you the last few weeks with learning HTML/CSS. Please share this in the channel of your class in Slack. Also write as small note about what the resource is about and why you think it's so helpful (you can share more than one if you like).
 
-## Step 2: Feedback
-
-_Deadline Monday_
-
-Give feedback on a fellow student on their last HTML/CSS assignment via trello. Make sure to give constructive feedback where you make clear what the person did well, and what parts they can improve of their code / what parts of the website are missing. 
-
-## Step 3: Git homework
+## Step 2: Git homework
 
 _Deadline Wednesday_
 
@@ -40,4 +34,4 @@ Pair up with another student in your class. The homework requires two people to 
 
 Note:
 
-The *user* is  *not supposed to fork* the admin’s repository. *admin* is supposed to add user as a collaborator and *user* should just *clone* the repository (i.e. *user* will only have the local copy of the repository). Only *admin* will have the *github* server copy of the repository. Of course, admin will have its local copy of the repository too.
+The _user_ is _not supposed to fork_ the admin’s repository. _admin_ is supposed to add user as a collaborator and _user_ should just _clone_ the repository (i.e. _user_ will only have the local copy of the repository). Only _admin_ will have the _github_ server copy of the repository. Of course, admin will have its local copy of the repository too.

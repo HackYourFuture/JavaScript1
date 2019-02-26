@@ -23,14 +23,13 @@ Pair up with another student in your class. The homework requires two people to 
 
 1. admin creates a new repository on github called “animals” (without quotes).
 2. admin adds a file called “zoo.txt” with some animals generally found in a zoo.
-3. admin commits and pushes his changes (in master branch).
-4. admin adds user as a collaborator (find out how to add a collaborator to a git repository).
-5. user clones the repository from admin (find out how to clone a repository. Note that `git init` is not required when you clone a repository).
-6. user makes a new branch called user-dev.
-7. user adds another file called “pets.txt” with some animals generally found in a home.
-8. user commits and pushes his branch to remote.
-9. admin pulls the branch crated by user (find out how to pull changes from a repository).
-10. admin submits the link to his github repository (named "animals"), where Unmesh should be able to see the collaborator’s (i.e. user’s) branch along with his commits.
+3. admin commits and pushes the changes (in master branch).
+4. user forks the repository created by admin and bring it to their machine (covered during classwork).
+5. user makes a new branch called user-dev.
+6. user adds another file called “pets.txt” with some animals generally found in a home.
+7. user commits and pushes his branch to remote.
+8. admin pulls the branch crated by user (find out how to pull changes from a repository).
+9. admin submits the link to his github repository (named "animals"), where Unmesh should be able to see the collaborator’s (i.e. user’s) branch along with his commits.
 
 Note:
 

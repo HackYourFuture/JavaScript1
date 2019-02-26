@@ -21,16 +21,12 @@ Git homework for this week:
 
 Pair up with another student in your class. The homework requires two people to work together. Let's call them admin and user.
 
-1. admin creates a new repository on github called “animals” (without quotes).
+1. admin creates a new repository on github called **animals**.
 2. admin adds a file called “zoo.txt” with some animals generally found in a zoo.
 3. admin commits and pushes the changes (in master branch).
 4. user forks the repository created by admin and bring it to their machine (covered during classwork).
 5. user makes a new branch called user-dev.
 6. user adds another file called “pets.txt” with some animals generally found in a home.
 7. user commits and pushes his branch to remote.
-8. admin pulls the branch crated by user (find out how to pull changes from a repository).
-9. admin submits the link to his github repository (named "animals"), where Unmesh should be able to see the collaborator’s (i.e. user’s) branch along with his commits.
-
-Note:
-
-The _user_ is _not supposed to fork_ the admin’s repository. _admin_ is supposed to add user as a collaborator and _user_ should just _clone_ the repository (i.e. _user_ will only have the local copy of the repository). Only _admin_ will have the _github_ server copy of the repository. Of course, admin will have its local copy of the repository too.
+8. user creates a pull request(PR) to merge changes from user's _user-dev_  branch to admin's _master_ branch.
+9. admin reviews the pull request and approves and merges changes.

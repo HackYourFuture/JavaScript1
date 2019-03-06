@@ -1,5 +1,5 @@
 //1
-console.log('Hallo', 'wereld!'); // Dutch;
+console.log('Hallo', 'wereld!'); // Dutch
 console.log('hola', 'mundo!'); //spanish
 console.log('مرحبا', 'العالم!'); //Arabic
 //2

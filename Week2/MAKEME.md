@@ -1,4 +1,4 @@
-## Homework Week 2
+﻿## Homework Week 2
 
 ```
 Topics discussed in class this week:
@@ -157,11 +157,22 @@ Go trough the reading material in the [README.md](/Week3/README.md) to prepare f
 
 ### How to hand in Homework:
 
-```
-• Create a new repository "hyf-javascript1". Also create a new folder "week1" inside this repository.
-• Upload your homework files inside the week1 folder and write a description for this “commit”.
-• Your hyf-javascript1/week1 should now contain all your homework files.
-• Place the link to your repository folder in Trello.
+1. Fork the `HackYourFuture/JavaScript1` and bring it to your own GitHub `remote`.
+
+2. Clone the repo which you forked in previous step and bring it to your `local` machine.
+
+3. Create a branch say with the name `<yourname>-homework` i.e `yash-homework`
+
+4. Create a JavaScript file named `<your-name>.js` i.e `yash.js`
+
+5. Complete your homework in that JS file.
+
+6. Push the changes to your remote repository from your local branch(remember `git add`, `git commit` and `git push`).
+
+7. Create a pull request to submit your changes to the `master` branch of the original repo i.e `HackYourFuture/JavaScript1` repo.
+
+
+Please feel free to drop a message if you have any confusions about the above steps.
 ```
 
 ### Hint

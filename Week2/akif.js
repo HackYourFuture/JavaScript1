@@ -9,26 +9,26 @@ console.log("I'm awesome");
 
 // Part 3 Console.log(x)   --------------------------------
 let x;
-console.log('the value of my variable x will be: numberOfTheStudents');
+console.log('the value of my variable x will be: 16');
 console.log(x);
 x = 16;
-console.log('the value of my variable x will be: numberOfTheStudents');
+console.log('the value of my variable x will be: 16');
 console.log(x);
 
 // Part 4  String y  ---------------------------------------
 let y = 'I love you JavaScript';
-console.log('the value of my variable y will be: feelingAboutJavaScript');
+console.log('the value of my variable y will be: I love you JavaScript');
 console.log(y);
 y = 'I will learn you';
-console.log('the value of my variable y will be: myPlanAboutJavaScript');
+console.log('the value of my variable y will be: I will learn you');
 console.log(y);
 
 // Part 5  Round a number  ---------------------------------
-let z = 7.25;
+const z = 7.25;
 console.log(z);
-let a = Math.round(z);
+const a = Math.round(z);
 console.log(a);
-let b = Math.max(z, a);
+const b = Math.max(z, a);
 console.log(b);
 
 // Part 6 Arrays   ------------------------------------------
@@ -54,22 +54,22 @@ let n = true;
 console.log(k, l, m, n);
 console.log('the types of my variable accordingly are: number, string, undefined, boolean');
 console.log(typeof k, typeof l, typeof m, typeof n);
-if (typeof k != typeof l) {
+if (typeof k !== typeof l) {
   console.log('Not Same Type');
 }
-if (typeof k != typeof m) {
+if (typeof k !== typeof m) {
   console.log('Not Same Type');
 }
-if (typeof k != typeof n) {
+if (typeof k !== typeof n) {
   console.log('Not Same Type');
 }
-if (typeof l != typeof m) {
+if (typeof l !== typeof m) {
   console.log('Not Same Type');
 }
-if (typeof l != typeof n) {
+if (typeof l !== typeof n) {
   console.log('Not Same Type');
 }
-if (typeof m != typeof n) {
+if (typeof m !== typeof n) {
   console.log('Not Same Type');
 }
 
@@ -94,7 +94,7 @@ let arr = [13, 'I am a programmer', undefined, null];
 console.log(arr);
 
 function arrayTypeChecker(b) {
-  for (let i = 0; i < b.length; i++) {
+  for (let i = 0; i < b.length - 1; i++) {
     if (typeof b[i] !== typeof b[i + 1]) {
       return 'Array includes DIFFERENT data types';
     } else {

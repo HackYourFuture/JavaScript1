@@ -9,14 +9,14 @@ console.log(Turkish, English, French, Dutch);
 //Q2
 console.log('I'm awesome'); 
 //here quoting is problem. Two solutions: using double quote/backsticks or escape element. So;
-console.log('I\'m awesome')
-console.log("I'm awesome")
+console.log('I\'m awesome');
+console.log("I'm awesome");
 
 //Q3
 let x;
-console.log("the value of x will be : undetermined");
+console.log("the value of x will be : undefined");
 console.log(x);
-let x = 7;
+x = 7;
 console.log("the value of x will be : 7");
 console.log(x);
 
@@ -24,11 +24,11 @@ console.log(x);
 const y = "I like birds";
 console.log("the value of y will be : I like birds");
 console.log(y);
-const y = "I hate birds";
-console.log("the value of y will be : error because I have used const as a variable. The case will be different if I had used var or let");
+y = "I hate birds";
+console.log("the value of y will be : error because I have used const as a variable. The case will be different if I had used var or let. While debugging it does not throw an error message I don't know why.");
 console.log(y);
 
-//Q5 (There are two solutions possible. Either using if/else or Math.round() property)
+//Q5 (There are two solutions possible. Either using if/else or Math.round() method)
 //Method1
 let z = 7.25;
 console.log(z);
@@ -58,12 +58,12 @@ else {
 //Q6
 
 const emptyArrOfAnimals = [];
-console.log("emptyArrOfAnimals : undefined");
+console.log("emptyArrOfAnimals : empty array");
 console.log(emptyArrOfAnimals);
 
 const myFavouriteAnimals = ["Budgie Parrots", "German Shephard", "Goat"];
 console.log(myFavouriteAnimals);
-myFavouriteAnimals[3] = "baby pig";
+myFavouriteAnimals[3] = "baby pig"; //myFavouriteAnimals.push("baby pig") method can also be used
 console.log(myFavouriteAnimals);
 
 //Q7
@@ -106,24 +106,24 @@ else {
 }
 
 //Q9
-//9.0 
+//9.0 (WHEN I WAS DOING DEBUGGING I SAW THAT I COULD NOT ASSIGN NEW VALUES TO X. BUT I DON'T KNOW WHY.)
 
 let x = 7; 
 x = x % 3;
 console.log("the result will be 1. This is called modulo. It is used to find what remains from x when it is divided to 3");
 console.log(x);
 //9.1
-let x = 150;
+x = 150;
 x = x % 10;
 console.log("the result will be 0.");
 console.log(x);
 
-let x = 159.9999999;
+x = 159.9999999;
 x = x % 10;
 console.log("the result will be 9..9999999");
 console.log(x);
 
-let x = 23;
+x = 23;
 x = x % 5;
 console.log("the result will be 3");
 console.log(x);

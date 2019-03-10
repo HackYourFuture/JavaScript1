@@ -32,7 +32,7 @@ console.log('the value of x will be: i am studying javascript');
 console.log(y);
 //How do you round the number 7.25, to the nearest integer (i.e., whole number)?
 //5.1 Declare a variable z and assign the number 7.25 to it.
-let z = 7.25;
+const z = 7.25;
 //5.2 console.log z.
 console.log(z);
 //5.3 Declare another variable a that has the value of z but rounded to the nearest integer.
@@ -43,13 +43,17 @@ console.log(Math.round(a));
 //i think there are many way's to compare between 2 'built-in functions' or more value's. this is in a different way one of them.
 //5.6 console.log the highest value.
 if (a > z) {
-  console.log('bigger than b', a);
+  const newValue = a;
+  console.log('bigger than b', newValue);
 } else {
-  console.log('z is bigger than a', z);
+  const newValue = z;
+  console.log('z is bigger than a', newValue);
 }
+const maxValue = Math.max(a, z);
+console.log(maxValue);
 ///////////Arrays/////////////
 //6.1 Declare an empty array. Make sure that the name you choose indicates 'plurality', because an array is capable of containing more than one element. (See Naming conventions).
-let arr1 = [, , ,];
+let arr1 = [];
 //6.2 Write a console.log statement that explains in words what you think the value of the array is.
 console.log('the value of arr1 will be undefined or empty');
 //6.3 console.log your array.
@@ -120,25 +124,9 @@ for (let i = 0; i < information.length; i++) {
   console.log(information[i]);
 }
 //10.2 Can you compare infinities? (Not in Eyad's world) - does 6/0 === 10/0? How can you test this?
+function divideByZero(num1) {
+  return num1 / 0;
+}
+
 //10.3 Add console.log statements to the above program in which you show that you understand the concepts (just like you've done in the above assignments).
-let number1 = 6 / 0,
-  number2 = 10 / 0;
-console.log(number1, number2);
-console.log(number1.typeOf, number2.typeOf); //can not divide never by 0 because it give infinity
-
-/*let var1 = 10,
-        var2 = true,
-        var3 = 'any text',
-        var4 = { key1: 'value1' },
-        var5 = 205,
-        var6 = 'nice code';
-
-      console.log(typeof var1, typeof var2, typeof var3, typeof var4, typeof var5, typeof var6);
-      console.log(
-        'var1:' + var1,
-        'var2:' + var2,
-        'var3:' + var3,
-        'var4:' + var4,
-        'var5:' + var5,
-        'var6:' + var6,
-      );*/
+console.log(divideByZero(145));

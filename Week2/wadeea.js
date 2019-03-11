@@ -10,6 +10,12 @@ console.log(
 
 // 2. The error was because of using the same quotes as the apostrophe in 'I'm'.
 console.log(`I'm awesome`);
+console.log("I'm awesome");
+// console.log('I\'m awesome');
+/* I've tried here to use it with escaping, but VSCode removes the backslash
+every time I save it. I had followed the tips in the VSCode on HYF with this link:
+https://github.com/HackYourFuture/fundamentals/tree/master/VSCodeTips
+*/
 
 // 3.1
 let x;
@@ -40,27 +46,22 @@ console.log(y);
 
 // 5. The nearest integer is 7 because it's less than 7.50
 // 5.1
-let z = 7.25;
+const z = 7.25;
 // 5.2
 console.log(z);
 // 5.3
-let a = 7;
+const a = Math.round(z);
 // 5.4
 console.log(a);
 // 5.5
-let theHighestValue;
-if (a > z) {
-  theHighestValue = a;
-} else {
-  theHighestValue = z;
-}
+const theHighestValue = Math.max(a, z);
 // 5.6
 console.log(`The highest value is: ` + theHighestValue);
 
 // 6.1
 const citiesInNetherlands = [];
 // 6.2
-console.log(`The value of the array is: 0`);
+console.log(`The value of the array is: [] an empty array`);
 // 6.3
 console.log(citiesInNetherlands);
 // 6.4
@@ -75,15 +76,13 @@ console.log(favoriteAnimals);
 // 7.1
 const myString = `this is a test`;
 console.log(myString);
-// 7.2
-myString.length;
-// 7.3
+// 7.2 - 7.3
 console.log(myString.length);
 
 // 8.1
 const myFirstName = `Wadeea`;
 const myLastName = `Kiwan`;
-let myAge = 33;
+const myAge = 33;
 const myTelephone = 0612345678;
 const genderMale = true;
 const childrenFirstNames = [`Kady`, `Aram`];
@@ -110,21 +109,21 @@ console.log(typeof genderMale);
 console.log(typeof childrenFirstNames);
 // 8.5
 // 8.6
-typeof myFirstName === typeof myLastName;
-typeof myFirstName === typeof myAge;
-typeof myFirstName === typeof myTelephone;
-typeof myFirstName === typeof genderMale;
-typeof myFirstName === typeof childrenFirstNames;
-typeof myLastName === typeof myAge;
-typeof myLastName === typeof myTelephone;
-typeof myLastName === typeof genderMale;
-typeof myLastName === typeof childrenFirstNames;
-typeof myAge === typeof myTelephone;
-typeof myAge === typeof genderMale;
-typeof myAge === typeof childrenFirstNames;
-typeof myTelephone === typeof genderMale;
-typeof myTelephone === typeof childrenFirstNames;
-typeof genderMale === typeof childrenFirstNames;
+console.log(typeof myFirstName === typeof myLastName);
+console.log(typeof myFirstName === typeof myAge);
+console.log(typeof myFirstName === typeof myTelephone);
+console.log(typeof myFirstName === typeof genderMale);
+console.log(typeof myFirstName === typeof childrenFirstNames);
+console.log(typeof myLastName === typeof myAge);
+console.log(typeof myLastName === typeof myTelephone);
+console.log(typeof myLastName === typeof genderMale);
+console.log(typeof myLastName === typeof childrenFirstNames);
+console.log(typeof myAge === typeof myTelephone);
+console.log(typeof myAge === typeof genderMale);
+console.log(typeof myAge === typeof childrenFirstNames);
+console.log(typeof myTelephone === typeof genderMale);
+console.log(typeof myTelephone === typeof childrenFirstNames);
+console.log(typeof genderMale === typeof childrenFirstNames);
 // 8.6
 if (typeof myFirstName === typeof myLastName) {
   console.log(`SAME TYPE`);
@@ -132,7 +131,7 @@ if (typeof myFirstName === typeof myLastName) {
   console.log(`NOT SAME TYPE`);
 }
 
-if (typeof myFirstName !== typeof myAge) {
+if (typeof myFirstName === typeof myAge) {
   console.log(`SAME TYPE`);
 } else {
   console.log(`NOT SAME TYPE`);

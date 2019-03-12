@@ -1,7 +1,7 @@
 'use strict';
-let greetingIndonesian = 'Ciao';
-let greetingArabic = 'مرحبا ';
-let greetingSpanish = 'Halo';
+const greetingIndonesian = 'Ciao';
+const greetingArabic = 'مرحبا ';
+const greetingSpanish = 'Halo';
  console.log(greetingIndonesian, greetingArabic, greetingSpanish);
 
 
@@ -22,85 +22,84 @@ y = "the second string";
 console.log("the value of my variable string1 will be: the second string");
 console.log(y);
 
-console.log(Math.round(7.25));
-// expected output: 8
+//Math around
 
-let z = 7.25;
+const z = 7.25;
 console.log(z);
 
-let a = 8;
+const a = Math.round(z);
+
 console.log(a);
 
-console.log(z !== a);
-console.log(z == a);
-console.log(z <= a);
 
-let b = 8;
+if (a <= z) {
+    console.log(Math.min(a, z));
+} else if (a > z) {
+    console.log(Math.max(a, z));
+} else {
+    console.log("Negative");
+}
+
+const b = Math.max(a, z);
 console.log(b);
 
-let colors = [];
+// array
+
+const colors = [];
 console.log("the value of my variable y will be: an empty array");
 console.log(colors);
 
-let animals = ['dog', 'cat', 'horse', 'fish', 'bird'];
+const animals = ['dog', 'cat', 'horse', 'fish', 'bird'];
 console.log(animals);
 animals.push('baby pig');
 console.log(animals);
+
 
 let myString = "this is a test";
 myString = "this is a second test";
 console.log(myString);
 console.log(myString.length);
 
-let d = 'cat';
+// typeof
+
+const d = 'cat';
 console.log(d);
-let e = 5;
+const e = 5;
 console.log(e);
-let f = true;
+const f = true;
 console.log(f);
-let g = null;
+const g = null;
 console.log(g);
 
 console.log("I think the type of my variable d is: string");
 console.log("I think the type of my variable e is: number");
 console.log("I think the type of my variable f is: boolean");
-console.log("I think the type of my variable g is: null");
-console.log('d:string, e:number, f:boolean, g:null');
+console.log("I think the type of my variable g is: object");
+console.log('d:', typeof d, 'e:', typeof e, 'f:', typeof f, 'g:', typeof g);
 
-console.log(typeof d);
-console.log(typeof e);
-console.log(typeof f);
-console.log(typeof g);
-
-
-console.log(e == d, f !== g);
-// console.log(f == g);
-// console.log(d !== f);
-// console.log(e == f);
-
-
-// if (e = d ) {
-//    return "positive";
-// } else {
-//     return "not positive";
-// }
-
-
-if (e = d ) {
+if (typeof e === typeof d || typeof e === typeof f || typeof e === typeof g) {
    console.log('SAME TYPE');
+} else if (typeof f === typeof d || typeof f === typeof g || typeof g === typeof d) {
+    console.log("Same Type");
+} else {
+    console.log('NOT SAME TYPE');
 }
 
+// remainder
+
 let m = 7;
-m = m % 3;
-console.log(m);
+m %= 3;
+console.log("the remainder of the division of 7 on 3 is:", m % 3);
 
 let s = 10;
-console.log(s % 4);
+console.log("the remainder of the division of 10 on 4 is:", s % 4);
 
 let p = 600;
-console.log(p % 7);
+console.log("the remainder of the division of 600 on 7 is:", p % 7);
 
-let q = [15,'one'];
+// infinity
+
+const q = [15,'one'];
 
 //infinity is a numeric value representing infinity in javascript
 console.log(10/0 === 6/0); //true

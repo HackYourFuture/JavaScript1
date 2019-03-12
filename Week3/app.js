@@ -54,32 +54,41 @@ function vehicleType(myColor, id) {
   }
 }
 vehicleType('blue', 1);
+vehicleType('red', 2);
 //5.Can you write the following without the if statement, but with just as a single line with console.log(...);?
 3 === 3 ? console.log("yes") : console.log("no");
 4 === 3 ? console.log("yes") : console.log("no");
 //6.Create a function called vehicle, like before, but takes another parameter called age, so that vehicle("blue", 1, 5) prints 'a blue used car'
 function vehicle(color, age, car) {
-  console.log('a' + ' ' + color, ' ', age, ' ', car)
+  if (age == 0) { age = "new" } else if (age > 0) { age = "used" }
+  if (car == 1) { car = "car" } else if (car == 1) { car = "motorbike" }//it could be switch (better)
+  console.log('a' + ' ' + color + ' ' + age + ' ' + car)
 }
+console.log("-------------------------------------------------------------------")
+vehicle("red", 1, 1)
+vehicle("red", 1, 2)
+console.log("-------------------------------------------------------------------")
 //7.Make a list of vehicles, you can add "motorbike", "caravan", "bike", or more.
-////////as array ////////
 let myVehicles = ["car", "motorbike", "caravan", "bike", "boot"]
 //8.How do you get the third element from that list?
 console.log(myVehicles[2])
 
-////////creat more ////////
-// vehicle('blue', 'used', 'car');
-// vehicle('red', 'new', 'bus');
-// vehicle('green', 'second hand', 'bike');
-// vehicle('black', 'new', 'motor');
-// vehicle('white', 'deluxe', 'caravan')
-
 //9.Change the function vehicle to use the list of question 7. So that vehicle("green", 3, 1) prints "a green new bike".
-function vehicle(color, age, index) {
+function vehicle2(color, age, index) {
+  if (age == 0) {
+    age = 'new'
+  } else if (age == 1) {
+    age = "old"
+  }
   console.log('a' + ' ' + color + ' ' + age + ' ' + myVehicles[index])
 }
-vehicle('red', 'new', 1)
-vehicle('green', 'old', 2)
+console.log("-------------------------------------------------------------------")
+vehicle2("red", 1, 1)
+vehicle2("green", 0, 3)
+vehicle2("black", 1, 2)
+vehicle2("white", 0, 0)
+vehicle2("yellow", 1, 4)
+console.log("-------------------------------------------------------------------")
 //10.Use the list of vehicles to write an advertisement.
 //So that it prints something like: "Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes.
 function vehicles(arr) {

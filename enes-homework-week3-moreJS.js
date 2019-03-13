@@ -126,8 +126,9 @@ vehicle("green", 3, 1);
 
 let joesGarage = ["car", "motorbike", "caravan", "bike", "plane", "yacht"];
 let arr;
-let arr2 = [""];
+//let arr2 = [""] when I defined arr2 here, in the question 11 it throw out error. 
 function advertisementMaker(arr){
+  let arr2 = [""];
   for (let i = 0; i < arr.length; i++){
     arr2[i] = arr[i] + "s"; 
   }
@@ -137,13 +138,11 @@ function advertisementMaker(arr){
 
 advertisementMaker(joesGarage);
 
-
-11. What if you add one more vehicle to the list, can you have that added to the advertisement without changing the code for question 10?
 //Q11
 
 joesGarage.push("tank");
 advertisementMaker(joesGarage);
-//normally it would work. but somehow, the functions works in the question 10 but not in question 11.
+//normally it would work. but somehow, the functions works in the question 10 but not in question 11. I have solved this problem buy defining an array which is valid only inside the function.
 
 //Q12
 const emptyObject = {""};

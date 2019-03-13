@@ -156,12 +156,13 @@ console.log(vehicle2("blue", 5, 7));
 // task 10:
 function typingAdvertisement(){
           let s = "";
-          for (let i = 0; i < vehicles.length - 1; i++) {
+          for (let i = 0; i < vehicles.length - 2; i++) {
                s += `${vehicles[i]}s, `;
+               
                // or :
                //  s += vehicles[i]+ "s, ";
           }
-          const advertisement = `Amazing Joe's Garage, we service ${s}and ${vehicles[vehicles.length - 1]}s.`;
+          const advertisement = `Amazing Joe's Garage, we service ${s}${vehicles[vehicles.length - 2]}s and ${vehicles[vehicles.length - 1]}s.`;
           // or :
           // const advertisement = "Amazing Joe's Garage, we service " + s + "and " + vehicles[vehicles.length - 1] + "s.";
           console.log(advertisement); 
@@ -180,11 +181,14 @@ console.log(myInformation1);
 
 // task 13 & 14:
 const myTeachers = {
-    html: "philip",
-    css: "rop",
-    cli: "unmeshjoshi",
-    js: "yash"
+    t1: "philip",
+    t2: "rop",
+    t3: "unmeshjoshi",
+    t4: "yash"
 };
+console.log(myTeachers);
+ myTeachers.languages = ["html","css","cli","JS"];
+
 console.log(myTeachers);
 
 // task 15:
@@ -233,9 +237,12 @@ console.log(o3);
 console.log(o3.foo ===  "bar" );
 o2 = { foo: "bar123" };
 o1 = { foo: "bar1211222" };
+o2.foo = "bar4323"
 console.log(o1);
 console.log(o2);
 console.log(o3);
+o2.foo = "bar4323"
+console.log(o2);
 console.log(o3.foo ===  "bar" );
 console.log(o3.foo ===  "bar" ? "nothing changed" : "o3 is changed");
 function changeOrNot (){

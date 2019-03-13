@@ -71,8 +71,8 @@ console.log("-------------------------------------------------------------------
 //7.Make a list of vehicles, you can add "motorbike", "caravan", "bike", or more.
 let myVehicles = ["car", "motorbike", "caravan", "bike", "boot"]
 //8.How do you get the third element from that list?
-console.log(myVehicles[2])
-
+console.log(myVehicles[2])//return the value 
+console.log(myVehicles.indexOf('caravan'))//return the index of caravan
 //9.Change the function vehicle to use the list of question 7. So that vehicle("green", 3, 1) prints "a green new bike".
 function vehicle2(color, age, index) {
   if (age == 0) {
@@ -93,18 +93,20 @@ console.log("-------------------------------------------------------------------
 //So that it prints something like: "Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes.
 function vehicles(arr) {
   let counter = 0;
-  let myText = "Amazing Joe's Garage, we service ";
+  let myText = "Amazing Joe's Garage, we service";
   for (let i = 0; i < arr.length; i++) {
     counter++;
     myText = myText + " " + arr[i] + "s,"
-    if (counter == arr.length - 1) {
-      console.log(myText + " and " + arr[i + 1] + "s" + ".")
+    if (counter == arr.length - 2) {
+      myText = myText + " " + arr[i + 1] + "s"
+      console.log(myText + " and " + arr[i + 2] + "s" + ".")
+      //Amazing Joe's Garage, we service cars, motorbikes, caravans, bikes, boots, and newCar.
     }
   }
 }
 vehicles(myVehicles)
 //11.What if you add one more vehicle to the list, can you have that added to the advertisement without changing the code for question 10?
-myVehicles.push('oldcar')
+myVehicles.push('newCar')
 vehicles(myVehicles)
 //12.Create an empty object.
 let teachers = {};
@@ -116,6 +118,8 @@ teachers = {
   fourth: 'Hardit',
   fifth: 'yash',
 };
+
+console.log(teachers)
 //14.Add a property to the object you just created that contains the languages that they have taught you.
 teachers.language = ['html', 'css', 'javascript'];
 //test result
@@ -168,7 +172,7 @@ function matchArrays(arr1, arr2) {
     if (differences !== 0) {
       console.log('Not the same index')// negative index's  
     } else {
-      console.log('finally, they are the have the same index and length')// positive index's  
+      console.log('finally, they have the same index and length')// positive index's  
     }
   } else {
     console.log('Not the same length') // negative lengths  
@@ -179,9 +183,10 @@ console.log("-------------------------------------------------------------------
 //16.Take a look at the following code:
 let o1 = { foo: "bar" };
 let o2 = { foo: "bar" };
-let o3 = o2; // assign o2 to o3 that means  o3 =>  {foo:"bar"}  because o2 = {foo: "bar" }
+let o3 = o2; // assign o2 to o3 that means  o3 =>  {foo:"bar"}  because  o2 = {foo: "bar" }
+console.log(o2)
 console.log(o3)
-//whereas let o2 = o3; => give assign o3 value to o2  
+//whereas o2 = o3; => assign o3 value to o2  
 console.log("-------------------------------------------------------------------")
 //17.What does the following code return? (And why?)
 let bar = 42;

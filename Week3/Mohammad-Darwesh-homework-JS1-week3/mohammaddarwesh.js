@@ -158,7 +158,6 @@ function typingAdvertisement(){
           let s = "";
           for (let i = 0; i < vehicles.length - 2; i++) {
                s += `${vehicles[i]}s, `;
-               
                // or :
                //  s += vehicles[i]+ "s, ";
           }
@@ -187,8 +186,7 @@ const myTeachers = {
     t4: "yash"
 };
 console.log(myTeachers);
- myTeachers.languages = ["html","css","cli","JS"];
-
+myTeachers.languages = ["html","css","cli","JS"];
 console.log(myTeachers);
 
 // task 15:

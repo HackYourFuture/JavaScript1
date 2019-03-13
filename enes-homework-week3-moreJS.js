@@ -182,19 +182,20 @@ let z = y;
   because they are referencing to different array data's, java does not seem them as equals. 
   On the other hand, because y and z are pointing the same data, computer treats them as equals.*/  
 
-16. Take a look at the following code:
+//Q16.
+let o1 = { foo: "bar" };
+let o2 = { foo: "bar" };
+let o3 = o2;
 
-    ```js
-    let o1 = { foo: "bar" };
-    let o2 = { foo: "bar" };
-    let o3 = o2;
-    ```
+o2.name = "camel";
+console.log(o2); // expected output: foo: "bar", name: "camel";
+console.log(o3); // expected output: foo: "bar", name: "camel";
+console.log(o2 === o3); // exoected output: true;
 
-    Show that changing `o2` changes `o3` (or not) and changing `o1` changes `o3`(or not).
+let o4;
+o3 = o4; 
+console.log(o3, o4); //expected outcome: undefined, undefined. Since the right side of the equation calculated first, undefined o4 makes o3 undefined. Therefore, the order matters.
 
-    Does the order that you assign (`o3 = o2` or `o2 = o3`) matter?
-
-17. What does the following code return? (And why?)
 //Q17
 
-it will return "string". Because typeof bar is "number" and type of "number" is "string".
+//it will return "string". Because typeof bar is "number" and type of "number" is "string".

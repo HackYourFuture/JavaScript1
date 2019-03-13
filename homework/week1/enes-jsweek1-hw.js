@@ -7,7 +7,7 @@ const Turkish = 'Merhaba Dunya',
 console.log(Turkish, English, French, Dutch);
 
 //Q2
-console.log('I'm awesome'); 
+//console.log('I'm awesome'); 
 //here quoting is problem. Two solutions: using double quote/backsticks or escape element. So;
 console.log('I\'m awesome')
 console.log("I'm awesome")
@@ -25,7 +25,7 @@ const y = "I like birds";
 console.log("the value of y will be : I like birds");
 console.log(y);
 const y = "I hate birds";
-console.log("the value of y will be : error because I have used const as a variable. The case will be different if I had used var or let");
+console.log("the value of y will be : error");
 console.log(y);
 
 //Q5 (There are two solutions possible. Either using if/else or Math.round() property)
@@ -54,6 +54,8 @@ if (z - a > 0) {
 else {
   console.log(a)
 }
+
+let max = (z>a) ? z : a;
 
 //Q6
 
@@ -87,9 +89,9 @@ typeof secondVar;
 typeof thirdVar;
 typeof fourthVar;
 
-typeof firstVar === typeof secondVar;
-typeof thirdVar !== typeof fourthVar;
-typeof secondVar === typeof fourthVar;
+console.log(typeof firstVar === typeof secondVar);
+console.log(typeof thirdVar !== typeof fourthVar);
+console.log(typeof secondVar === typeof fourthVar);
 
 if (typeof firstVar === typeof secondVar) {
   console.log("SAME TYPE")

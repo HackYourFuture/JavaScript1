@@ -157,3 +157,24 @@ let z = y;
     console.log('x === y', x === y, "they do not have the same reference");
     console.log("z == y", z == y, "they have the same reference" );
     console.log('z == x', z == x, "they do not have the same reference");
+
+//16
+let o1 = { foo: "bar" };
+let o2 = { foo: "bar" };
+let o3 = o2;
+console.log({o1}, {o2}, {o3});
+o2 = { foo2: "bar2" };
+console.log({o2}, {o3});
+o1 =  { foo1: "bar1" };
+console.log( {o1}, {o3});
+ 
+// o3 = o2  
+// o2 = o3
+console.log("It dose matter because o3 is undefined and 02 is already declared");
+
+//17
+let bar = 42;
+typeof typeof bar;
+
+console.log(typeof typeof bar);
+console.log("typeof typeof bar: is string because we asked about the type of the word 'bar' which is string not about the type of the value of the variable bar which is number");

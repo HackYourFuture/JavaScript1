@@ -89,18 +89,19 @@ console.log(message);  //      yes
 
 //--------vehicle function (color, code, age)---------
 function vehicle (color, code, age){
-    if(age >= 5 && code === 1){
+    if(age > 1 && code === 1){
         return "a " + color + " used" + " car";
-    } else if(age >= 5 && code === 2){
+    } else if(age > 1 && code === 2){
         return "a " + color + " used" + " motorbike";
     }
-    else if(age < 5 && code === 1){
+    else if(age = 1 && code === 1){
         return "a " + color + " new" + " car";
     }
-    else if (age < 5 && code === 2){
+    else if (age =1 && code === 2){
         return "a " + color + " new" + " motorbike";
     }
 }
+
 
 
 //---------a list of vehicles--------- 

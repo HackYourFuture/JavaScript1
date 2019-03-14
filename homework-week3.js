@@ -61,9 +61,11 @@ const personalInfo = {
     name: "Ghufran", 
     age: 34,
 };
-function myFunction (obj){      //we have to make a function here while we can just make a console.log()!!!
-    return  console.log(personalInfo);
+function myFunction (obj){      
+    return  console.log(personalInfo.name, personalInfo.age);
 }
+myFunction(personalInfo) // Ghufran 34
+
 
 // ------ vehicleType function-----------
 function vehicleType (color,code) {

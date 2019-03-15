@@ -9,7 +9,7 @@ console.log("I'm awesome");
 
 // Part 3 Console.log(x)   --------------------------------
 let x;
-console.log('the value of my variable x will be: 16');
+console.log('the value of my variable x will be: Undefined');
 console.log(x);
 x = 16;
 console.log('the value of my variable x will be: 16');

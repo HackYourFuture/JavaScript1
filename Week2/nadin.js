@@ -33,7 +33,7 @@ console.log(total);
 
 //2
 function colorCar (color) {
-return 'a' + color + 'car';
+return 'a' + ' ' + color + ' ' + 'car';
 }
 const colors = colorCar('red');
 console.log(colors);
@@ -51,17 +51,16 @@ function printProperties(obj) {
         console.log(key, ":" , obj[key]);
       }
 }
-
 printProperties(studentObj);
 
 //4
 function vehicleType(color, code) {
    switch (code) {
        case 1: 
-       console.log('a' + color + 'car');
+       console.log('a' + ' ' + color + ' ' +  'car');
        break;
        case 2: 
-       console.log('a' + color + 'motorbike');
+       console.log('a' + ' ' + color + ' ' +  'motorbike');
        break;
        default:
        console.log('parameter not supported');
@@ -77,18 +76,18 @@ vehicleType("blue", 2);
 
 function vehicle(color, code, age) {
     if (age === 5 && code === 1){
-        console.log('a' + color + 'used car');
+        console.log('a' + ' ' + color + ' ' + 'used car');
         return;
     } else if (age === 5 && code === 2){
-        console.log('a' + color + 'used motorbike');
+        console.log('a' + ' ' + color + ' ' + 'used motorbike');
         return;
     }
     switch (code) {
         case 1: 
-        console.log('a' + color + 'car');
+        console.log('a' + ' ' + color + ' ' + 'car');
         break;
         case 2: 
-        console.log('a' + color + 'motorbike');
+        console.log('a' + ' ' + color + ' ' + 'motorbike');
         break;
         default:
         console.log('parameter not supported');
@@ -105,12 +104,13 @@ const vehicles = ["motorbike", "caravan", "bike"];
 
 //8
 console.log(vehicles[2]);
+
 //9
 function vehicle(color, code, age) {
     if (age === 1){
-        console.log('a' + color + 'new'+ vehicles[code-1]);
+        console.log('a' + ' ' + color + ' ' + 'new' + ' ' + vehicles[code-1]);
     } else {
-        console.log('a' + color + 'used' + vehicles[code-1]);
+        console.log('a' + ' ' + color + ' ' + 'used' + ' ' + vehicles[code-1]);
     } 
  }
  //10
@@ -124,6 +124,7 @@ for (let i = 0; i < vehicles.length; i++) {
      }
  }
 console.log(advertisement);
+
 //11
 const vehicles = ["motorbike", "caravan", "bike"];
 let advertisement = "Amazing Joe's Garage, we service cars, "
@@ -168,8 +169,8 @@ console.log({o2}, {o3});
 o1 =  { foo1: "bar1" };
 console.log( {o1}, {o3});
  
-// o3 = o2  
-// o2 = o3
+o3 = o2; 
+o2 = o3;
 console.log("It dose matter because o3 is undefined and 02 is already declared");
 
 //17

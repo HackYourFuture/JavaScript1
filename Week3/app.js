@@ -100,7 +100,7 @@ function vehicles(arr) {
     if (counter == arr.length - 2) {
       myText = myText + " " + arr[i + 1] + "s"
       console.log(myText + " and " + arr[i + 2] + "s" + ".")
-      //Amazing Joe's Garage, we service cars, motorbikes, caravans, bikes, boots, and newCar.
+      //Amazing Joe's Garage, we service cars, motorbikes, caravans, bikes, boots and newCar.
     }
   }
 }
@@ -183,10 +183,29 @@ console.log("-------------------------------------------------------------------
 //16.Take a look at the following code:
 let o1 = { foo: "bar" };
 let o2 = { foo: "bar" };
-let o3 = o2; // assign o2 to o3 that means  o3 =>  {foo:"bar"}  because  o2 = {foo: "bar" }
-console.log(o2)
-console.log(o3)
-//whereas o2 = o3; => assign o3 value to o2  
+let o3 = o2;
+console.log(o1.foo)//check o1
+console.log(o2.foo)//o2 == o3
+console.log(o3.foo)//o2 == o3
+
+//Show that changing o2 changes o3 (or not)
+o2.foo = ('changedFromO2')
+console.log(o3.foo)//changed with 02
+console.log(o2.foo)//check if it the same
+
+o3.foo = ('changedFromO3')
+console.log(o2.foo, '.......')//changed with 03
+console.log(o3.foo, '.......')//check if it the same
+
+//changing o1 changes o3(or not).
+o1.foo = ('changedFromO1')
+console.log(o1.foo)
+console.log(o3.foo, '.......')//doesn't changed with o1
+console.log(o2.foo, '.......')//doesn't changed with o1
+
+//Does the order that you assign (o3 = o2 or o2 = o3) matter?
+
+
 console.log("-------------------------------------------------------------------")
 //17.What does the following code return? (And why?)
 let bar = 42;

@@ -27,10 +27,14 @@ function myFunc(param1, param2, param3) {
   console.log(param1 + param2 + param3);
 }
 myFunc(1, 2, 3); // returns 6 
-function colorCar(x) {
-  x = color;
+console.log(myFunc);
+function colorCar (color){
+    return "a " + color + " car";
+    //or
+    // return `a ${color} car`;
 }
-console.log("a red car"); //returns a red car
+console.log(colorCar("red"));
+console.log(colorCar("blue"));
 let someObject = {
   foo: "This",
   bar: "works!"
@@ -52,15 +56,29 @@ function vehicleType(color, x) {
 }
 vehicleType('blue', 1);
 console.log(3 === 3 ? "yes" : "no"); //returns yes
-let vehicle = {
-  1: 'car',
-  2: 'motorbikes',
-  3: "age"
-};
-function vehicleObject(color, y, z) {
-  console.log('a  ' + color + " used " + vehicle[1]); //returns a  blue used car
+function vehicle (color, x, age){
+    if (x === 1 && age > 0){
+        return  `a ${color} used car`;
+    }
+    else if (x === 2 && age > 0){
+        return `a ${color} used motorbike`;
+    }
+    else if (x === 1 && age === 0){
+        return  `a ${color} new car`;
+    }
+    else if (x === 2 && age === 0){
+        return `a ${color} new motorbike`;
+    }
+    else 
+        return " ('color',1 or 2, number >= 0)";
 }
-vehicleObject('blue', 1, 5);
+console.log(vehicle("red", 1, 0));
+console.log(vehicle("blue", 2, 0));
+console.log(vehicle("red", 1, 3));
+console.log(vehicle("blue", 2, 5));
+console.log(vehicle("blue", 2, -5));
+console.log(vehicle("blue", 5, 7));
+
 let vehicles = ["motorbike", "caravan", "bike", "car"];
 console.log(vehicles); //returns (4) ["motorbike", "caravan", "bike", "car"]
 console.log(vehicles[2]); //returns bike
@@ -96,7 +114,7 @@ let o3 = o2;
 o2.foo = "bar2" ; 
 console.log(o3); // returns {foo: "bar2"} 
 // yes it changes
-// Does the order that you assign (o3 = o2 or o2 = o3) matter? No. 
+// Does the order that you assign (o3 = o2 or o2 = o3) matter? yes.
 let bar = 42;
 console.log( typeof typeof bar); // returns a string 
 // because its doing typeof for the word number that's why it returns a string .

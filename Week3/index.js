@@ -2,8 +2,7 @@
 let myString = "hello,this,is,a,difficult,to,read,sentence";
 console.log(myString);
 console.log(myString.length);
-let myNewString = 'hello ' + 'this ' + 'is ' + 'a ' + 'difficult ' + 'to ' + 'read ' + 'sentence ';
-console.log(myNewString); //succeeded and returns hello this is a difficult to read sentence
+console.log(myString.replace(/,/g, " "));
 //Arrays
 let favoriteAnimals = ["blowfish", "capricorn", "giraffe"];
 favoriteAnimals.push('turtle');

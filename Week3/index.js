@@ -26,10 +26,20 @@ function myFunc(param1, param2, param3) {
   console.log(param1 + param2 + param3);
 }
 myFunc(1, 2, 3); // returns 6 
-function colorCar(x) {
-  x = color;
+function vehicleType (color, x){
+    if (x === 1){
+        return  `a ${color} car`;
+    }
+    else if (x === 2){
+        return `a ${color} motorbike`;
+    }
+    else {
+        return "input error!!! try vehicleType('color',1 or 2)";
+    }
 }
-console.log("a red car"); //returns a red car
+console.log(vehicleType("red", 1));
+console.log(vehicleType("blue", 2));
+console.log(vehicleType("blue", 3));
 let someObject = {
   foo: "This",
   bar: "works!"

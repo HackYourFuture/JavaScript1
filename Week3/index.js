@@ -105,7 +105,7 @@ let o3 = o2;
 o2.foo = "bar2" ; 
 console.log(o3); // returns {foo: "bar2"} 
 // yes it changes
-// Does the order that you assign (o3 = o2 or o2 = o3) matter? No. 
+// Does the order that you assign (o3 = o2 or o2 = o3) matter? yes 
 let bar = 42;
 console.log( typeof typeof bar); // returns a string 
 // because its doing typeof for the word number that's why it returns a string .

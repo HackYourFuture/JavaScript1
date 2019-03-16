@@ -130,4 +130,3 @@ console.log(o3);
 //
 let bar = 42;
 console.log(typeof typeof bar); // returns a string 
-// because of coercing.

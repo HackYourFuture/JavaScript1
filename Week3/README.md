@@ -19,7 +19,7 @@ In week three we will discuss the following topics:
 
 ### Here are resources that we like you to read as a preparation for the coming lecture:
 
-Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):
+Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Wouter):
 
     4. Writing Conditional Code
     5. Modular Code

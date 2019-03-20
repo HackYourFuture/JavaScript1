@@ -26,14 +26,14 @@ function getSum(a, b, c) {
 
 // -----222222222222222222-------------
 function colorCar(color) {
-  return 'a ' + color + ' car';
+  return 'a ' + `${color}` + ' car';
 }
 
 //-----3333333333333333333--------------
 const myBooks = {
   Dostoyevsky: 'Crime and Punishment',
   'Franz Kafka': 'The Trial',
-  'Anne Frank': 'Diarys',
+  'Anne Frank': 'Diaries',
 };
 
 function getBook(library) {
@@ -60,12 +60,8 @@ console.log(3 === 3 ? 'yes' : 'no');
 
 //  -------66666666666666666666---------------------
 function vehicle(color, code, age) {
-  if (age > 0) {
-    age = 'used';
-  } else {
-    age = 'new';
-  }
-  console.log('A ' + color + ' ' + age + ' ' + vehicleCodes[code]);
+  const type = age > 0 ? 'used' : 'new';
+  console.log('A ' + color + ' ' + type + ' ' + vehicleCodes[code]);
 }
 
 vehicle('blue', 1, 5);
@@ -104,8 +100,8 @@ vehicle1('green', 3, 1);
 // }
 
 function advertisement(arrname) {
-  let vehicles1 = arrname.slice(0, arrname.length - 1).join('s, ');
-  let lastVehicle = arrname[arrname.length - 1];
+  const vehicles1 = arrname.slice(0, arrname.length - 1).join('s, ');
+  const lastVehicle = arrname[arrname.length - 1];
 
   console.log(`"Amazing Joe's Garage, we service ${vehicles1}s and ${lastVehicle}s."`);
 }

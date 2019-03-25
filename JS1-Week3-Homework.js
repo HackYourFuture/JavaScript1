@@ -25,8 +25,7 @@ console.log('The item you are looking for is at index: '+indexOfMeerkat);
 //Question 1
 
 function sumOfThree (a,b,c) {
-    sum = a+b+c;
-    return sum;
+    return a+b+c;
 }
 
 //Question 2
@@ -79,21 +78,25 @@ function vehicleNew (color, code, age) {
 }
 
 //Question 10
-
-let message = "Amazing Joe's Garage, we service ";
-
-for (let i = 0; i < vehicles.length; i++) {
-    if (i === vehicles.length -1) {
-        message = message + `and ${vehicles[i]}s.`;
+function printMessage(arrayVehicle) {
+  let vehicles = arrayVehicle;
+  let message = "Amazing Joe's Garage, we service ";
+  for (let i = 0; i < vehicles.length; i++) {
+    if (i === vehicles.length - 1) {
+      message = message + `and ${vehicles[i]}s.`;
     } else {
-        message = message + `${vehicles[i]}s, `
+      message = message + `${vehicles[i]}s, `;
     }
-};
+  }
+  return message;
+}
 
-console.log(message);
+console.log(printMessage(vehicles));
 
 //Question 11
 
+vehicles.push('truck');
+console.log(printMessage(vehicles));
 console.log("It'll be printing without problem");
 
 //Question 12
@@ -115,6 +118,10 @@ let y = [1, 2, 3];
 let z = y;
 
 console.log('x == y will be false, x === y will be false and z == y will be true and z == x will be false');
+console.log(x == y);
+console.log(x === y);
+console.log(z == y);
+console.log(z == x);
 
 //Question 16
 
@@ -133,4 +140,6 @@ console.log(o3);
 let bar = 42;
 typeof typeof bar;
 
+console.log(typeof bar);
+console.log(typeof typeof bar);
 console.log('typeof typeof bar will be returning "string"');

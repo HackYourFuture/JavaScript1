@@ -37,6 +37,21 @@ function colorCar(color) {
 console.log(colorCar("red")); //returns a red car
 console.log(colorCar("orange"));
 //
+myFunc(1, 2, 3); // returns 6 
+function vehicleType(color, x) {
+  if (x === 1) {
+    return `a ${color} car`;
+  }
+  else if (x === 2) {
+    return `a ${color} motorbike`;
+  }
+  else {
+    return "input error!!! try vehicleType('color',1 or 2)";
+  }
+}
+console.log(vehicleType("red", 1));
+console.log(vehicleType("blue", 2));
+console.log(vehicleType("blue", 3));
 let someObject = {
   foo: "This",
   bar: "works!"
@@ -124,12 +139,17 @@ console.log(x === y || z == y || z == x); //this is true .
 let o1 = { foo: "bar" };
 let o2 = { foo: "bar" };
 let o3 = o2;
+
 o2 = { foo: "bar2" };
 console.log(o2);//returns {foo: "bar2"}
 console.log(o3);//returns {foo: "bar"}
 // it did not change 
 // Does the order that you assign (o3 = o2 or o2 = o3) matter? yes. 
 //
+o2.foo = "bar2";
+console.log(o3); // returns {foo: "bar2"} 
+// yes it changes
+// Does the order that you assign (o3 = o2 or o2 = o3) matter? yes 
 let bar = 42;
 console.log(typeof typeof bar); // returns a string 
 // because it doing a type of for the word number

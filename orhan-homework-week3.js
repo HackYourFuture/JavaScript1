@@ -1,6 +1,6 @@
 //1. Part Strings!
 
-let myString = "hello,this,is,a,difficult,to,read,sentence";
+const myString = "hello,this,is,a,difficult,to,read,sentence";
 console.log(myString);
 console.log(myString.length);
 console.log(myString.replace(/,/g, " "));
@@ -48,7 +48,7 @@ let vehicleCode = {
   2: "motorbike",
 };
 function vehicleType(color, code) {
-  console.log("a " + color + " " + vehicleCode[code]);
+  console.log(`a ${color} ` + vehicleCode[code]);
 }
 vehicleType("red", 1);
 
@@ -62,7 +62,7 @@ function vehicle(color, code, age) {
   } else {
     age = "new";
   }
-  console.log("a " + color + " " + age + " " + vehicleCode[code]);
+  console.log(`a ${color} ${age} ` + vehicleCode[code]);
 }
 vehicle("black", 2, 2);
 
@@ -73,16 +73,16 @@ console.log(vehicles);
 console.log("Third element of vehicles array is: " + vehicles[2]);
 
 //9.
-function vehicle(color, code, age) {
-  vehicleCode["3"] = "bike";
+function vehicleNew(color, code, age) {
   if (age > 1) {
     age = "used";
   } else {
     age = "new";
   }
-  console.log("a " + color + " " + age + " " + vehicleCode[code]);
+  console.log(vehicles[code - 1]);
+  console.log(`a ${color} ${age} ` + vehicles[code - 1]);
 }
-vehicle("green", 3, 1);
+vehicleNew("green", 3, 1);
 
 //10.
 vehicles.unshift("car");
@@ -91,14 +91,14 @@ let vehicles2 = [];
 function myFunc() {
   for (let i = 0; i < vehicles.length; i++) {
     vehicles2[i] = (vehicles[i] + "s");
+    if (i < vehicles.length - 2) {
+      vehicles2[i] += ", ";
+    } else if (i < vehicles.length - 1) {
+      vehicles2[i] += " and ";
+    } else {
+      vehicles2[i] += ".";
+    }
   }
-  for (i = 0; i < vehicles2.length - 2; i++) {
-    vehicles2[i] += ", ";
-  }
-  for (i = vehicles2.length - 2; i < vehicles2.length - 1; i++) {
-    vehicles2[i] += " and ";
-  }
-  vehicles2[vehicles2.length - 1] += ".";
   console.log(myStr + vehicles2.join(""));
 }
 myFunc();

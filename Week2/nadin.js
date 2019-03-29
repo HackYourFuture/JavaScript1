@@ -80,7 +80,7 @@ function vehicle(color, code, age) {
   if (age >= 5 && code === 1) {
     console.log('a ' + color + ' used car');
     return;
-  } else if (age === 5 && code === 2) {
+  } else if (age >= 5 && code === 2) {
     console.log('a ' + color + ' used motorbike');
     return;
   }

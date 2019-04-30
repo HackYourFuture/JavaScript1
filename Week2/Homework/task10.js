@@ -24,4 +24,4 @@ if (m === n) {
     console.log("6/0 = 10/0");
 } else {
     console.log("An error occured!");
-};
+}

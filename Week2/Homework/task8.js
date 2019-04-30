@@ -49,88 +49,89 @@ if (typeof foo === typeof waldo) {
     console.log("\'" + foo + "\'" +" and "+ "\'" + waldo + "\'" + " HAVE the same type!");
 } else {
     console.log("\'" + foo + "\'" +" and "+ "\'" + waldo + "\'" + " do NOT have the same type!");
-};
+}
 
 if (typeof foo === typeof awesome) {
     console.log("\'" + foo + "\'" +" and "+ "\'" + awesome + "\'" + " HAVE the same type!");
 } else {
     console.log("\'" + foo + "\'" +" and "+ "\'" + awesome + "\'" + " do NOT have the same type!");
-};
+}
 
 if (typeof foo === typeof cities) {
     console.log("\'" + foo + "\'" +" and "+ "\'" + cities + "\'" + " HAVE the same type!");
 } else {
     console.log("\'" + foo + "\'" +" and "+ "\'" + cities + "\'" + " do NOT have the same type!");
-};
+}
 
 if (typeof foo === typeof boo) {
     console.log("\'" + foo + "\'" +" and "+ "\'" + boo + "\'" + " HAVE the same type!");
 } else {
     console.log("\'" + foo + "\'" +" and "+ "\'" + boo + "\'" + " do NOT have the same type!");
-};
+}
 
 if (typeof foo === typeof car) {
     console.log("\'" + foo + "\'" +" and "+ "\'" + car + "\'" + " HAVE the same type!");
 } else {
     console.log("\'" + foo + "\'" +" and "+ "\'" + car + "\'" + " do NOT have the same type!");
-};
+}
 
 if (typeof waldo === typeof awesome) {
     console.log("\'" + waldo + "\'" +" and "+ "\'" + awesome + "\'" + " HAVE the same type!");
 } else {
     console.log("\'" + waldo + "\'" +" and "+ "\'" + awesome + "\'" + " do NOT have the same type!");
-};
+}
 
 if (typeof waldo === typeof cities) {
     console.log("\'" + waldo + "\'" +" and "+ "\'" + cities + "\'" + " HAVE the same type!");
 } else {
     console.log("\'" + waldo + "\'" +" and "+ "\'" + cities + "\'" + " do NOT have the same type!");
-};
+}
 
 if (typeof waldo === typeof boo) {
     console.log("\'" + waldo + "\'" +" and "+ "\'" + boo + "\'" + " HAVE the same type!");
 } else {
     console.log("\'" + waldo + "\'" +" and "+ "\'" + boo + "\'" + " do NOT have the same type!");
-};
+}
 
 if (typeof waldo === typeof car) {
     console.log("\'" + waldo + "\'" +" and "+ "\'" + car + "\'" + " HAVE the same type!");
 } else {
     console.log("\'" + waldo + "\'" +" and "+ "\'" + car + "\'" + " do NOT have the same type!");
-};
+}
 
 if (typeof awesome === typeof cities) {
     console.log("\'" + awesome + "\'" +" and "+ "\'" + cities + "\'" + " HAVE the same type!");
 } else {
     console.log("\'" + awesome + "\'" +" and "+ "\'" + cities + "\'" + " do NOT have the same type!");
-};
+}
 
 if (typeof awesome === typeof boo) {
     console.log("\'" + awesome + "\'" +" and "+ "\'" + boo + "\'" + " HAVE the same type!");
 } else {
     console.log("\'" + awesome + "\'" +" and "+ "\'" + boo + "\'" + " do NOT have the same type!");
-};
+}
 
 if (typeof awesome === typeof car) {
     console.log("\'" + awesome + "\'" +" and "+ "\'" + car + "\'" + " HAVE the same type!");
 } else {
     console.log("\'" + awesome + "\'" +" and "+ "\'" + car + "\'" + " do NOT have the same type!");
-};
+}
 
 if (typeof cities === typeof boo) {
     console.log("\'" + cities + "\'" +" and "+ "\'" + boo + "\'" + " HAVE the same type!");
 } else {
     console.log("\'" + cities + "\'" +" and "+ "\'" + boo + "\'" + " do NOT have the same type!");
-};
+}
 
 if (typeof cities === typeof car) {
     console.log("\'" + cities + "\'" +" and "+ "\'" + car + "\'" + " HAVE the same type!");
 } else {
     console.log("\'" + cities + "\'" +" and "+ "\'" + car + "\'" + " do NOT have the same type!");
-};
+}
 
 if (typeof boo === typeof car) {
     console.log("\'" + boo + "\'" +" and "+ "\'" + car + "\'" + " HAVE the same type!");
 } else {
     console.log("\'" + boo + "\'" +" and "+ "\'" + car + "\'" + " do NOT have the same type!");
-};
+}
+

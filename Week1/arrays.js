@@ -1,8 +1,8 @@
 //append arrays
 let arraysInside = [];
-console.log ('my array will contain: eagle, horse and dog');
+console.log ('my array will contain some animals');
 console.log(arraysInside);
 let myFavoriteAnimals = ['eagle ', 'dog ', 'horse '];
 console.log(myFavoriteAnimals);
-arraysInside = ['baby pig ' , myFavoriteAnimals];
+arraysInside.push('baby pig');
 console.log(arraysInside);

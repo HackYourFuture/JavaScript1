@@ -23,7 +23,43 @@ if(typeof myName === typeof myAge){
     console.log('NOT SAME TYPE')
 }
 
+if(typeof myName === typeof myHobbies){
+    console.log('SAME TYPE')
+} else{
+    console.log('NOT SAME TYPE')
+}
+
+if(typeof myName === typeof iAmFunny){
+    console.log('SAME TYPE')
+} else{
+    console.log('NOT SAME TYPE')
+}
+
+if(typeof myName === typeof myAge){
+    console.log('SAME TYPE')
+} else{
+    console.log('NOT SAME TYPE')
+}
+
+if(typeof myName === typeof amIFunny){
+    console.log('SAME TYPE')
+} else{
+    console.log('NOT SAME TYPE')
+}
+
 if(typeof myAge === typeof myHobbies){
+    console.log('SAME TYPE')
+} else{
+    console.log('NOT SAME TYPE')
+}
+
+if(typeof myAge === typeof iAmFunny){
+    console.log('SAME TYPE')
+} else{
+    console.log('NOT SAME TYPE')
+}
+
+if(typeof myAge === typeof amIFunny){
     console.log('SAME TYPE')
 } else{
     console.log('NOT SAME TYPE')
@@ -35,14 +71,15 @@ if(typeof myHobbies === typeof iAmFunny){
     console.log('NOT SAME TYPE')
 }
 
+if(typeof myHobbies === typeof amIFunny){
+    console.log('SAME TYPE')
+} else{
+    console.log('NOT SAME TYPE')
+}
+
 if(typeof iAmFunny === typeof amIFunny){
     console.log('SAME TYPE')
 } else{
     console.log('NOT SAME TYPE')
 }
 
-if(typeof amIFunny === typeof myName){
-    console.log('SAME TYPE')
-} else{
-    console.log('NOT SAME TYPE')
-}

@@ -1,10 +1,10 @@
 // 6 Arrays
 // 6.1
-let Friends = [];
+let friends = [];
 //6.2
 console.log("the array is empty")
 // 6.3
-console.log(Friends);
+console.log(friends);
 // 6.4
 let favoritAnimals = ['cat', 'rabbit', 'hours'];
 //6.5

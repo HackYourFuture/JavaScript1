@@ -15,6 +15,6 @@ if (a > z) {
 } else {
     highValue = z
 }
-
+// we can also use Math.max
 //5.6
 console.log(highValue)

@@ -12,8 +12,8 @@ if(typeof(firstNumber) == typeof(secondNumber)){
 /* let firstNumber = 7,
 secondNumber = 10; */
 
-let firstString = "10",
-    first = 0;
+let firstString = ture,
+    first = [0,"hello",[1,2]];
 
 if(typeof(first) == typeof(firstString)){
     console.log("SAME TYPE");

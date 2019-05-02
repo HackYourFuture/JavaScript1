@@ -11,7 +11,7 @@ console.log(typeof(x));
   x = 5;
 
   // the value of x
-  console.log("the value of x will be: number");
+  console.log("the value of x will be: 5");
 
   // log value of x 
   console.log(x);

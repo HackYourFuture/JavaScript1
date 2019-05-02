@@ -1,6 +1,5 @@
 // Declare an empty array
 let moreAnimals = [];
-let more_Sports = new Array();
 
 console.log("the value of my string will be: it is an empty array ");
 console.log(moreAnimals);

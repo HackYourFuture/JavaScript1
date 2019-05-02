@@ -1,6 +1,6 @@
 // 9
 let x = 7;
-console.log("the new value of x after applying x = x % 3   is : 1 "+ " , 7 will divided by 3 and what is remaining is the new value")
+console.log("the new value of x after applying x = x % 3   is : 1 , 7 will divided by 3 and what is remaining is the new value")
 x = x % 3;
 console.log(x)
 

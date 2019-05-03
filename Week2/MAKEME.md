@@ -1,4 +1,4 @@
-## Homework Week 2
+## Homework Week  2
 
 ```
 Topics discussed in class this week:

@@ -16,16 +16,6 @@ To test that it was installed and running properly, go to your terminal and run 
 
 ## Here are resources that we like you to read as a preparation for the coming lecture:
 
-Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):
-
-Only watch the below chapters:
-
-0. Introduction
-1. Programming Basics
-2. Core Programming Syntax 
-3. Variables and Data Types
-
-
 Read up on the most important topics of next week:
 
 [Variables (var, let, const)](http://javascript.info/variables)

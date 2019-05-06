@@ -1,1 +1,3 @@
-console.log ('hello world  ' + '\nздравствуйте мира  ' + '\nmerhaba dunya'); 
+console.log ('hello world'); //english
+console.log ('здравствуйте мира'); //russian
+console.log('merhaba dunya'); //turkish

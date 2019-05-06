@@ -14,21 +14,8 @@ In week three we will discuss the following topics:
 > :boom: IMPORTANT: The concepts of these weeks are extremely important, and require very careful reading. 
 > Make sure you understand these concepts as well as you can, as they are crucial to programming and your ability to do well in our program!
 
-
-
-
 ### Here are resources that we like you to read as a preparation for the coming lecture:
 
-Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Wouter):
-
-    4. Writing Conditional Code
-    5. Modular Code
-    6. Iteration: Writing Loops
-    7. More About Strings
-    8. Collections
-    11. When Things Go Wrong 
-
-## Read the following articles that are very important to programming!
 - [Array](http://javascript.info/array)
 - [Loops](http://javascript.info/while-for)
 - [Functions](http://javascript.info/function-basics)

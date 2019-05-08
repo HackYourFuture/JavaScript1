@@ -14,15 +14,14 @@ console.log(yConst); // jsConst
 
 // 4.3 Now assign a new string to the variable y.
 y = 'css';
-ylet = 'cssLet';
-yconst = 'cssConst';
+yLet = 'cssLet';
+yConst = 'cssConst'; // TypeError: Assignment to constant variable. Actually code will stop here. You have to comment this line to make following codes run without error.
 
 // 4.4 Just like what you did before write a console.log statement that explains in words what you think will be logged to the console.
 console.log("my variable 'y' is: css");
-console.log("my variable 'yLet' is: jsLet");
-console.log("my variable 'yConst' is: jsConst");
+console.log("my variable 'yLet' is: cssLet");
+console.log("my variable 'yConst' can not be assigned to new value");
 
 // 4.5 Now console.log y again.
 console.log(y); // css
-console.log(yLet); // jsLet
-console.log(yConst); // jsConst
+console.log(yLet); // cssLet

@@ -5,6 +5,6 @@ let r = 458;
 let p = 23;
 let modulo = r%p;
 console.log("when you divide the number "+r+" by the number "+p+" the reminder is the number "+modulo);
-let two = 2;
-let reminder=r%two;
+const two = 2;
+let reminder = r%two;
 console.log("The reminder is "+reminder+" when you divide "+r+" by "+two+". "+r+" is an even number")

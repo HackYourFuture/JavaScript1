@@ -11,5 +11,8 @@ console.log(typeof myArray[2]);
 
 let infinity1 = 6/0;
 let infinity2 = 10/0;
-if (infinity1===infinity2){console.log(true)}
-else {console.log(false)};
+if (infinity1 === infinity2) {
+console.log(true);
+} else {
+console.log(false);
+}

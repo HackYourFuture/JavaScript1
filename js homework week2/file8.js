@@ -28,19 +28,63 @@ console.log(typeof hisToys);
 console.log(typeof hisBoolean);
 console.log(typeof foo);
 
-if (typeof hisBoolean == typeof hisAge) 
+if (typeof hisBoolean === typeof hisAge) 
 {console.log('SAME TYPE');}
 else {console.log('Don\'t have the same type');}
 
-if (typeof foo == typeof hisToys) 
+if (typeof hisBoolean === typeof mySon) 
 {console.log('SAME TYPE');}
 else {console.log('Don\'t have the same type');}
 
-if (typeof mySon == typeof hisSecondName) 
+if (typeof hisBoolean === typeof hisSecondName) 
 {console.log('SAME TYPE');}
 else {console.log('Don\'t have the same type');}
 
-if (typeof mySon == typeof hisToys) 
+if (typeof hisBoolean === typeof hisToys) 
+{console.log('SAME TYPE');}
+else {console.log('Don\'t have the same type');}
+
+if (typeof hisBoolean === typeof foo) 
+{console.log('SAME TYPE');}
+else {console.log('Don\'t have the same type');}
+
+if (typeof foo === typeof hisToys) 
+{console.log('SAME TYPE');}
+else {console.log('Don\'t have the same type');}
+
+if (typeof foo === typeof hisSecondName) 
+{console.log('SAME TYPE');}
+else {console.log('Don\'t have the same type');}
+
+if (typeof foo === typeof mySon) 
+{console.log('SAME TYPE');}
+else {console.log('Don\'t have the same type');}
+
+if (typeof foo === typeof hisAge) 
+{console.log('SAME TYPE');}
+else {console.log('Don\'t have the same type');}
+
+if (typeof mySon === typeof hisSecondName) 
+{console.log('SAME TYPE');}
+else {console.log('Don\'t have the same type');}
+
+if (typeof mySon === typeof hisToys) 
+{console.log('SAME TYPE');}
+else {console.log('Don\'t have the same type');}
+
+if (typeof mySon === typeof hisAge) 
+{console.log('SAME TYPE');}
+else {console.log('Don\'t have the same type');}
+
+if (typeof hisAge === typeof hisSecondName) 
+{console.log('SAME TYPE');}
+else {console.log('Don\'t have the same type');}
+
+if (typeof hisAge === typeof hisToys) 
+{console.log('SAME TYPE');}
+else {console.log('Don\'t have the same type');}
+
+if (typeof hisToys === typeof hisSecondName) 
 {console.log('SAME TYPE');}
 else {console.log('Don\'t have the same type');}
 

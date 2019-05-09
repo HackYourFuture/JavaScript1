@@ -6,7 +6,7 @@
 // 7.2 Find a way to get the length of myString.
 // 7.3 console.log the length of myString.
 
-let myString = "this is a test";
+const myString = "this is a test";
 console.log(myString);
 
 console.log(myString.length);

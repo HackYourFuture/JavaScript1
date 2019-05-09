@@ -17,12 +17,12 @@
 // 8.6 Make sure to also show a message when the 
 // variables you are comparing are not the same type.
 
-let foo = 9;
-let waldo = "find me";
-let awesome = true;
-let cities = ["Amsterdam", "Rotterdam", "Groningen"];
+const foo = 9;
+const waldo = "find me";
+const awesome = true;
+const cities = ["Amsterdam", "Rotterdam", "Groningen"];
 let boo;
-let car = {};
+const car = {};
 
 console.log("The value of my variable foo is: " + foo);
 console.log("The value of my variable waldo is: " + waldo);

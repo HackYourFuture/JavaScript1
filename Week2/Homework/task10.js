@@ -9,7 +9,7 @@
 // in which you show that you understand the concepts (just 
 // like you've done in the above assignments).
 
-let multipleTypedArray = [0, "string", "000", true];
+const multipleTypedArray = [0, "string", "000", true];
 console.log("the type of my array is: " + typeof multipleTypedArray);
 console.log("the type of the first element of my array is: " + typeof multipleTypedArray[0]);
 console.log("the type of the second element of my array is: " + typeof multipleTypedArray[1]);

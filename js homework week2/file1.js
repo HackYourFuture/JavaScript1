@@ -1,6 +1,6 @@
 let turkish = 'Merhaba Dunya!';
 let english = 'Hello World!';
-let dutch = 'Hallo Werld!';
+let dutch = 'Hallo Wereld!';
 
 console.log(turkish);
 console.log(english);

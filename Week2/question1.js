@@ -1,0 +1,52 @@
+// Question 1
+
+console.log("Hello World!");
+console.log("Merhaba Dünya!");
+console.log("Hola mundo!");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

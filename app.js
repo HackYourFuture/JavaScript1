@@ -1,15 +1,18 @@
+let englishGreeting = "Hello, World!"
+console.log(englishGreeting);
+let kurdishGreeting = "Silav, Cihan!"
+console.log(kurdishGreeting);
+let dutchGreeting = "Hoi, Wereld!"
+console.log(dutchGreeting);
 
-console.log("Hello, World!"); //->English
-console.log("Silav, Cihan!");//->Kurdish
-console.log("Hoi, Wereld!"); //->Dutch
+let me = "I'm awesome!"
+console.log(me);
 
-console.log("I'm awesome!");
-
-let x =
-console.log('I think the value of x is bigger than 5');
+let x;
+console.log("I think the value of x is a number");
 console.log("The value of x is 6");
 let x = 6;
-console.log(I think the value of x is 6);
+console.log("I think the value of x is 6");
 console.log(x);
 
 let y ="Sivan";

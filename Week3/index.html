@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 100%;
+            height: max-content;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: center;
+            align-items: center;
+            padding: 0;
+            margin-block-start: auto;
+            margin-block-end: auto;
+        }
+
+        .flex_item {
+            background-color: rgb(197, 173, 34);
+            flex-basis: calc(20% - 20px);
+            height: 100px; 
+            margin: 10px;
+        }
+    </style>
+    <script src="scripts/1.js"></script>
+    <script src="scripts/2.js"></script>
+    <script src="scripts/3.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <button onclick="een()"   class="flex_item"> 1 </button>
+        <button onclick="twee()"  class="flex_item"> 2 </button>
+        <button onclick="drie()"  class="flex_item"> 3 </button>
+    </div>
+    
+</body>
+</html>
+

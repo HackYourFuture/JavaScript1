@@ -7,6 +7,6 @@ console.log('Hola Mundo');
 //French
 console.log('Bonjour Mond');
 //dutch
-console.log('Halo Werld');
+console.log('Halo Wereld');
 
 

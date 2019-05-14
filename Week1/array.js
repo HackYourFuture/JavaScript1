@@ -1,4 +1,4 @@
-let elements = [];
+const elements = [];
 console.log('this array will be an array bu it is gonna be empty');
 console.log(elements);
 let favoriteAnimals = ['horse',

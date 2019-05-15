@@ -91,9 +91,9 @@ function ad(str, arr) {
     const element = arr[i];
 
     if (element !== arr[arr.length - 1]) {
-      str = str + arr[i] + ', ';
+      str = str + arr[i] + 's, ';
     } else {
-      str = str + arr[arr.length - 1] + "."
+      str = str + arr[arr.length - 1] + "s."
     }
   }
 

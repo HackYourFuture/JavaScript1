@@ -109,16 +109,16 @@ function ad(str, arr) {
     const element = arr[i];
 
     if (element !== arr[arr.length - 1]) {
-      str = str + arr[i] + ', ';
+      str = str + arr[i] + 's, ';
     } else {
-      str = str + arr[arr.length - 1] + "."
+      str = str + arr[arr.length - 1] + "s."
     }
   }
 
   return str;
 }
 
-console.log(ad(adStr, vehicles)); // Amazing Joe's Garage, we service motorbike, caravan, car, truck.
+console.log(ad(adStr, vehicles)); // Amazing Joe's Garage, we service motorbikes, caravans, cars, trucks.
 ```
 
 **11. What if you add one more vehicle to the list, can you have that added to the advertisement without changing the code for question 10 ?**

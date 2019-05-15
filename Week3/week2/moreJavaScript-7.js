@@ -3,7 +3,7 @@ let vehicles = [
     "caravan",
     "bike",
     "car",
-    "bus"
+    "scooter"
 ];
 
 console.log(vehicles);

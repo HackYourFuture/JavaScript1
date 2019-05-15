@@ -106,12 +106,13 @@ let adStr = "Amazing Joe's Garage, we service ";
 
 function ad(str, arr) {
   for (let i = 0; i < arr.length; i++) {
-    const element = arr[i];
+    const currentEl = arr[i];
+    const lastEl = arr[arr.length - 1];
 
-    if (element !== arr[arr.length - 1]) {
-      str = str + arr[i] + 's, ';
+    if (currentEl !== lastEl) {
+      str += `${currentEl}s, `;
     } else {
-      str = str + arr[arr.length - 1] + "s."
+      str += `${lastEl}s.`;
     }
   }
 

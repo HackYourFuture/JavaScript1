@@ -1,0 +1,14 @@
+let favoriteAnimals = ["blowfish", "capricorn", "giraffe"];
+//let maurosFavoriteAnimal = 'turtle';
+favoriteAnimals.push('turtle');
+console.log(favoriteAnimals);
+//let jimsFavoriteAnimal = 'meerkat';
+favoriteAnimals.splice(1,0,'meerkat');
+console.log('the new array with Mauro and Jim\'s favorite animal');
+console.log(favoriteAnimals);
+console.log(favoriteAnimals.length);
+console.log('The array has a length of :' + favoriteAnimals.length);
+favoriteAnimals.splice(3, 1);
+console.log(favoriteAnimals);
+favoriteAnimals.indexOf('meerkat');
+console.log('The item you are looking for is at index: ' + favoriteAnimals.indexOf('meerkat'));

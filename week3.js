@@ -127,3 +127,5 @@ let bar = 42;
 typeof typeof bar;
 console.log(typeof bar); //->> number.
 console.log(typeof typeof bar); //->> string.
+
+//the end.

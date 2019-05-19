@@ -1,7 +1,7 @@
 let firstNumber = 7,
     secondNumber = 10;
 
-console.log("The value of my variable is: " + firstNumber);
+console.log("The value of my firstNumber is: " + firstNumber);
 console.log(typeof(firstNumber));
 
 if(typeof(firstNumber) == typeof(secondNumber)){

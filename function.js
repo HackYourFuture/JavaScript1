@@ -72,9 +72,9 @@ for(let i = 0; i <vehicles.length-1; i++){
 }
 if(vehicles[3]){
     loop = loop +" and " + vehicles[3]+"\"";    
- }
-console.log(advertisement + loop);
 }
+console.log(advertisement + loop);
+
 
 vehicle("blue", 1, 5);
 vehicle("green", 3, 5);

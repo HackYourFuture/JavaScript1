@@ -51,9 +51,10 @@ vehicleType("blue", 2)
 
 // 6 a function called vehicle with parameter called age
 function vehicle(color , code , age){
-    if(code == 1)
+    if(code == 1){
     console.log("a "+ color + " car");
-
+    }
+}
 // 7 list of vehicles
 let vehicles = ["motorbike", "caravan", "bike", "car"];
 

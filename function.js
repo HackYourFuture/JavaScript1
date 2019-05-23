@@ -84,9 +84,9 @@ let emtyObject= new Object;
 
 // 13 teachers 14
 let teacher = {
-    Amen : "history",
-    Adam : "math",
-    Rami : "philosophy"
+     Arabic : "Amen",
+    English : "Adam",
+    Dutch : "Rami"
 }
 
 // 15 

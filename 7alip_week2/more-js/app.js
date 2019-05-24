@@ -91,14 +91,16 @@ console.log(thirdItem); // car
 let adStr = "Amazing Joe's Garage, we service ";
 
 function ad(str, arr) {
-  for (let i = 0; i < arr.length; i++) {
+  let len = arr.length;
+  for (let i = 0; i < len; i++) {
     const currentEl = arr[i];
-    const lastEl = arr[arr.length - 1];
 
-    if (currentEl !== lastEl) {
-      str += `${currentEl}s, `;
+    if (currentEl === arr[len - 1]) {
+      str += `${currentEl}s.`;
+    } else if (currentEl === arr[len - 2]){
+      str += `${currentEl}s and `;
     } else {
-      str += `${lastEl}s.`;
+      str += `${currentEl}s, `
     }
   }
 

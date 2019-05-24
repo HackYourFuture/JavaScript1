@@ -10,12 +10,16 @@ function colorCar(color) {
 
 // 3. Create an object and a function that takes the object as a parameter and prints out all of its properties and values.
 function showObj(obj) {
-  let objKeys = Object.keys(obj);
+  let objEntries = Object.entries(obj);
 
-  let objVals = Object.values(obj);
-
-  for (let i = 0; i < objKeys.length; i++) {
-    console.log(`The value of the property '${objKeys[i]}' is '${objVals[i]}'`)
+  for (const [key, value] of objEntries) {
+    console.log(`The value of the property '${key}' is '${value}'`)
+  }
+  
+  // or
+  
+  for (let key in obj) {
+    console.log(`The value of the property '${key}' is '${obj[key]}'`)
   }
 }
 

@@ -99,8 +99,19 @@ console.log(x===y);//false
 console.log(z==y);//true
 console.log(z==x);//false
 
-//Does the order that you assign (o3 = o2 or o2 = o3) matter? Yes
+// 16
 
+let o1 = { foo: "bar" };
+let o2 = { foo: "bar" };
+let o3 = o2;
+
+//Show that changing o2 changes o3 (or not) // YES changes
+//changing o1 changes o3(or not).// NO changes
+// Does the order that you assign (o3 = o2 or o2 = o3) matter? It is matter
+
+
+
+// 17
 let bar = 42;
 typeof typeof bar;
  // It is String first i have call the type of the value . second the type of the value was number and the word number is string

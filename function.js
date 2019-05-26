@@ -65,16 +65,13 @@ console.log(vehicles[3]);
 console.log("a "+ color +" " +vehicles[code - 1]);
 
 // 10 write an advertisement
-let advertisement = "\"Amazing Joe's Garage, we service ";
-var loop = "";
-for(let i = 0; i <vehicles.length-1; i++){
-   loop += vehicles[i] + ", ";
-}
-if(vehicles[3]){
-    loop = loop +" and " + vehicles[3]+"\"";    
-}
-console.log(advertisement + loop);
-
+ function advertisement(vehicles) {
+    let par = "Amazing Joe's Garage, we service ";
+    for (let i = 0; i < vehicles.length - 2; i++) {
+      par += vehicles[i] + ', ';
+    }
+    console.log(par + vehicles[vehicles.length - 2] + 'and ' + vehicles[vehicles.length - 1]);
+  }
 
 vehicle("blue", 1, 5);
 vehicle("green", 3, 5);

@@ -74,14 +74,13 @@ console.log("I think the value will be undefined");
 console.log(arrays);
 
 //6.4
-let myFavoriteAnimals = [cat, dog, sheep];
+let myFavoriteAnimals = ['cat', 'dog', 'sheep'];
 
 //6.5
 console.log(myFavoriteAnimals);
 
 //6.6
-let favoriteAnimalOfDaan = "baby pig";
-const animals = myFavoriteAnimals + "" + favoriteAnimalOfDaan;
+const animals = myFavoriteAnimals.push('baby pig');
 
 //6.7
 console.log(animals);

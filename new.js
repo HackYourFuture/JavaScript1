@@ -159,3 +159,74 @@ let emptyOpject = {};
 
 //Q13
 //Create an object that contains the teachers that you have had so far 
+Q13
+const myTeachers = [
+{
+firstName: "Ze",
+lastName: "German",
+},
+{
+firstName: "Unmesh",
+lastName: "Joshi",
+},
+{
+firstName: "Sander",
+lastName: "Hidding",
+},
+];
+
+//Q14
+//Add a property to the object you just created that contains the languages that they have taught you
+
+function addingLanguage (){
+for (i = 0 ; i < myTeachers.length; i++ ){
+if(myTeachers[i].lastName === "Joshi"){
+myTeachers[i].languages = "git";
+}else if (myTeachers[i].lastName === "Hidding"){
+myTeachers[i].languages = "java script";
+}else if (myTeachers[i].lastName === "German"){
+myTeachers[i].languages = "html & css";
+};
+}
+console.log(myTeachers);
+}
+addingLanguage();
+
+//Q15
+//Write some code to test two arrays for equality using == and ===
+
+let x = [1, 2, 3];
+let y = [1, 2, 3];
+let z = y;
+
+console.log(x == y ? true : false );
+console.log(x === y ? true : false );
+console.log(z == y ? true : false );
+console.log(z == x ? true : false );
+
+//Q16
+//Show that changing o2 changes o3 (or not) and changing o1 changes o3(or not).
+
+let o1 = { foo: "bar" };
+let o2 = { foo: "bar" };
+let o3 = o2;
+
+function changingValues(){
+console.log("old value for o3 ", o3);
+o2.edit = "new key";
+console.log("new value for o3 after changing o2 ", o3);
+o1.edit = "amsterdam";
+console.log("the value of o3 after changing the value of o1 ", o3);
+}
+changingValues()
+// changing o2 changes o3 but changing o1 dosen't effect o3 because they aren't realated to each other
+
+//Q17
+//What does the following code return? (And why?)
+
+let bar = 42;
+console.log(typeof typeof bar);
+
+let x = true
+console.log(typeof typeof x);
+//by typing typeof twice we git the type of the result which is a string because it's written between quotations marks

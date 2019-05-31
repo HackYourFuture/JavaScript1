@@ -7,20 +7,19 @@ console.log(myString);
 
 //Arrays
 let favoriteAnimals = ["blowfish", "capricorn", "giraffe"];
+console.log(favoriteAnimals.push("turtle"));
 console.log(favoriteAnimals);
 
-let favoriteAnimalsOfMauro = ["blowfish", "capricorn", "giraffe", "turtle"];
-console.log(favoriteAnimalsOfMauro);
+let addedAnimalOfJim = ["blowfish", "capricorn", "giraffe", "turtle"];
+console.log(addedAnimalOfJim.splice(1, 0, "meerkat"));
+console.log("The new value will be: ["blowfish", "meerkat", "capricorn", "giraffe", "turtle"]");
+console.log(addedAnimalOfJim);
+console.log("The array has a length of:", addedAnimalOfJim.length);
 
-let favoriteAnimalsOfJim = ["blowfish", "meerkat", "capricorn", "giraffe", "turtle"];
-console.log("The favorite animal of Jim is added to the array.");
-console.log(favoriteAnimalsOfJim);
-console.log("The array has a length of:", favoriteAnimalsOfJim.length);
-
-let favoriteAnimalsOfJason = ["blowfish", "meerkat", "capricorn", "turtle"];
-console.log(favoriteAnimalsOfJason);
-console.log(favoriteAnimalsOfJason.length);
-console.log(favoriteAnimalsOfJason[1], "The item you are looking for is at index:2");
+let deletedAnimalOfJason = ["blowfish", "meerkat", "capricorn", "giraffe", "turtle"];
+console.log(deletedAnimalOfJason.splice(-2, 1,));
+console.log(deletedAnimalOfJason.length);
+console.log(deletedAnimalOfJason[1], "The item you are looking for is at index:2");
 
 //JavaScript
 function sum(a, b, c) {
@@ -34,9 +33,9 @@ function colorCar(color){
  console.log(colorCar("red"));
 //3.
 let country = {Land: "The Netherlands", Population:"17 million", Capital:"Amsterdam"};
-console.log(country);
-console.log(country.Land);
-console.log(country.Population);
+for (const elements in country) {
+    console.log(country.elements = country[elements]);
+}
 //4.
 function vehicleType(color, code){
     if (code === 1){

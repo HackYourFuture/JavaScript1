@@ -67,11 +67,11 @@ console.log(vehicleList.length);
 console.log(vehicleList[2]);
 
 //9
-function newVehicle(color){
-    if (vehicleList[2] = 3){
-        console.log("A" + "" + color + "" + "new" + "" + "bike");
+function newVehicle(color, code, age){
+    if (vehicleList[2] <= 3){
+        console.log("A" + " " + color + " " + "new" + " " + "bike");
     } else (vehicleList[2] > 3);{
-        console.log("A" + "" + color + "" + "old" + "" + "bike")
+        console.log("A" + " " + color + " " + "old" + " " + "bike")
     }
 }
 newVehicle("green", 3, 1);
@@ -88,13 +88,18 @@ if (advertisement.length = 5) {
     console.log("Amazing Joe's Garage >>> Here we service bulldozers, lorries and trucks.");
 }
 //11
-const newVehicleList = advertisement + "" + "scooter";
-console.log(newVehicleList);
+const newVehicle = advertisement;
+console.log(newVehicle.push("scooter"));
+consol.log(newVehicle);
 //12.
-let object;
+let empty = {};
 //13+14
-let teachers = {Philip: "HTML/CSS", Rob: "HTML/CSS", Hardit: "CLI", Bonan: "CLI", Ogor: "CLI", Unmesh: "GIT", Marciano: "JS", Sander: "JS"};
-
+let teachers = {
+    name : ["Rob", "Philip", "Unmesh"]
+    };
+console.log(teachers);
+let task = teachers.skills = ["HTML/CSS", "HTML/CSS", "JavaScript"];
+console.log(task);
 //15
 let x = [1, 2, 3];
 let y = [1, 2, 3];

@@ -12,7 +12,7 @@ console.log(favoriteAnimals);
 
 let addedAnimalOfJim = ["blowfish", "capricorn", "giraffe", "turtle"];
 console.log(addedAnimalOfJim.splice(1, 0, "meerkat"));
-console.log("The new value will be: ["blowfish", "meerkat", "capricorn", "giraffe", "turtle"]");
+console.log("The new value will be: ['blowfish', 'meerkat', 'capricorn', 'giraffe', 'turtle']");
 console.log(addedAnimalOfJim);
 console.log("The array has a length of:", addedAnimalOfJim.length);
 

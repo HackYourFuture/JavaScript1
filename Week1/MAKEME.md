@@ -1,37 +1,32 @@
-## Homework week 1:
+# Homework HTML/CSS Week 1
 
-```
-Topics discussed in class this week:
-• Git
-```
+## Todo list
 
-> [Here](/Week2/README.md) you find the readings you have to complete before the second lecture.
+1. s
+2. s
 
-## Step 1: Share a useful resource
+3. Code along
+4. PROJECT:
 
-_Deadline Monday_
+### 1.
 
-All share a video or a resource (this can be a drawing, an article or a podcast) that was helpful for you the last few weeks with learning HTML/CSS. Please share this in the channel of your class in Slack. Also write as small note about what the resource is about and why you think it's so helpful (you can share more than one if you like).
+### 2.
 
-## Step 2: Git homework
+### 3. Code along
 
-_Deadline Wednesday_
+### 4. PROJECT:
 
-Git homework for this week:
+> Every week ends with a project you have to build on your own. Instead of getting clear-cut instructions, you'll get a list of criteria that your project needs to measure up to.
 
-Pair up with another student in your class. The homework requires two people to work together. Let's call them admin and user.
+> Make a
 
-1. admin creates a new repository on github called “animals” (without quotes).
-2. admin adds a file called “zoo.txt” with some animals generally found in a zoo.
-3. admin commits and pushes his changes (in master branch).
-4. admin adds user as a collaborator (find out how to add a collaborator to a git repository).
-5. user clones the repository from admin (find out how to clone a repository. Note that `git init` is not required when you clone a repository).
-6. user makes a new branch called user-dev.
-7. user adds another file called “pets.txt” with some animals generally found in a home.
-8. user commits and pushes his branch to remote.
-9. admin pulls the branch crated by user (find out how to pull changes from a repository).
-10. admin submits the link to his github repository (named "animals"), where Unmesh should be able to see the collaborator’s (i.e. user’s) branch along with his commits.
+## SUBMIT YOUR HOMEWORK!
 
-Note:
+After you've finished your todo list it's time to show us what you got! The homework that needs to be submitted is the following:
 
-The _user_ is _not supposed to fork_ the admin’s repository. _admin_ is supposed to add user as a collaborator and _user_ should just _clone_ the repository (i.e. _user_ will only have the local copy of the repository). Only _admin_ will have the _github_ server copy of the repository. Of course, admin will have its local copy of the repository too.
+1. s
+2. s
+
+Upload both in a repository to GitHub and then upload the link to Trello. Go through the [guide](../hand-in-homework-guide.md) to learn how to do this.
+
+_Deadline Saturday 23.59 CET_

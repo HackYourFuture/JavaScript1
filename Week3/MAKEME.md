@@ -33,24 +33,11 @@ Topics discussed in class this week:
   - [Functions](./../../../../fundamentals/blob/master/fundamentals/functions.md)
   - [Scope](./../../../../fundamentals/blob/master/fundamentals/scope.md)
 
-## Step 2: Watch
-
-1. If you haven't done already, watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro)
-   Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though).
-
-2. Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Wouter):
-   <br>**4. Writing Conditional Code**
-   <br>**5. Modular Code**
-   <br>**6. Iteration: Writing Loops**
-   <br>**7. More About Strings**
-   <br>**8. Collections**
-   <br>**11. When Things Go Wrong**
-
-## Step 3: Rover the Robot
+## Step 2: Rover the Robot
 
 Go and try out this cool game: [roverjs.com](http://roverjs.com), written by one of our HYF teachers, Joost Lubach. There are different levels, see how far you can get!
 
-## Step 4: String and Array challenges
+## Step 3: String and Array challenges
 
 _Deadline Wednesday_
 
@@ -169,7 +156,7 @@ let favoriteAnimals = ["blowfish", "capricorn", "giraffe"];
 
 > ‘Coerce' means to try to change - so coercing `var x = '6'` to number means trying to change the type to number temporarily.
 
-## Step 7: **Finish basic freeCodeCamp challenges:**
+## Step 4: **Finish basic freeCodeCamp challenges:**
 
 _Deadline Saturday_
 
@@ -183,7 +170,7 @@ Please make sure you REALLY understand the exercises below:
 - https://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object
 - https://www.freecodecamp.com/challenges/delete-properties-from-a-javascript-object
 
-## Step 8: Read before next lecture
+## Step 5: Read before next lecture
 
 _Deadline Sunday morning_
 

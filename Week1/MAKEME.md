@@ -1,14 +1,17 @@
-# Homework HTML/CSS Week 1
+# Homework JavaScript1 Week 1
 
 ## Todo list
 
-1. s
+1. JavaScript exercises
 2. s
 
 3. Code along
 4. PROJECT:
 
-### 1.
+### 1. JavaScript exercises
+
+- Codecademy [Introduction to JavaScript](https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction)
+- FreeCodeCamp [Introduction to JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript)
 
 ### 2.
 
@@ -17,8 +20,6 @@
 ### 4. PROJECT:
 
 > Every week ends with a project you have to build on your own. Instead of getting clear-cut instructions, you'll get a list of criteria that your project needs to measure up to.
-
-> Make a
 
 ## SUBMIT YOUR HOMEWORK!
 

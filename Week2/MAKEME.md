@@ -1,4 +1,4 @@
-# Homework HTML/CSS Week 1
+# Homework JavaScript1 Week 2
 
 ## Todo list
 
@@ -12,6 +12,10 @@
 ### 2.
 
 ### 3. Code along
+
+Build a temperature converter
+
+- [Temperature Converter](https://www.youtube.com/watch?v=8mRGfLL1nzE)
 
 ### 4. PROJECT:
 
@@ -34,11 +38,6 @@ _Deadline Saturday 23.59 CET_
 
 1. Review the [Git course material](https://github.com/HackYourFuture/Git) of last week.
 2. Watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro), just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though).
-3. Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):
-   <br>**0. Introduction**
-   <br>**1. Programming Basics**
-   <br>**2. Core Programming Syntax**
-   <br>**3. Variables and Data Types**
 
 ## Step 2: JavaScript
 

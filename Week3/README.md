@@ -1,53 +1,74 @@
-# Reading material for the third lecture:
+# Reading Material JavaScript1 Week 3
 
+## Agenda
+
+These are the topics for week 3:
+
+1. Functions
+2. Thinking like a programmer I
+
+## 1. Functions
+
+In programming, we often use code to perform a specific task multiple times. Instead of rewriting the same code, we can group a block of code together and associate it with one task. This is useful, because then we can reuse that block of code whenever we need to perform the task again.
+
+In JavaScript, we call these blocks of code `functions`. They are written like this:
+
+```js
+function multiplyTwoNumbers(number1, number2) {
+  return number1 * number2;
+}
 ```
-In week three we will discuss the following topics:
-• Git work flow
-• Advanced data types [Objects]
-• Conditions
-• Statements vs Expressions
-• Loops (for/while)
-• Functions
+
+This is also called a `function definition`.
+
+In the example, the word `function` is a keyword, that indicates that what will follow is a function. The word `multiplyTwoNumbers` is the name of the function, that will be referred to when the function needs to be executed.
+
+> Note: This is a common pattern you'll find across different programming languages. It's usually necessary to specify what type of data you are going to create, before creating it. This is necessary because they computer cannot guess how they should treat any piece of information. It would the same as, before you ask a question to someone, you would say: QUESTION, what is a function? Saying QUESTION before you ask a question informs the interpreting party (i.e. the person you're talking to) that what you just said is a question. In human communication that's usually not necessary, but it is when communicating with computers.
+
+The words `number1` and `number2` are called `parameters`: they work as a temporary placeholder that will be replaced with real data. You can liken it to how in a restaurant a table is reserved for customers. The moment the customers arrive the placeholders will be removed and the seats will be filled by the actual customers. The moment a function is given an input, the parameters are called `arguments`: the real information given to the function is called an argument.
+
+When used in software, a function is like a black box that:
+
+1. Receives an input
+2. Performs an operation on the input (inside the box)
+3. and lastly, produces an output.
+
+![Black Box](../assets/black-box-input-output.png)
+
+A function is used as follows:
+
+```js
+multiplyTwoNumbers(2, 4);
 ```
 
+You refer to the function name, give it arguments (which are either supplied by some other code or created on the spot) and get back an output. The output is also called the `return value`, the information you get after the `return` keyword.
 
-> :boom: IMPORTANT: The concepts of these weeks are extremely important, and require very careful reading. 
-> Make sure you understand these concepts as well as you can, as they are crucial to programming and your ability to do well in our program!
+As a developer you either use pre-defined functions or create your own in order to make certain tasks happen. Within a function block (which is everything between the `{ }`, there are instructions that tell it in what ways it should manipulate and change the input in order to produce a desired output.
 
+You should see it like this: a function is like a `tool` in the tool box. Only, instead of a hammer or a screwdriver you have a function that multiplies two numbers, or a function that transform data from one data type to another.
 
+Go over the following materials to learn more about the how and why of functions:
 
+- [What is a function in programming?](https://www.youtube.com/watch?v=QcCnfAxGpgg)
+- [JavaScript Functions](https://www.youtube.com/watch?v=R8SjM4DKK80)
+- [Functions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/functions.md)
 
-### Here are resources that we like you to read as a preparation for the coming lecture:
+## 2. Thinking like a programmer I
 
-Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):
+During these past weeks you have gotten a taste of what programming is: the various concepts, what it looks like in code and the way it's used. However, having written some code doesn't make you a programmer. Thinking like a programmer makes you into a programmer. But what does that mean, 'thinking like a programmer'?
 
-    4. Writing Conditional Code
-    5. Modular Code
-    6. Iteration: Writing Loops
-    7. More About Strings
-    8. Collections
-    11. When Things Go Wrong 
+Thinking like a programmer is very similar to thinking like a construction worker:
 
-## Read the following articles that are very important to programming!
-- [Array](http://javascript.info/array)
-- [Loops](http://javascript.info/while-for)
-- [Functions](http://javascript.info/function-basics)
-- [Scope](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/scope.md)
-- [Objects](http://javascript.info/object)
-- [Conditions](http://javascript.info/ifelse)
-- [Expressions vs statements](https://www.youtube.com/watch?v=WVyCrI1cHi8)
+1. You have to build something and it's up to you to know all the necessary tools and techniques to make that happen, and
+2. You have to solve every problem that comes up along the way (such as things that go wrong, knowing how to choose the right tools for the job and striving to achieve the right goal)
 
-#### Git work flow
-- Check out this video of Daan to see how we use Git Workflow to hand in Homework (from now on): https://www.youtube.com/watch?v=-o0yomUVVpU&index=2&list=PLVYDhqbgYpYUGxRdtQdYVE5Q8h3bt6SIA
+The second skill, problem solving, is the most important one. If you get good at that, you'll automatically get good at the first.
 
-### Review
+Take a look at the following resources to learn more about problem solving as applied to programming:
 
-Review the topics of week 2:
+- [How to THINK like a programmer](https://www.youtube.com/watch?v=NNazO2tMHno)
+- [Lessons in problem solving](https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/)
 
-- [Variables](./../../../../fundamentals/blob/master/fundamentals/variables.md)
-- [Values](./../../../../fundamentals/blob/master/fundamentals/values.md)
-- [Operators](./../../../../fundamentals/blob/master/fundamentals/operators.md)
-- [Special characters and their names](./../../../../fundamentals/blob/master/fundamentals/names_of_special_characters.md)
-- [Naming conventions](./../../../../fundamentals/blob/master/fundamentals/naming_conventions.md)
+## Finished?
 
-_Please go through the material and come to class prepared!_
+Are you finished with going through the materials? Give yourself a pat on the back because you rock! When you feel ready to get practical, click [here](./MAKEME.md).

@@ -7,7 +7,7 @@
 
 ![JavaScript1](./assets/javascript1.png)
 
-In this module you'll make a start into wonderful world of programming. We will be using the programming language `JavaScript` to do this. We will look at information in a different way: as
+In this module you'll make a start into wonderful world of programming. We will be using the programming language `JavaScript` to do this. You'll learn about the basic buildings of programming: loops, functions, control flow and more. Consider these as the ABC's of programming, without them it's impossible to write working software!
 
 Mostly what you'll be learning is 2 things:
 
@@ -16,13 +16,36 @@ Mostly what you'll be learning is 2 things:
 
 You will learn to understand problems terms of an algorithm: a series of steps that can be used to do a certain thing, even if the details are different each time.
 
-Here you can find course content and homework for the JavaScript 1 module
+## Learning goals
 
-| Week | Topic                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Reading Materials                  | Homework                            | Lesson Plan                         |
-| ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- | ----------------------------------- | ----------------------------------- |
-| 1.   | What is programming?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | [Reading Week 1](/Week1/README.md) | [Homework Week 1](/Week1/MAKEME.md) | [Homework Week 1](/Week1/MAKEME.md) |
-| 2.   | • Intro JavaScript (What is it, where can you use it for)<br>• [Variables (var, let, const)](../../../fundamentals/blob/master/fundamentals/variables.md)<br>• [Basic Data types (Strings, Numbers, Arrays, Booleans)](../../../fundamentals/blob/master/fundamentals/values.md)<br>• [Operators](../../../fundamentals/blob/master/fundamentals/operators.md)<br>• [Special characters and their names](../../../fundamentals/blob/master/fundamentals/names_of_special_characters.md)<br>• [Naming conventions](../../../fundamentals/blob/master/fundamentals/naming_conventions.md)  | [Reading Week 2](/Week2/README.md) | [Homework Week 2](/Week2/MAKEME.md) | [Homework Week 1](/Week1/MAKEME.md) |
-| 3.   | • Git work flow :smiling_imp:<br>• [Advanced data types (objects)](../../../fundamentals/blob/master/fundamentals/objects.md) <br>• [Conditional execution](../../../fundamentals/blob/master/fundamentals/conditional_execution.md) <br>• [Statements vs Expressions](../../../fundamentals/blob/master/fundamentals/statements_expressions.md)<br> • [Loops (for/while)](../../../fundamentals/blob/master/fundamentals/loops.md)<br>• [Functions](../../../fundamentals/blob/master/fundamentals/functions.md) <br>• [Scope](../../../fundamentals/blob/master/fundamentals/scope.md) | [Reading Week 3](/Week3/README.md) | [Homework Week 3](/Week3/MAKEME.md) | [Homework Week 1](/Week1/MAKEME.md) |
+In order to successfully complete this module you will need to master the following:
+
+- Have an idea of what computer programming is
+- Learn about the basic buildings of JavaScript
+- Correctly write variables, functions and loops
+- Understand the control flow
+
+## How to use this repository
+
+> Before you do anything, first go [here](Week0/preparation.md).
+
+This repository consists of 3 essential parts:
+
+1. `Reading materials`: this document contains all the required theory you need to know _**while**_ you're coding. It's meant as both study material and as a reference to understand what you're doing.
+2. `Homework`: this document contains the instructions for each week's homework.
+3. `Lesson Plans`: this part is meant for teachers as a reference. However, as a student don't be shy to take a look at it as well!
+
+After your first class you should start off with checking the `reading materials` for that week. At the beginning that would be the [Week 1 Reading](/Week1/README.md). Study all the concepts and try to get the gist of everything. After, you can get started with the `homework` for that week.
+
+If you have any questions or if something is not entirely clear ¯\\\_(ツ)\_/¯, please ask/comment on Slack!
+
+## Planning
+
+| Week | Topic                                                                             | Reading Materials              | Homework                        | Lesson Plan                        |
+| ---- | --------------------------------------------------------------------------------- | ------------------------------ | ------------------------------- | ---------------------------------- |
+| 1.   | What is JavaScript?, Variables, Data Structures & Naming Conventions              | [Reading W1](/Week1/README.md) | [Homework W1](/Week1/MAKEME.md) | [Lesson Plan W1](/Week1/MAKEME.md) |
+| 2.   | Statements vs. Expressions, Control flow, Loops, Operators, Conditional statement | [Reading W2](/Week2/README.md) | [Homework W2](/Week2/MAKEME.md) | [Lesson Plan W2](/Week1/MAKEME.md) |
+| 3.   | Functions, Thinking like a programmer I                                           | [Reading W3](/Week3/README.md) | [Homework W3](/Week3/MAKEME.md) | [Lesson Plan W3](/Week1/MAKEME.md) |
 
 **Kind note:**
 

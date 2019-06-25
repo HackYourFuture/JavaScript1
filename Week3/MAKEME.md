@@ -1,16 +1,12 @@
-## Homework Week 3
+## Homework JavaScript1 Week 3
 
-```
-Topics discussed in class this week:
-• Git work flow
-• Advanced data types [Objects]
-• Conditions
-• Statements vs Expressions
-• Loops (for/while)
-• Functions
-```
+# Todo list
 
-> [Here](./../../../../JavaScript2/tree/master/Week1) you find the readings you have to complete before the first JavaScript2 lecture.
+1. JavaScript exercises
+2. s
+
+3. Code along
+4. PROJECT:
 
 ## Step 1: Recap/Read
 
@@ -38,7 +34,7 @@ Topics discussed in class this week:
 1. If you haven't done already, watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro)
    Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though).
 
-2. Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):
+2. Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Wouter):
    <br>**4. Writing Conditional Code**
    <br>**5. Modular Code**
    <br>**6. Iteration: Writing Loops**
@@ -187,12 +183,13 @@ Please make sure you REALLY understand the exercises below:
 
 _Deadline Sunday morning_
 
-Go through the reading material in the [README.md](./../../../../JavaScript2/tree/master/Week1) to prepare for your next class
+## SUBMIT YOUR HOMEWORK!
 
-```
-How to hand in your homework:
-• Upload your homework in your "hyf-javascript1" Github repository. Make sure to create a new folder "week2" first.
-• Upload your homework files inside the week2 folder and write a description for this “commit”.
-• Your hyf-javascript1/week2 should now contain all your homework files.
-• Place the link to your repository folder in Trello.
-```
+After you've finished your todo list it's time to show us what you got! The homework that needs to be submitted is the following:
+
+1. s
+2. s
+
+Upload both in a repository to GitHub Go through the [guide](../hand-in-homework-guide.md) to learn how to do this.
+
+_Deadline Saturday 23.59 CET_

@@ -5,19 +5,19 @@
 These are the topics for week 1:
 
 1. What is programming?
-   - Introduction
-   - Software
-   - What is a programming language?
+    - Introduction
+    - Software
+    - What is a programming language?
 2. What is web development?
-   - Web development vs. software development
-   - Web development vs. web design
-   - Website vs. web application
+    - Web development vs. software development
+    - Web development vs. web design
+    - Website vs. web application
 3. What is JavaScript?
 4. What are variables?
-   - The keywords: let, const, var
-   - values
+    - The keywords: let, const, var
+    - values
 5. What are data types?
-   - 6 basic types
+    - 6 basic types
 
 ## 1. What is programming?
 
@@ -33,30 +33,30 @@ This is important to note: a computer is a `tool` we use to make our lives easie
 
 Go through the following resources to learn more about what programming is:
 
-- [What is programming?](https://www.youtube.com/watch?v=3tWMQ3ZMjbg)
-- [Introduction into programming Playlist](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZYJC7L-r6rX6utt6wwJCyi)
+-   [What is programming?](https://www.youtube.com/watch?v=3tWMQ3ZMjbg)
+-   [Introduction into programming Playlist](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZYJC7L-r6rX6utt6wwJCyi)
 
 ### Software
 
 As a software developer (synonym to 'programmer'), you will write these instructions in order to create 'software'. Look at the following video to get a better idea of what software is:
 
-- [What is software?](https://www.youtube.com/watch?v=MSA3WsGeTNI)
+-   [What is software?](https://www.youtube.com/watch?v=MSA3WsGeTNI)
 
 ### What is a programming language?
 
 Programming is done using a programming language. Why do we need a language to communicate with the computer? At its most basic level, a computer operates based on 0's and 1's: 0 meaning off, and 1 meaning on. Smart people decided to make this more comprehensible, so that people can more simply communicate with a computer. This is how the development of programming languages started: by defining a vocabulary, grammar and syntax to put more organization to the 0's and 1's, we can more simply communicate exactly what we want to computer to do.
 
-- [What are programming languages](https://hackr.io/blog/what-is-programming-language)
+-   [What are programming languages](https://hackr.io/blog/what-is-programming-language)
 
 There are various languages, each made to fulfill a certain need. For example, Microsoft developed a language called [C#](https://www.youtube.com/watch?v=paJUbVeKEOU) in order to make applications for Windows computers. Read the following article to learn more about different languages and their uses:
 
-- [14 Programming Languages Explained](https://mikkegoes.com/14-programming-languages-explained/)
+-   [14 Programming Languages Explained](https://mikkegoes.com/14-programming-languages-explained/)
 
 ## 1. What is web development?
 
 In HackYourFuture we focus on `web` programmming (also known as `web development`): writing code that creates websites and web applications. Look at the following video to learn about what you'll be doing:
 
-- [What does a web developer do?](https://www.youtube.com/watch?v=GEfuOMzRgXo)
+-   [What does a web developer do?](https://www.youtube.com/watch?v=GEfuOMzRgXo)
 
 ## Web development vs. software development
 
@@ -71,7 +71,7 @@ The field of programming is broad. As a software developer (a general term for a
 
 Read the following article to read more about different career paths:
 
-- [Software Development Career Paths](https://simpleprogrammer.com/software-development-career-paths/#title-career-developer-options)
+-   [Software Development Career Paths](https://simpleprogrammer.com/software-development-career-paths/#title-career-developer-options)
 
 Note: once you've chosen a certain track it doesn't mean you can't try out any other! If anything, you are encouraged to explore and see what fits your taste :)
 
@@ -91,8 +91,8 @@ This is the difference bteween `static` and `dynamic` sites: a static site alway
 
 Read the following articles to learn more about this:
 
-- [Website vs. Web Application](https://www.seguetech.com/website-vs-web-application-whats-the-difference/)
-- [Static vs. dynamic websites](https://www.youtube.com/watch?v=4sP7fp3cp24)
+-   [Website vs. Web Application](https://www.seguetech.com/website-vs-web-application-whats-the-difference/)
+-   [Static vs. dynamic websites](https://www.youtube.com/watch?v=4sP7fp3cp24)
 
 ## 3. What is JavaScript?
 
@@ -104,22 +104,26 @@ The main use for JavaScript is to make your webpage interactive: for example, if
 
 Check the following resources to learn more about it:
 
-- [What is JavaScript?](https://www.youtube.com/watch?v=nItSSTwBvSU)
-- [What does JavaScript do and what is it used for?](https://www.youtube.com/watch?v=OSWppEa2Zac)
+-   [What is JavaScript?](https://www.youtube.com/watch?v=nItSSTwBvSU)
+-   [What does JavaScript do and what is it used for?](https://www.youtube.com/watch?v=OSWppEa2Zac)
 
 ## 4. What are variables?
 
+A variable is a piece of information that is saved. You give it a name that describes what its contents are, and to also refer to it at a later point.
+
 ### The keywords: let, const, var
 
-A variable is a central concept within programming. It's applied the same way across almost all programming languages. In JavaScript we apply it by using a `keyword`, a word that is reserved because it has a special meaning. Read more about this in the following article:
+A variable is a central concept within programming. It's applied the same way across almost all programming languages. In JavaScript we apply it by using a `keyword`, a word that is reserved by the language because it has a special meaning. Read more about this in the following article:
 
-- [Variables](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/variables.md)
+-   [Variables](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/variables.md)
 
 A variable always contains a `value`: a piece of information that you want to refer to at a later stage. Read more about this here:
 
-- [Values](https://www.github.com/hackyourfuture/fundamentals/blob/master/fundamentals/values.md)
+-   [Values](https://www.github.com/hackyourfuture/fundamentals/blob/master/fundamentals/values.md)
 
-As a developer you'll be using variables to manipulate its content (the value inside the variable). Why would you want to do this? For most of the time, you want to perform some kind of calculation. The most basic example is the following:
+When creating variables, it's important to think about the right name to give it. It should always reflect what "type" of data it contains and how it would make sense in light of the rest of your code. You (and other developers that will read your code) should be able to read a variable name and know what its purpose is.
+
+Why do we need variables? You'll be using variables to manipulate its content (the value inside the variable). Why would you want to do this? For most of the time, you want to perform some kind of calculation. The most basic example is the following:
 
 ```js
 const one = 1;
@@ -138,14 +142,19 @@ A data type is a category of data. It tells the code interpreter what kind of da
 
 There are about 6 basic data types in JavaScript. String, Number, Boolean, Object, Array, and Function. You can read more about them in the following article:
 
-- [JavaScript Data Types](https://www.tutorialrepublic.com/javascript-tutorial/javascript-data-types.php)
-- [JS Data Types](https://www.w3schools.com/js/js_datatypes.asp)
-- [Variables & Data Types](https://www.youtube.com/watch?v=Hrd3SfCCXZw)
+-   [JavaScript Data Types](https://www.tutorialrepublic.com/javascript-tutorial/javascript-data-types.php)
+-   [JS Data Types](https://www.w3schools.com/js/js_datatypes.asp)
+-   [Variables & Data Types](https://www.youtube.com/watch?v=Hrd3SfCCXZw)
 
 Why do you need to know this? Again, this goes back to computers not being very smart: it needs to know **exactly** how to look at things, what to do with it and in what order.
 
-In JavaScript, the data types allow us to store various types of information, and perform manipulations on them.
-You'll learn more about them at a later stage.
+In JavaScript, the data types allow us to store various types of information, and perform manipulations on them. You'll learn more about them at a later stage.
+
+## Extra resources
+
+If you feel like you need more information to fill in the gaps of your understanding, check out the following resources to learn more about the basics of JavaScript:
+
+-   [Introduction to JavaScript Development](https://www.udemy.com/refactoru-intro-js)
 
 ## Finished?
 

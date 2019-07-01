@@ -2,195 +2,154 @@
 
 ## Todo list
 
-1. s
-2. s
+1. Practice the concepts
+2. JavaScript exercises
 3. Code along
 4. PROJECT:
 
-### 1.
+## 1. Practice the concepts
 
-### 2.
+In this section you will be doing interactice exercises, that will allow you to practice with the concepts you've learned about this week!
 
-### 3. Code along
+-   [Codecademy: Arrays](https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays)
+-   [FreeCodeCamp: Basic data structures](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-data-structures)
 
-Build a temperature converter
+## 2. JavaScript exercises
 
-- [Temperature Converter](https://www.youtube.com/watch?v=8mRGfLL1nzE)
+> For all the following exercises create a new .js file. Try to find a proper name for each file or make a small comment about what it does inside for future reference
+
+**String exercises!**
+
+Consider the following string:
+
+```js
+let myString = 'hello,this,is,a,difficult,to,read,sentence';
+```
+
+1.1
+1.1 Add the string to your file and log it.<br />
+1.2 Log the length of `myString`.<br />
+1.3 The commas make that the sentence is quite hard to read. Find a way to remove the commas from the string and replace them with spaces.<br />
+1.4 Log `myString` to see if you succeeded.<br />
+
+**Array exercises!**
+
+Consider the following array:
+
+```js
+let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
+```
+
+2.1 Add a statement that adds Mauro's favorite animal _'turtle'_ to the existing array.<br />
+2.2 Log your new array!<br />
+2.3 Now add Jim's favorite animal to the array, it's _'meerkat'_, but make sure it will be placed after _'blowfish'_ and before _'capricorn'_.<br />
+2.4 Write a console.log statement that explains in words _you think_ the new value of the array is.<br />
+2.5 Log your new array!<br />
+2.6 Log the length of the array, add a message: _'The array has a length of: '_ (here you should show the length of the array).<br />
+2.7 Jason does not like _'giraffe'_, delete this animal from the array.<br />
+2.8 Again log your new array.<br />
+2.9 Now if unlike Jim, you don't like _'meerkat'_ and you want to delete it from the array, but you don't know the position or the `index` of the item in the array, how can you find it?<br />
+2.10 Log the index of _'meerkat'_. Add a message so it says: _'The item you are looking for is at index: '_ (here you should show the index of the item).<br />
+
+1. Create a function that takes 3 arguments and returns the sum of the these arguments.
+
+2. Create a function named `colorCar` that receives a color, and prints out, _'a red car'_ for example.
+
+3. Create an object and a function that takes the object as a parameter and prints out all of its properties and values.
+
+4. Create a function named `vehicleType` that receives a color, and a code, 1 for car, 2 for motorbike. And prints _'a blue motorbike'_ for example when called as `vehicleType("blue", 2)`
+
+5. Can you write the following without the `if` statement, but with just as a single line with `console.log(...);`?
+
+    ```js
+    if (3 === 3) {
+    	console.log('yes');
+    } else {
+    	console.log('no');
+    }
+    ```
+
+6. Create a function called `vehicle`, like before, but takes another parameter called `age`, so that `vehicle("blue", 1, 5)` prints _'a blue used car'_
+
+7. Make a list of vehicles, you can add `"motorbike"`, `"caravan"`, `"bike"`, or more.
+
+8. How do you get the third element from that list?
+
+9. Change the function `vehicle` to use the list of question 7. So that `vehicle("green", 3, 1)` prints "a green new bike".
+
+10. Use the list of vehicles to write an advertisement. So that it prints something like: `"Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes."`. (Hint: use a `for` loop.)
+
+    > Hint, the output should be correct English with all the punctuation in place (that's the challenge). So plurals for the vehicle types, commas followed by a single space, the word and to replace the final comma and closed off by a period.
+
+11. What if you add one more vehicle to the list, can you have that added to the advertisement without changing the code for question 10?
+
+12. Create an empty object.
+
+13. Create an object that contains the teachers that you have had so far for the different modules.
+
+14. Add a property to the object you just created that contains the languages that they have taught you.
+
+15. Write some code to test two arrays for equality using `==` and `===`. Test the following:
+
+    ```js
+    let x = [1, 2, 3];
+    let y = [1, 2, 3];
+    let z = y;
+    ```
+
+    What do you think will happen with `x == y`, `x === y` and `z == y` and `z == x`? Prove it!
+
+    Check out this [Fiddle](http://jsfiddle.net/jimschubert/85M4z/). You need to open your browser’s Developer Tools to see the console output. Press the Run button in the upper right corner to run the code.
+
+    More insights from this [Stack Overflow question](http://stackoverflow.com/questions/22395357/how-to-compare-two-arrays-are-equal-using-javascript).
+
+16. Take a look at the following code:
+
+    ```js
+    let o1 = { foo: 'bar' };
+    let o2 = { foo: 'bar' };
+    let o3 = o2;
+    ```
+
+    Show that changing `o2` changes `o3` (or not) and changing `o1` changes `o3`(or not).
+
+    Does the order that you assign (`o3 = o2` or `o2 = o3`) matter?
+
+17. What does the following code return? (And why?)
+
+    ```js
+    let bar = 42;
+    typeof typeof bar;
+    ```
+
+> ‘Coerce' means to try to change - so coercing `var x = '6'` to number means trying to change the type to number temporarily.
+
+## 3. Code along
+
+In the following project you'll be flexing your HTML/CSS skills again, together with writing JavaScript code.
+
+In the first part you'll be building the basic frontend, which means the way the page is going to look using only HTML/CSS. In the second part you'll be writing the logic that will allow a user to convert the temperature from one temperature scale to another (i.e. Celsius to Fahrenheit)
+
+While watching the videos and coding along, focus on the following:
+
+-   Why does the developer
+
+-   [Temperature Converter Pt. I](https://www.youtube.com/watch?v=EHclqGV_KME)
+-   [Temperature Converter Pt. II](https://www.youtube.com/watch?v=8mRGfLL1nzE)
 
 ### 4. PROJECT:
 
 > Every week ends with a project you have to build on your own. Instead of getting clear-cut instructions, you'll get a list of criteria that your project needs to measure up to.
 
-> Make a
-
 ## SUBMIT YOUR HOMEWORK!
 
 After you've finished your todo list it's time to show us what you got! The homework that needs to be submitted is the following:
 
-1. s
-2. s
+1. JavaScript exercises
+2. PROJECT:
 
-Upload both in a repository to GitHub and then upload the link to Trello. Go through the [guide](../hand-in-homework-guide.md) to learn how to do this.
+Upload both to your forked JavaScript1 repository in GitHub. Make a pull request to the original repository.
+
+> Forgotten how to upload your homework? Go through the [guide](../hand-in-homework-guide.md) to learn how to do this again.
 
 _Deadline Saturday 23.59 CET_
-
-## Before you start with the homework:
-
-1. Review the [Git course material](https://github.com/HackYourFuture/Git) of last week.
-2. Watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro), just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though).
-
-## Step 2: JavaScript
-
-_Deadline Thursday_
-
-> For all the following exercises create a new `.js` file. Try to find a proper name for each file or make a small comment about what it does inside for future reference.
-
-1\. Write a `console.log` statement saying "Hello World!" for each language that you know.
-
-For example:
-
-```
-Halo, dunia! // Indonesian
-Ciao, mondo! // Italian
-Hola, mundo! // Spanish
-```
-
-2\. Consider the following code:
-
-```js
-console.log('I'm awesome');
-```
-
-Copy the code in your `.js` file and run it. You will see that you will get a SyntaxError. Find a solution for this error. Hint: read the error message carefully, it also gives an indication of where the problem is.
-
-3\. Declare a variable `x` and initialize it with an integer, using these exact steps:  
-3\.1 First, _declare_ your variable `x` (do not initialize it yet).  
-3\.2 Add a `console.log` statement that explains in words what _you think_ the value of `x` is, like in this example:
-
-```js
-// TODO -> here you initialize your variable
-console.log("the value of my variable x will be: whateverYouThinkItWillLog");
-```
-
-3\.3 Add a `console.log` statement that logs the value of `x`.  
-3\.4 Now _initialize_ your variable `x` with an integer.  
-3\.5 Next, add a `console.log` statement that explains what _you think_ the value of `x` is.  
-3\.6 Add a `console.log` statement that logs the value of `x`.  
- Steps to be taken:
-
-```js
-// TODO -> here you declare your variable
-console.log("the value of x will be: whateverYouThinkItWillLog");
-// TODO -> log the actual value of x
-// TODO -> here you initialize your variable
-console.log("the value of x will be: whateverYouThinkItWillLog");
-// TODO -> log value of x again
-```
-
-4\. Declare a variable `y` and assign a string to it.  
-4\.1 Write a `console.log` statement in which you explain in words what _you think_ the value of the string is.  
-4\.2 Now `console.log` the variable `y`.  
-4\.3 Now assign a new string to the variable `y`.  
-4\.4 Just like what you did before write a `console.log` statement that explains in words what you think will be logged to the console.  
-4\.5 Now console.log `y` again.
-
-```js
-// TODO -> here you declare AND assign your string
-console.log("the value of my string will be: whateverYouThinkItWillLog");
-// TODO -> log the actual value of the string to the console
-// TODO -> assign a new value to your variable x
-console.log("the value of my string will be: whateverYouThinkItWillLog");
-// TODO -> log the actual value of the string to the console
-```
-
-5\. How do you round the number 7.25, to the nearest integer (i.e., whole number)?  
-5\.1 Declare a variable `z` and assign the number 7.25 to it.  
-5\.2 `console.log` `z`.  
-5\.3 Declare another variable `a` that has the value of `z` but rounded to the nearest integer.  
-5\.4 `console.log` `a`.  
-5\.5 So now we have `z` and `a` find a way to compare the two values and store the highest of the two in a new variable.  
-5\.6 `console.log` the highest value.
-
-6\. _Arrays_  
-6\.1 Declare an empty array. Make sure that the name you choose indicates 'plurality', because an array is capable of containing more than one element. (See [Naming conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)).  
-6\.2 Write a `console.log` statement that explains in words what you think the value of the array is.  
-6\.3 `console.log` your array.  
-6\.4 Create an array that has your favorite animals inside (see if you can find a good name that exactly describes what this variable will hold).  
-6\.5 Log your array.  
-6\.6 Add a statement that adds Daan's favorite animal ('baby pig') to the _existing array_.  
-6\.7 Log your new array!
-
-7\. _More strings_  
-Let's consider the following string: `let myString = "this is a test"`.  
-7\.1 Add the string to your file and console.log it.  
-7\.2 Find a way to get the length of `myString`.  
-7\.3 `console.log` the length of `myString`.
-
-8\. Write a program that checks the types of two variables and prints out `SAME TYPE` if they are the same type.  
-8\.1 First declare at least four variables and assign them different data types.  
-8\.2 For each variable write a `console.log` statement that logs the value
-
-```js
-let foo = 3;
-console.log("The value of my variable foo is: " + foo);
-```
-
-(Curious to know what a `foo` is? Check [this article](https://en.wikipedia.org/wiki/Metasyntactic_variable) on Wikipedia.)
-
-8\.3 Now write a `console.log` statement wherein you first explain in words what you think the _type_ of your variables is.  
-8\.4 Now use `typeof` to log the actual _type_ of your variables.  
-8\.5 Now compare the types of your different variables with one another.  
-8\.6 Make sure to also show a message when the variables you are comparing are not the same type.
-
-For example:
-
-```js
-let x = 9;
-let y = 'Hello';
-
-if (...) {
-    console.log('SAME TYPE');
-}
-// TODO -> add a way of giving feedback if your variables don't have the same type
-```
-
-9\. If `x` equals 7, and the only other statement is `x = x % 3`, what would be the new value of `x`?  
-9\.1 Add at least 3 `console.log` statements in which you show that you understand what `%` does.
-
-10\. Write a program to answer the following questions:  
-10\.1 Can you store multiple types in an array? Numbers and strings? Make an example that illustrates your answer.  
-10\.2 Can you compare infinities? (Not in Eyad's world) - does 6/0 === 10/0? How can you test this?  
-10\.3 Add `console.log` statements to the above program in which you show that you understand the concepts (just like you've done in the above assignments).
-
-## Step 3: **Some freeCodeCamp challenges (10 hours):**
-
-_Deadline Saturday_
-
-On freeCodeCamp.com please do the [Basic JavaScript](https://www.freecodecamp.com/challenges/learn-how-free-code-camp-works) exercises up and until the **"Shopping List"** exercise (there are some topics we did not cover but you can do it).
-
-## Step 4: Read before next lecture
-
-_Deadline Sunday morning_
-
-Go trough the reading material in the [README.md](/Week3/README.md) to prepare for your next class
-
-### How to hand in Homework:
-
-```
-• Create a new repository "hyf-javascript1". Also create a new folder "week1" inside this repository.
-• Upload your homework files inside the week1 folder and write a description for this “commit”.
-• Your hyf-javascript1/week1 should now contain all your homework files.
-• Place the link to your repository folder in Trello.
-```
-
-### Hint
-
-If you solve the FreeCodeCamp challenges and they are new concepts to you and you would like to take a look at them later on in the program, Copy your answers from FCC in a `.js` file and upload them to Github in a repository for future reference. In this way you build your own little documentation, if you look back at them first try to understand what it does before you run them.
-
-:star: Additional resources and review: :star:
-
-- [Variables](./../../../../fundamentals/blob/master/fundamentals/variables.md)
-- [Basic value types](./../../../../fundamentals/blob/master/fundamentals/values.md)
-- [Operators](./../../../../fundamentals/blob/master/fundamentals/operators.md)
-- [Special characters and their names](./../../../../fundamentals/blob/master/fundamentals/names_of_special_characters.md)
-- [Naming conventions](./../../../../fundamentals/blob/master/fundamentals/naming_conventions.md)

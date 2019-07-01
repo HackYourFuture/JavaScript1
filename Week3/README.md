@@ -6,6 +6,7 @@ These are the topics for week 3:
 
 1. Functions
 2. Thinking like a programmer I
+3. How JavaScript relates to HTML & CSS
 
 ## 1. Functions
 
@@ -68,6 +69,21 @@ Take a look at the following resources to learn more about problem solving as ap
 
 - [How to THINK like a programmer](https://www.youtube.com/watch?v=NNazO2tMHno)
 - [Lessons in problem solving](https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/)
+- [Computational thinking](https://www.youtube.com/watch?v=qbnTZCj0ugI)
+
+## 3. How JavaScript relates to HTML & CSS
+
+Consider the following analogy. The human body needs 3 essential parts in order to function appropriately: bones, skin and muscles. The bones are necessary to give the body **structure**. The skin (shape of body, hair, clothing, make up) is necessary to give the body a unique **presentation**. and the muscles (for walking, climbing, swimming) are needed to give the body **movement and interactivity**.
+
+This is exactly how HTML, CSS and JavaScript relate to each other:
+
+- HTML is used to put the structure of a website together
+- CSS acts like the skin and makeup for the HTML. CSS improves the colors and layout of a website structure built with HTML
+- JavaScript is a full-on programming language that adds interactivity and functionality to a website
+
+Check the following article to learn more about this:
+
+- [The Relationship Between HTML, CSS and JavaScript Explained by Building A City](https://blog.codeanalogies.com/2018/05/09/the-relationship-between-html-css-and-javascript-explained/)
 
 ## Finished?
 

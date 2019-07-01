@@ -1,6 +1,6 @@
-## Homework JavaScript1 Week 3
+# Homework JavaScript1 Week 3
 
-# Todo list
+## Todo list
 
 1. JavaScript exercises
 2. s
@@ -8,26 +8,11 @@
 3. Code along
 4. PROJECT:
 
-## Step 1: Recap/Read
+## 3. Code along
 
-- Have a look at [The Secret Life of JavaScript Primitives](https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/)
+Build a temperature converter
 
-- Review the topics of last week:
-
-  - [Variables](./../../../../fundamentals/blob/master/fundamentals/variables.md)
-  - [Values](./../../../../fundamentals/blob/master/fundamentals/values.md)
-  - [Operators](./../../../../fundamentals/blob/master/fundamentals/operators.md)
-  - [Special characters and their names](./../../../../fundamentals/blob/master/fundamentals/names_of_special_characters.md)
-  - [Naming conventions](./../../../../fundamentals/blob/master/fundamentals/naming_conventions.md)
-
-- Go through the topics of this week:
-  - Git work flow
-  - [Advanced data types (Objects)](./../../../../fundamentals/blob/master/fundamentals/objects.md)
-  - [Conditional execution](./../../../../fundamentals/blob/master/fundamentals/conditional_execution.md)
-  - [Statements vs Expressions](./../../../../fundamentals/blob/master/fundamentals/statements_expressions.md)
-  - [Loops (for/while)](./../../../../fundamentals/blob/master/fundamentals/loops.md)
-  - [Functions](./../../../../fundamentals/blob/master/fundamentals/functions.md)
-  - [Scope](./../../../../fundamentals/blob/master/fundamentals/scope.md)
+- [Temperature Converter](https://www.youtube.com/watch?v=8mRGfLL1nzE)
 
 ## Step 2: Watch
 
@@ -192,4 +177,4 @@ After you've finished your todo list it's time to show us what you got! The home
 
 Upload both in a repository to GitHub Go through the [guide](../hand-in-homework-guide.md) to learn how to do this.
 
-_Deadline Saturday 23.59 CET_
+Go through the [guide](../hand-in-homework-guide.md) to learn how to do this.

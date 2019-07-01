@@ -2,10 +2,9 @@
 
 ## Todo list
 
-1. s
-2. s
-3. Code along
-4. PROJECT:
+1. JavaScript exercises
+2. Code along
+3. PROJECT:
 
 ### 1.
 
@@ -13,9 +12,11 @@
 
 ### 3. Code along
 
-Build a temperature converter
+So far you've been practicing with JavaScript by itself. This is useful, but we shouldn't lose the connection between this and what we learned before: HTML & CSS.
 
-- [Temperature Converter](https://www.youtube.com/watch?v=8mRGfLL1nzE)
+In the following tutorial you'll learn how to combine JavaScript with HTML & CSS in order to build a simple calculator:
+
+- [Calculator]()
 
 ### 4. PROJECT:
 
@@ -30,7 +31,7 @@ After you've finished your todo list it's time to show us what you got! The home
 1. s
 2. s
 
-Upload both in a repository to GitHub and then upload the link to Trello. Go through the [guide](../hand-in-homework-guide.md) to learn how to do this.
+Go through the [guide](../hand-in-homework-guide.md) to learn how to do this.
 
 _Deadline Saturday 23.59 CET_
 

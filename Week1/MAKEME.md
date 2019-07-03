@@ -1,13 +1,13 @@
 # Homework JavaScript1 Week 1
 
-## Todo list
+## **Todo list**
 
 1. Practice the concepts
 2. JavaScript exercises
 3. Code along
 4. PROJECT:
 
-### 1. Get to know
+## **1. Get to know**
 
 Before we learn how to build actual applications, we first need to gain experience using JavaScript in a computational way. This teaches us how to think like a programmer, and gives us more experience with the language itself.
 
@@ -17,11 +17,11 @@ In the following exercises you'll learn how to use different JavaScript concepts
 - [Codecademy: Introduction to JavaScript](https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction). Do all the exercises (#1 to #10).
 - [FreeCodeCamp: Introduction to JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript). Do at least 20 exercises, you can choose whichever ones you feel are challenging enough.
 
-### 2. JavaScript exercises
+## **2. JavaScript exercises**
 
 Inside of your `JavaScript1` fork, create a folder called `week1`. Inside of that folder, create a folder called `js-exercises`. For all the following exercises create a new `.js` file in that folder (10 files in total). Make sure the name of each file reflects its content: for example, the filename for exercise one could be `logHello.js`.
 
-In each file, start off with the string `'use strict'`. This will make sure the code interpreter will enforce stronger rules when looking at your code.
+> In each file, start off with the string `'use strict'`. This will make sure the code interpreter will enforce stronger rules when looking at your code.
 
 > Before starting, make sure you have [Node.js](https://nodejs.org/en/download/) installed on your computer. You'll use this to execute your code to check if it works.
 
@@ -63,9 +63,9 @@ When done right, it should show the message `I'm awesome`.
 
 **Exercise 3: Log the number**
 
-Follow the steps. Make sure that each step is written on the line after. The file should have 6 lines (excluding the 'use strict') in total.
+Follow the steps. Make sure that each step is written on the line after.
 
-1.  First, _declare_ your variable `numberX`. Do not _initialize_ it (which means, don't give it a value) yet.
+1.  First, declare your variable `numberX`. Do not _initialize_ it (which means, don't give it a value) yet.
 2.  Add a `console.log` statement that explains in words _what you think_ the value of `x` is, like in this example.
 3.  Add a `console.log` statement that logs the value of `numberX`.
 4.  Now _initialize_ your variable `numberX` with a number (also called an `integer` in computer science terms).
@@ -74,7 +74,7 @@ Follow the steps. Make sure that each step is written on the line after. The fil
 
 **Exercise 4: Log the string**
 
-Follow the steps. Make sure that each step is written on the line after. The file should have 6 lines (excluding the 'use strict') in total.
+Follow the steps. Make sure that each step is written on the line after.
 
 1. Declare a variable `myString` and assign a string to it. Use your full name, including spaces, as the content for the string.
 2. Write a `console.log` statement in which you explain in words _what you think_ the value of the string is.
@@ -85,7 +85,7 @@ Follow the steps. Make sure that each step is written on the line after. The fil
 
 **Exercise 5: Round a number and log it**
 
-Follow the steps. Make sure that each step is written on the line after. The file should have 6 lines (excluding the 'use strict') in total.
+Follow the steps. Make sure that each step is written on the line after.
 
 1. Declare a variable `z` and assign the number 7.25 to it.
 2. Write a `console.log` statement in which you log the value of `z`.
@@ -96,7 +96,7 @@ Follow the steps. Make sure that each step is written on the line after. The fil
 
 **Exercise 6: Log an array of animals**
 
-Follow the steps. Make sure that each step is written on the line after. The file should have 7 lines (excluding the 'use strict') in total.
+Follow the steps. Make sure that each step is written on the line after.
 
 1. Declare variable and assign to it an empty array. Make sure that the name of the variable indicates it contains more than 1 item. For example `items` instead of `item`.
 2. Write a `console.log` statement that explains in words _what you think_ the value of the array is.
@@ -108,57 +108,71 @@ Follow the steps. Make sure that each step is written on the line after. The fil
 
 **Exercise 7: Log the length of a string**
 
+Follow the steps. Make sure that each step is written on the line after.
+
 1. Declare a variable called `mySentence` and initialize it with the following string: "Programming is so interesting!".
 2. Figure out (using Google) how to get the length of `mySentence`.
 3. Write a `console.log` statement to log the length of `mySentence`.
 
-**Exercise 8: **
+**Exercise 8: Type checker**
 
-8.0 Write a program that checks the types of two variables and prints out `SAME TYPE` if they are the same type.  
-8.1 First declare at least four variables and assign them different data types.  
-8.2 For each variable write a `console.log` statement that logs the value
+Write a program that checks the data types of two variables and logs to the console `SAME TYPE` if they are the same type. If they are different types log `Not the same...`.
 
-```js
-let foo = 3;
-console.log("The value of my variable foo is: " + foo);
-```
+1. Declare 4 variables: 2 must be `strings` and 2 must be `objects`
+2. Create 8 conditional statements, where for each you check if the data type of one variable is the same as the other
+3. Find out how to check the type of a variable
+4. Write 2 `console.log` statements to log the type of 2 variables, each with a different data type
+5. Now compare the types of your different variables with one another
+6. Log `Not the same...` when the types are different
 
-(Curious to know what a `foo` is? Check [this article](https://en.wikipedia.org/wiki/Metasyntactic_variable) on Wikipedia.)
-
-8.3 Now write a `console.log` statement wherein you first explain in words what you think the _type_ of your variables is.  
-8.4 Now use `typeof` to log the actual _type_ of your variables.  
-8.5 Now compare the types of your different variables with one another.  
-8.6 Make sure to also show a message when the variables you are comparing are not the same type.
-
-For example:
+Here's an incomplete example of how it could look:
 
 ```js
+// Declare all variables
 let x = 9;
-let y = 'Hello';
+let y = 67;
 
+// Check data type
+console.log(...);
+
+// Check if data type is the same
 if (...) {
     console.log('SAME TYPE');
 }
-// TODO -> add a way of giving feedback if your variables don't have the same type
 ```
 
-**Exercise 9:**
+**Exercise 9: Log the remainder**
 
-9.0 If `x` equals 7, and the only other statement is `x = x % 3`, what would be the new value of `x`?  
-9.1 Add at least 3 `console.log` statements in which you show that you understand what `%` does.
+For each of these, write in comments what the answer is followed by how you came to that conclusion
 
-**Exercise 10:**
+1. If `x` equals 7, and the only other statement is `x = x % 3`, what would be the value of `x` after the calculation?
+2. If `y` equals 21, and the only other statement is `x = x % 4`, what would be the value of `y` after the calculation?
+3. If `z` equals 13, and the only other statement is `x = x % 2`, what would be the value of `z` after the calculation?
 
-10.0 Write a program to answer the following questions:  
-10.1 Can you store multiple types in an array? Numbers and strings? Make an example that illustrates your answer.  
-10.2 Can you compare infinities? (Not in Eyad's world) - does 6/0 === 10/0? How can you test this?  
-10.3 Add `console.log` statements to the above program in which you show that you understand the concepts (just like you've done in the above assignments).
+**Exercise 10: Compare arrays**
 
-### 3. Code along
+1. Declare 2 variables, that each hold an array. The first array should have 4 items, the second 7 items
+2. Find out how to get the length of each array. Write a `console.log` statement that shows the length of each array
+
+```js
+const array = ["hello", 123, true, { name: "Noer" }];
+
+console.log('The length of the array is...' + ...);
+```
+
+3. Write a conditional statement that checks if both are of equal length. If they are, log to the console `They are the same!`, if not log `Two different sizes`
+
+## **3. Code along**
 
 We don't want to lose connection with HTML/CSS, so in the following tutorial you'll learn how to build a simple web application use HTML/CSS and JavaScript.
 
-### 4. PROJECT:
+You'll first write the HTML and CSS, to provide structure and style to the page. When doing so, keep notice of how the developer chooses to do this. Why do they use this tag instead of something else? Why do they give an element a certain class name?
+
+After, the developer will write JavaScript code. You'll notice it's different from how you've used JavaScript. It is something we call **DOM Manipulation**. Don't worry, you don't need to master this just yet. Just follow along and do some research yourself if you already want to learn more about it!
+
+- [Calculator](https://www.youtube.com/watch?v=6v4vBXL-qkY)
+
+## **4. PROJECT: Temperature converter** NOT FINISHED
 
 Every week ends with a project you have to build on your own. Instead of getting clear-cut instructions, you'll get a list of criteria that your project needs to measure up to.
 
@@ -175,7 +189,7 @@ Example of how to use comments:
 const myName = "";
 ```
 
-## SUBMIT YOUR HOMEWORK!
+## **SUBMIT YOUR HOMEWORK!**
 
 After you've finished your todo list it's time to show us what you got! Starting from this week you'll be submitting all your homework through GitHub. What you'll be doing is upload all your files to a forked repository (a copy from the original, which in this case is the [JavaScript1](https://www.github.com/HackYourFuture/JavaScript1) repository) using GIT.
 

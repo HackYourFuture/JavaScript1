@@ -5,9 +5,8 @@
 1. Practice the concepts
 2. JavaScript exercises
 3. Code along
-4. PROJECT:
 
-## **1. Get to know**
+## **1. Practice the concepts**
 
 Before we learn how to build actual applications, we first need to gain experience using JavaScript in a computational way. This teaches us how to think like a programmer, and gives us more experience with the language itself.
 
@@ -164,30 +163,13 @@ console.log('The length of the array is...' + ...);
 
 ## **3. Code along**
 
-We don't want to lose connection with HTML/CSS, so in the following tutorial you'll learn how to build a simple web application use HTML/CSS and JavaScript.
+We don't want to lose the connection with HTML/CSS, so in the following tutorial you'll learn how to build a simple web application use HTML/CSS and JavaScript.
 
 You'll first write the HTML and CSS, to provide structure and style to the page. When doing so, keep notice of how the developer chooses to do this. Why do they use this tag instead of something else? Why do they give an element a certain class name?
 
 After, the developer will write JavaScript code. You'll notice it's different from how you've used JavaScript. It is something we call **DOM Manipulation**. Don't worry, you don't need to master this just yet. Just follow along and do some research yourself if you already want to learn more about it!
 
 - [Calculator](https://www.youtube.com/watch?v=6v4vBXL-qkY)
-
-## **4. PROJECT: Temperature converter** NOT FINISHED
-
-Every week ends with a project you have to build on your own. Instead of getting clear-cut instructions, you'll get a list of criteria that your project needs to measure up to.
-
-In this JavaScript-only project you'll write code that
-
-Follow the instructions:
-
-1. Create a `.js` file that will contain your temperature converter
-2.
-
-Example of how to use comments:
-
-```js
-const myName = "";
-```
 
 ## **SUBMIT YOUR HOMEWORK!**
 
@@ -198,6 +180,5 @@ Take a look at the following [guide](../hand-in-homework-guide.md) to see how it
 The homework that needs to be submitted is the following:
 
 1. JavaScript exercises
-2. PROJECT: Temperature converter
 
 _Deadline Saturday 23.59 CET_

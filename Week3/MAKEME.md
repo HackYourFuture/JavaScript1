@@ -142,14 +142,14 @@ If you have time left over and feel like you could go for more practice, try out
 
 - [JavaScript30](https://javascript30.com/)
 
-In this free course, you'll build 30 small projects that will sharpen your HTML, CSS and JavaScript skills. Each project is meant to show you different ways you could use programming to make fun and useful things! Have fun!
+In this free course, you'll build 30 small projects that will sharpen your HTML, CSS and JavaScript skills. Each project is meant to show you different ways you could use programming to make fun and useful things! Enjoy!
 
 ## **SUBMIT YOUR HOMEWORK!**
 
 After you've finished your todo list it's time to show us what you got! The homework that needs to be submitted is the following:
 
 1. JavaScript exercises
-2. PROJECT: Grade calculator
+2. PROJECT: Credit card validator
 
 Upload both to your forked JavaScript1 repository in GitHub. Make a pull request to the original repository.
 

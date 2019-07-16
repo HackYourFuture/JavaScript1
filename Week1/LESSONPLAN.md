@@ -2,7 +2,10 @@
 
 ## Agenda
 
-The purpose of this class is to introduce to the student (1)
+The purpose of this class is to introduce to the student:
+
+(1) what variables are and why they're used
+(2) what a data type is, and which ones there are in JavaScript
 
 FIRST HALF:
 

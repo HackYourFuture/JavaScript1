@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  margin: auto;
+  width: 30vw;
+}
+div {
+  max-width: 300px;
+  background-color: gray;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 20vh;
+}
+
+h1,
+p {
+  color: white;
+  text-align: center;
+}

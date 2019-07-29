@@ -15,12 +15,12 @@ These are the topics for week 2:
 
 A lot of programming is nothing different from regular human communication. When conversing with another person, we often use language in various ways: to ask questions, make statements or simply express yourself about what's going on.
 
-This is the same in programming.
+This is the same in programming. A difference is that it's done in abstract code. Another difference is that a programming statement is an instruction, while a programming expression leads directly to a value (and are usually different parts of a statement).
 
-[TO BE CONTINUED!]
+To learn more about statements vs. expression, research the following resources:
 
-To read more about statements vs. expression, read the following:
-[Statements vs. Expressions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/statements_expressions.md)
+- [Statements vs. Expressions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/statements_expressions.md)
+- [Expressions vs. Statements in JS](https://www.youtube.com/watch?v=WVyCrI1cHi8)
 
 ## 2. Loops
 

@@ -23,7 +23,7 @@ These are the topics for week 1:
 
 ### Introduction
 
-Programming is giving a computer instructions in order to solve a problem, written in a language it can understand. We don't necessarily need computers to solve problems, but we use them because they provide several benefits:
+Programming is giving a computer instructions written in a language it can understand, in order to solve a problem. We don't necessarily need computers to solve problems, but we use them because they provide several benefits:
 
 1. They are fast
 2. Cheap to use
@@ -138,7 +138,7 @@ This is something that you will learn when you start coding yourself. If you can
 
 A data type is a category of data. It tells the code interpreter what kind of data it is reading so it knows how to optimally store it in memory. An example of this is the Number type. In most programming languages, when it reads the number `2` it doesn't know that it's a number. It needs to be told it is so. In JavaScript, however, that is assumed.
 
-### 6 Basic types
+## 6 Basic types
 
 There are about 6 basic data types in JavaScript. String, Number, Boolean, Object, Array, and Function. You can read more about them in the following article:
 

@@ -1,5 +1,5 @@
 let nlCities = [];
-console.log('the value of the array is undefined');
+console.log('the value of the array is: EMPTY ARRAY');
 console.log(nlCities);
 
 const daanFavAnimals = ['lions', 'lynxes', 'Hawks'];

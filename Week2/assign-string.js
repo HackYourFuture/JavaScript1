@@ -1,5 +1,6 @@
 console.log("string is zero or more characters written inside quotes.");
-var y = "huseyin";
+let y = "huseyin";
+console.log("the value of my string will be : huseyin");
 console.log(y);
 
 y = "obul";

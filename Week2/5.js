@@ -2,16 +2,14 @@ let z = 7.25;
 
 console.log(z);
 
+// returned: 7.25
+
 let a = Math.round(z);
 
 console.log(a);
 
-// to compare and see the values :
+// returned: 7
 
-console.log(a > z);
-
-// returned false. so a is not greater than z.
-
-let highestNumber = z;
+let highestNumber = Math.max(z, a);
 
 console.log(highestNumber);

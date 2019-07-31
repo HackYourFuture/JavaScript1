@@ -1,8 +1,10 @@
 let x;
 
-console.log('the value of variable x will be a number');
+console.log('the value of variable x will be an undefined');
 
 console.log(x);
+
+// returned: undefined
 
 x = 4;
 

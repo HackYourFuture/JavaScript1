@@ -1,8 +1,8 @@
-myArray = [];
+const myArray = [];
 
 console.log(myArray);
 
-myFavoriteAnimals = ['cats', 'rabbits', 'horses'];
+const myFavoriteAnimals = ['cats', 'rabbits', 'horses'];
 
 console.log(myFavoriteAnimals);
 

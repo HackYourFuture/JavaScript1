@@ -1,5 +1,5 @@
-let dutch = 'hoi';
-let turkish = 'merhaba';
-let spanish = 'hola';
+const dutch = 'hoi';
+const turkish = 'merhaba';
+const spanish = 'hola';
 
 console.log('saying hello in different languages: ' + dutch, turkish, spanish);

@@ -14,5 +14,6 @@ if ( c > 0 && z != a ){
     console.log("the highest value is : " + a);
 }
 
-
-
+// third
+const m = Math.max (z, a);
+console.log(m);

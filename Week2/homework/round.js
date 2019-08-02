@@ -20,17 +20,11 @@ console.log(a);
 
 
 //5.5 So now we have z and a find a way to compare the two values and store the highest of the two in a new variable.
- let h;
- if (z > a)
+let max = Math.max(a, z);
 
-{
-   
-    h=z;
-
-}
 
 
 
 
 //5.6 console.log the highest value.
-console.log(h);
+console.log(max);

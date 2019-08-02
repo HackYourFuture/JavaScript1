@@ -3,7 +3,7 @@ let animals = [];
 
 
 //6.2 Write a console.log statement that explains in words what you think the value of the array is.
-console.log('the value of my array will be zero');
+console.log('the value of my array will be undefined');
 
 //6.3 console.log your array.
 console.log(animals);

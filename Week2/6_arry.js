@@ -1,8 +1,8 @@
 let zoo=[];
+console.log("The value of the array will be []");
 console.log(zoo);
-console.log("Animals that I saw in the Zoo");
 zoo=['Lione', 'Tiger', 'Giraffe', 'Elephant'];
 console.log(zoo);
-zoo[4]=('baby pig');
+zoo.push('baby pig');
 console.log(zoo);
 

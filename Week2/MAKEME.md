@@ -153,9 +153,9 @@ Go trough the reading material in the [README.md](/Week3/README.md) to prepare f
 ### How to hand in Homework:
 
 ```
-• Create a new repository "hyf-javascript1". Also create a new folder "week1" inside this repository.
+• Create a new repository "hyf-javascript1". Also create a new folder "week2" inside this repository.
 • Upload your homework files inside the week1 folder and write a description for this “commit”.
-• Your hyf-javascript1/week1 should now contain all your homework files.
+• Your hyf-javascript1/week2" should now contain all your homework files.
 • Place the link to your repository folder in Trello.
 ```
 

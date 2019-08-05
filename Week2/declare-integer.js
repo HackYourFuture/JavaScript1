@@ -1,4 +1,4 @@
-var x;
+let x;
 console.log( "the value of x : 'undefined'"); // undefined
 console.log(x);
 x = 31;

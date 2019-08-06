@@ -1,6 +1,4 @@
-var Imawesome = 'I`m awesome';
-
-console.log(Imawesome);
+console.log(`I'm awesome`);
 
 /* 
 console.log('I'm awesome');

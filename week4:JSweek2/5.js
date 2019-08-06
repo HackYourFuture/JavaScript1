@@ -1,5 +1,5 @@
-var z = '7.25';
+var z = 7.25;
 console.log(z);
-var a = Math.ceil(7.25);
+var a = Math.round(z);
 console.log(a);
-console.log(Math.max(z, a ));
+console.log(Math.max(z, a));

@@ -1,10 +1,10 @@
 /* 6.1 */
 
-let Cars = [];
+let cars = [];
 
 /* 6.2 */
 
-console.log("the value of my variable y will be: []");
+console.log("the value of my variable cars will be: []");
 
 /* 6.3 */
 

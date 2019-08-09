@@ -1,6 +1,6 @@
 //10.1
 
-let arr = ["string", 1, ,2]
+let arr = ["string",1,2]
 
 console.log(arr);
 

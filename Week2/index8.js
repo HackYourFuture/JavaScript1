@@ -16,10 +16,34 @@ let foo3;
 console.log("The value of my variable foo3 is : " + foo3);
 console.log(typeof foo3);
 
-if (typeof foo == typeof foo1 == typeof foo2 == typeof foo3){
-    console.log("SAME TYPE")
+if (typeof foo === typeof foo1) {
+    console.log('the same');
+} else {
+    console.log('different');
 }
 
-else {
-    console.log("DIFFERENT TYPE")
+if (typeof foo2 === typeof foo3) {
+    console.log('the same');
+} else {
+    console.log('different');
+}
+if (typeof foo === typeof foo2) {
+    console.log('the same');
+} else {
+    console.log('different');
+}
+if (typeof foo === typeof foo3) {
+    console.log('the same');
+} else {
+    console.log('different');
+}
+if (typeof foo1 === typeof foo2) {
+    console.log('the same');
+} else {
+    console.log('different');
+}
+if (typeof foo1 === typeof foo3) {
+    console.log('the same');
+} else {
+    console.log('different');
 }

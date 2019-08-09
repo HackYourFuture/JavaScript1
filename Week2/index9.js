@@ -1,36 +1,32 @@
 //9
+x = 7
 
-if (x = 7) {
-    
 
 
 x = x % 3
 
-x <= 1
+console.log(x)
+
+
+
+
+x = 8
+
+
+
+x = x % 3
+
 
 console.log(x)
 
-}
+
+x = 9
 
 
-if (x = 8) {
-    
+
+x = x % 3
 
 
-    x = x % 3
-    
-    
-    console.log(x)
-    
-}
-if (x = 9) {
-    
+console.log(x)
 
 
-    x = x % 3
-    
-    
-    console.log(x)
-    
-}
-    

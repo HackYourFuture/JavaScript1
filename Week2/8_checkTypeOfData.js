@@ -19,10 +19,12 @@ console.log("boo is: Boolean");
 //8.5 Now compare the types of your different variables with one another.
 //8.6 Make sure to also show a message when the variables you are comparing are not the same type.
 function compareType(var1,var2) {
-    if (typeof var1 == typeof var2)
-        console.log( "this variable have the same type")
-        else console.log("The first variable assigned to %o and the second variable assigned to %o ",typeof var1 , typeof var2 )
-    }
+    if (typeof var1 == typeof var2) {
+        console.log( "this variable have the same type");
+     } else { 
+        console.log("The first variable assigned to %o and the second variable assigned to %o ",typeof var1 , typeof var2 );
+      } 
+}
 compareType(num,str);
 compareType(num,arr);
 compareType(num,boo);

@@ -8,7 +8,7 @@ console.log("the value of my variable cars will be: []");
 
 /* 6.3 */
 
-console.log(Cars);
+console.log(cars);
 
 /* 6.4 */
 

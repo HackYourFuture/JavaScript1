@@ -18,3 +18,4 @@ function printFavouriteBook(favouriteBook) {
 
 printFavouriteBook(favBook);
 console.log(`\n`);
+

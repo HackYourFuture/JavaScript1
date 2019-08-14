@@ -16,3 +16,4 @@ vehicleType(`black`, 1);
 vehicleType(`purple`, 2);
 
 console.log(`\n`);
+

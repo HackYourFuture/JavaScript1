@@ -58,3 +58,4 @@ console.log(createAd(vehicleList, advertisement));
 vehicleList.push(`minivan`);
 console.log(createAd(vehicleList, advertisement));
 console.log(`\n`);
+

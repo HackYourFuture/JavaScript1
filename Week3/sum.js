@@ -13,3 +13,4 @@ let sum = findSum(addend1, addend2, addend3);
 
 console.log(`The sum of ${addend1} + ${addend2} + ${addend3} = ${sum}`);
 console.log(`\n`);
+

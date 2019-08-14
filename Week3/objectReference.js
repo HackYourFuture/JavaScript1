@@ -20,3 +20,5 @@ console.log(`\n`);
 
 console.log(`the order we assign (o3 = o2 or o2 = o3) matters because left-hand-side is the variable whereas the right-hand-side is value.`);
 console.log(`\n`);
+
+

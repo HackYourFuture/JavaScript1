@@ -33,8 +33,8 @@ function vehicleType(color, code) {
         console.log('a ' + color + ' motorbike');
     }
 }
-console.log(vehicleType("blue", 2))
-console.log(vehicleType("red", 1))
+vehicleType("blue", 2)
+vehicleType("red", 1)
 
 
 //Can you write the following without the if statement,
@@ -92,12 +92,7 @@ function newVehicle(color, code, years) {
     if (years >= 2) {
         console.log('a ' + color + ' used ' + listOfVehicles[code - 1]);
     }
-    if (years < 2) {
-        console.log('a ' + color + ' new ' + listOfVehicles[code - 1]);
-    }
-    if (years >= 2) {
-        console.log('a ' + color + ' used ' + listOfVehicles[code - 1]);
-    }
+  
 }
 newVehicle("green", 3, 1);//a green new bike
 newVehicle("black", 4, 8);//a black used car

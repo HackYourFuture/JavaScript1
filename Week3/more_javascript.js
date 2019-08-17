@@ -91,8 +91,8 @@ vehicles("green",0,2);
 
 /* 10- Use the list of vehicles to write an advertisement. So that it prints something like: "Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes."*/
 function advertisement (arr) {
-   let last = myVehicles.slice(-1);
-   return myVehicles.slice(0, myVehicles.length - 1).join('s, ') + 's & ' + last+'s';
+   let last = arr.slice(-1);
+   return arr.slice(0, arr.length - 1).join('s, ') + 's & ' + last+'s';
 }
 console.log("Amazing Joe's Garage, we service "+advertisement(myVehicles));
 

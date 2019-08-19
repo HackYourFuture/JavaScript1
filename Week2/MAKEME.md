@@ -5,7 +5,7 @@
 1. Practice the concepts
 2. JavaScript exercises
 3. Code along
-4. PROJECT:
+4. PROJECT: Grade calculator
 
 ## **1. Practice the concepts**
 
@@ -25,7 +25,7 @@ In this section you will be doing interactice exercises, that will allow you to 
 Consider the following string:
 
 ```js
-let myString = "hello,this,is,a,difficult,to,read,sentence";
+let myString = 'hello,this,is,a,difficult,to,read,sentence';
 ```
 
 1. Add the variable to your file.
@@ -80,12 +80,13 @@ You're at a party and you feel thirsty! However, you've got 5 friends who are al
 There are 3 different types of drinks:
 
 ```js
-const drinkTypes = ["cola", "lemonade", "water"];
+const drinkTypes = ['cola', 'lemonade', 'water'];
 ```
 
-2.
-
-3. adsa
+2. Create a loop that runs 5 times. On each iteration, push a drink into the `drinkTray` variable.
+3. However, if there are already two instances of a `drinkType` then start with the next drink in the array.
+4. Your `drinkTray` should contain 2 cola, 2 lemonade and 1 water.
+5. Log to the console: "Hey guys, I brought a [INSERT VALUES FROM ARRAY]!" (For example: "Hey guys, I brought a cola, lemonade, cola, water, lemonade!")
 
 ## **3. Code along**
 
@@ -112,7 +113,7 @@ In order to speed up development you'll be using a CSS framework: [Bootstrap 4](
 
 - [Weight Converter App](https://www.youtube.com/watch?v=7l-ZAuU8TXc)
 
-###** 4. PROJECT: Grade calculator**
+## **4. PROJECT: Grade calculator**
 
 > Every week ends with a project you have to build on your own. Instead of getting clear-cut instructions, you'll get a list of criteria that your project needs to measure up to.
 

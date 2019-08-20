@@ -5,18 +5,21 @@
   (Hint: use a for loop.)*/
   const vehicles = [' motorbike', ' scooter', ' caravan', ' bike'];
 
-  function advert() {
+  function advert(vehicleNames) {
     let advString = '';
-
-    for (let i = 0; i < vehicles.length; i++) {
-      if (i === vehicles.length - 1) {
-        advString += vehicles[i] + 's.';
-      } else {
-        advString += vehicles[i] + 's,';
+    for (let i = 0; i < vehicleNames.length - 1; i++) {
+      const name = vehicleNames[i];
+      if (i > 0) {
+        advString += ',';
       }
+      advString += name + 's';
     }
-    return "Amazing Joe's Garage, we service for" + advString;
+    advString += ' and' + vehicleNames[vehicleNames.length - 1] + 's.';
+    return "Amazing Joe's Garage, we service " + advString;
   }
-  console.log(advert());
+
+  const advString = advert(vehicles);
+  console.log(advString);
+
   //
 }

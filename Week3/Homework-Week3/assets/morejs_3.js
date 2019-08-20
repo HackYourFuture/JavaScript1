@@ -5,10 +5,13 @@
 
   const car = { made: 'Honada', year: 2019, color: 'Red', availableNow: true };
 
-  function myFunc() {
-    return car;
-  }
-  console.log(myFunc());
+  function myFunction(object) {
+    const objectKeys = Object.keys(object);
 
-  //
+    for (let i = 0; i < objectKeys.length; i++) {
+      const keyName = objectKeys[i];
+      console.log(keyName + ': ' + object[keyName]);
+    }
+  }
+  myFunction(car);
 }

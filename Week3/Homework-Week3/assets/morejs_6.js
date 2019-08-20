@@ -4,29 +4,24 @@ but takes another parameter called age, so that
 vehicle("blue", 1, 5) prints 'a blue used car' */
 
   function vehicle(color, code, age) {
-    // declare empty variables
-    var selectVehicle;
-    let carAge;
-
-    // use if statement to update the empty variables:
-
+    // Vehivle type:
+    let selectVehicle;
     if (code === 1) {
-      if (age >= 5) {
-        selectVehicle = 'car';
-        carAge = 'used';
-        return 'A ' + color + ' ' + carAge + ' ' + selectVehicle;
-      }
+      selectVehicle = 'car';
     } else if (code === 2) {
-      if (age <= 5) {
-        selectVehicle = 'motorbike';
-        carAge = 'new';
-        return 'A ' + color + ' ' + carAge + ' ' + selectVehicle;
-      }
+      selectVehicle = 'motobike';
     } else {
-      return 'Use valed values';
+      selectVehicle = 'unknown vehicle type. Please use value 1 or 2';
     }
+    // Vehivle condition:
+    let carAge = 'new';
+    if (age > 1) {
+      carAge = 'used';
+    }
+
+    return 'A ' + color + ' ' + carAge + ' ' + selectVehicle;
   }
   console.log(vehicle('blue', 1, 5));
-  console.log(vehicle('white', 2, 4));
+  console.log(vehicle('white', 2, 7));
   console.log(vehicle('white', 3, 6));
 }

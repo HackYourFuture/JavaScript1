@@ -6,10 +6,8 @@ function myVehicles(color, code, age) {
   let myVehicleType;
   let i;
 
-  for (i = 0; i < vehicles.length; i++) {
-    if (code == i) {
-      myChosenVehicle = vehicles[i];
-    }
+  if (code >= 0 && code < vehicles.length) {
+    myChosenVehicle = vehicles[code];
   }
 
   if (age >= 1) {

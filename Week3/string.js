@@ -20,8 +20,8 @@ console.log(myString.length);
 
 // Solution
 
-const myString = 'hello,this,is,a,difficult,to,read,sentence';
+const myNewString = 'hello,this,is,a,difficult,to,read,sentence';
 
 let regex = /,/gi;
 
-console.log(myString.replace(regex, ' '));
+console.log(myNewString.replace(regex, ' '));

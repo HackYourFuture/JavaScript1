@@ -1,19 +1,25 @@
 // 6. Create a function called vehicle, like before, but takes another parameter called age, so that vehicle("blue", 1, 5) prints 'a blue used car'
 
 function vehicle(color, code, age) {
-  if (age >= 1 && code === 1) {
-    return `a ${color}  used car`;
-  } else if (age < 1 && code === 1) {
-    return `a ${color} new car`;
-  } else if (age >= 1 && code === 2) {
-    return `a ${color}  used motorbike`;
-  } else if (age < 1 && code === 2) {
-    return `a ${color} new motorbike`;
+  let type;
+  let ageText;
+
+  if (age >= 1) {
+    ageText = `used`;
   } else {
-    return `Please select age of the vehicle `;
+    ageText = `new`;
   }
+
+  if (code === 1) {
+    type = `car`;
+  } else {
+    type = `motorbike`;
+  }
+
+  return `It is a ${color} ${ageText} ${type}.`;
 }
 
 vehicle('blue', 1, 2);
 vehicle('green', 2, 0);
-console.log(vehicle('blue', 1, 5));
+console.log(vehicle('grey', 1, 5));
+console.log(vehicle('grey', 1, 0));

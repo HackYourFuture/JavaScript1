@@ -1,11 +1,9 @@
 // 14.Add a property to the object you just created that contains the languages that they have taught you.
 
-const hyf = new Object();
+teachers.hyfTeacher1.languages = ['HTML', 'CSS'];
+teachers.hyfTeacher2.languages = ['HTML', 'CSS'];
+teachers.hyfTeacher3.languages = ['CLI', 'GIT'];
+teachers.hyfTeacher4.languages = ['CLI', 'GIT'];
+teachers.hyfTeacher5.languages = ['JS1'];
 
-hyf.Teachers = 'Philipp, Rob, Unmesh, Bonan, Yash';
-
-console.log(hyf);
-
-hyf.Languages = 'HTML, CSS, CLI, GIT, JS1';
-
-console.log(hyf);
+console.log(teachers);

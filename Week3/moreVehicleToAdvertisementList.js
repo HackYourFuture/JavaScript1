@@ -8,6 +8,8 @@ function newAdvertisement(advertisedVehicles, vehicles) {
   for (let i = 0; i < vehicles.length; i++) {
     if (i == vehicles.length - 1) {
       advertisedVehicles += 'and ' + vehicles[i] + 's.';
+    } else if (i == vehicles.length - 2) {
+      advertisedVehicles += vehicles[i] + 's ';
     } else {
       advertisedVehicles += vehicles[i] + 's, ';
     }
@@ -16,5 +18,5 @@ function newAdvertisement(advertisedVehicles, vehicles) {
 }
 
 console.log(vehicles);
-// vehicles.push('car');
+vehicles.push('car');
 console.log(newAdvertisement(advertisedVehicles, vehicles));

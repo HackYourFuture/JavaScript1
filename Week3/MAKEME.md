@@ -116,7 +116,6 @@ let favoriteAnimals = ["blowfish", "capricorn", "giraffe"];
 12. Create an empty object.
 
 13. Create an object that contains the teachers that you have had so far for the different modules.
-    > Hint, use a list 
 
 14. Add a property to the object you just created that contains the languages that they have taught you.
 

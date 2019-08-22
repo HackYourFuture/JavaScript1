@@ -58,7 +58,7 @@ console.log(favoriteAnimals.indexOf("meerkat"));
 
 // 2.10
 
-console.log("The item you are looking for is at index: 1");
+console.log("The index: 1");
 
         /* *** More JavaScript *** */
 
@@ -72,24 +72,22 @@ function threeArguments(a, b, c) {
 
         // 2
 
-function colorCar(car) {
-  return car;
+function colorCar() {
+  return "a red car";
 }
 
-let car = "a red car";
-
-console.log(colorCar(car));
+console.log(colorCar());
 
         // 3
 
 const person = {
-  name: "Mehmet Ekinci",
-  gender: "M",
-  adres() {
-    console.log("Koemeershoeve");
-  }
+  name: 'Mehmet',
 };
-console.log(person);
+
+function personInfo() {
+  return `His ${Object.keys(person)} is ${person.name}`;
+}
+console.log(personInfo());
 
         // 4
 
@@ -120,11 +118,12 @@ function vehicle(color,code,age) {
 
   if (code === 1) {
     type = " car";
-  } if (code === 2) {
+  } els if (code === 2) {
     type = " motorbike";
-  } if (age >= 2) {
+  } 
+  if (age >= 2) {
     condition = " used";
-  } if ((age >= 0) && (age <= 1)) {
+  } else if ((age >= 0) && (age <= 1)) {
     condition = " new";
   }
   
@@ -135,7 +134,7 @@ vehicle("blue",1,5);
 
         // 7
 
-let vehicles = ["motorbike", "caravan", "bike", "car", ]
+let vehicles = [" motorbike", " caravan", " bike", " car"];
 
         // 8
 
@@ -146,13 +145,13 @@ console.log(vehicles[2]);
 function newVehicle(color,code,age) {
   let type,condition = "";
   if (code === 1) {
-    type = " motorbike";
+    type = vehicles[0];
   } if (code === 2) {
-    type = " caravan";
+    type = vehicles[1];
   }  if (code === 3) {
-    type = " bike";
+    type = vehicles[2];
   } if (code === 4) {
-    type = " car";
+    type = vehicles[3];
   } if (age >=2) {
     condition = " used";
   } if ((age >= 0) && (age <=1)) {
@@ -204,7 +203,7 @@ let newObject = {};
 
 let hackYourFuture = new Object();
 
-hackYourFuture.teachers = "Philipp, Rob, Unmesh, Bonan, Yash";
+hackYourFuture.teachers = ['Philipp', 'Rob', 'Unmesh', 'Bonan', 'Yash'];
 
 console.log(hackYourFuture);
 
@@ -212,7 +211,7 @@ console.log(hackYourFuture);
 
         // 14
 
-hackYourFuture.langs = "HTML, CSS, CLI, GIT-Bash, JS";
+hackYourFuture.langs = ['HTML', 'CSS', 'CLI', 'GIT-Bash', 'JS'];
 
 console.log(hackYourFuture);
 
@@ -238,8 +237,8 @@ console.log(o3)
 
 console.log(o1 == o2);  // false
 console.log(o2 == o3);  // true
-console.log(o3 == 01);  // false
-console.log(o2 == 01);  // false
+console.log(o3 == o1);  // false
+console.log(o2 == o1);  // false
 
 // when we change o1 whit o3
 /*

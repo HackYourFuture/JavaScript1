@@ -58,9 +58,10 @@ console.log(favoriteAnimals.indexOf("meerkat"));
 
 // 2.10
 
-console.log("The index: 1");
+console.log("The item you are looking for is at index: 1");
 
-        /* *** More JavaScript *** */
+
+
 
         // 1
 

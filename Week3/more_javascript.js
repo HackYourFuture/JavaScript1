@@ -6,19 +6,19 @@ console.log(sum(2,3,5));
 
 /* 2- Create a function named colorCar that receives a color, and prints out, 'a red car' for example.*/
 function colorCar(color){
-console.log("a %o car", color)
+console.log("a %o car", color);
 }
 colorCar("red");
 
 /* 3- Create an object and a function that takes the object as a parameter and prints out all of its properties and values.*/
 
-let myDetails = {
+const myDetails = {
    Name : "Mosleh",
    Age : 30,
    Hoppies: ["bascketball" , "movies"]
 }
 function aboutMe(myDetails){
-return console.log(myDetails);
+   return console.log(myDetails);
 }
 aboutMe(myDetails);
 // I tried also to get this result using for loop 
@@ -44,26 +44,26 @@ if (3 === 3) {
 } else {
   console.log("no");
 }*/
-
 switch (3===3){
    case (true):
       console.log('Yes');
       break;
 default:
-      console.log('No');
+       console.log('No');
 }
-
+  // using single line  
+console.log((3===3 ? 'Yes' :'No'));
 /* 6- Create a function called vehicle, like before, but takes another parameter called age, so that vehicle("blue", 1, 5) prints 'a blue used car'*/
 
 function vehicle(color, code, age){
    if (code === 1 && age > 0 ){
-      console.log("a %o used car", color)
-  } else if (code ===2 && age > 0)
-    console.log("a %o used motorbike", color)
-    else if (code ===1 && age === 0)
-    console.log("a %o new motorbike", color)
-    else if (code ===2 && age === 0)
-    console.log("a %o new motorbike", color)
+      console.log("a %o used car", color);
+  } else if (code ===2 && age > 0){
+      console.log("a %o used motorbike", color);}
+    else if (code ===1 && age === 0){
+      console.log("a %o new motorbike", color);}
+    else if (code ===2 && age === 0){
+      console.log("a %o new motorbike", color);}
 }
 vehicle("blue",1,0);
 vehicle("red",1,1);
@@ -80,19 +80,19 @@ console.log(myVehicles[2]); // third element has index 2
 
 let i=0;
 function vehicles(color,age,i){
-  let index = myVehicles[i];
-  if (age > 0 ){
-      console.log("a %o used %o",color,index)
+    if (age > 0 ){
+      console.log("a %o used %o",color,myVehicles[i])
   }   
    else if ( age === 0 )
-      console.log ("a %o new %o",color,index )
+      console.log ("a %o new %o",color,myVehicles[i] )
 }
 vehicles("green",0,2);
 
 /* 10- Use the list of vehicles to write an advertisement. So that it prints something like: "Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes."*/
 function advertisement (arr) {
+   let first =  myVehicles.slice(0, myVehicles.length - 1);
    let last = myVehicles.slice(-1);
-   return myVehicles.slice(0, myVehicles.length - 1).join('s, ') + ' & ' + last+'s';
+   return first.join('s, ') + 's & ' + last+'s';
 }
 console.log("Amazing Joe's Garage, we service "+advertisement(myVehicles));
 
@@ -101,36 +101,22 @@ myVehicles.push("mopid");
 console.log("Amazing Joe's Garage, we service "+advertisement(myVehicles));
 
 /*12- Create an empty object.*/
-let teachers1 ={};
-let teachers2 = new Object();
-console.log(teachers1);
-console.log(teachers2);
+let firstMethod ={};
+let secondMethod = new Object();
+console.log(firstMethod);
+console.log(secondMethod);
 /* 13- Create an object that contains the teachers that you have had so far for the different modules.*/ 
-let teachers=[{
-   Name: 'Rob',
-},{
-   Name: 'Philipp',
-},{
-   Name: 'Unmesh',
-},{
-   Name: 'Yash',
-}]
+let teachers={
+   teacher: 'Rob, Philipp, Unmesh, Yash',
+ }
+
 console.log(teachers);
 /*14- Add a property to the object you just created that contains the languages that they have taught you.*/
-teachers=[{
-   Name: 'Rob',
-   language: 'HTML/CSS',
-},{
-   Name: 'Philipp',
-   language: 'HTML/CSS',
-},{
-   Name: 'Unmes',
-   language: 'CLI',
-},{
-   Name: 'Yash',
-   language: 'Javascript1',
-}]
-console.log(teachers);
+let teachers1={
+   teacher: 'Rob, Philipp, Unmesh, Yash',
+   languages:'HTML, CSS, CLI, JS',
+ }
+console.log(teachers1);
 
 /*15- Test the following:
 let x = [1, 2, 3];

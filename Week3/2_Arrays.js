@@ -27,6 +27,9 @@ console.log(favoriteAnimals);
 function finding_index(element){
     return element === "meerkat"; //declare function for testing
 }
+// easier solution 
+console.log(favoriteAnimals.indexOf('meerkat'));
+
 /*2.10 Log the index of 'meerkat'. Add a message so it says: 'The item you are looking for is at index: ' (here you should show the index of the item).*/
 console.log("The item you are looking for is at index: " + favoriteAnimals.findIndex(finding_index));
 

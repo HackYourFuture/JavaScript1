@@ -106,11 +106,21 @@ let secondMethod = new Object();
 console.log(firstMethod);
 console.log(secondMethod);
 /* 13- Create an object that contains the teachers that you have had so far for the different modules.*/ 
-let teachers={
-   teacher: 'Rob, Philipp, Unmesh, Yash',
- }
-
+teachers=[{
+   Name: 'Rob',
+   language: 'HTML/CSS',
+},{
+   Name: 'Philipp',
+   language: 'HTML/CSS',
+},{
+   Name: 'Unmes',
+   language: 'CLI',
+},{
+   Name: 'Yash',
+   language: 'Javascript1',
+}]
 console.log(teachers);
+
 /*14- Add a property to the object you just created that contains the languages that they have taught you.*/
 let teachers1={
    teacher: 'Rob, Philipp, Unmesh, Yash',
@@ -118,15 +128,19 @@ let teachers1={
  }
 console.log(teachers1);
 
-/*15- Test the following:
+/*15- Test the following:*/
 let x = [1, 2, 3];
 let y = [1, 2, 3];
 let z = y;
-What do you think will happen with
-x == y, 
-x === y 
-and z == y and 
-z == x*/ 
+// What do you think will happen with
+// x == y
+console.log(x == y); // false  
+// x === y
+console.log(x === y); //false
+// z==y
+console.log(z == y);  // true
+// z==x
+console.log(z == x); // false
 
 // Explanation: 
 //      - Arrays are compared by their reference.
@@ -162,7 +176,7 @@ typeof typeof bar;*/
 let bar = 42;
 console.log( typeof typeof bar) // return "sitring"
 
-// what happend is the follwoing:
+// what happened is the following:
 typeof bar // coerce the variable to "number" which is sitring
 console.log(typeof bar)  
 typeof "number" // return the data type of the "number" 

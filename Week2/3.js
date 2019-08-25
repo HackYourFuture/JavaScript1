@@ -1,13 +1,11 @@
 let x;
 
-console.log('the value of variable x will be an undefined');
+console.log('The value of x will be undefined');
 
 console.log(x);
 
-// returned: undefined
-
 x = 4;
 
-console.log('the value of variable x will be number 4');
+console.log('The value of x will be: ' + x);
 
 console.log(x);

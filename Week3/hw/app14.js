@@ -1,5 +1,9 @@
 //  14. Add a property to the object you just created that contains the languages that they have taught you.
 
-// let seenInstructors = ['Philipp', 'Rob', 'Unmesh', 'Bonan', 'Yash'];
+instructors.a.language = 'HTML';
+instructors.b.language = 'CSS';
+instructors.c.language = 'CLI';
+instructors.d.language = 'GIT';
+instructors.e.language = 'JS1';
 
-seenInstructors.languages = 'HTML, CSS, CLI, GIT, JS1';
+console.log(instructors);

@@ -5,7 +5,7 @@ const userDetails = {
   email: 'aCool@email.com',
 };
 
-function userData(userDetails) {
-  return;
+for (const prop in userDetails) {
+  // console.log(userDetails[prop]);
+  console.log('value for', prop, ':', userDetails[prop]);
 }
-console.log(userDetails);

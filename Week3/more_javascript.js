@@ -150,22 +150,22 @@ console.log(z == x); // false
 //      - On the other hand y & z both refer to the same instance.
 //          -> as a result (z === y) returns true
 
-/*16- Take a look at the following code:
+/*16- Take a look at the following code:*/
 
 let o1 = { foo: "bar" };
 let o2 = { foo: "bar" };
-let o3 = o2;*/
+let o3 = o2;
 /* - Show that changing o2 changes o3 (or not) and changing o1 changes o3(or not).*/
 // Explanation:
-//Both o2 and o3 are pointing to the same object which means that change o2 will defently lead to change o3
-//In the other hand o1 is another object and point to another location in the memory so the modifation of o1 doesn't  effect  o3
+//Both o2 and o3 are pointing to the same object which means that change o2 will definitely lead to change o3
+//In the other hand o1 is another object and point to another location in the memory so the modification of o1 doesn't  effect  o3
 
 /* - Does the order that you assign (o3 = o2 or o2 = o3) matter?*/
 // Explanation:
 //- const o3 = o2;
 //      -> This statement is pointing 03 to o2 which is already declared and initialized.
 //-  const 02 = 03; 
-//      -> Means that we redelared a variable which is return SyntaxError
+//      -> Means that we redeclare a variable which is return SyntaxError
 //-  o2 = o3 
 //      -> Means that o2 is pointing to not declared object(03) which result in ReferenceError: s3 is not defined
 
@@ -174,10 +174,10 @@ let bar = 42;
 typeof typeof bar;*/
 
 let bar = 42;
-console.log( typeof typeof bar) // return "sitring"
+console.log( typeof typeof bar) // return "string"
 
 // what happened is the following:
-typeof bar // coerce the variable to "number" which is sitring
+typeof bar // coerce the variable to "number" which is string
 console.log(typeof bar)  
 typeof "number" // return the data type of the "number" 
 console.log(typeof "number") 

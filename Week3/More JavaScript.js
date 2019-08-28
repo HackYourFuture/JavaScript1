@@ -42,7 +42,7 @@ let vehicleCategory = {
     1 : "car",
     2 : "motorbike", 
 };
-    function vehicleType(color, category) {
+function vehicleType(color, category) {
   if (category <= 2) {
     console.log('a ' + color + ' ' + vehicleCategory[category]);
   } else {
@@ -75,7 +75,7 @@ console.log(3 === 3 ? "yes" : "no");
     //so that vehicle("blue", 1, 5) prints 'a blue used car'
 
 function vehicle(color, category, age) {
-  if (category > 3) {
+  if (category > 2) {
     console.log('Please enter valid number for category of vehicle');
   } else {
     if (age >= 1) {
@@ -90,6 +90,8 @@ function vehicle(color, category, age) {
 vehicle('blue', 1, 5);
 vehicle('black', 4, 5);
 
+vehicle('blue', 1, 5);
+
 // 7. Make a list of vehicles, you can add "motorbike", "caravan", "bike", or more.
 
 let listOfVehicle = ["motorbike", "caravan", "truck", "bike", "jeep"];
@@ -101,7 +103,7 @@ console.log(listOfVehicle[2]);
 // 9. Change the function vehicle to use the list of question 7. So that vehicle("green", 3, 1) prints "a green new bike".
 
 function newVehicle(color, category, age) {
-  if (category > 5) {
+  if (category > listofVehicle.length) {
     console.log('Please enter valid number for category of vehicle');
   } else {
     if (age > 1) {
@@ -155,21 +157,24 @@ console.log("Amazing Joe's Garage, we service " + listOfVehicle[0] + 's' + nameO
 
 // 12. Create an empty object.
 
-    const class23 = new Object ();
+    let emptyObject = {};
 
 // 13. Create an object that contains the teachers that you have had so far for the different modules.
 // 14. Add a property to the object you just created that contains the languages that they have taught you.
 
-class23.teachers = ['Philipp', 'Rob', 'Unmesh & Bonan', 'Yash'];
+const teachers = {
+  teacher1: { name: 'Philipp' },
+  teacher2: { name: 'Rob' },
+  teacher3: { name: 'Unmesh & Bonan' },
+  teacher4: { name: 'Yash' },
+};
 
-class23.languages = ['Html', 'CSS', 'Git', 'JavaScript1'];
+teachers.teacher1.language = ['HTML'];
+teachers.teacher2.language = ['CSS'];
+teachers.teacher3.language = ['Git'];
+teachers.teacher4.language = ['JavaScript1'];
 
-console.log(
-  class23,
-); /* {teachers: Array(4), languages: Array(4)}
-languages: (4) ["Html", "CSS", "Git", "JavaScript1"]
-teachers: (4) ["Philipp", "Rob", "Unmesh & Bonan", "Yash"]0: "Philipp"1: "Rob"2: "Unmesh & Bonan"3:"Yash"
-length: 4__proto__: Array(0)__proto__: Object */
+console.log(teachers);
 
 // 15. Write some code to test two arrays for equality using == and ===. Test the following:
 

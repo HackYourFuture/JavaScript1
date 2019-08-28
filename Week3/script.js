@@ -141,18 +141,9 @@ console.log(vehicles[2]);
 function newVehicle(color, code, age) {
   let type,
     condition = '';
-  if (code === 1) {
-    type = vehicles[code - 1];
-  }
-  if (code === 2) {
-    type = vehicles[code - 1];
-  }
-  if (code === 3) {
-    type = vehicles[code - 1];
-  }
-  if (code === 4) {
-    type = vehicles[code - 1];
-  }
+  
+  type = vehicles[code - 1];
+  
   if (age >= 2) {
     condition = ' used';
   }
@@ -166,11 +157,8 @@ newVehicle('green', 3, 1);
 
 // 10
 let advertisement = "Amazing Joe's Garage, we service ";
-function reAdvertisement(advertisement, vehicles) {
+function reAdvertisement(str, vehicles) {
   for (let i = 0; i < vehicles.length; i++) {
-    // const lastElement = vehicles[vehicles.length - 1];
-    // const beforLastElement = vehicles[vehicles.length - 2];
-    // const currentElement = vehicles[i];
 
     if (i === vehicles.length - 1) {
       advertisement += vehicles[i] + '.';
@@ -267,6 +255,10 @@ console.log(o2 == o1); // false
 // Does the order that you assign (o3 = o2 or o2 = o3) matter?
 
 // sure. when you use o2 = o3, o2 declares twice. giving syntax error.
+
+// const o1 = { foo: 'bar' };
+// const o2 = { foo: 'bar' };
+// const o2 = o3;
 
 // 17
 

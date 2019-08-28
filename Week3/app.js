@@ -178,17 +178,18 @@ console.log(vehicles[2]);
 let vehic = (color, code, age) => {
   age === 1 || age === 0 ? (age = 'new') : (age = 'used');
   const type = vehicles[code];
+  type.length ? vehicles[code] : 'error';
   console.log(`a ${color} ${age} ${type}`);
 };
 
-vehic('green', 2, 1);
+vehic('green', 3, 1);
 
 // 10. Use the list of vehicles to write an advertisement. So that it prints something like: "Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes."
 
 const vehicless = ['motorbike', 'car', 'caravan', 'bike'];
 
-newprint = () => {
-  const first = vehicless[3];
+newPrint = () => {
+  const first = vehicless[vehicless.length - 1];
 
   const second = vehicless
     .map(vehicless => vehicless + 's')
@@ -198,12 +199,12 @@ newprint = () => {
   console.log(`Amazing Joe's Garage, we service ${second}  and ${first}s.`);
 };
 
-newprint();
+newPrint();
 
 // 11. What if you add one more vehicle to the list, can you have that added to the advertisement without changing the code for question 10?
 
 vehicless.push('boat');
-console.log(vehicless);
+console.log(newPrint());
 
 // 12.Create an empty object.
 const empty = {};

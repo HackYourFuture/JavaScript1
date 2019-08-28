@@ -1,6 +1,6 @@
 const myArray = [];
 
-console.log('The value of myArray is undefined');
+console.log('The value of myArray is an empty array');
 console.log(myArray);
 
 const myFavoriteAnimals = ['cats', 'rabbits', 'horses'];

@@ -2,11 +2,16 @@
 let vehicleList = ['otobus', 'pickup', 'motorbike', 'caravan', 'bike'];
 
 function vehicle(color, code, age) {
-  if (code => 0 && code < listOfVehicles.length && age <= 1) {
-    chosenVehicle = listOfVehicles[code];
-    age = [' new', ' used'];
-    console.log('a ' + color + age[0] + ' bike');
+  if (code => 0 && code < listOfVehicles.length) {
+    if (age <= 1) {
+      age = ' new';
+    } else {
+      age = ' used';
+    }
+    console.log('a ' + color + age + ' bike');
+  } else {
+    console.log('Please modify your selection again');
   }
 }
 
-vehicle('green', 3, 1);
+vehicle('green', 3, 2);

@@ -3,17 +3,17 @@
 let vehicle_list = ['truck', 'pickup', 'motorbike', 'caravan', 'bike'];
 let text = "Amazing Joe's Garage, we service ";
 
-function adText(param1, param2) {
-  for (let i = 0; i < param2.length; i++) {
-    if (i == param2.length - 1) {
-      param1 += 'and ' + param2[i] + 's.';
-    } else if (i == param2.length - 2) {
-      param1 += param2[i] + 's ';
+function adText(baseText, vehicles) {
+  for (let i = 0; i < vehicles.length; i++) {
+    if (i == vehicles.length - 1) {
+      baseText += 'and ' + vehicles[i] + 's.';
+    } else if (i == vehicles.length - 2) {
+      baseText += vehicles[i] + 's ';
     } else {
-      param1 += param2[i] + 's, ';
+      baseText += vehicles[i] + 's, ';
     }
   }
-  return param1;
+  return baseText;
 }
 
 console.log(adText(text, vehicle_list));

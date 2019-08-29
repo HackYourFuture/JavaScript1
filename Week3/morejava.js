@@ -1,24 +1,24 @@
 //Create a function that takes 3 arguments and returns the sum of the these arguments.
 function sum(a, b, c) {
-    return a + b + c;
+  return a + b + c;
 }
 console.log(sum(1, 2, 3));
 
 //Create a function named colorCar that receives a color, and prints out, 'a red car' for example.
 function colorCar(x) {
-    return 'a ' + x + ' car';
+  return 'a ' + x + ' car';
 }
 console.log(colorCar('red'))
 
 //Create an object and a function that takes the object as a parameter and prints out all of its properties and values.
-let funObject = {
-    name: 'Lama',
-    age: 30,
-    city: 'Amsterdam'
+const funObject = {
+  name: 'Lama',
+  age: 30,
+  city: 'Amsterdam'
 }
 
 function printOut(z) {
-    console.log(z)
+  console.log(z)
 }
 printOut(funObject);
 
@@ -26,12 +26,12 @@ printOut(funObject);
 //and a code, 1 for car, 2 for motorbike.
 //And prints 'a blue motorbike' for example when called as vehicleType("blue", 2)
 function vehicleType(color, code) {
-    if (code === 1) {
-        console.log('a ' + color + ' car');
-    }
-    if (code === 2) {
-        console.log('a ' + color + ' motorbike');
-    }
+  if (code === 1) {
+    console.log('a ' + color + ' car');
+  }
+  if (code === 2) {
+    console.log('a ' + color + ' motorbike');
+  }
 }
 vehicleType("blue", 2)
 vehicleType("red", 1)
@@ -41,44 +41,38 @@ vehicleType("red", 1)
 //but with just as a single line with console.log(...);?
 
 if (3 === 3) {
-    console.log("yes");
+  console.log("yes");
 } else {
-    console.log("no");
+  console.log("no");
 }
 
-console.log((3 === 3) ? 'yes' : 'no');
+const answer = (3 === 3) ? 'yes' : 'no';
+console.log(answer);
 
 //Create a function called vehicle, like before, 
 //but takes another parameter called age, so that vehicle("blue", 1, 5) prints 'a blue used car'
 
 function vehicle(color, code, years) {
-    if (code === 1 && years < 2) {
-        console.log('a ' + color + ' new car')
+  if (code === 1 && years < 2) {
+    console.log('a ' + color + ' new car')
+  }
 
+  if (code === 1 && years >= 2) {
+    console.log('a ' + color + ' used car')
+  }
 
-    }
-    if (code == 1 && years >= 2) {
-        console.log('a ' + color + ' used car')
-
-
-    }
-    if (code == 2 && years < 2) {
-        console.log('a ' + color + ' new motorbike')
-
-
-    }
-    if (code == 2 && years >= 2) {
-        console.log('a ' + color + ' used motorbike')
-
-
-    }
-
+  if (code === 2 && years < 2) {
+    console.log('a ' + color + ' new motorbike')
+  }
+  if (code === 2 && years >= 2) {
+    console.log('a ' + color + ' used motorbike')
+  }
 }
 vehicle("blue", 1, 5);
 
 //Make a list of vehicles, you can add "motorbike", "caravan", "bike", or more.
 
-listOfVehicles = ["motorbike", "caravan", "bike", "car"];
+const listOfVehicles = ["motorbike", "caravan", "bike", "car"];
 //How do you get the third element from that list?
 listOfVehicles[2];
 console.log(listOfVehicles[2]);
@@ -86,13 +80,13 @@ console.log(listOfVehicles[2]);
 //Change the function vehicle to use the list of question 7.
 //So that vehicle("green", 3, 1) prints "a green new bike".
 function newVehicle(color, code, years) {
-    if (years < 2) {
-        console.log('a ' + color + ' new ' + listOfVehicles[code - 1]);
-    }
-    if (years >= 2) {
-        console.log('a ' + color + ' used ' + listOfVehicles[code - 1]);
-    }
-  
+  if (years < 2) {
+    console.log('a ' + color + ' new ' + listOfVehicles[code - 1]);
+  }
+  if (years >= 2) {
+    console.log('a ' + color + ' used ' + listOfVehicles[code - 1]);
+  }
+
 }
 newVehicle("green", 3, 1);//a green new bike
 newVehicle("black", 4, 8);//a black used car
@@ -100,12 +94,12 @@ newVehicle("black", 4, 8);//a black used car
 //Use the list of vehicles to write an advertisement.
 //So that it prints something like: "Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes.". (Hint: use a for loop.)
 function advertisement(listOfVehicles) {
-    let adv = "Amazing Joe's Garage, we service "
+  let adv = "Amazing Joe's Garage, we service "
 
-    for (let i = 0; i < listOfVehicles.length; i++) {
-        adv += (listOfVehicles[i] + "s, ")
-    }
-    console.log(adv + listOfVehicles[listOfVehicles.length - 2] + "s and " + listOfVehicles[listOfVehicles.length - 1] + "s.")
+  for (let i = 0; i < listOfVehicles.length - 2; i++) {
+    adv += (listOfVehicles[i] + "s, ")
+  }
+  console.log(adv + listOfVehicles[listOfVehicles.length - 2] + "s and " + listOfVehicles[listOfVehicles.length - 1] + "s.")
 }
 advertisement(listOfVehicles);
 
@@ -117,15 +111,13 @@ console.log(listOfVehicles);
 let obj = {};
 
 //Create an object that contains the teachers that you have had so far for the different modules.
+//Add a property to the object you just created that contains the languages that they have taught you.
 const teachersInfo = {
-    names: ["Philip", "Unmesh", "Yash"]
+  Phillip: 'HTML/CSS',
+  Unmesh: 'CLI',
+  Yash: 'JavaScript1',
 };
 
-
-console.log(teachersInfo);
-
-//Add a property to the object you just created that contains the languages that they have taught you.
-teachersInfo.languages = ['HTML/CSS', 'CLI', 'JavaScript1'];
 console.log(teachersInfo);
 
 
@@ -151,14 +143,14 @@ console.log(o3);//foo: "bar"
 
 //Show that changing o2 changes o3 (or not)
 o2 = {
-    foo: "changed"
+  foo: "changed"
 };
 console.log(o2);//foo: "changed"
 console.log(o3);//foo: "bar"
 
 //and changing o1 changes o3(or not).
 o1 = {
-    foo: "changed"
+  foo: "changed"
 };
 
 console.log(o1);//foo: "changed"
@@ -174,8 +166,3 @@ let theType = typeof bar;
 console.log(theType); //number
 console.log(typeof theType); //string
 /*Because the type of 42 is a number, but the type of a number is a string*/
-
-
-
-
-

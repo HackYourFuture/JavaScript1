@@ -26,7 +26,7 @@ In the following exercises you'll practice every concept you've learned about so
 
 > Before you start, create a folder called `week2-scripts`. Inside, create 5 `.js` files, each dedicated to the exercises in this section. Make sure you give the files a name that reflects its content. For example, for exercise 1 an appropriate name would be: `giveCompliment.js`.
 
-**Exercise 1: You are [INSERT COMPLIMENT], Noer!**
+**Exercise 1: You are amazing, Noer!**
 
 There is no better way to start your day then with a compliment!
 

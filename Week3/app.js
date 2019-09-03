@@ -1,14 +1,15 @@
 // 1.Strings
-let myString = "hello,this,is,a,difficult,to,read,sentence";
+const myString = "hello,this,is,a,difficult,to,read,sentence";
 console.log(myString);
 console.log(myString.length);
 const newStr = myString.split(",");
 console.log(newStr);
 const strStr = newStr.join(" ");
 console.log(strStr);
+// console.log(myString.split(",").join(" "));
 
 // 2.Arrays
-let favoriteAnimals = ["blowfish", "capricorn", "giraffe"];
+const favoriteAnimals = ["blowfish", "capricorn", "giraffe"];
 favoriteAnimals.push("turtle");
 console.log(favoriteAnimals);
 favoriteAnimals.splice(1, 0, "meerkat");
@@ -26,7 +27,7 @@ for (let a = 0; a < favoriteAnimals.length; a++) {
 
 // More JavaScript 
 // 1.Create a function that takes 3 arguments and returns the sum of the these arguments.
-function sumArg(arg1, arg2, arg3) {
+function sumArg(arg1=0, arg2=0, arg3=0) {
     // let sum = arg1 + arg2 + arg3;
     // return sum;
     return arg1 + arg2 + arg3;
@@ -35,7 +36,7 @@ console.log(sumArg(1, 2, 3));
 
 // 2.Create a function named colorCar that receives a color, and prints out, 'a red car' for example.
 function colorCar(color) {
-    let carColor = "a " + color + " car";
+    const carColor = "a " + color + " car";
     return carColor;
 }
 console.log(colorCar("red"));
@@ -78,7 +79,7 @@ function vehicle(color, code, age) {
 vehicle("blue", 1, 5);
 
 // 7.Make a list of vehicles, you can add "motorbike", "caravan", "bike", or more.
-let listVehicles = ["motorbike", "caravan", "bike"];
+let listVehicles = ["cars","motorbike", "caravan", "bike"];
 // 8.How do you get the third element from that list?
 console.log(listVehicles[2]);
 
@@ -135,7 +136,7 @@ const o1 = { foo: "bar" };
 const o2 = { foo: "bar" };
 const o3 = o2;
 // i think o2 changes o3 --( o3 = o2 )  left side(o3) declare by right side(o2), and they're same location in the Ram.
-// o1 changes o3 
+// o1 can't changes o3 they're different location in the memory.
 //but  i think the order is important--( o2 = o3 )  left side(o2) already declared 
 
 // 17.What does the following code return? (And why?)

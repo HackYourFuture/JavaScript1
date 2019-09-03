@@ -9,19 +9,13 @@ function vehicle(color, code, age) {
 vehicle("green", 3, 1);
 
 function advertisement() {
+    for (let i = 0; i < vehicleCodes.length; i += 1) {
+        vehicleCodes[i] = vehicleCodes[i] + "s";
+    }
     let strLast = vehicleCodes[vehicleCodes.length-1];
     let arr1 = vehicleCodes.slice(0, [vehicleCodes.length-1]);
     let str1 = arr1.toString();
     let str2 = str1.replace(/,/g,', ');
-    console.log("Amazing Joe's Garage, we service "+str2+' and '+strLast+'.');
+    console.log(`Amazing Joe's Garage, we service ${str2} and ${strLast}.`);
 };
 advertisement();
-
-// for (const code of vehicleCodes) {
-//     console.log(code);
-// };
-
-// vehicleCodes.forEach(showEachElement)
-// function showEachElement(code) {
-//     console.log(code);
-// };

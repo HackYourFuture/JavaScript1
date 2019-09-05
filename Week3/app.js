@@ -178,8 +178,12 @@ console.log(vehicles[2]);
 let vehic = (color, code, age) => {
   age === 1 || age === 0 ? (age = 'new') : (age = 'used');
   const type = vehicles[code];
-  type.length ? vehicles[code] : 'error';
+  if(code>3 || code<0){
+    console.log('error');
+  }
+  else{ 
   console.log(`a ${color} ${age} ${type}`);
+}
 };
 
 vehic('green', 3, 1);

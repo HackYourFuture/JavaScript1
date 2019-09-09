@@ -1,186 +1,156 @@
-## Homework Week 3
+# Homework JavaScript1 Week 3
 
+## **Todo list**
+
+1. Practice the concepts
+2. JavaScript exercises
+3. Code along
+4. PROJECT: Grade calculator
+5. [OPTIONAL] Extra resources
+
+## **1. Practice the concepts**
+
+In this section you will be doing interactive exercises that will allow you to practice with the concepts you've learned about this week.
+
+In the first course you'll learn about functions, the structure and how they're used. They are a fundamental part of understanding programming and you should become very familiar with them!
+
+- [Codecademy: Functions ](https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions)
+
+In this second course you'll learn about `higher order functions`, which we'll refer to again during the [JavaScript2](https://www.github.com/HackYourFuture/JavaScript2) module. Go through it to get familiar, but don't feel like you completely have to understand it at this point.
+
+- [Codecademy: Higher Order Functions](https://www.codecademy.com/courses/introduction-to-javascript/lessons/higher-order-functions/)
+
+## **2. JavaScript exercises**
+
+In the following exercises you'll practice every concept you've learned about so far in this module.
+
+> Before you start, create a folder called `week2-scripts`. Inside, create 5 `.js` files, each dedicated to the exercises in this section. Make sure you give the files a name that reflects its content. For example, for exercise 1 an appropriate name would be: `giveCompliment.js`.
+
+**Exercise 1: You are amazing, Noer!**
+
+There is no better way to start your day then with a compliment!
+
+1. Write a function named `giveCompliment`
+
+- It takes 1 argument: your name
+- Inside the function create an array with 10 strings. Each string should be a compliment, like `"great"`, `"awesome"`
+- Write logic that randomly selects a compliment
+- Return a string: "You are [COMPLIMENT], [YOUR_NAME]!
+
+2. Call the function three times, giving each function call the same argument: your name.
+
+**Exercise 2: Dog years**
+
+You know how old your dog is in human years, but what about dog years? Calculate it!
+
+1. Write a function named `calculateDogAge`.
+
+- It takes 1 argument: your puppy's age (number).
+- Calculate your dog's age based on the conversion rate of 1 human year to 7 dog years.
+- Return a string: "Your doggie is [CALCULATED_VALUE] years old in dog years!"
+
+2. Call the function three times with different sets of values.
+
+**Exercise 3: Be your own fortune teller**
+
+Why pay a fortune teller when you can just program your fortune yourself?
+
+1. Write a function named `tellFortune`.
+
+- It takes 4 arguments: number of children (number), partner's name (string), geographic location (string), job title (string).
+- Randomly select values from the arrays.
+- Return a string: "You will be a [JOB_TITLE] in [LOCATION], and married to [PARTNER_NAME] with [NUMBER_KIDS] kids."
+
+2. Create 4 arrays, `numChildren`, `partnerNames`, `locations` and `jobs`. Give each array 5 random values that make sense
+3. Call the function 1 time, by passing the arrays as the argument.
+
+**Exercise 4: Shopping at the supermarket**
+
+Let's do some grocery shopping! We're going to get some things to cook dinner with. However, you like to spend your money and always buy too many things. So when you have more than 3 items in your shopping cart the first item gets taken out.
+
+1. Write a function named `addToShoppingCart`.
+
+- It takes in 1 argument: a grocery item (string)
+- Add grocery item to array. If the amount of items is more than 3 remove the first one in the array
+- Return a string: "You bought [LIST_OF_GROCERY_ITEMS]!"
+
+2. Create an array with 2 predefined strings: `"bananas"` and `"milk"`
+3. Call the function 3 times, each time with a different string as the argument.
+
+**Exercise 5: Total cost is ...**
+
+You want to buy a couple of things from the supermarket to prepare for a party. After scanning all the items the cashier gives you the total price, but the machine a broken! Let's write her a function that does it for her instead!
+
+1. Write a function called `calculateTotalPrice`
+
+- It takes 1 argument: an object that contains properties that only contain number values
+- Add all the number values together
+- Return a number: the total price of all items
+
+2. Create an object named `cartForParty` with 5 properties. Each property should be a grocery item (like `beers` or `chips`) and hold a number value (like `1.75` or `0.99`)
+3. Call the function 1 time, giving it the object `cartForParty` as an argument
+
+## **3. Code along**
+
+In this project you'll be building a simple meditation application, that will allow you to set a timer, loop a video and play a song!
+
+You'll be working with the <audio> and <video>, understand what SVG is and how to animate them.
+
+- [Meditation App](https://www.youtube.com/watch?v=oMBXdZzYqEk)
+
+## **4. PROJECT: Credit Card Validator**
+
+> Every week ends with a project you have to build on your own. Instead of getting clear-cut instructions, you'll get a list of criteria that your project needs to measure up to.
+
+In this project you'll write a script that validates whether or not a credit card number is valid.
+
+Here are the rules for a valid number:
+
+- Number must be 16 digits, all of them must be numbers
+- You must have at least two different digits represented (all of the digits cannot be the same)
+- The final digit must be even
+- The sum of all the digits must be greater than 16
+- The following credit card numbers are valid:
+
+```markdown
+9999777788880000
+6666666666661666
 ```
-Topics discussed in class this week:
-• Git work flow
-• Advanced data types [Objects]
-• Conditions
-• Statements vs Expressions
-• Loops (for/while)
-• Functions
+
+The following credit card numbers are invalid:
+
+```markdown
+a92332119c011112 (invalid characters)
+4444444444444444 (only one type of number)
+1111111111111110 (sum less than 16)
+6666666666666661 (odd final number)
 ```
 
-> [Here](./../../../../JavaScript2/tree/master/Week1) you find the readings you have to complete before the first JavaScript2 lecture.
+These are the requirements your project needs to fulfill:
 
-## Step 1: Recap/Read
+- Make a JavaScript file with a name that describes its contents
+- Create a function with a descriptive name, for example: `doSomething` or `calcAnotherThing`
+- Write at least 2 comments that explain to others what a line of code is meant to do
+- Make the return value of the function a template string, so you can insert variables!
+- Use `node` from the command line to test if your code works as expected
 
-- Have a look at [The Secret Life of JavaScript Primitives](https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/)
+Good luck!
 
-- Review the topics of last week:
+## **5. [OPTIONAL] Extra resources**
 
-  - [Variables](./../../../../fundamentals/blob/master/fundamentals/variables.md)
-  - [Values](./../../../../fundamentals/blob/master/fundamentals/values.md)
-  - [Operators](./../../../../fundamentals/blob/master/fundamentals/operators.md)
-  - [Special characters and their names](./../../../../fundamentals/blob/master/fundamentals/names_of_special_characters.md)
-  - [Naming conventions](./../../../../fundamentals/blob/master/fundamentals/naming_conventions.md)
+If you have time left over and feel like you could go for more practice, try out the following course:
 
-- Go through the topics of this week:
-  - Git work flow
-  - [Advanced data types (Objects)](./../../../../fundamentals/blob/master/fundamentals/objects.md)
-  - [Conditional execution](./../../../../fundamentals/blob/master/fundamentals/conditional_execution.md)
-  - [Statements vs Expressions](./../../../../fundamentals/blob/master/fundamentals/statements_expressions.md)
-  - [Loops (for/while)](./../../../../fundamentals/blob/master/fundamentals/loops.md)
-  - [Functions](./../../../../fundamentals/blob/master/fundamentals/functions.md)
-  - [Scope](./../../../../fundamentals/blob/master/fundamentals/scope.md)
+- [JavaScript30](https://javascript30.com/)
 
-## Step 2: Rover the Robot
+In this free course, you'll build 30 small projects that will sharpen your HTML, CSS and JavaScript skills. Each project is meant to show you different ways you could use programming to make fun and useful things! Enjoy!
 
-Go and try out this cool game: [roverjs.com](http://roverjs.com), written by one of our HYF teachers, Joost Lubach. There are different levels, see how far you can get!
+## **SUBMIT YOUR HOMEWORK!**
 
-## Step 3: String and Array challenges
+After you've finished your todo list it's time to show us what you got! The homework that needs to be submitted is the following:
 
-_Deadline Wednesday_
+1. JavaScript exercises
+2. PROJECT: Credit card validator
 
-> For all the following exercises create a new .js file. Try to find a proper name for each file or make a small comment about what it does inside for future reference
+Upload both to your forked JavaScript1 repository in GitHub. Make a pull request to the original repository.
 
-_IMPORTANT NOTE_
-In each assignment write at least two `console.log` statements to verify if your code works correctly. In other words proof that you code works as expected. If you need inspiration look at the steps defined in the assignments from last week.
-
-1\. **Strings!**
-
-Consider the following string:
-
-```js
-let myString = "hello,this,is,a,difficult,to,read,sentence";
-```
-
-1\.1 Add the string to your file and log it.<br />
-1\.2 Log the length of `myString`.<br />
-1\.3 The commas make that the sentence is quite hard to read. Find a way to remove the commas from the string and replace them with spaces.<br />
-1\.4 Log `myString` to see if you succeeded.<br />
-
-2\. **Arrays!**
-
-Consider the following array:
-
-```js
-let favoriteAnimals = ["blowfish", "capricorn", "giraffe"];
-```
-
-2\.1 Add a statement that adds Mauro's favorite animal _'turtle'_ to the existing array.<br />
-2\.2 Log your new array!<br />
-2\.3 Now add Jim's favorite animal to the array, it's _'meerkat'_, but make sure it will be placed after _'blowfish'_ and before _'capricorn'_.<br />
-2\.4 Write a console.log statement that explains in words _you think_ the new value of the array is.<br />
-2\.5 Log your new array!<br />
-2\.6 Log the length of the array, add a message: _'The array has a length of: '_ (here you should show the length of the array).<br />
-2\.7 Jason does not like _'giraffe'_, delete this animal from the array.<br />
-2\.8 Again log your new array.<br />
-2\.9 Now if unlike Jim, you don't like _'meerkat'_ and you want to delete it from the array, but you don't know the position or the `index` of the item in the array, how can you find it?<br />
-2\.10 Log the index of _'meerkat'_. Add a message so it says: _'The item you are looking for is at index: '_ (here you should show the index of the item).<br />
-
-## More JavaScript :tada:
-
-1. Create a function that takes 3 arguments and returns the sum of the these arguments.
-
-2. Create a function named `colorCar` that receives a color, and prints out, _'a red car'_ for example.
-
-3. Create an object and a function that takes the object as a parameter and prints out all of its properties and values.
-
-4. Create a function named `vehicleType` that receives a color, and a code, 1 for car, 2 for motorbike. And prints _'a blue motorbike'_ for example when called as `vehicleType("blue", 2)`
-
-5. Can you write the following without the `if` statement, but with just as a single line with `console.log(...);`?
-
-   ```js
-   if (3 === 3) {
-     console.log("yes");
-   } else {
-     console.log("no");
-   }
-   ```
-
-6. Create a function called `vehicle`, like before, but takes another parameter called `age`, so that `vehicle("blue", 1, 5)` prints _'a blue used car'_
-
-7. Make a list of vehicles, you can add `"motorbike"`, `"caravan"`, `"bike"`, or more.
-
-8. How do you get the third element from that list?
-
-9. Change the function `vehicle` to use the list of question 7. So that `vehicle("green", 3, 1)` prints "a green new bike". 
-    > Hint, it should use the `code` to get the value from the list. So `vehicle("green", 2, 1)` prints "a green new caravan".
-
-10. Use the list of vehicles to write an advertisement. So that it prints something like: `"Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes."`. (Hint: use a `for` loop.)
-
-    > Hint, the output should be correct English with all the punctuation in place (that's the challenge). So plurals for the vehicle types, commas followed by a single space, the word and to replace the final comma and closed off by a period.
-
-11. What if you add one more vehicle to the list, can you have that added to the advertisement without changing the code for question 10?
-
-12. Create an empty object.
-
-13. Create an object that contains the teachers that you have had so far for the different modules.
-
-14. Add a property to the object you just created that contains the languages that they have taught you.
-
-15. Write some code to test two arrays for equality using `==` and `===`. Test the following:
-
-    ```js
-    let x = [1, 2, 3];
-    let y = [1, 2, 3];
-    let z = y;
-    ```
-
-    What do you think will happen with `x == y`, `x === y` and `z == y` and `z == x`? Prove it!
-
-    > Don't cheat! Seriously - try it first.
-
-
-    Check out this [Fiddle](http://jsfiddle.net/jimschubert/85M4z/). You need to open your browser’s Developer Tools to see the console output. Press the Run button in the upper right corner to run the code.
-
-    More insights from this [Stack Overflow question](http://stackoverflow.com/questions/22395357/how-to-compare-two-arrays-are-equal-using-javascript).
-
-16. Take a look at the following code:
-
-    ```js
-    let o1 = { foo: "bar" };
-    let o2 = { foo: "bar" };
-    let o3 = o2;
-    ```
-
-    Show that changing `o2` changes `o3` (or not) and changing `o1` changes `o3`(or not).
-
-    Does the order that you assign (`o3 = o2` or `o2 = o3`) matter?
-
-17. What does the following code return? (And why?)
-
-    ```js
-    let bar = 42;
-    typeof typeof bar;
-    ```
-
-> ‘Coerce' means to try to change - so coercing `var x = '6'` to number means trying to change the type to number temporarily.
-
-## Step 4: **Finish basic freeCodeCamp challenges:**
-
-_Deadline Saturday_
-
-Go back to FreeCodeCamp, start where you left of and finish the rest of the Basic JavaScript challenges.
-
-Please make sure you REALLY understand the exercises below:
-
-- https://www.freecodecamp.com/challenges/multiply-two-decimals-with-javascript
-- https://www.freecodecamp.com/challenges/store-multiple-values-in-one-variable-using-javascript-arrays
-- https://www.freecodecamp.com/challenges/build-javascript-objects
-- https://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object
-- https://www.freecodecamp.com/challenges/delete-properties-from-a-javascript-object
-
-## Step 5: Read before next lecture
-
-_Deadline Sunday morning_
-
-Go through the reading material in the [README.md](./../../../../JavaScript2/tree/master/Week1) to prepare for your next class
-
-```
-How to hand in your homework:
-• Upload your homework in your "hyf-javascript1" Github repository. Make sure to create a new folder "week2" first.
-• Upload your homework files inside the week2 folder and write a description for this “commit”.
-• Your hyf-javascript1/week2 should now contain all your homework files.
-• Place the link to your repository folder in Trello.
-```
+> Forgotten how to upload your homework? Go through the [guide](../hand-in-homework-guide.md) to learn how to do this again.

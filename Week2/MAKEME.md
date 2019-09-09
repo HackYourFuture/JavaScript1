@@ -1,172 +1,164 @@
-## Homework Week 2
+# Homework JavaScript1 Week 2
 
-```
-Topics discussed in class this week:
-• Intro JavaScript (What is it, where can you use it for)
-• Variables (var, let, const)
-• Basic Data types (Strings, Numbers, Arrays, Booleans)
-• Operators
-```
+## **Todo list**
 
-> [Here](/Week3/README.md) you find the readings you have to complete before the third lecture.
+1. Practice the concepts
+2. JavaScript exercises
+3. Code along
+4. PROJECT: Grade calculator
 
-## Before you start with the homework:
+## **1. Practice the concepts**
 
-1. Review the [Git course material](https://github.com/HackYourFuture/Git) of last week.
-2. Watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro), just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though).
+In this section you will be doing interactice exercises, that will allow you to practice with the concepts you've learned about this week!
 
-## Step 2: JavaScript
+- [Codecademy: Arrays](https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays)
+- [FreeCodeCamp: Basic data structures](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-data-structures)
 
-_Deadline Thursday_
+## **2. JavaScript exercises**
 
-> For all the following exercises create a new `.js` file. Try to find a proper name for each file or make a small comment about what it does inside for future reference.
+> For all the following exercises create a new .js file. Try to find a proper name for each file or make a small comment about what it does inside for future reference.
 
-1\. Write a `console.log` statement saying "Hello World!" for each language that you know.
+> Start each file off with the string `'use strict'` at the top.
 
-For example:
+**Exercise 1: Remove the comma**
 
-```
-Halo, dunia! // Indonesian
-Ciao, mondo! // Italian
-Hola, mundo! // Spanish
-```
-
-2\. Consider the following code:
+Consider the following string:
 
 ```js
-console.log('I'm awesome');
+let myString = 'hello,this,is,a,difficult,to,read,sentence';
 ```
 
-Copy the code in your `.js` file and run it. You will see that you will get a SyntaxError. Find a solution for this error. Hint: read the error message carefully, it also gives an indication of where the problem is.
+1. Add the variable to your file.
+2. Log the length of `myString`.
+3. The commas make that the sentence is quite hard to read. Find a way to remove the commas from the string and replace them with spaces. (use Google!)
+4. After replacing the commas, log `myString` to see if you succeeded.
 
-3\. Declare a variable `x` and initialize it with an integer, using these exact steps:  
-3\.1 First, _declare_ your variable `x` (do not initialize it yet).  
-3\.2 Add a `console.log` statement that explains in words what _you think_ the value of `x` is, like in this example:
+**Exercise 2: The even/odd reporter**
+
+Report whether or not a number is odd/even!
+
+1. Create a `for` loop, that iterates from 0 to 20.
+2. Create a conditional statement that checks if the value of the counter variable is odd or even.
+3. If it's odd, log to the console `The number [PUT_NUMBER_HERE] is odd!`.
+4. If it's even, log to the console `The number [PUT_NUMBER_HERE] is even!`.
+
+**Exercise 3: The recipe card**
+
+Ever wondered how to make a certain meal? Let's create a recipe list with JavaScript!
+
+1. Declare a variable that holds an object (your meal recipe).
+2. Give the object 3 properties: a `title` (string), a `servings` (number) and an `ingredients` (array of strings) property.
+3. Log each property out seperately.
+
+It should look similar to this:
+
+```markdown
+Meal name: Omelete
+Serves: 2
+Ingredients:
+4 eggs
+2 strips of bacon
+1 tsp salt/pepper
+```
+
+**Exercise 4: The reading list**
+
+Keep track of which books you read and which books you want to read!
+
+1. Declare a variable that holds an array of 3 objects, where each object describes a book and has properties for the `title` (string), `author` (string), and `alreadyRead` (boolean indicating if you read it yet).
+2. Loop through the array of books.
+3. For each book, log the book title and book author like so: "The Hobbit by J.R.R. Tolkien".
+4. Create a conditional statement to change the log depending on whether you read it yet or not. If you read it, log a string like `You already read "The Hobbit"` right after the log of the book details
+5. If you haven't read it log a string like `You still need to read "The Lord of the Rings"`
+
+**Exercise 5: Who wants a drink?**
+
+You're at a party and you feel thirsty! However, you've got 5 friends who are also in need of a drink. Let's go get them a drink.
+
+1. Declare a variable that holds an empty array, called `drinkTray`.
+
+There are 3 different types of drinks:
 
 ```js
-// TODO -> here you initialize your variable
-console.log("the value of my variable x will be: whateverYouThinkItWillLog");
+const drinkTypes = ['cola', 'lemonade', 'water'];
 ```
 
-3\.3 Add a `console.log` statement that logs the value of `x`.  
-3\.4 Now _initialize_ your variable `x` with an integer.  
-3\.5 Next, add a `console.log` statement that explains what _you think_ the value of `x` is.  
-3\.6 Add a `console.log` statement that logs the value of `x`.  
- Steps to be taken:
+2. Create a loop that runs 5 times. On each iteration, push a drink into the `drinkTray` variable.
+3. However, if there are already two instances of a `drinkType` then start with the next drink in the array.
+4. Your `drinkTray` should contain 2 cola, 2 lemonade and 1 water.
+5. Log to the console: "Hey guys, I brought a [INSERT VALUES FROM ARRAY]!" (For example: "Hey guys, I brought a cola, lemonade, cola, water, lemonade!")
 
-```js
-// TODO -> here you declare your variable
-console.log("the value of x will be: whateverYouThinkItWillLog");
-// TODO -> log the actual value of x
-// TODO -> here you initialize your variable
-console.log("the value of x will be: whateverYouThinkItWillLog");
-// TODO -> log value of x again
+## **3. Code along**
+
+> Create a new folder outside of your `JavaScript1` fork
+
+In the following 2 projects you'll be flexing your HTML/CSS skills again, together with writing JavaScript code. They are similar in structure and logic, so be sure to spot the similarities!
+
+It's ok if you don't understand exactly what's happening here. Just follow along and try to understand: ask questions about what the developer is doing and think about every line of code.
+
+**Project 1: Temperature Converter**
+
+This project will teach you how to convert temperature from one scale to another in real-time!
+
+In the first part you'll be building the basic frontend, which means the way the page is going to look using only HTML/CSS. In the second part you'll be writing the logic that will allow a user to convert the temperature from one temperature scale to another (i.e. Celsius to Fahrenheit)
+
+- [Temperature Converter Pt. I](https://www.youtube.com/watch?v=EHclqGV_KME)
+- [Temperature Converter Pt. II](https://www.youtube.com/watch?v=8mRGfLL1nzE)
+
+**Project 2: Weight Converter**
+
+In the following tutorial you'll learn how to make a Weight Converter application. You'll make use of HTML, CSS and JavaScript. At first you'll be building the basic layout of the frontend (the HTML & CSS). After you'll start writing the JavaScript logic that will `convert pounds into grams`.
+
+In order to speed up development you'll be using a CSS framework: [Bootstrap 4](https://www.getbootstrap.com). While coding along, have a look through the documentation in order to get familiar with the different class names to see what they do.
+
+- [Weight Converter App](https://www.youtube.com/watch?v=7l-ZAuU8TXc)
+
+## **4. PROJECT: Grade calculator**
+
+> Every week ends with a project you have to build on your own. Instead of getting clear-cut instructions, you'll get a list of criteria that your project needs to measure up to.
+
+In this project you'll write a script that calculates grades, based on the American grading system! Let's say a student did a test and they got a 60 out of 100, this script will:
+
+1. convert the score into a percentage
+2. calculate what grade corresponds with that percentage, and
+3. shows in the command line the result: the grade and the percentage
+
+When writing the script, make use of the following grade scores:
+
+```markdown
+Grade A (90% - 100%)
+Grade B (80% - 89%)
+Grade C (70% - 79%)
+Grade D (60% - 69%)
+Grade E (50% - 59%)
+Grade F (0% - 49%)
 ```
 
-4\. Declare a variable `y` and assign a string to it.  
-4\.1 Write a `console.log` statement in which you explain in words what _you think_ the value of the string is.  
-4\.2 Now `console.log` the variable `y`.  
-4\.3 Now assign a new string to the variable `y`.  
-4\.4 Just like what you did before write a `console.log` statement that explains in words what you think will be logged to the console.  
-4\.5 Now console.log `y` again.
+These are the requirements your project needs to fulfill:
 
-```js
-// TODO -> here you declare AND assign your string
-console.log("the value of my string will be: whateverYouThinkItWillLog");
-// TODO -> log the actual value of the string to the console
-// TODO -> assign a new value to your variable x
-console.log("the value of my string will be: whateverYouThinkItWillLog");
-// TODO -> log the actual value of the string to the console
+- Make a JavaScript file with a name that describes its contents
+- Use either a switch or if/else statement
+- Write at least 2 comments that explain to others what a line of code is meant to do
+- Make the return value of the function a template string, so you can insert variables!
+- Use `node` from the command line to test if your code works as expected
+
+This is what the script is expected to return in the command line:
+
+```markdown
+You got a B (85%)!
 ```
 
-5\. How do you round the number 7.25, to the nearest integer (i.e., whole number)?  
-5\.1 Declare a variable `z` and assign the number 7.25 to it.  
-5\.2 `console.log` `z`.  
-5\.3 Declare another variable `a` that has the value of `z` but rounded to the nearest integer.  
-5\.4 `console.log` `a`.  
-5\.5 So now we have `z` and `a` find a way to compare the two values and store the highest of the two in a new variable.  
-5\.6 `console.log` the highest value.
+Good luck!
 
-6\. _Arrays_  
-6\.1 Declare an empty array. Make sure that the name you choose indicates 'plurality', because an array is capable of containing more than one element. (See [Naming conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)).  
-6\.2 Write a `console.log` statement that explains in words what you think the value of the array is.  
-6\.3 `console.log` your array.  
-6\.4 Create an array that has your favorite animals inside (see if you can find a good name that exactly describes what this variable will hold).  
-6\.5 Log your array.  
-6\.6 Add a statement that adds Daan's favorite animal ('baby pig') to the _existing array_.  
-6\.7 Log your new array!
+## **SUBMIT YOUR HOMEWORK!**
 
-7\. _More strings_  
-Let's consider the following string: `let myString = "this is a test"`.  
-7\.1 Add the string to your file and console.log it.  
-7\.2 Find a way to get the length of `myString`.  
-7\.3 `console.log` the length of `myString`.
+After you've finished your todo list it's time to show us what you got! The homework that needs to be submitted is the following:
 
-8\. Write a program that checks the types of two variables and prints out `SAME TYPE` if they are the same type.  
-8\.1 First declare at least four variables and assign them different data types.  
-8\.2 For each variable write a `console.log` statement that logs the value
+1. JavaScript exercises
+2. PROJECT: Grade calculator
 
-```js
-let foo = 3;
-console.log("The value of my variable foo is: " + foo);
-```
+Upload both to your forked JavaScript1 repository in GitHub. Make a pull request to the original repository.
 
-(Curious to know what a `foo` is? Check [this article](https://en.wikipedia.org/wiki/Metasyntactic_variable) on Wikipedia.)
+> Forgotten how to upload your homework? Go through the [guide](../hand-in-homework-guide.md) to learn how to do this again.
 
-8\.3 Now write a `console.log` statement wherein you first explain in words what you think the _type_ of your variables is.  
-8\.4 Now use `typeof` to log the actual _type_ of your variables.  
-8\.5 Now compare the types of your different variables with one another.  
-8\.6 Make sure to also show a message when the variables you are comparing are not the same type.
-
-For example:
-
-```js
-let x = 9;
-let y = 'Hello';
-
-if (...) {
-    console.log('SAME TYPE');
-}
-// TODO -> add a way of giving feedback if your variables don't have the same type
-```
-
-9\. If `x` equals 7, and the only other statement is `x = x % 3`, what would be the new value of `x`?  
-9\.1 Add at least 3 `console.log` statements in which you show that you understand what `%` does.
-
-10\. Write a program to answer the following questions:  
-10\.1 Can you store multiple types in an array? Numbers and strings? Make an example that illustrates your answer.  
-10\.2 Can you compare infinities? (Not in Eyad's world) - does 6/0 === 10/0? How can you test this?  
-10\.3 Add `console.log` statements to the above program in which you show that you understand the concepts (just like you've done in the above assignments).
-
-## Step 3: **Some freeCodeCamp challenges (10 hours):**
-
-_Deadline Saturday_
-
-On freeCodeCamp.com please do the [Basic JavaScript](https://www.freecodecamp.com/challenges/learn-how-free-code-camp-works) exercises up and until the **"Shopping List"** exercise (there are some topics we did not cover but you can do it).
-
-## Step 4: Read before next lecture
-
-_Deadline Sunday morning_
-
-Go trough the reading material in the [README.md](/Week3/README.md) to prepare for your next class
-
-### How to hand in Homework:
-
-```
-• Create a new repository "hyf-javascript1". Also create a new folder "week1" inside this repository.
-• Upload your homework files inside the week1 folder and write a description for this “commit”.
-• Your hyf-javascript1/week1 should now contain all your homework files.
-• Place the link to your repository folder in Trello.
-```
-
-### Hint
-
-If you solve the FreeCodeCamp challenges and they are new concepts to you and you would like to take a look at them later on in the program, Copy your answers from FCC in a `.js` file and upload them to Github in a repository for future reference. In this way you build your own little documentation, if you look back at them first try to understand what it does before you run them.
-
-:star: Additional resources and review: :star:
-
-- [Variables](./../../../../fundamentals/blob/master/fundamentals/variables.md)
-- [Basic value types](./../../../../fundamentals/blob/master/fundamentals/values.md)
-- [Operators](./../../../../fundamentals/blob/master/fundamentals/operators.md)
-- [Special characters and their names](./../../../../fundamentals/blob/master/fundamentals/names_of_special_characters.md)
-- [Naming conventions](./../../../../fundamentals/blob/master/fundamentals/naming_conventions.md)
+_Deadline Saturday 23.59 CET_

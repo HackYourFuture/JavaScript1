@@ -48,7 +48,7 @@ Ever wondered how to make a certain meal? Let's create a recipe list with JavaSc
 
 1. Declare a variable that holds an object (your meal recipe).
 2. Give the object 3 properties: a `title` (string), a `servings` (number) and an `ingredients` (array of strings) property.
-3. Log each property out seperately.
+3. Log each property out seperately, using a loop (for, while or do/while)
 
 It should look similar to this:
 

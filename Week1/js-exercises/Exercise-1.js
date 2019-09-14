@@ -1,5 +1,7 @@
 //  ===EXERCISE 1===
 
+'use strict';
+
 console.log('EXERCISE 1');
 
 let helloWorldEnglish = 'Hello, World!';

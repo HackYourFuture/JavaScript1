@@ -1,5 +1,7 @@
 //  ===EXERCISE 2===
 
+'use strict';
+
 console.log('EXERCISE 2');
 /* In this situation, if we write:
 console.log('I'm awesome');

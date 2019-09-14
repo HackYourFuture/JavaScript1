@@ -1,7 +1,8 @@
 //  ===EXERCISE 10===
 
-'use strict'
+'use strict';
 
 console.log('EXERCISE 10');
 
-let 
+let x = new Array(5);
+alert(x.length); // 5

@@ -2,7 +2,7 @@
 
 'use strict';
 
-console.log('EXERCISE 3');
+console.log('EXERCISE 3 - Log The Number');
 
 let numberX;
 console.log('The value of numberX is: 7');

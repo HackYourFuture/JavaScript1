@@ -2,7 +2,7 @@
 
 'use strict';
 
-console.log('EXERCISE 1');
+console.log('EXERCISE 1 - Hello World!');
 
 let helloWorldEnglish = 'Hello, World!';
 let helloWorldDutch = 'Hallo Wereld!';

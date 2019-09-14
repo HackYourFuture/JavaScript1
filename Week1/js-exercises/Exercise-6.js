@@ -2,7 +2,7 @@
 
 'use strict';
 
-console.log('EXERCISE 6');
+console.log('EXERCISE 6 - Log an array of animals');
 
 let myArray = [];
 console.log([]);

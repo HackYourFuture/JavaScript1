@@ -2,7 +2,7 @@
 
 'use strict';
 
-console.log('EXERCISE 10');
+console.log('EXERCISE 10 - Compare arrays');
 
 let x = ['my array', 1, true, null];
 console.log(x.length); // 4

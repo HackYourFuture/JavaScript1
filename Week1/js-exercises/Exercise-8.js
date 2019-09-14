@@ -2,7 +2,7 @@
 
 'use strict';
 
-console.log('EXERCISE 8');
+console.log('EXERCISE 8 - Type checker');
 
 let myFirstStr = 'This is the best';
 let mySecondStr = 'Like the others';

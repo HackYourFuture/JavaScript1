@@ -2,7 +2,7 @@
 
 'use strict';
 
-console.log('EXERCISE 2');
+console.log('EXERCISE 2 - Debug Quotes');
 /* In this situation, if we write:
 console.log('I'm awesome');
 it doesn't work and send us an error message.

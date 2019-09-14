@@ -2,7 +2,7 @@
 
 'use strict';
 
-console.log('EXERCISE 9');
+console.log('EXERCISE 9 - Log the remainder');
 
 let x = 7;
 x = x % 3;

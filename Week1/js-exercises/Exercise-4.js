@@ -2,7 +2,7 @@
 
 'use strict';
 
-console.log('EXERCISE 4');
+console.log('EXERCISE 4 - Log the String');
 
 let myString = 'Samed OZCAN';
 console.log('Samed OZCAN');

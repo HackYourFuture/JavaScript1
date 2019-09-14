@@ -8,5 +8,5 @@ let numberX;
 console.log('The value of numberX is: 7');
 console.log(numberX);
 numberX = 7;
-console.log('The value of myNumberX is: ' + myNumberX);
-console.log(myNumberX);
+console.log('The value of myNumberX is: ' + numberX);
+console.log(numberX);

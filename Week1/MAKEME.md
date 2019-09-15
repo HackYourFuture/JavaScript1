@@ -18,7 +18,7 @@ In the following exercises you'll learn how to use different JavaScript concepts
 
 ## **2. JavaScript exercises**
 
-Inside of your `JavaScript1` fork and inside of the `Week1` folder, create a folder called `homework`. Inside of that folder, create a folder called `js-exercises`. For all the following exercises create a new `.js` file in that folder (10 files in total). Make sure the name of each file reflects its content: for example, the filename for exercise one could be `logHello.js`.
+> Inside of your `JavaScript1` fork and inside of the `Week1` folder, create a folder called `homework`. Inside of that folder, create a folder called `js-exercises`. For all the following exercises create a new `.js` file in that folder (10 files in total). Make sure the name of each file reflects its content: for example, the filename for exercise one could be `logHello.js`.
 
 > In each file, start off with the string `'use strict'`. This will make sure the code interpreter will enforce stronger rules when looking at your code.
 

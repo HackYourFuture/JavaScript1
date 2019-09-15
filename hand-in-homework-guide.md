@@ -19,7 +19,7 @@ ONE TIME ONLY (START OF EVERY MODULE)
 EVERY WEEK
 
 1. Create a new branch for each week you have homework. For example, for the week 1 homework for JavaScript1 create a branch called `week-1-homework-YOUR_NAME`
-2. Make your homework in the right folder, while in this branch
+2. Create a folder called `homework` inside of each week's folder. So for example, inside of the `Week1` folder, create a new folder called `homework`
 3. Once you're finished, add and commit everything. Make the commit message meaningful, for example `finished project for homework week1`
 4. Push the branch to your forked repository
 5. On the GitHub page of your forked repository, click on the `create pull request` button. Make sure the `base repository` is the original, on branch master

@@ -22,9 +22,9 @@ In this second course you'll learn about `higher order functions`, which we'll r
 
 ## **2. JavaScript exercises**
 
-In the following exercises you'll practice every concept you've learned about so far in this module.
+> Inside of your `JavaScript1` fork and inside of the `Week2` folder, create a folder called `homework`. Inside of that folder, create a folder called js-exercises. For all the following exercises create a new .js file in that folder (5 files in total). Make sure the name of each file reflects its content: for example, the filename for exercise one could be giveCompliment.js.
 
-> Before you start, create a folder called `week2-scripts`. Inside, create 5 `.js` files, each dedicated to the exercises in this section. Make sure you give the files a name that reflects its content. For example, for exercise 1 an appropriate name would be: `giveCompliment.js`.
+> In each file, start off with the string 'use strict'. This will make sure the code interpreter will enforce stronger rules when looking at your code.
 
 **Exercise 1: You are amazing, Noer!**
 

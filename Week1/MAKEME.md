@@ -38,7 +38,7 @@ Ciao, mondo! // Italian
 Hola, mundo! // Spanish
 ```
 
-Using the command line, navigate to your `week1` folder and type in the following to test your code:
+Using the command line, navigate to your `js-exercises` folder and type in the following to test your code:
 
 ```
 node FILENAME.js

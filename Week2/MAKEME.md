@@ -16,6 +16,8 @@ In this section you will be doing interactice exercises, that will allow you to 
 
 ## **2. JavaScript exercises**
 
+> Inside of your `JavaScript1` fork and inside of the `Week2` folder, create a folder called `homework`. Inside of that folder, create a folder called js-exercises. For all the following exercises create a new .js file in that folder (5 files in total). Make sure the name of each file reflects its content: for example, the filename for exercise one could be removeComma.js.
+
 > For all the following exercises create a new .js file. Try to find a proper name for each file or make a small comment about what it does inside for future reference.
 
 > Start each file off with the string `'use strict'` at the top.

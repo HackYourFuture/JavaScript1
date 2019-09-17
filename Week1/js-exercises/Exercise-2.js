@@ -11,6 +11,6 @@ by placing a backslash (\) in front of the quote. */
 
 console.log('I"m awesome');
 /* Now it works, because of our escaping character, backslash(\) */
-//Or we can change the quotes:
+//Or we can change the quotes :
 
 console.log("I'm awesome");

@@ -7,7 +7,11 @@ console.log('EXERCISE 8 - Type checker');
 let myFirstStr = 'This is the best';
 let mySecondStr = 'Like the others';
 let myFirstObj = [42, 'Hello', true];
-let mySecondObj = [42, 6];
+let mySecondObj = {
+  name: 'John',
+  surname: 'Smith',
+  age: 30,
+};
 
 console.log(typeof myFirstStr);
 console.log(typeof mySecondStr);

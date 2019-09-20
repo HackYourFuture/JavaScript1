@@ -1,8 +1,8 @@
 'use script';{
     var numberX;
-    console.log("Meaning of life!");
+    console.log("It should be undefined the value of numberX");
     console.log(numberX);
     numberX = 33;
-    console.log("Center of the world!");
+    console.log("It should be a number the value of numberX");
     console.log(numberX);
 }

@@ -13,9 +13,8 @@ for(let i = 0; i < books.length; i++){
        console.log(titleBooks + ' by ' + authorBooks);
       console.log('You already read ' +titleBooks); 
    }
-
-   else { console.log(titleBooks + ' by ' + authorBooks);
-   console.log('You still need to read ' + titleBooks);
+      else { console.log(titleBooks + ' by ' + authorBooks);
+      console.log('You still need to read ' + titleBooks);
    }
 }
 

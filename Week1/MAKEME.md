@@ -118,7 +118,7 @@ Follow the steps. Make sure that each step is written on the line after.
 Write a program that checks the data types of two variables and logs to the console `SAME TYPE` if they are the same type. If they are different types log `Not the same...`.
 
 1. Declare 4 variables: 2 must be `strings` and 2 must be `objects`
-2. Create 8 conditional statements, where for each you check if the data type of one variable is the same as the other
+2. Create 6 conditional statements, where for each you check if the data type of one variable is the same as the other
 3. Find out how to check the type of a variable
 4. Write 2 `console.log` statements to log the type of 2 variables, each with a different data type
 5. Now compare the types of your different variables with one another
@@ -145,8 +145,8 @@ if (...) {
 For each of these, write in comments what the answer is followed by how you came to that conclusion
 
 1. If `x` equals 7, and the only other statement is `x = x % 3`, what would be the value of `x` after the calculation?
-2. If `y` equals 21, and the only other statement is `x = x % 4`, what would be the value of `y` after the calculation?
-3. If `z` equals 13, and the only other statement is `x = x % 2`, what would be the value of `z` after the calculation?
+2. If `y` equals 21, and the only other statement is `y = y % 4`, what would be the value of `y` after the calculation?
+3. If `z` equals 13, and the only other statement is `z = z % 2`, what would be the value of `z` after the calculation?
 
 **Exercise 10: Compare arrays**
 

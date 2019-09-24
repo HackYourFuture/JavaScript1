@@ -7,7 +7,7 @@ console.log('EXERCISE 6 - Log an array of animals');
 let myArray = [];
 console.log('[]');
 console.log(myArray);
-let animals = ['lion', 'rabbit', 'gazelle'];
+let animals = ['Lion', 'Rabbit', 'Gazelle'];
 console.log(animals);
 animals.push('Piglet');
 console.log(animals);

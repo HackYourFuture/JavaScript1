@@ -1,6 +1,6 @@
-'use strict'
+'use strict';
 
-var myString = "Hikmet Erdil";
+let myString = "Hikmet Erdil";
 console.log("The value of myString is 'Hikmet Erdil'");
 console.log(myString);
 

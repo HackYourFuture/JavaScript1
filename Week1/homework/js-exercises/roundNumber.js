@@ -1,12 +1,12 @@
-'use strict'
+'use strict';
 
-var z = 7.25;
+const z = 7.25;
 console.log(z);
-var a = Math.floor(z);
+const a = Math.floor(z);
 console.log(a);
 
 if(a > z) {
     console.log(a);
 }
 
-else {console.log(z);}
+    else {console.log(z);}

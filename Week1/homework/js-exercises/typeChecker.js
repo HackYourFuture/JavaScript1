@@ -1,15 +1,18 @@
-'use strict'
+'use strict';
 
-var a = "fish in the see";
-var b = "lion in the den";
+const a = "fish in the see";
+const b = "lion in the den";
 
-var c = {
+const c = {
     alpha :"purple",
     beta:"yellow",
     theta:"cyan"
 };
 
-var d = {car:"jaguar", color:"latte"};
+const d = {
+    car:"jaguar", 
+    color:"latte"
+};
 
 console.log(typeof a);
 console.log(typeof b);

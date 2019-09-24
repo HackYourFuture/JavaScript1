@@ -1,9 +1,9 @@
 
 "use strict";
-let var1 = "customers";
-let var2 = "suppliers";
-let var3 = {storeName:"mainStore",storeId:001};
-let var4 = {itemName:"laptop",itemId:0200};
+const var1 = "customers";
+const var2 = "suppliers";
+const var3 = {storeName:"mainStore",storeId:001};
+const var4 = {itemName:"laptop",itemId:0200};
 
 
 console.log(typeof var1);

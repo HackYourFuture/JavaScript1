@@ -2,8 +2,17 @@
 
 {
   // declare all variables
-  let strClass = 'there is tables and chairs.';
-  let strComputer = 'Computers have a lot of pieces.';
+
+  // let strClass = 'there is tables and chairs.';
+  // let strComputer = 'Computers have a lot of pieces.';
+
+  // const is used instead of let keyword.
+  // Because it's fixed variable.
+
+
+
+  const strClass = 'there is tables and chairs.';
+  const strComputer = 'Computers have a lot of pieces.';
   const objLesson = {
     name: 'JavaScript1',
     mentor: 'David Ng',

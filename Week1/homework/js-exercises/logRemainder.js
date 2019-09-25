@@ -1,7 +1,7 @@
 'use strict'
-let x = 7;
-let y = 21;
-let z = 13;
+const x = 7;
+const y = 21;
+const z = 13;
 console.log(x + " modulo 3 is equal to " + (x%3)); 
 // x%3 gives us the remainder when x divided by 3
 console.log(y + " modulo 4 is equal to " + (y%4));

@@ -3,10 +3,10 @@
 {
     'use strict';
 
-    let z = 7.25;
+    const z = 7.25;
     console.log(z);
-    let a = Math.round(z);
+    const a = Math.round(z);
     console.log(a);
-    let highestNumber = Math.max(a,z);
+    const highestNumber = Math.max(a,z);
     console.log(highestNumber);
 }

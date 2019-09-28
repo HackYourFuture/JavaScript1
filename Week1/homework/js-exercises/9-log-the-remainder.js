@@ -16,6 +16,6 @@
     let z = 13;
     z = z % 2; // I think it is accidentally written  as 'x = x % 2' so I used it as 'z'.
     // the value of 'z' would be '1', because remainder value of '13' divided by '2' is '1'.
-    console.log(y);
+    console.log(z);
 
 }

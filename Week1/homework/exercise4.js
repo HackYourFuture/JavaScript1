@@ -1,0 +1,6 @@
+var myString = ("Aline Amaral Farah Pereira")
+console.log ("The string is my name")
+console.log (myString)
+var myString = ("This is not my name anymore")
+console.log ("I guess 'This is not my name anymore' will show up")
+console.log (myString)

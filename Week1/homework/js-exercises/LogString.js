@@ -1,5 +1,5 @@
 "use strict";
-var myString = 'Fatih Ucar';
+let myString = 'Fatih Ucar';
 console.log('This is my name.');
 console.log(myString);
 myString = 'To Kill a Mockingbird';

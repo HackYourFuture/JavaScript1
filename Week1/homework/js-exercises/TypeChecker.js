@@ -1,13 +1,13 @@
 "use strict";
-let book = 'It was the best of times';
-let song = 'In the year 2525';
-let person = {firstName:"John", lastName:"Wick", age:40, eyeColor:"green"};
-let animal = {type:'cat', name:'Silly', color:'white and black'};
+const book = 'It was the best of times';
+const song = 'In the year 2525';
+const person = {firstName:"John", lastName:"Wick", age:40, eyeColor:"green"};
+const animal = {type:'cat', name:'Silly', color:'white and black'};
 
 console.log(typeof 'book');
 console.log(typeof 'animal');
 
-if (typeof 'book' === typeof 'song') {
+if (typeof book === typeof song) {
     console.log('SAME TYPE')
 } else {
     console.log('Not the same')

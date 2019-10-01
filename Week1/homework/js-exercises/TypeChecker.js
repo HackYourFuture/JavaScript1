@@ -4,8 +4,8 @@ const song = 'In the year 2525';
 const person = {firstName:"John", lastName:"Wick", age:40, eyeColor:"green"};
 const animal = {type:'cat', name:'Silly', color:'white and black'};
 
-console.log(typeof 'book');
-console.log(typeof 'animal');
+console.log(typeof book);
+console.log(typeof animal);
 
 if (typeof book === typeof song) {
     console.log('SAME TYPE')
@@ -13,31 +13,31 @@ if (typeof book === typeof song) {
     console.log('Not the same')
 };
 
-if (typeof 'book' === typeof 'person') {
+if (typeof book === typeof person) {
     console.log('SAME TYPE')
 } else {
     console.log('Not the same')
 };
 
-if (typeof 'book' === typeof 'animal') {
+if (typeof book === typeof animal) {
     console.log('SAME TYPE')
 } else {
     console.log('Not the same')
 };
 
-if (typeof 'song' === typeof 'person') {
+if (typeof song === typeof person) {
     console.log('SAME TYPE')
 } else {
     console.log('Not the same')
 };
 
-if (typeof 'song' === typeof 'animal') {
+if (typeof song === typeof animal) {
     console.log('SAME TYPE')
 } else {
     console.log('Not the same')
 };
 
-if (typeof 'person' === typeof 'animal') {
+if (typeof person === typeof animal) {
     console.log('SAME TYPE')
 } else {
     console.log('Not the same')

@@ -1,15 +1,15 @@
-# Lesson Plan Week 1
+# Lesson Plan JavaScript 1 Week 1
 
 ## Agenda
 
 The purpose of this class is to introduce to the student:
 
-(1) The 2 types of websites: static vs. dynamic
-(2) The pillars of web development: HTML/CSS/JavaScript
-(3) What are variables
-(4) How to name variables properly
-(5) What are the basic data types
-(6) What are the compound data types
+- The 2 types of websites: static vs. dynamic
+- The pillars of web development: HTML/CSS/JavaScript
+- What are variables
+- How to name variables properly
+- What are the basic data types
+- What are the compound data types
 
 ## Core concepts
 

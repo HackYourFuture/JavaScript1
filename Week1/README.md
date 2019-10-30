@@ -29,7 +29,7 @@ Programming is giving a computer instructions written in a language it can under
 2. Cheap to use
 3. Can work 24/7 (as long as it has power)
 
-This is important to note: a computer is a `tool` we use to make our lives easier. In order to use this tool, we need to talk to it in a way it understands (programming language) and give it commands on what to do (programming). However, despite the power a computer has it is not very smart. It can't do anything without being told **exactly** what it needs to do solve a problem. This is why we learn how to program.
+This is important to note: a computer is a `tool` we use to make our lives easier. In order to use this tool, we need to talk to it in a way it understands (programming language) and give it commands on what to do (programming). However, despite the power a computer has it is not very smart. It can't do anything without being told **exactly** what it needs to do to solve a problem. This is why we learn how to program: in order to tell the computer to do what we want it to do.
 
 Go through the following resources to learn more about what programming is:
 
@@ -44,7 +44,9 @@ As a software developer (synonym to 'programmer'), you will write these instruct
 
 ### What is a programming language?
 
-Programming is done using a programming language. Why do we need a language to communicate with the computer? At its most basic level, a computer operates based on 0's and 1's: 0 meaning off, and 1 meaning on. Smart people decided to make this more comprehensible, so that people can more simply communicate with a computer. This is how the development of programming languages started: by defining a vocabulary, grammar and syntax to put more organization to the 0's and 1's, we can more simply communicate exactly what we want to computer to do.
+Programming is done using a programming language. Why do we need a language to communicate with the computer? At its most basic level, a computer operates based on 0's and 1's: the 0 means 'off', and the 1 means 'on' (think of it like a light switch that either turns the light on or off). 
+
+Smart people decided to make working with this easier to understand, so that a lot of people can more simply communicate with a computer. This is how the development of programming languages started: by defining a vocabulary, grammar and syntax to put more organization to the 0's and 1's, we can more simply communicate exactly what we want to computer to do.
 
 - [What are programming languages](https://hackr.io/blog/what-is-programming-language)
 
@@ -83,11 +85,11 @@ You might have heard these terms used interchangeably. They are, however, two di
 
 ### Websites vs. web applications
 
-Before we get started with the meat of the module, which is JavaScript) we need to make a small, but important distinction: are we going to make websites or web applications? For non-developers, there is no difference but for you as a developer you must know what you're making.
+Before we get started with the meat of the module (which is JavaScript), we need to make a small but important distinction: are we going to make websites or web applications? For non-developers, there is no difference but for you as a developer you must know what it is that you'll be producing.
 
-Simply put, it's the difference between [Facebook](https://wwww.facebook.com) and [Wikipedia](https://www.wikipedia.org). In Facebook, the data shown changes depending on the user. If you are logged in, you'll see different things than that I will. However, on Wikipedia the information will always be the same, for both you and me. T
+The difference between a website and a web application is the difference between [Wikipedia](https://www.wikipedia.org) and [Facebook](https://wwww.facebook.com). In Facebook, the data shown changes depending on the user. If you are logged in, you'll see different things than that I will. However, on Wikipedia the information will always be the same, for both you and me. 
 
-This is the difference bteween `static` and `dynamic` sites: a static site always has the same information (written in the HTML), while a dynamic site changes it's data shown to the user depending on who it is and what their interactivity on the page is.
+In other words, we're talking about `static` versus `dynamic` sites: a static site always has the same information and serves only to be information, while a dynamic site changes the data shown to the user depending on who it is and what their interactivity on the page is.
 
 Read the following articles to learn more about this:
 
@@ -113,7 +115,7 @@ A variable is a piece of information that is saved. You give it a name that desc
 
 ### The keywords: let, const, var
 
-A variable is a central concept within programming. It's applied the same way across almost all programming languages. In JavaScript we apply it by using a `keyword`, a word that is reserved by the language because it has a special meaning. Read more about this in the following article:
+The variable is a central concept within programming. It's applied the same way across almost all programming languages. In JavaScript we apply it by using a `keyword`, a word that is reserved by the language because it has a special meaning. Read more about this in the following article:
 
 - [Variables](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/variables.md)
 

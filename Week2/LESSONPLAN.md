@@ -1,15 +1,15 @@
-# Lesson Plan Week 2
+# Lesson Plan JavaScript1 Week 2
 
 ## Agenda
 
 The purpose of this class is to introduce to the student:
 
-(1) The difference between statements & expressions
-(2) What are operators
-(3) What are loops
-(4) What are conditional statements
+- The difference between statements & expressions
+- What are operators
+- What are loops
+- What are conditional statements
 
-### Core concepts
+## Core concepts
 
 FIRST HALF (12.00 - 13.30)
 

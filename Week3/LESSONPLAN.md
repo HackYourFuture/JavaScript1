@@ -1,12 +1,12 @@
-# Lesson Plan Week 3
+# Lesson Plan JavaScript1 Week 3
 
 ## Agenda
 
 The purpose of this class is to introduce to the student:
 
-(1) What is a function (ES5 only)
-(2) Wat is scope (global, functional, block)
-(3) How to combine variables, loops & functions
+- What is a function (ES5 only)
+- Wat is scope (global, functional, block)
+- How to combine variables, loops & functions
 
 ### Core concepts
 

@@ -1,4 +1,4 @@
-# Lesson Plan JavaScript 1 Week 1
+# Lesson Plan JavaScript1 Week 1
 
 ## Agenda
 

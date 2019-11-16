@@ -169,7 +169,13 @@ console.log(lastName);
 
 ##### Exercise
 
-TODO(Could be moved to SECOND HALF)
+1. Create 2 variables using the `let` keyword
+    1. make 1 variable contain your first name
+    1. the second variable should have no value assigned
+    
+1. Make 2 variables using the `const` keyword
+    1. the first variable should contain the city you currently stay at
+    1. come up with a value for the second variable yourself
 
 ##### Essence
 

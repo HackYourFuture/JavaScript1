@@ -78,7 +78,7 @@ _Show examples of static and dynamic websites_
 
 ##### Example
 
-- An example about relationship between HTML, CSS and Javascript using a methaphor of building a city: https://blog.codeanalogies.com/2018/05/09/the-relationship-between-html-css-and-javascript-explained/
+- An example about relationship between HTML, CSS and Javascript using a metaphor of building a city: https://blog.codeanalogies.com/2018/05/09/the-relationship-between-html-css-and-javascript-explained/
 
 ##### Exercise
 
@@ -98,14 +98,14 @@ Up until now at HackYourFuture, we have been writing websites using HTML and CSS
 
 These static pages can interact with a visitor only through the use of forms. Once a form is filled out and submitted, a request is sent back to the server where a new static web page is constructed and eventually downloaded into the browser.
 
-A big disadavantage of web pages like this is that the only way that a visitor has of interacting with the page is by filling out the form and waiting for a new page to load.
+A big disadvantage of web pages like this is that the only way that a visitor has of interacting with the page is by filling out the form and waiting for a new page to load.
 
 It doesn't exhibit any dynamic behaviour like:
 
 1. reacting to user actions such as mouse click events or key presses.
 1. rendering complex animations
 1. sending requests over network to servers and fetching a response
-1. And this is where JavaScript steps in.
+1. and this is where JavaScript steps in.
   
 #### 3. What are variables (const & let) & naming conventions
 
@@ -169,13 +169,19 @@ console.log(lastName);
 
 ##### Exercise
 
-TODO(Could be moved to SECOND HALF)
+1. Create 2 variables using the `let` keyword
+    1. make 1 variable contain your first name
+    1. the second variable should have no value assigned
+    
+1. Make 2 variables using the `const` keyword
+    1. the first variable should contain the city you currently stay at
+    1. come up with a value for the second variable yourself
 
 ##### Essence
 
 Any application written in any programming language requires data or information to work with. This information can be as simple as a string, number or complex types like a list of strings, a mix of strings and numbers etc.
 
-For eg, you name and age are simple pieces of information, strings and a number respectively. On the other hand, your house address could be considered as a complex set of information including house number, street name, city, postcode and country.
+For example, your name and age are simple pieces of information, a string and a number respectively. On the other hand, your house address could be considered as a complex set of information including house number, street name, city, postcode and country.
 
 Variables are simply named storage/pointer for this information.
 

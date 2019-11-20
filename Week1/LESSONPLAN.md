@@ -189,8 +189,50 @@ Variables are simply named storage/pointer for this information.
 
 #### 4. The basic data types (string, boolean, number, undefined, null)
 
-TODO
+##### Explanation
+Primitive data types are typically types that are built-in or basic to a language implementation.
+
+There are 5 different types of data. The compiler/computer interpretates all the variables we make as one of those datatypes. 
+(https://javascript.info/types)
+
+Boolean — true or false
+Null — no value
+Undefined — a declared variable but hasn’t been given a value
+Number — integers, floats, etc
+String — an array of characters i.e words
+?? Symbol — a unique value that's not equal to any other value ??
+##### Example
+* `string`, e.g. "HackYourFuture"
+* `number`, e.g. 5, or 10.6
+* `boolean`, e.g. `true` or `false`
+* `array`\*, e.g. `[1, 2, 3]` or `['what', 'is', 'your', 'name']`
+* `null and undefined` The values `null` and `undefined` are very similar in JavaScript, but they behave a bit differently. The difference is that `null` always has type "object", and `undefined` always has type "undefined".
+
+Whenever you declare a variable, but you don't set a value, the variable will become `undefined`. JavaScript will never make a variable `null` unless you explicitly program it.
+* `symbol`
+
+
+```js
+let x = 5;
+let typeOfX = typeof x; // -> "number"
+```
+
+
+##### Exercise
+BEverybody has two minutes to find a way to declare all basic data types by making use of the typeof operator: 
+```js
+let x = 5;
+let typeOfX = typeof x; // -> "number"
+```
+##### Essence
+In this way we can store a lot of data in a compact way, while the computer/compiler knows how to interpretate the 1's and 0's/
 
 #### 5. The compound data types (object, array)
 
-TODO
+##### Explanation
+
+##### Example
+* `array`\*, e.g. `[1, 2, 3]` or `['what', 'is', 'your', 'name']`
+* `object`, e.g. `{name: 'John', age: 24}`, or the special object `null`
+##### Exercise
+##### Essence

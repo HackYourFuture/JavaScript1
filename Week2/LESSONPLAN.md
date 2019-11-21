@@ -13,9 +13,10 @@ The purpose of this class is to introduce to the student:
 
 FIRST HALF (12.00 - 13.30)
 
-1. Q&A about last week's concepts & homework
+### 1. Q&A about last week's concepts & homework
+(Add more content)
 
-2. The difference between statements & expressions
+### 2. The difference between statements & expressions
 ##### Explanation
 An expression is a piece of code that resolves in a value (becomes a value) 
 
@@ -69,17 +70,16 @@ if (s2 == s1) {
 }
 ```
 
-**18. List all 11 *statements* in the code above**
-
-**19. List all 28 *expressions* in the code above (BONUS!)**
+List all 11 *statements* in the code above
+List all 28 *expressions* in the code above (BONUS!)
 
 ##### Essence
 It's important to know the difference between expressions and statement because:
-1. It will give you an overview on what the code is about (is it an instruction or is code that resolves in a value)
-2. While writing code you'll not mix up the two and therefore make sure that you do not write wrong code. 
+  1. It will give you an overview on what the code is about (is it an instruction or is code that resolves in a value)
+  2. While writing code you'll not mix up the two and therefore make sure that you do not write wrong code. 
 
 
-3. What are operators (comparison, arithmetic, logical, assignment)
+### 3. What are operators (comparison, arithmetic, logical, assignment)
 ##### Explanation
 An operator is capable of manipulating a certain value or operand. Operators are used to perform specific mathematical and logical computations on operands. In other words, we can say that an operator operates the operands. In JavaScript operators are used for compare values, perform arithmetic operations etc. There are various operators supported by JavaScript:
 
@@ -112,7 +112,7 @@ In fact, operators are the buildingblocks of all possible actions.
 
 SECOND HALF (14.00 - 16.00)
 
-4. What are loops (do/while & for loop)
+### 4. What are loops (do/while & for loop)
 ##### Explanation
 Programming loops are about doing the same thing over and over again. Another term for that is: iteration 
 
@@ -129,10 +129,9 @@ You can check: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Buildin
 
 5. What are conditional statements (if/else & switch)
 ##### Explanation
-The normal order of execution of statements in a computer program is in straight-line order, from top to bottom. However, sometimes it is desirable to execute one or more statements conditionally, i.e. depending on whether some condition – determined by the state of your program – holds true.
+The normal order of execution of statements in a computer program is in straight-line order, from top to bottom. However, sometimes it is desirable to execute one or more statements conditionally, i.e. depending on whether some condition – determined by the state of your program – holds true (Boolean expression).
 
 In its simplest form the `if` statement looks like this:
-
 
 ```js
 if () {
@@ -142,26 +141,15 @@ if () {
 Then we have: 
 ```js
 if() {
-
 } else {
-
 }
-
-
 ```
+At last we have:
 ```js
 if() {
-
 } else if {
-
 }
 ```
-
-Here, `condition` is a boolean expression that resolves to either `true` or `false` (or, more precisely, any expression that is 'truthy' or 'falsy', as will be explained later).
-
-The statements within the curly braces `{` and `}` will be executed if the condition holds true, otherwise these statements will be skipped (i.e. ignored).
-
-
 
 The switch statement can sometimes be a useful alternative to a concatenation of if statements. This is the case when the condition is an expression that can be decomposed into a number of distinct values or cases, as shown in the example below.
 
@@ -174,6 +162,7 @@ if (distance < 10) {
 
 
 ##### Exercise
+https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Statements/if...else
 
 
 ##### Essence

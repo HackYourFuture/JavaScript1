@@ -16,19 +16,165 @@ FIRST HALF (12.00 - 13.30)
 1. Q&A about last week's concepts & homework
 
 2. The difference between statements & expressions
+##### Explanation
+An expression is a piece of code that resolves in a value (becomes a value) 
 
-**Do Exercise**
+A statement is an instruction
+##### Example
+
+###### Expressions
+* `sum(a, b)`
+* `a`
+* `a > 4 ? "yes" : "no"`
+* `a + b`
+* `a && b || c`
+
+###### statements
+* `let x;` 
+* `if (a > 4) { return "yes"; } else { return "no"; }`
+##### Exercise
+
+###### 15. Indicate for each of these whether it is an expression or a statement:
+
+1. `l`
+2. `l = 4;`
+3. `l == 4`
+4. `if (l == 4) { console.log("yes"); }`
+5. `console.log("yes");`
+6. `"yes"`
+7. `console.log(l == 4 ? "yes" : "no")`
+8. `function a() { return 4; }`
+9. `let a = function () { return 4; }`
+
+###### Given the following code:
+
+```js
+let s = "Hello".toLowerCase();
+let l = s.length;
+
+function sum(a, b) {
+  return a + b;
+}
+let max = function (a, b) {
+  return a > b ? a : b;
+}
+
+let s1 = sum(4, 5);
+let s2 = 4 + 5;
+
+if (s2 == s1) {
+  console.log("same");
+} else {
+  console.log("not same");
+}
+```
+
+**18. List all 11 *statements* in the code above**
+
+**19. List all 28 *expressions* in the code above (BONUS!)**
+
+##### Essence
+It's important to know the difference between expressions and statement because:
+1. It will give you an overview on what the code is about (is it an instruction or is code that resolves in a value)
+2. While writing code you'll not mix up the two and therefore make sure that you do not write wrong code. 
+
 
 3. What are operators (comparison, arithmetic, logical, assignment)
+##### Explanation
+An operator is capable of manipulating a certain value or operand. Operators are used to perform specific mathematical and logical computations on operands. In other words, we can say that an operator operates the operands. In JavaScript operators are used for compare values, perform arithmetic operations etc. There are various operators supported by JavaScript:
 
-**Do Exercise**
+* Arithmetic Operators
+  take numerical values (either literals or variables) as their operands and return a single numerical value.  
+* Comparison Operators
+ Two diferent types of comparison operators; They will always return a logical value,
+- Equality Operators
+  checks if the operands are 'the same' 
+  diffference in '=' '==' '==='
+- Relational Operators
+ checks if the specific relation between two operands is true or false
+
+* Logical Operators
+ Mostly 'comparing'boolean values, but it can be used with any type.
+ 
+* Assignment Operators
+assigns a value to its left operand based on the value of its right operand. The simple assignment operator is equal '='
+
+(https://www.geeksforgeeks.org/javascript-operators/)
+##### Example
+https://www.tutorialsteacher.com/javascript/javascript-operators
+##### Exercise
+See example
+##### Essence
+Operators are very important in a programming language, because this is how we manipulate values. 
+In fact, operators are the buildingblocks of all possible actions.
+
+
 
 SECOND HALF (14.00 - 16.00)
 
 4. What are loops (do/while & for loop)
+##### Explanation
+Programming loops are about doing the same thing over and over again. Another term for that is: iteration 
 
-**Do Exercise**
+Wikipedia: In most computer programming languages, a while loop is a (control flow) statement that allows (a block of) code to be executed repeatedly based on a given Boolean condition.
+
+##### Example
+*images*
+##### Exercise
+Make a for loop with a do-while loop
+##### Essence
+In programming you have to do a lot of (alomst) similar calculations over and over again. Using loops makes it iesier (and less boring) to code. Next to that it makes sure the the code is much more compact.
+
+You can check: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code as well. underneath the paragraph: 'Why bother'
 
 5. What are conditional statements (if/else & switch)
+##### Explanation
+The normal order of execution of statements in a computer program is in straight-line order, from top to bottom. However, sometimes it is desirable to execute one or more statements conditionally, i.e. depending on whether some condition – determined by the state of your program – holds true.
 
-**Do Exercise**
+In its simplest form the `if` statement looks like this:
+
+
+```js
+if () {
+}
+```
+
+Then we have: 
+```js
+if() {
+
+} else {
+
+}
+
+
+```
+```js
+if() {
+
+} else if {
+
+}
+```
+
+Here, `condition` is a boolean expression that resolves to either `true` or `false` (or, more precisely, any expression that is 'truthy' or 'falsy', as will be explained later).
+
+The statements within the curly braces `{` and `}` will be executed if the condition holds true, otherwise these statements will be skipped (i.e. ignored).
+
+
+
+The switch statement can sometimes be a useful alternative to a concatenation of if statements. This is the case when the condition is an expression that can be decomposed into a number of distinct values or cases, as shown in the example below.
+
+##### Example
+```js
+if (distance < 10) {
+    console.log('I will take the bike.');
+}
+```
+
+
+##### Exercise
+
+
+##### Essence
+

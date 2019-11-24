@@ -2,7 +2,6 @@
 
 From this module on you'll submit your homework only using GIT and GitHub.
 
-1. [GitHub](https://www.github.com/HackYourFuture/JavaScript1)
 
 ## 1. GitHub homework guide
 
@@ -10,7 +9,10 @@ Follow the walkthrough to learn how to submit your homework for each week:
 
 ONE TIME ONLY (START OF EVERY MODULE)
 
-1. Create a [fork](https://help.github.com/en/articles/fork-a-repo) of your teacher's module repository. You do this by using the `fork` option on the top right corner of their repository
+1. Create a [fork](https://help.github.com/en/articles/fork-a-repo) of the module repository under
+the HackYourFuture user.
+For example, for JavaScript1, the module repository is `https://www.github.com/HackYourFuture/JavaScript1`.
+You can find the `fork` option on the top right corner of the repository.
 2. Navigate to the URL of the cloned repository (it should be in your personal GitHub account, under "repositories")
 3. Clone the repository, using SSH, to your local machine. You can do this by typing in `git clone <git url>` in the command line
 4. On your local machine, navigate to the folder using the command line
@@ -22,14 +24,17 @@ EVERY WEEK
 2. Create a folder called `homework` inside of each week's folder. So for example, inside of the `Week1` folder, create a new folder called `homework`
 3. Once you're finished, add and commit everything. Make the commit message meaningful, for example `finished project for homework week1`
 4. Push the branch to your forked repository
-5. On the GitHub page of your forked repository, click on the `create pull request` button. Make sure the `base repository` is your teacher's, on branch master
+5. On the GitHub page of your forked repository, click on the `create pull request` button.
+Make sure that the `base repository` is the module repository E.g. `https://www.github.com/HackYourFuture/JavaScript1.git`,
+on branch master.
 6. Give the pull request a title in the following format:
 
 ```markdown
 Homework week 1 <Your name>
 ```
 
-7. Submit the pull request from your forked repository branch into the `master` branch of your teacher's repository
+7. Submit the pull request from your forked repository branch into the `master` branch of the module repository.
+Note that you are comparing `your branch + your repository` with the `master branch + module repository`.
 8. Do a little victory dance because you did it! Good job!
 
 For a visual walkthrough the steps please watch the following video one of our teachers, Unmesh Joshi, has made:

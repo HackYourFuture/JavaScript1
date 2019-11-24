@@ -13,13 +13,13 @@ The purpose of this class is to introduce to the student:
 
 ## Core concepts
 
-*FIRST HALF (12.00 - 13.30)*
+_FIRST HALF (12.00 - 13.30)_
 
 ## 1. The 2 types of websites: static vs. dynamic
 
 ### Explanation
 
-Static websites usually come with a fixed number of pages that have a specific layout. When the page runs on a browser, the content is literally static and doesn’t change in response to user actions. A static website is usually created with HTML and CSS 
+Static websites usually come with a fixed number of pages that have a specific layout. When the page runs on a browser, the content is literally static and doesn’t change in response to user actions. A static website is usually created with HTML and CSS
 Compared to static websites, which are purely informational, a dynamic website is more functional. It allows users to interact with the information that is listed on the page. Of course, that requires utilizing more than just HTML code.
 
 ### Example
@@ -45,23 +45,31 @@ Discuss in class which claim belongs to which type of website:
     Feature of Content Management System.
     HTML, CSS, Javascript is used for developing the website.
     Same content is delivered everytime the page is loaded.
-  
+
+<<<<<<< HEAD
+
 ### Essence
 
+=======
+
+##### Essence
+
+> > > > > > > add exercises to part 2
+
 [In the link is an article with (dis)advantages of both static and dynamic websites.](https://www.spiderwriting.co.uk/static-dynamic.php)
-  
-      Static: 
+
+      Static:
         Advantage:
           - Flexible
           - Cheaper
         Disadvantages:
           - not updating content
           - Scalability
-          
+
       Dynamic:
         Advantage:
-          - Easy to pull in data on stuctured and organised way 
-          - Content management system 
+          - Easy to pull in data on stuctured and organised way
+          - Content management system
         Disadvantage:
           - Design is more fixed, becasue the pages are more of a template
           - Costs
@@ -104,8 +112,15 @@ It doesn't exhibit any dynamic behaviour like:
 1. rendering complex animations
 1. sending requests over network to servers and fetching a response
 1. and this is where JavaScript steps in.
-  
+   <<<<<<< HEAD
+
 ## 3. What are variables (const & let) & naming conventions
+
+=======
+
+#### 3. What are variables (const & let) & naming conventions
+
+> > > > > > > add exercises to part 2
 
 ### Explanation
 
@@ -127,6 +142,7 @@ Three different stages of working with variables are:
   - Variable assignment means throwing away the old value of a variable and replacing it with a new one. Initialization can be thought of as a special way of assignment.
 
 https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/variables.md
+
 ### Example
 
 ```javascript
@@ -169,12 +185,13 @@ console.log(lastName);
 ### Exercise
 
 1. Create 2 variables using the `let` keyword
-    1. make 1 variable contain your first name
-    1. the second variable should have no value assigned
-    
+
+   1. make 1 variable contain your first name
+   1. the second variable should have no value assigned
+
 1. Make 2 variables using the `const` keyword
-    1. the first variable should contain the city you currently stay at
-    1. come up with a value for the second variable yourself
+   1. the first variable should contain the town/city you currently stay at
+   1. come up with a value for the second variable yourself
 
 ### Essence
 
@@ -184,14 +201,16 @@ For example, your name and age are simple pieces of information, a string and a 
 
 Variables are simply named storage/pointer for this information.
 
-*SECOND HALF (14.00 - 16.00)*
+_SECOND HALF (14.00 - 16.00)_
 
 ## 4. The basic data types (string, boolean, number, undefined, null)
 
 ### Explanation
-Primitive data types are typically types that are built-in or basic to a language implementation.
 
-There are 5 different types of data. The compiler/computer interpretates all the variables we make as one of those datatypes. 
+> > > > > > > add exercises to part 2
+> > > > > > > Primitive data types are typically types that are built-in or basic to a language implementation.
+
+There are 5 different types of data. The compiler/computer interprets all the variables we make as one of those datatypes.
 (https://javascript.info/types)
 
 Boolean — true or false
@@ -200,40 +219,71 @@ Undefined — a declared variable but hasn’t been given a value
 Number — integers, floats, etc
 String — an array of characters i.e words
 ?? Symbol — a unique value that's not equal to any other value ??
+
 ### Example
-* `string`, e.g. "HackYourFuture"
-* `number`, e.g. 5, or 10.6
-* `boolean`, e.g. `true` or `false`
-* `array`\*, e.g. `[1, 2, 3]` or `['what', 'is', 'your', 'name']`
-* `null and undefined` The values `null` and `undefined` are very similar in JavaScript, but they behave a bit differently. The difference is that `null` always has type "object", and `undefined` always has type "undefined".
 
-Whenever you declare a variable, but you don't set a value, the variable will become `undefined`. JavaScript will never make a variable `null` unless you explicitly program it.
-* `symbol`
+- `string`, e.g. "HackYourFuture"
+- `number`, e.g. 5, or 10.6
+- `boolean`, e.g. `true` or `false`
+- `array`\*, e.g. `[1, 2, 3]` or `['what', 'is', 'your', 'name']`
+- `null`
+- `undefined`
+  The values `null` and `undefined` are very similar in JavaScript, but they behave a bit differently. The difference is that `null` always has type "object", and `undefined` always has type "undefined".
 
+Whenever you declare a variable (using `let`), but you don't set a value, the variable will become `undefined`. JavaScript will never make a variable `null` unless you explicitly program it.
+
+- `symbol`
 
 ```js
 let x = 5;
 let typeOfX = typeof x; // -> "number"
 ```
-
 
 ### Exercise
-Everybody has two minutes to find a way to declare all basic data types by making use of the typeof operator: 
+
+Everybody has two minutes to find a way to declare all basic data types by making use of the typeof operator:
+
 ```js
 let x = 5;
 let typeOfX = typeof x; // -> "number"
 ```
-### Essence
-In this way we can store a lot of data in a compact way, while the computer/compiler knows how to interpretate the 1's and 0's/
+
+##### Essence
+
+In this way we can store a lot of data in a compact way, while the computer/compiler knows how to interpret the 1's and 0's/
 
 ## 5. The compound data types (object, array)
 
 ### Explanation
 
+- Object key / value
+- Array numeric key value
+- Array ordered
+- Object not ordered
+
 ### Example
-* `array`\*, e.g. `[1, 2, 3]` or `['what', 'is', 'your', 'name']`
-* `object`, e.g. `{name: 'John', age: 24}`, or the special object `null`
+
+- `array`\*, e.g. `[1, 2, 3]` or `['what', 'is', 'your', 'name']`
+- `object`, e.g. `{name: 'John', age: 24}`, or the special object `null`
+
 ### Exercise
+
+1. Create a list of your favorite types of food/dishes like this:
+
+```js
+['Chocolate', 'Risotto', 'Tuna melt'];
+```
+
+2. Create an object that contains the properties of your town/city like this:
+
+```js
+{
+  name: 'Huizen',
+  province: 'Noord-Holland',
+  citizens: 50000
+}
+```
+
 ### Essence
 
 _Special thanks to Jim Cramer, Yash Kapila, David Nudge for most of the content_

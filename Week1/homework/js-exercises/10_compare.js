@@ -1,3 +1,4 @@
+"use strict";
 const cities = ["paris", "london", "madrid", "amsterdam"];
 const names = ["john", "wouter", "unmesh", "martin", "noer", "ahmet", "yasin"];
 console.log(`cities variable have ${cities.length} elements..`);

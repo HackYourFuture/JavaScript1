@@ -1,3 +1,4 @@
+"use strict";
 console.log("Merhaba, Dunya!");
 console.log("Hello, World!");
 console.log("Hallo, Wereld!");

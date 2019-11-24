@@ -1,3 +1,4 @@
+"use strict";
 let x = 7;
 x = x % 3;
 let y = 21;

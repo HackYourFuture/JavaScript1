@@ -1,3 +1,4 @@
+"use strict";
 // we are starting to write 4 variable..
 let name = "ahmet";
 let color = "purple";

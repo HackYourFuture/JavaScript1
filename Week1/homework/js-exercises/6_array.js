@@ -1,3 +1,4 @@
+"use strict";
 let items = [];
 console.log("Empty Array:");
 console.log(items);

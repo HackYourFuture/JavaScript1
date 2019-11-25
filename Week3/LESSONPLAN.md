@@ -53,7 +53,7 @@ The top level outside all your functions is called the _global scope_. Values de
 
 https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/scope.md
 ### Example
-![Scopes](./assets/scopes.png)
+![Scopes](../assets/scopes.png)
 
 ```Javascript
 let villan = "Joker";                        // | global scope
@@ -100,3 +100,5 @@ Same link as Explanation
 ### Example
 ### Exercise
 ### Essence
+
+_Special thanks to Jim Cramer, Yash Kapila, David Nudge for most of the content_

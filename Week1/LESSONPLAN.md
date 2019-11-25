@@ -66,8 +66,6 @@ Discuss in class which claim belongs to which type of website:
           - Design is more fixed, becasue the pages are more of a template
           - Costs
 
-_Show examples of static and dynamic websites_
-
 ## 2. The pillars of web development: HTML/CSS/JavaScript
 
 ### Explanation
@@ -238,4 +236,4 @@ In this way we can store a lot of data in a compact way, while the computer/comp
 ### Exercise
 ### Essence
 
-Special thanks to Jim Cramer, Yash Kapila, David Nudge for most of the content
+_Special thanks to Jim Cramer, Yash Kapila, David Nudge for most of the content_

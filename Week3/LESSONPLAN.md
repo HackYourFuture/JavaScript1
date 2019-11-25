@@ -15,8 +15,33 @@ FIRST HALF (12.00 - 13.30)
 ## 1. Q&A about last week's concepts & homework
 
 ### Explanation
+**Week 1**
+
+In Week 1 we learnt about how data is represented computer programs:
+
+- Variables
+- Basic data types (`string`, `number`, etc)
+- Compound data types (`array`, `object`)
+
+**Week 2**
+
+In Week 2 we learnt about how to manipulate the flow of execution in computer programs:
+
+- Branching constructs
+  - `if..else`
+- Looping constructs
+  -  `for`
+  -  `for..of`
+  -  `for..in`
+  -  `do..while`
+
+We also learnt about more ways to work with data using operators:
+
+- Operators (arithmetic, comparison, eg `+`, `*`, `&&`, `||`, etc).
+
 ### Example
 ### Exercise
+Ask students to explain a concept or summerise the last lecture themselves
 ### Essence
 
 ## 2. What is a function (ES5 only)

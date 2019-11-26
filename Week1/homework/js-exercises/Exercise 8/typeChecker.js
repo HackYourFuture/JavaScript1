@@ -1,32 +1,32 @@
-const myStr = 'naji';
-const str = 'nabulsi';
-const myObj = ['na', 'ba'];
-const obj = ['an', 'ab'];
-if (typeof myStr == typeof str) {
+const myName = 'naji';
+const lastName = 'nabulsi';
+const myThings = ["Glasses", "bag"];
+const myIssues = ['research', 'research'];
+if (typeof myName == typeof lastName) {
     console.log('SAME TYPE');
 } else {
     console.log('not the SAME TYPE');
 }
 
-if (typeof myStr == typeof myObj) {
+if (typeof myName == typeof myThings) {
     console.log('SAME TYPE');
 } else {
     console.log('not the SAME TYPE');
 }
 
-if (typeof myStr == typeof obj) {
+if (typeof myName == typeof myIssues) {
     console.log('SAME TYPE');
 } else {
     console.log('not the SAME TYPE');
 }
 
-if (typeof str == typeof myObj) {
+if (typeof lastName == typeof myThings) {
     console.log('SAME TYPE');
 } else {
     console.log('not the SAME TYPE');
 }
 
-if (typeof myObj == typeof obj) {
+if (typeof myThings == typeof myIssues) {
     console.log('SAME TYPE');
 } else {
     console.log('not the SAME TYPE');

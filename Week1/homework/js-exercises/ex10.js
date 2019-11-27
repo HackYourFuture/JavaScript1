@@ -6,7 +6,7 @@ const arry2 = ['one', 'two', 'three', 'four', 'five', 'seven', 'eight'];
 console.log(arry1.length);
 console.log(arry2.length);
 //Write a conditional statement
-if (arry1.length == arry2.length) {
+if (arry1.length === arry2.length) {
   console.log('They are the same!');
 } else {
   console.log('Two different sizes');

@@ -1,11 +1,11 @@
 "use strict";
 
-var emptyArrays = [];
+const emptyArray = [];
 
 console.log("It is an empty array.");
 console.log(emptyArrays);
 
-var animals = ["Dog", "Cat", "Lion"];
+let animals = ["Dog", "Cat", "Lion"];
 console.log(animals);
 
 animals.push("Piglet");

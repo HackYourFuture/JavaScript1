@@ -1,6 +1,6 @@
 "usestrict";
 
-var numberX;
+let numberX;
 
 console.log(
   "The numberX will be undefined because we didn't add any value to numberX."

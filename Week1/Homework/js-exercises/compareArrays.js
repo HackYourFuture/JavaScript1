@@ -1,8 +1,8 @@
 "use strict";
 
-var me = ["Abuzer", 29, "unemployed", "bachelor graduate"];
+let me = ["Abuzer", 29, "unemployed", "bachelor graduate"];
 
-var tesla = [
+let teslaModels = [
   "model S",
   "model X",
   "model Y",
@@ -15,7 +15,7 @@ var tesla = [
 console.log("length of the array me is ", me.length);
 console.log("length of the array tesla is ", tesla.length);
 
-if (me.length == tesla.length) {
+if (me.length === tesla.length) {
   console.log("They are the same!");
 } else {
   console.log("Two different sizes");

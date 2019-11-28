@@ -14,7 +14,13 @@ The purpose of this class is to introduce to the student:
 FIRST HALF (12.00 - 13.30)
 
 ## 1. Q&A about last week's concepts & homework
-(Add more content)
+### Explanation
+- static vs. dynamic
+- Variables in JavaScript: `var`, `let`, `const`, declaration, initialization, assignment
+- Basic Data Types in JavaScript: `number`, `string`, `boolean`, `undefined`, `null`
+- Compound Data Types in JavaScript: `array`, `object`
+### Exercise
+Let the students explain the concepts themselves.
 
 ## 2. The difference between statements & expressions
 ### Explanation

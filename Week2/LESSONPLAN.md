@@ -132,7 +132,7 @@ In programming you have to do a lot of (alomst) similar calculations over and ov
 
 You can check: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code as well. underneath the paragraph: 'Why bother'
 
-5. What are conditional statements (if/else & switch)
+## 5. What are conditional statements (if/else & switch)
 ### Explanation
 The normal order of execution of statements in a computer program is in straight-line order, from top to bottom. However, sometimes it is desirable to execute one or more statements conditionally, i.e. depending on whether some condition – determined by the state of your program – holds true (Boolean expression).
 

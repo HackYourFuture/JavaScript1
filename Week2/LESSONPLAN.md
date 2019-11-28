@@ -157,6 +157,9 @@ if() {
 ```
 
 The switch statement can sometimes be a useful alternative to a concatenation of if statements. This is the case when the condition is an expression that can be decomposed into a number of distinct values or cases, as shown in the example below.
+Depending on the value of the expression specified in the `switch` clause, one of the `case` statement blocks is executed. Each statement block should end with a `break` statement to ensure that a `case` doesn't 'fall through' into the next `case`.
+
+The `default` statement at the end is executed when none of the preceding cases hold true. The `default` statement is not strictly required, but is a best practice to always specify one.
 
 ### Example
 ```js
@@ -164,6 +167,40 @@ if (distance < 10) {
     console.log('I will take the bike.');
 }
 ```
+
+```js
+const hyfModule = 'JavaScript-1';
+
+switch (hyfModule) {
+  case 'HTML/CSS':
+    console.log('In this module you will learn HTML and CSS.');
+    break;
+  case 'JavaScript-1':
+    console.log('In this module you will learn Git and JavaScript basics.');
+    break;
+  case 'JavaScript-2':
+    console.log('In this module you will learn about JavaScript in the browser with HTML and CSS.');
+    break;
+  case 'JavaScript-3':
+    console.log('In this module you will learn about Async and API calls.');
+    break;
+  case 'Node':
+    console.log('This module is about building server and CLI applications using Node.');
+    break;
+  case 'Database':
+    console.log('In this module is about Relational and Non-Relational Data and Database Systems.');
+    break;
+  case 'React':
+    console.log('In this module you will to build Single Page Applications using React.');
+    break;
+  case 'Project':
+    console.log('In this final module you will do your graduation project.');
+    break;
+  default:
+    console.log('This module is unknown: ' + hyfModule);
+}}
+```
+
 
 
 ### Exercise

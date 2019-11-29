@@ -1,8 +1,8 @@
 'use strict';
 
-let numberX;
-console.log('undefined, because the variable is not assigned a value');
-console.log(numberX);
-numberX = 10;
-console.log('10, because now it has been assigned a value 10');
-console.log(numberX);
+let numberX; // 1
+console.log('undefined, because the variable is not assigned a value'); //2
+console.log(numberX); //3
+numberX = 10; //4
+console.log('10, because now it has been assigned a value 10'); //5
+console.log(numberX); //6

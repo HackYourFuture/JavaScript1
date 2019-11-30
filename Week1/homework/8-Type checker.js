@@ -7,19 +7,19 @@ const flag = 'italy';
 
 
 if(typeof y === typeof x){                //2
-    console.log(true);
+    console.log('SAME TYPE');
 }else {
-    console.log(false);
+    console.log('Not the same');
 }
 if(typeof y === typeof color){
-    console.log(true);
+    console.log('SAME TYPE');
 }else {
-    console.log(false);
+    console.log('Not the same');
 }
 if(typeof y === typeof flag){
-    console.log(true);
+    console.log('SAME TYPE');
 }else {
-    console.log(false);
+    console.log('Not the same');
 }
 
 console.log(typeof color);    //3

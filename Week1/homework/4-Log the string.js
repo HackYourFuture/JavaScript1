@@ -1,14 +1,14 @@
 'use strict'
 
-const myString = 'wesam alkfere';
+let  myString ='wesam alkfere';
 
-console.log(' the value will be wesam alkfere'); 
+console.log('will be my name'); 
 
 console.log(myString);
 
-const myString ='zaandam';
+myString = 'zaandam';   
 
-console.log(' has already been declared.. can not a new value');
+console.log('zaandam');
 
 console.log(myString);
 

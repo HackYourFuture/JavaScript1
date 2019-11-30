@@ -3,12 +3,13 @@
 const z = 7.25;
 console.log(z);
 
-const a = 7;
+const a = Math.round(z);
 console.log(a);
 
 
-const highestNum = a > z ? a : z;
-console.log(highestNum);
+
+const maxNum =math.max(a,z);
+console.log(maxNum);
 
 
 

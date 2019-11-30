@@ -1,12 +1,12 @@
 'use strict'
 
-const numberx;
+let numberx;
 
-console.log(' there is no value  initialize'); 
+console.log(' there is no value  initialize... will give u undefined'); 
 
 console.log(numberx);
 
-const numberx = 30;
+let  numberx = 30;
 
 console.log( 30);
 

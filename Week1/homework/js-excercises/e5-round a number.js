@@ -14,4 +14,4 @@ if (z>a) {
     highest=a
 }
 
-console.log(highest)
+console.log(highest);

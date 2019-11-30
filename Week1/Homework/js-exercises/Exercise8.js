@@ -1,38 +1,38 @@
 'use strict';
 let myName = 'mahmoud';
 let myLastName = 'badran';
-let FavoriteCars = [ 'BMW', 'Bugatti', 'Lamborghini' ];
-let FavoriteCities = [ 'Amsterdam', 'Damascus' ];
-if (typeof myName == typeof myLastName) {
+let favoriteCars = [ 'BMW', 'Bugatti', 'Lamborghini' ];
+let favoriteCities = [ 'Amsterdam', 'Damascus' ];
+if (typeof myName === typeof myLastName) {
 	console.log('SAME TYPE');
 } else {
 	console.log('Not the same');
 }
-if (typeof myName == typeof FavoriteCars) {
-	console.log('SAME TYPE');
-} else {
-	console.log('Not the same');
-}
-
-if (typeof myName == typeof FavoriteCities) {
+if (typeof myName === typeof favoriteCars) {
 	console.log('SAME TYPE');
 } else {
 	console.log('Not the same');
 }
 
-if (typeof FavoriteCars == typeof FavoriteCities) {
+if (typeof myName === typeof favoriteCities) {
 	console.log('SAME TYPE');
 } else {
 	console.log('Not the same');
 }
 
-if (typeof FavoriteCars == typeof myLastName) {
+if (typeof favoriteCars === typeof favoriteCities) {
 	console.log('SAME TYPE');
 } else {
 	console.log('Not the same');
 }
 
-if (typeof FavoriteCities == typeof myLastName) {
+if (typeof favoriteCars === typeof myLastName) {
+	console.log('SAME TYPE');
+} else {
+	console.log('Not the same');
+}
+
+if (typeof favoriteCities === typeof myLastName) {
 	console.log('SAME TYPE');
 } else {
 	console.log('Not the same');

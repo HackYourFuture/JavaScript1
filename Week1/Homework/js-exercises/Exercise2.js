@@ -1,7 +1,10 @@
 'use strict';
-console.log("I'm awesome");
-console.log('I/m awesome');
-console.log(`I'm awesome`);
+
+//console.log ('I'm awesome); error output is wrong to use the second single quote.
+//i solve this problem with this ways:
+
+console.log("I'm awesome"); // fisrt way
+console.log(`I'm awesome`); // scond way
 
 /* error output
 

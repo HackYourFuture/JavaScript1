@@ -1,6 +1,7 @@
 'use strict';
 const z = 7.25;
 console.log(z);
-const a = 7;
+const a = Math.round(z);
 console.log(a);
-console.log(Math.max(z, a)); // expected output: 7.25
+const maxNumber = Math.max(z, a);
+console.log('highest value', maxNumber); // expected output: 7.25

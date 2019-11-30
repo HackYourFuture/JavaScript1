@@ -8,7 +8,7 @@ console.log(a);
 
 
 
-const maxNum =math.max(a,z);
+const maxNum =     Math.max(a,z);
 console.log(maxNum);
 
 

@@ -1,7 +1,7 @@
-var myString="hello"+ " "+ "world";
-console.log('greetings');
+let myString="Enwer Memet";
+console.log(`my fullname`);
 console.log(myString);
 
-var myString="love you";
+myString="love you";
 console.log('love');
 console.log(myString);

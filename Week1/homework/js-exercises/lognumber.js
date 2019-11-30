@@ -1,9 +1,9 @@
 'use strict';
-let numberX;
-console.log('number');
-console.log(12);
+let x;
+console.log('I think the value of x is undifined ');
+console.log(x);
 
 // 
-var numberX = 12;
-console.log('month');
-console.log(12);
+x = 12;
+console.log(`i think it's an integer, its value is 12`);
+console.log(x);

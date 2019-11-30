@@ -1,0 +1,10 @@
+'use strict';
+let x = 7;
+x = x % 3;
+console.log("Final value of x:",x);
+let y = 21;
+y = y % 4;
+console.log("Final value of y:",y);
+let z = 13;
+z = z % 2;
+console.log("Final value of z:",z); 

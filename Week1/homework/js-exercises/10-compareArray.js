@@ -12,7 +12,7 @@ if(footballTeam.length === professionalFootballTeam.length){
 
     console.log('They are the same size!');
 
-}else if(footballTeam.length >> professionalFootballTeam.length){
+}else if(footballTeam.length > professionalFootballTeam.length){
 
     console.log(footballTeam.length + 'is smaller than '+professionalFootballTeam.length);
 

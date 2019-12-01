@@ -6,18 +6,18 @@
 3. If `z` equals 13, and the only other statement is `z = z % 2`, what would be the value of `z` after the calculation?
 */
 
-var x = 7;
+let x = 7;
     x %= 3;// same  x = x % 3 ;
 //  x = 7 * 0.03 = 0.21 
     console.log('The value of X is ' + x);
 
-var y = 21;
+let y = 21;
     y %= 4;// same  y = y % 4 ; 
 // y = 21 * 0.04 = 0.84    
     console.log('The value of Y is ' + y); 
 
 
-var z = 13;
+let z = 13;
     z %= 2;// same  z = z % 2;
 // z = 13 * 0.02 = 0.26
     console.log('The value of Z is ' + z); 

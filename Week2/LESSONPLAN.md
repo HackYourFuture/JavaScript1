@@ -70,6 +70,40 @@ if (s2 == s1) {
 }
 ```
 
+let statement=[
+  let s = "Hello".toLowerCase();
+  let l = s.length;
+
+
+function sum(a, b) {
+  return a + b;
+}
+let max = function (a, b) {
+  return a > b ? a : b;
+}
+
+let s1 = sum(4, 5);
+let s2 = 4 + 5;
+
+if (s2 == s1) {
+  console.log("same");
+} else {
+  console.log("not same");
+}
+]
+
+let expression =[
+  "Hello".toLowerCase()
+
+  s.length
+
+  sum(4, 5)
+
+  function (a, b)
+
+  return a + b
+]
+
 List all 11 *statements* in the code above
 List all 28 *expressions* in the code above (BONUS!)
 

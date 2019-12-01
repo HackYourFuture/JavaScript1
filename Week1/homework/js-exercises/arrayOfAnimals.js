@@ -1,8 +1,8 @@
-var animals=[];
+let animals=[];
 console.log(`an empty array`);
 console.log(animals);
 
-var myPets = ["cat", "horse", "sheep"];
+let myPets = ["cat", "horse", "sheep"];
 console.log(myPets);
 
 

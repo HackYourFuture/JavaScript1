@@ -16,3 +16,4 @@ if (names.length === numbers.length) {
 } else {
     console.log('Two different sizes');
 }
+

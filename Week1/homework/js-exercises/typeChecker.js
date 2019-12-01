@@ -1,6 +1,6 @@
 'use strict'
-let fruit='apple';
-let user='enwer';
+let fruit = 'apple';
+let user = 'enwer';
 const car = { type: "Fiat", model: "500", color: "white" };
 const team = { type: "lakers", model: "1990", color: "yellow" };
 
@@ -50,3 +50,4 @@ if (typeof car === typeof team) {
 else {
     console.log('car and team: Not the same...')
 }
+

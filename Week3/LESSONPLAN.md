@@ -57,7 +57,7 @@ https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/function
 ### Example
 Same link as Explanation
 ### Exercise
-https://github.com/yash-kapila/HYF-JS1-Week3/tree/master/src
+
 ### Essence
 - __Reusability__: Functions can be grouped together to make a module (or library), and then modules can be imported into your application so you can build awesome apps!
 - __Abstraction__: Hide underlying details about how a piece of functionality works under the hood. You can change how things are implemented within the function without other programmers who use your function worrying aobut the exact details of how it was implemented.
@@ -124,6 +124,7 @@ Same link as Explanation
 ### Explanation
 ### Example
 ### Exercise
+https://github.com/yash-kapila/HYF-JS1-Week3/tree/master/src
 ### Essence
 
 _Special thanks to Jim Cramer, Yash Kapila, David Nudge for most of the content_

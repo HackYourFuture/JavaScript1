@@ -147,7 +147,7 @@ These are the requirements your project needs to fulfill:
 This is what the script is expected to return in the command line:
 
 ```markdown
-You got a B (85%)!
+You got a D (60%)!
 ```
 
 Good luck!

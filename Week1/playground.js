@@ -21,5 +21,6 @@ const city = {
     capital:false,
 };
 
-console.log(city);
+console.log(city)
+
 

@@ -2,27 +2,16 @@
 
 const drinkTypes = ['cola', 'lemonade', 'water'];
 
-let randomDrink = function (arr,n) {
+let randomDrink = function (array,numberOfShuffels) {
     let drinkTray=[];
-    for (let i = 0; i < n; i++) {
-        drinkTray.push(arr[i % arr.length]);
+    for (let i = 0; i < numberOfShuffels; i++) {
+        drinkTray.push(array[i % array.length, Math.floor(Math.random() * array.length)])
     }
     return drinkTray;
 }   
 
-console.log(`Hey guys, i brought a ${randomDrink(drinkTypes,5)}!`)
+console.log(randomDrink(drinkTypes,5))
 
-
-
-// let randomDrink = function (arr,n) {
-//     let drinkTray=[];
-//     for (let i = 0; i < n; i++) {
-//         drinkTray.push(arr[Math.floor(Math.random() * arr.length)])
-//     }
-//     return drinkTray;
-// }   
-
-// console.log(randomDrink(drinkTypes,5))
 
 
 

@@ -128,7 +128,7 @@ In this project you'll write a `function` that calculates grades, based on the A
 In this example this is what we would expect the `function` to return in the command line:
 
 ```markdown
-You got a B (85%)!
+You got a D (60%)!
 ```
 
 When writing the `function`, make use of the following grade scores:

@@ -60,7 +60,7 @@ Serves: 2
 Ingredients:
 4 eggs
 2 strips of bacon
-1 tsp salt/pepper
+1 tsp salt/
 ```
 
 **Exercise 4: The reading list**

@@ -27,7 +27,7 @@ In this section you will be doing interactice exercises, that will allow you to 
 Consider the following string:
 
 ```js
-let myString = 'hello,this,is,a,difficult,to,read,sentence';
+let myString = "hello,this,is,a,difficult,to,read,sentence";
 ```
 
 1. Add the variable to your file.
@@ -82,7 +82,7 @@ You're at a party and you feel thirsty! However, you've got 5 friends who are al
 There are 3 different types of drinks:
 
 ```js
-const drinkTypes = ['cola', 'lemonade', 'water'];
+const drinkTypes = ["cola", "lemonade", "water"];
 ```
 
 2. Create a loop that runs 5 times. On each iteration, push a drink into the `drinkTray` variable. The `drinkTray` can only hold at most two instances of the same drink type, for example it can only hold 2 colas, 2 lemonades, 2 waters.
@@ -119,13 +119,19 @@ In order to speed up development you'll be using a CSS framework: [Bootstrap 4](
 
 > Every week ends with a project you have to build on your own. Instead of getting clear-cut instructions, you'll get a list of criteria that your project needs to measure up to.
 
-In this project you'll write a script that calculates grades, based on the American grading system! Let's say a student did a test and they got a 60 out of 100, this script will:
+In this project you'll write a `function` that calculates grades, based on the American grading system! Let's say a student did a test and they got a 60 out of 100, this `function` will:
 
 1. convert the score into a percentage
 2. calculate what grade corresponds with that percentage, and
 3. shows in the command line the result: the grade and the percentage
 
-When writing the script, make use of the following grade scores:
+In this example this is what we would expect the `function` to return in the command line:
+
+```markdown
+You got a B (85%)!
+```
+
+When writing the `function`, make use of the following grade scores:
 
 ```markdown
 Grade A (90% - 100%)
@@ -143,12 +149,6 @@ These are the requirements your project needs to fulfill:
 - Write at least 2 comments that explain to others what a line of code is meant to do
 - Make the return value of the function a template string, so you can insert variables!
 - Use `node` from the command line to test if your code works as expected
-
-This is what the script is expected to return in the command line:
-
-```markdown
-You got a B (85%)!
-```
 
 Good luck!
 

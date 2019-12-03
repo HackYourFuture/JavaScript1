@@ -10,13 +10,6 @@ let myMeal = {
 for (let property in myMeal){
      console.log(`${property} : ${myMeal[property]}`)
      console.log(property +': ' + myMeal[property]);
-     
-
    }
 
-    
-    
-/* 
-for (let i =0 ; i < myMeal.ingredients.length; i++) {
-        console.log(myMeal.ingredients[i]);   
-}*/ 
+//I made it in two ways just to see the difference in codegit 

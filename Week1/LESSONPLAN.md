@@ -13,23 +13,23 @@ The purpose of this class is to introduce to the student:
 
 ## Core concepts
 
-### FIRST HALF (12.00 - 13.30)
+*FIRST HALF (12.00 - 13.30)*
 
-#### 1. The 2 types of websites: static vs. dynamic
+## 1. The 2 types of websites: static vs. dynamic
 
-##### Explanation
+### Explanation
 
 Static websites usually come with a fixed number of pages that have a specific layout. When the page runs on a browser, the content is literally static and doesn’t change in response to user actions. A static website is usually created with HTML and CSS 
 Compared to static websites, which are purely informational, a dynamic website is more functional. It allows users to interact with the information that is listed on the page. Of course, that requires utilizing more than just HTML code.
 
-##### Example
+### Example
 
 Examples the two different kind of websites
 
 - Static: https://www.atlassian.com/time-wasting-at-work-infographic
 - Dynamic: https://www.facebook.com/
 
-##### Exercise
+### Exercise
 
 Discuss in class which claim belongs to which type of website:
 
@@ -46,7 +46,7 @@ Discuss in class which claim belongs to which type of website:
     HTML, CSS, Javascript is used for developing the website.
     Same content is delivered everytime the page is loaded.
   
-##### Essence
+### Essence
 
 [In the link is an article with (dis)advantages of both static and dynamic websites.](https://www.spiderwriting.co.uk/static-dynamic.php)
   
@@ -66,21 +66,19 @@ Discuss in class which claim belongs to which type of website:
           - Design is more fixed, becasue the pages are more of a template
           - Costs
 
-_Show examples of static and dynamic websites_
+## 2. The pillars of web development: HTML/CSS/JavaScript
 
-#### 2. The pillars of web development: HTML/CSS/JavaScript
-
-##### Explanation
+### Explanation
 
 - HTML defines what the content is.
 - CSS defines the appearance of the page.
 - JavaScript defines behavior of the page.
 
-##### Example
+### Example
 
 - An example about relationship between HTML, CSS and Javascript using a metaphor of building a city: https://blog.codeanalogies.com/2018/05/09/the-relationship-between-html-css-and-javascript-explained/
 
-##### Exercise
+### Exercise
 
 Let students create a classwork directory and create an index.html along with an app.js. Script tag should be added to the end of body tag(reason for doing so is part of JS2 Week1).
 
@@ -92,7 +90,7 @@ The end result should look like:
   - app.js
 ```
 
-##### Essence
+### Essence
 
 Up until now at HackYourFuture, we have been writing websites using HTML and CSS. Even though a website written with these two languages works just fine, it is only a static page.
 
@@ -107,9 +105,9 @@ It doesn't exhibit any dynamic behaviour like:
 1. sending requests over network to servers and fetching a response
 1. and this is where JavaScript steps in.
   
-#### 3. What are variables (const & let) & naming conventions
+## 3. What are variables (const & let) & naming conventions
 
-##### Explanation
+### Explanation
 
 In JavaScript, there are three ways of creating variables.
 
@@ -128,7 +126,8 @@ Three different stages of working with variables are:
 - Variable (Re)Assignment
   - Variable assignment means throwing away the old value of a variable and replacing it with a new one. Initialization can be thought of as a special way of assignment.
 
-##### Example
+https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/variables.md
+### Example
 
 ```javascript
 // Variable Declaration
@@ -167,7 +166,7 @@ console.log(firstName);
 console.log(lastName);
 ```
 
-##### Exercise
+### Exercise
 
 1. Create 2 variables using the `let` keyword
     1. make 1 variable contain your first name
@@ -177,7 +176,7 @@ console.log(lastName);
     1. the first variable should contain the city you currently stay at
     1. come up with a value for the second variable yourself
 
-##### Essence
+### Essence
 
 Any application written in any programming language requires data or information to work with. This information can be as simple as a string, number or complex types like a list of strings, a mix of strings and numbers etc.
 
@@ -185,11 +184,11 @@ For example, your name and age are simple pieces of information, a string and a 
 
 Variables are simply named storage/pointer for this information.
 
-### SECOND HALF (14.00 - 16.00)
+*SECOND HALF (14.00 - 16.00)*
 
-#### 4. The basic data types (string, boolean, number, undefined, null)
+## 4. The basic data types (string, boolean, number, undefined, null)
 
-##### Explanation
+### Explanation
 Primitive data types are typically types that are built-in or basic to a language implementation.
 
 There are 5 different types of data. The compiler/computer interpretates all the variables we make as one of those datatypes. 
@@ -201,7 +200,7 @@ Undefined — a declared variable but hasn’t been given a value
 Number — integers, floats, etc
 String — an array of characters i.e words
 ?? Symbol — a unique value that's not equal to any other value ??
-##### Example
+### Example
 * `string`, e.g. "HackYourFuture"
 * `number`, e.g. 5, or 10.6
 * `boolean`, e.g. `true` or `false`
@@ -218,21 +217,23 @@ let typeOfX = typeof x; // -> "number"
 ```
 
 
-##### Exercise
-BEverybody has two minutes to find a way to declare all basic data types by making use of the typeof operator: 
+### Exercise
+Everybody has two minutes to find a way to declare all basic data types by making use of the typeof operator: 
 ```js
 let x = 5;
 let typeOfX = typeof x; // -> "number"
 ```
-##### Essence
+### Essence
 In this way we can store a lot of data in a compact way, while the computer/compiler knows how to interpretate the 1's and 0's/
 
-#### 5. The compound data types (object, array)
+## 5. The compound data types (object, array)
 
-##### Explanation
+### Explanation
 
-##### Example
+### Example
 * `array`\*, e.g. `[1, 2, 3]` or `['what', 'is', 'your', 'name']`
 * `object`, e.g. `{name: 'John', age: 24}`, or the special object `null`
-##### Exercise
-##### Essence
+### Exercise
+### Essence
+
+_Special thanks to Jim Cramer, Yash Kapila, David Nudge for most of the content_

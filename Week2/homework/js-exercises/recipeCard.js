@@ -7,6 +7,6 @@ mealName: 'Ash',
             'grocery',
             '500g flour']
 };
-for (const pro in myRecipe) {
-    console.log(`${pro}: ${myRecipe[pro]}`);
+for (const Ingredients in myRecipe) {
+    console.log(`${Ingredients}: ${myRecipe[Ingredients]}`);
 }

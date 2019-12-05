@@ -5,7 +5,6 @@
 1. Practice the concepts
 2. JavaScript exercises
 3. Code along
-ةنيهق
 ## **1. Practice the concepts**
 
 Before we learn how to build actual applications, we first need to gain experience using JavaScript in a computational way. This teaches us how to think like a programmer, and gives us more experience with the language itself.

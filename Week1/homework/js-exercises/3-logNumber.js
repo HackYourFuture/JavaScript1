@@ -5,12 +5,12 @@
 // but if you used another keyword like let or var 
 // var numberX; let numberX; prints undefined without erroe message
 
-var numberX;
+let numberX;
 
 console.log('Guess what is the value of X ? Number or String');
 console.log(numberX); 
 
-var numberX = 7;
+ numberX = 7;
 
 console.log('If you guess it is a number, you are good at guessing , because the value of X is a number');
 console.log(numberX);

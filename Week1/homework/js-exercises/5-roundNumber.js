@@ -1,13 +1,11 @@
 'use strict';
 
 const z = 7.25;
-
-console.log(z);
-
 const a = 7 ;
-console.log(a);
+console.log('A is ' + a + ' and Z is '+ z);
 
-if (a < z) {
+if (a < z) { // So we have a new variable ((b)) that holds the value of the highest variable.
+
     const b = z;
     console.log('The value of the variable Z is the highest');
     console.log(b);
@@ -17,4 +15,3 @@ if (a < z) {
     console.log(b);
 };
 
-// So we have a new variable ((b)) that holds the value of the highest variable.

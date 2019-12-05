@@ -21,12 +21,16 @@ const aboutMyDaughter = {
 
 // NOW 
 if (typeof x === typeof aboutMe.age){
-    console.log('SAME TYPE');
+
+    console.log('I\'m sure these are the SAME TYPE because I checked it before ;)');
+
 }else{
-    console.log('I\'m sure these are the same because I checked it before ;)');
+    console.log('SAME TYPE');
 }
 if (typeof aboutMe.married === typeof aboutMyDaughter.age){
+
     console.log('SAME TYPE');
+    
 }else{
-    console.log('Of course not the SAME TYPE');
+    console.log('Of course it\'s not the SAME TYPE');
 }

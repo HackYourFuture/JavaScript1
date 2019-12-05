@@ -13,19 +13,24 @@ while (myMeal === 'Pizza') {
   break;
 }
 // do loop for servings:number property and log it
+// fix do while loop
 const serv = mealRecipe['servings'];
-let counter = 1;
+let counter = 0;
 do {
   console.log(`Serves:🍽  ${serv}`);
   counter++;
-} while (counter === 1);
+  // if i change the number in while it give me as the number i put
+} while (counter < 1);
 
 console.log('Ingredients: 📑');
 
 //for loop for ingredients:[Array of strings]property and log it
-const ingr = mealRecipe['ingredients'];
-for (let i = 0; i < ingr.length; i++) {
-  console.log(ingr[i]);
+// fix this code to ingredients
+for (ingr of mealRecipe['ingredients']) {
+  console.log(ingr);
+  //  const ingr = mealRecipe['ingredients'];
+  // for (let i = 0; i < ingr.length; i++) {
+  //   console.log(ingr[i]);
 }
 
 //for all in object

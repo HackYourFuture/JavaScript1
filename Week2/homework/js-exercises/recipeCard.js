@@ -4,9 +4,9 @@
 // Log each property out seperately, using a loop (for, while or do/while)
 
 const myBreakfastRecipe = { 
-    mealName: "Atom",
-    serves: 2,
-    ingredients: ["100g outmeal", "One babana", "100g milk"]
+    "Meal name": "Atom",
+    Serves: 2,
+    Ingredients: ["100g outmeal", "One babana", "100g milk"]
 };
 
 //to write ingredients in the same line
@@ -15,10 +15,10 @@ const myBreakfastRecipe = {
 // }
 
 for (const property in myBreakfastRecipe) {
-    if(typeof myBreakfastRecipe[property]==="object"){
+    if(Array.isArray(myBreakfastRecipe[property])){
         console.log(property+":");
         for (let ing of myBreakfastRecipe[property]){
-            console.log(ing+",")
+            console.log(ing)
         }
         } else {
         console.log(property+": "+myBreakfastRecipe[property] )

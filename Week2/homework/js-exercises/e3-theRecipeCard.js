@@ -10,8 +10,8 @@ let mealRecipe = {mealName: 'whenLazy',
                             'share with loved ones' ]};
 
 
-for (let [keys items] of Object.entries(mealRecipe)) {
-    console.log(keys, items)
+for (let [key, items] of Object.entries(mealRecipe)) {
+    console.log(key, items)
 };
 
 

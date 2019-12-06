@@ -3,9 +3,15 @@
 let math = 90;
 let physics = 90;
 let biology = 90;
+let totalGrades;
 
-/**  parseFloat is used to accept numbers only and return Nan if its not */
-let totalGrades= parseInt(math) + parseInt(physics) + parseInt(biology);
+if (isNaN(parseFloat(math)) || isNaN(parseFloat(physics)) || isNaN(parseFloat(biology))){
+     console.log(`The inserted item should be an Integer between 0 & 100`)
+} else{
+     /**  parseFloat is used to accept numbers only and return Nan if its not */
+     totalGrades= parseInt(math) + parseInt(physics) + parseInt(biology);
+}
+     
 
 let percentage= (totalGrades/300) * 100;
 
@@ -21,7 +27,8 @@ if (percentage <= 100 && percentage >=90){
 } else if (percentage <= 59  && percentage >=50) {
      grade = 'E';
 } else {
-     grade = 'F';
+     grade = 'F'
 }
+
 
 console.log(`From the three subjects your total is  ${totalGrades}  and your total percentage is ${percentage} % with a grade of  ${grade}`);

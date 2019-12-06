@@ -22,3 +22,11 @@ for (let item of Object.values(books)) {
         console.log (`You still need to read the ${item.title}`)
     }
 };
+
+
+// inline method
+for (let item of Object.values(books)) {
+    (item.alreadyRead == true) ? console.log(`${item.title} by ${item.author} \nYou already read the ${item.title}`) 
+                                : console.log (`${item.title} by ${item.author} \nYou still need to read the ${item.title}`)
+};
+

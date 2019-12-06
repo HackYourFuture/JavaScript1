@@ -14,19 +14,12 @@ const books=[{title: '365 Days With Self-Discipline',
 
 
 for (let item of Object.values(books)) {
+    console.log (`${item.title} by ${item.author}`)
     if (item.alreadyRead == true) {
-        console.log (`${item.title} by ${item.author}`)
         console.log(`You already read the ${item.title}`)
     } else {
-        console.log (`${item.title} by ${item.author}`)
         console.log (`You still need to read the ${item.title}`)
     }
 };
 
-
-// inline method
-for (let item of Object.values(books)) {
-    (item.alreadyRead == true) ? console.log(`${item.title} by ${item.author} \nYou already read the ${item.title}`) 
-                                : console.log (`${item.title} by ${item.author} \nYou still need to read the ${item.title}`)
-};
 

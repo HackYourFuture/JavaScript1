@@ -5,7 +5,7 @@ let physics = 90;
 let biology = 90;
 
 /**  parseFloat is used to accept numbers only and return Nan if its not */
-let totalGrades= parseFloat(math) + parseFloat(physics) + parseFloat(biology);
+let totalGrades= parseInt(math) + parseInt(physics) + parseInt(biology);
 
 let percentage= (totalGrades/300) * 100;
 

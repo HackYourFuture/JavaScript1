@@ -1,7 +1,6 @@
 'use strict'
 
 let numbers=[...Array(21).keys()];
-numbers
 
 for (let i=0; i<numbers.length; i++) {
     if (i % 2 == 0) {

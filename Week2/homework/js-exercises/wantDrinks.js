@@ -9,7 +9,5 @@ for (let i = 0; i <5; i++){
 }
 // 5. Log to the console: "Hey guys, I brought a [INSERT VALUES FROM ARRAY]!"
 console.log (`Hey guys, I brought a ${drinkTray.join()}`);
-<<<<<<< HEAD
 
-=======
->>>>>>> little changes
+

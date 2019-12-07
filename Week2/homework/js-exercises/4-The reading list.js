@@ -39,14 +39,14 @@ myBooks.forEach(function(myBooks) {
     // if(myBooks[2].alreadyRead === true){
     //     console.log(`You already read  "${myBooks[2].title}"`)
     // }else{
-    //     console.log(`You still need to read "${myBooks[2].title}"`);
+    //      return (`You still need to read "${myBooks[2].title}"`);
     // }
 
 
 // in the other way forEach
 
 myBooks.forEach(function(myBooks) {
-    if (myBooks.alreadyRead == true) {
+    if (myBooks.alreadyRead) {
         console.log(`You already read "${myBooks.title}"`);
       } else {
         console.log(`You still need to read "${myBooks.title}"`);

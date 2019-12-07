@@ -1,4 +1,4 @@
-// 'use strict'
+'use strict'
 // 1. Declare a variable that holds an array of 3 objects, where each object describes a book and has properties
 // for the`title`(string), `author`(string), and`'alreadyRead'`(boolean indicating if you read it yet).
 
@@ -11,11 +11,6 @@ const myBooks = [
 
 // first solution
 myBooks.forEach((myBooks) => console.log(myBooks.title, myBooks.author));
-
-// second solution
-for (let i = 0; i < myBooks.length; i++) {
-    console.log(myBooks)
-}
 
 
 // 3. For each book, log the book title and book author like so: "The Hobbit by J.R.R. Tolkien".

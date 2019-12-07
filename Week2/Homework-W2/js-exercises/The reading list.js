@@ -16,15 +16,14 @@ let books = [
 		alreadyRead: false
 	}
 ];
-
 for (let i of books) {
-	console.log(i);
+	console.log(`${i.title} by ${i.author}`);
 }
 
 for (let a = 0; a < books.length; a++) {
-	if (books[a].alreadyRead === true) {
-		console.log('I already read ' + books[a].title); //I already read..
-	} else if (books[a].alreadyRead === false) {
+	if (books[a].alreadyRead === false) {
 		console.log('I still need to read ' + books[a].title); //I still need to read..
+	} else {
+		console.log('I already read ' + books[a].title); //I already read..
 	}
 }

@@ -8,5 +8,5 @@ console.log('The length of the second array is ...' + secondArray.length);
 if(firstArray.length == secondArray.length){
     console.log("They are the same!")
 }else{
-    console.log("Two different sizes")
+    console.log("Two different sizes");
 }

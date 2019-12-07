@@ -9,4 +9,4 @@ if(firstArray.length == secondArray.length){
     console.log("They are the same!")
 }else{
     console.log("Two different sizes");
-}
+};

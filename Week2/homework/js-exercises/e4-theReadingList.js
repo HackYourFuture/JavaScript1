@@ -12,13 +12,18 @@ const books=[{title: '365 Days With Self-Discipline',
             author: 'James M. Higgins',
             alreadyRead: false}];
 
+// // inline method
+// for (let item of Object.values(books)) {
+//     (item.alreadyRead == true) ? console.log(`${item.title} by ${item.author}`) + console.log(`\nYou already read the ${item.title}`) 
+//                                 : console.log (`\nYou still need to read the ${item.title}`)
+// };
+
 
 for (let item of Object.values(books)) {
+    console.log (`${item.title} by ${item.author}`)
     if (item.alreadyRead == true) {
-        console.log (`${item.title} by ${item.author}`)
         console.log(`You already read the ${item.title}`)
     } else {
-        console.log (`${item.title} by ${item.author}`)
         console.log (`You still need to read the ${item.title}`)
     }
 };

@@ -17,10 +17,8 @@ function checkIfVaild(card) {
     return massege;
 }
 
-let i = 1234567890123483;
-console.log(checkIfVaild(i));
-console.log(sumCardDigits(i));
-console.log(checkCardLength(i));
+console.log(checkIfVaild(1234567890123486));
+
 // check the sum of card is more than 16
 function sumCardDigits(card) {
     let sum = 0;

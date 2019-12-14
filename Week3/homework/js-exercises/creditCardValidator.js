@@ -17,9 +17,10 @@ function ccValidator(number) {
     */
 
     if ((ccNum.length>16) || (!/\d{16}(~W[a-zA-Z])*$/g.test(ccNum))) {
-        return console.log (`Invalid CC Number. \nPls check your input and try again`);
+        return console.log (`Credit card should consist of 16 digits`);
+        
     }else if (lastDigit % 2 !==0) {
-        return console.log(`The digits must be an even number`);
+        return console.log(`The last digits must be an even number`);
     }
 
     let sumNum=(ccNumSplit.join('+'));

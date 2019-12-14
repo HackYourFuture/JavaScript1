@@ -8,7 +8,7 @@ function giveCompliment (name) {
 
     let compliment = complimentList[Math.floor(Math.random()*complimentList.length)];
 
-    return console.log(`You are ${compliment}, ${name}`)
+    console.log(`You are ${compliment}, ${name}`)
 }
 
 giveCompliment('nour')

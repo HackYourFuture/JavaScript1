@@ -4,7 +4,7 @@ function giveCompliment (name) {
 
     name=name.charAt(0).toUpperCase() + name.slice(1);
 
-    let complimentList = ['great', 'awesome', 'kind', 'reliable','witty', 'optimistic','patient','outgoing','energetic','artistic']
+    const complimentList = ['great', 'awesome', 'kind', 'reliable','witty', 'optimistic','patient','outgoing','energetic','artistic']
 
     let compliment = complimentList[Math.floor(Math.random()*complimentList.length)];
 

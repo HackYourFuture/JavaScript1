@@ -20,7 +20,6 @@
 // addToShoppingCart(groceryItems,'Juice')
 // addToShoppingCart(groceryItems,'Lemon')
 
-
 function addToShoppingCart(list, item) {
 
     list.push(item)

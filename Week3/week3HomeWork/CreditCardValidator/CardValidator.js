@@ -1,14 +1,14 @@
 const vaildMassege = "your number is valid";
 const inVaildMassege = "your number is Invalid";
-let massege;
 
 function checkIfVaild(card) {
+    let messege; // to return message explain why the card is not correct
     if (sumCardDigits(card) <= 16) {
-        massege = vaildMassege + " the sum is smaller than 16";
+        massege = inVaildMassege + " the sum is smaller than 16";
     } else if (checkCardEven(card) != 0) {
         massege = inVaildMassege + " your number is not even";
     } else if (checkCardLength(card) === false) {
-        massege = inVaildMassege + "your number is to short";
+        massege = inVaildMassege + " your number is to 16 digit";
     } else if (checkSame(card) === false) {
         massege = inVaildMassege + "your number is not correct";
     } else {
@@ -17,60 +17,47 @@ function checkIfVaild(card) {
     return massege;
 }
 
-console.log(checkIfVaild(1234567890123486));
+console.log(checkIfVaild(123456789012348));
 
 // check the sum of card is more than 16
 function sumCardDigits(card) {
     let sum = 0;
-    let convert = String(card);
-    let toArray = Array.from(convert);
-    let massege;
-    for (let i = 0; i < toArray.length; i++) {
-        sum = sum + Number(toArray[i]);
+    const cardAsString = String(card);
+    for (let i = 0; i < cardAsString.length; i++) {
+        sum = sum + Number(cardAsString[i]);
     }
     return sum;
 }
+
 //to check if the last number of card is even
 function checkCardEven(card) {
     arr = String(card).split("");
-    let check;
-    let last_element = arr[arr.length - 1];
-    console.log(last_element);
-    let value = last_element % 2;
+    let lastElement = arr[arr.length - 1];
+    let value = lastElement % 2;
     return value;
 }
+
 //check the card length more than 16 digits
 function checkCardLength(card) {
-    let cardLenghth = String(card);
-    let LenghthCheck = cardLenghth.length;
-    console.log(LenghthCheck);
-    let check;
-    if (LenghthCheck === 16) {
-        check = true;
-    } else {
-        check = false;
-    }
-    return check;
+    return String(card).length === 16;
 }
 // to check if all the digits is same,if all digits is numbers
 function checkSame(card) {
     const toString = String(card);
-    let toArray = toString.split("");
-    console.log(toArray);
+    let cardAsArray = toString.split("");
     let checkTrue;
-    let IfAllSame = toArray.every(function(val, i, arr) {
-        return val === toArray[0];
+    let IfAllSame = cardAsArray.every(function(val, i, arr) {
+        return val === cardAsArray[0];
     });
-    console.log(IfAllSame);
     if (IfAllSame == true) {
         checkTrue = false;
-    } else if (IfAllSame === false) {
+    } else {
         checkTrue = true;
-    } else if (!Number.isInteger(Number(toArray))) {
+    }
+    if (!Number.isInteger(Number(cardAsArray))) {
         checkTrue = true;
     } else {
         checkTrue = false;
-        console.log(checkTrue);
     }
     return checkTrue;
 }

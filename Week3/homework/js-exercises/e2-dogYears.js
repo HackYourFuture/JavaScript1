@@ -4,17 +4,17 @@
 
 function calculateDogAgeInHumanYears (age) {
 
-    const puppyAge= age*7
-    return console.log(`Your doggie is ${puppyAge} years old in human years!`)
+    const puppyAge= age*7;
+    return console.log(`Your doggie is ${puppyAge} years old in human years!`);
 }
 
-calculateDogAgeInHumanYears (20)
+calculateDogAgeInHumanYears (20);
 
 
 function calculateHumanAgeInDogYears (age) {
 
-    const humanAge= age/7
-    return console.log(`Your human age is ${humanAge} congrats doggie!`)
+    const humanAge= age/7;
+    return console.log(`Your human age is ${humanAge} congrats doggie!`);
 }
 
-calculateHumanAgeInDogYears (20)
+calculateHumanAgeInDogYears (20);

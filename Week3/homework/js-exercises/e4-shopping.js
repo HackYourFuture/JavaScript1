@@ -26,12 +26,13 @@ function addToShoppingCart(list, item) {
 
     if (list.length > 3) {
         list.shift()
-        return console.log(list)
+        return list
     } 
+    return list
 }
 
 const groceryItems=['bananas', 'milk']
 
-addToShoppingCart(groceryItems,'mango')
-addToShoppingCart(groceryItems,'Juice')
-addToShoppingCart(groceryItems,'Lemon')
+console.log(addToShoppingCart(groceryItems,'mango'))
+console.log(addToShoppingCart(groceryItems,'Juice'))
+console.log(addToShoppingCart(groceryItems,'Lemon'))

@@ -14,13 +14,9 @@
 'use strict'
 
 let drinkTray = [];
-
 let drinkTypes = ['beer', 'ayran', 'coffea'];
-
 for (let i = 0; i < 5; i++)
-
 {
     drinkTray.push(drinkTypes[i % drinkTypes.length]);
 }
-
 console.log("Hey guys, I brought a " + drinkTray.join(" , ") + " !");

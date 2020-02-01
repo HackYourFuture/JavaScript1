@@ -6,14 +6,13 @@
 // If it's odd, log to the console The number [PUT_NUMBER_HERE] is odd!.
 // If it's even, log to the console The number [PUT_NUMBER_HERE] is even!.
 
-"use strict";
+"use strict"
 
 for (let i = 0; i <= 20; i++) {
-
-  if (i % 2) {
-
+if (i % 2) {
     console.log('The number ' + i + ' is odd!');
-  } else {
+  } 
+  else {
     console.log('The number ' + i + ' is even!');
   }
 }

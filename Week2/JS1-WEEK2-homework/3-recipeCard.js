@@ -16,10 +16,19 @@
 
 let favouriteDish =
 
-    {
-        Mealname: 'Potato Salad',
-        Serves: 4,
-        Ingredients: ' 6 potato, ' + '1 onion, ' + 'parsley, ' + 'olive, ' + 'salt, pepper '
-    };
+  {
+    Mealname: ' Potato Salad',
+    Serves: 4 ,
+    Ingredients: ['6 potato, ' , '1 onion, ' , 'parsley, ' , 'olive oil, ' , 'salt, pepper ']
+  };
 
-console.log(favouriteDish);
+
+console.log('Mealname:' + favouriteDish.Mealname); 
+console.log('Serves: ' +  favouriteDish.Serves);
+console.log('Ingredients:');
+
+
+for (let i = 0; i < favouriteDish.Ingredients.length; ++i) {
+  console.log(favouriteDish.Ingredients[i]);
+}
+

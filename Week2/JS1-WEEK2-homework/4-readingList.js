@@ -34,16 +34,10 @@ let myLibrary = [{
 
 
 for (let theBook of myLibrary) {
-
-    console.log(`${theBook.title} by ${theBook.author}`);
-
+        console.log(`${theBook.title} by ${theBook.author}`);
     if (theBook.alreadyRead) {
-
         console.log("You already read " + theBook.title);
-
     } else {
         console.log("You still need to read " + theBook.title);
-
     }
-
 }

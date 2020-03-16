@@ -1,3 +1,4 @@
+"use strict";
 function validateCard(cardNumber) {
   // Initializing an empty array that will be used to check the sum of the cardNumber
   let cardsum = [];
@@ -6,7 +7,7 @@ function validateCard(cardNumber) {
     console.log(`The card number #${cardNumber} must consist of 16 digits!`);
   } else {
     for (let i = 0; i < cardNumber.length; i++) {
-      // Checking if each number IS a number, if it is, it will be pushed to theempty cardsum array to check the sum
+      // Checking if each number IS a number, if it is, it will be pushed to the empty cardsum array to check the sum
       if (isNaN(parseInt(cardNumber[i]))) {
         console.log(
           `Your card number #${cardNumber} should contain only digits!`
@@ -36,7 +37,6 @@ function validateCard(cardNumber) {
     }
   }
 }
-
 validateCard("9999777788880000");
 validateCard("6666666666661666");
 validateCard("a92332119c011112");

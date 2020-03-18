@@ -12,7 +12,7 @@ if(x == 7){
 
 if(y == 21){
     y = y % 4;
-    console.log(x);
+    console.log(y);
 }
 
 if(z == 13){

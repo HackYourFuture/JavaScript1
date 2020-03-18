@@ -4,12 +4,12 @@ let x = "dog";
 let y = "cat";
 
 let student1 = {
-    "name":"Zekiye", 
-    "age":29
+    name: "Zekiye", 
+    age: 29
 };
 let student2 = {
-    "name":"Burak",
-    "age" : 30
+    name: "Burak",
+    age : 30
 };
 
 console.log(typeof(x));
@@ -31,7 +31,7 @@ if(typeof x ===  typeof student2){
 }else{
     console.log('NOT THE SAME');
 }
-if(typeof y ===  typeof x){
+if(typeof student1 ===  typeof student2){
     console.log('SAME TYPE');
 }else{
     console.log('NOT THE SAME');

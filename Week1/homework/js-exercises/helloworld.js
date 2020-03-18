@@ -1,5 +1,6 @@
 'use strict';
 
+//printing statement
 console.log('Hello world!'); //English
 console.log('Hallo Wereld!'); //Dutch
 console.log('Halo, dunia!'); //Indonesian

@@ -1,0 +1,13 @@
+1 - Is there a specific case in which do-while not only appropriate, but the only way to perform a task, i.e. when do we need the block to run even if the condition is not fullfilled? E.g. case scenarios in which do-while is the way to go (P.S. I didn't face any till now).
+2 - Is it wrong to do the following:
+if(){
+
+} else {
+  if(){
+
+  }
+}
+
+Instead of else if. Or is it just cleaner code? Or something else?
+
+3- In the lecture it was said that it is advised against using a one-line condition statement (ternary condition)(? :), unless it was with assigning variables. WHy is that? Why can't we use it in any case when there is an else statement to make the code compact. Is it a convention? For clarity? etc?

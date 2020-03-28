@@ -9,7 +9,7 @@ function gradeCalc (myScore,total) {
     myScore = myScore/total *100; 
     
     // check if the score is between 0..100 and if it's type is a number
-    if (typeof myScore !== 'number' || score < 0 || score > 100)
+    if (typeof myScore !== 'number' || score <= 0 || score >= 100)
     return "INVALID SCORE";
     
     //calculate what grade corresponds with that percentage

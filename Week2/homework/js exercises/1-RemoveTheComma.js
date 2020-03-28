@@ -8,7 +8,7 @@ console.log(myString.length);
 //The commas make that the sentence is quite 
 //hard to read. Find a way to remove the commas
 //from the string and replace them with spaces. (use Google!)
-myString = myString.replace(/,/g, ', ');
+myString = myString.replace(/,/g, ' ');
 //https://www.youtube.com/watch?v=7a-a6lKoyIQ   (05:00-06:00)
 
 //After replacing the commas, log myString 

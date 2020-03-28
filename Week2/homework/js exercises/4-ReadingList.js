@@ -5,26 +5,23 @@
 
 const myBooks = [
 	{
-		title: "Book1",
-		author: "Author1", 
+		title: "Pride and Prejudice",
+		author: "Jane Austen", 
 		finished: true
 	},
 	{
-		title: "Book2",
-		author: "Author2", 
+		title: "Harry Potter and the Goblet of Fire",
+		author: "JK Rowling", 
 		finished: true
 	},
 	{
-		title: "Book3",
-		author: "Author3", 
+		title: "To Kill a Mockingbird",
+		author: "Harper Lee", 
 		finished: false
 	},
 ]; 
 	
 //Loop through the array of books.
-for(item of myBooks) {
-	console.log(item);
-}
 //For each book, log the book title and book 
 //author like so: "The Hobbit by J.R.R. Tolkien".
 

@@ -18,4 +18,4 @@ numberX = 10;
 console.log(`numberX now has a value and been defined `);
 
 //printing the new value of numberX
-console.log('the value of numberX is ' + numberX);
+console.log(`the value of numberX is   ${numberX}`);

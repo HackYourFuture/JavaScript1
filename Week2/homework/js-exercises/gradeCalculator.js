@@ -1,5 +1,5 @@
-function grade(score) {
-    score/=100;
+function grade(score,total) {
+    score=score/total*100
  
      if (score > 90) {
          return 'A';
@@ -14,5 +14,5 @@ function grade(score) {
      }
  }
  
- console.log(`You got a  ${grade(55)} `);
+ console.log(`You got a  ${grade(75,100)} `);
  

@@ -9,10 +9,10 @@
 
 ## **1. Practice the concepts**
 
-In this section you will be doing interactice exercises, that will allow you to practice with the concepts you've learned about this week!
+In this section you will be doing interactive exercises, that will allow you to practice with the concepts you've learned about this week!
 
-- [Codecademy: Arrays](https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays)
-- [FreeCodeCamp: Basic data structures](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-data-structures)
+- Do all parts of [Codecademy: Arrays](https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays) (Signup required!)
+- Do 5 exercises of [FreeCodeCamp: Basic data structures](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-data-structures)
 
 ## **2. JavaScript exercises**
 
@@ -27,13 +27,17 @@ In this section you will be doing interactice exercises, that will allow you to 
 Consider the following string:
 
 ```js
-let myString = "hello,this,is,a,difficult,to,read,sentence";
+let myString = 'hello,this,is,a,difficult,to,read,sentence';
 ```
+
+Follow the steps:
 
 1. Add the variable to your file.
 2. Log the length of `myString`.
 3. The commas make that the sentence is quite hard to read. Find a way to remove the commas from the string and replace them with spaces. (use Google!)
 4. After replacing the commas, log `myString` to see if you succeeded.
+
+Expected result in the console: `hello this is a difficult to read sentence`
 
 **Exercise 2: The even/odd reporter**
 
@@ -50,22 +54,21 @@ Ever wondered how to make a certain meal? Let's create a recipe list with JavaSc
 
 1. Declare a variable that holds an object (your meal recipe).
 2. Give the object 3 properties: a `title` (string), a `servings` (number) and an `ingredients` (array of strings) property.
-3. Log each property out seperately, using a loop (for, while or do/while)
+3. Log each property out separately, using a loop (for, while or do/while)
 
-It should look similar to this:
+Expected result:
 
-```markdown
-Meal name: Omelete
+```console
+Meal name: Omelette
 Serves: 2
-Ingredients:
-4 eggs
-2 strips of bacon
-1 tsp salt/pepper
+Ingredients: 4 eggs, 2 strips of bacon, 1 tsp salt/pepper
 ```
 
 **Exercise 4: The reading list**
 
 Keep track of which books you read and which books you want to read!
+
+Follow the steps:
 
 1. Declare a variable that holds an array of 3 objects, where each object describes a book and has properties for the `title` (string), `author` (string), and `alreadyRead` (boolean indicating if you read it yet).
 2. Loop through the array of books.
@@ -82,21 +85,31 @@ You're at a party and you feel thirsty! However, you've got 5 friends who are al
 There are 3 different types of drinks:
 
 ```js
-const drinkTypes = ["cola", "lemonade", "water"];
+const drinkTypes = ['cola', 'lemonade', 'water'];
 ```
 
 2. Create a loop that runs 5 times. On each iteration, push a drink into the `drinkTray` variable. The `drinkTray` can only hold at most two instances of the same drink type, for example it can only hold 2 colas, 2 lemonades, 2 waters.
+
+```js
+// Expected result:
+const drinkTray = ['cola', 'cola', 'lemonade', 'lemonade', 'water'];
+
+// 'Hey guys, I brought a cola, cola, lemonade, lemonade, water!'
+```
+
 3. If there are already two instances of a `drinkType` then start with the next drink in the array.
 4. Your `drinkTray` should contain 2 cola, 2 lemonade and 1 water.
 5. Log to the console: "Hey guys, I brought a [INSERT VALUES FROM ARRAY]!" (For example: "Hey guys, I brought a cola, cola, lemonade, lemonade, water!")
 
+Test out your code using `node` in the command line!
+
 ## **3. Code along**
 
-> Create a new folder outside of your `JavaScript1` fork
+> Create a new GitHub repository for each of these projects. They are portfolio pieces!
 
 In the following 2 projects you'll be flexing your HTML/CSS skills again, together with writing JavaScript code. They are similar in structure and logic, so be sure to spot the similarities!
 
-It's ok if you don't understand exactly what's happening here. Just follow along and try to understand: ask questions about what the developer is doing and think about every line of code.
+It's ok if you don't understand exactly what's happening here. Just follow along and try to understand: ask yourself questions about what the developer is doing and think about every line of code.
 
 **Project 1: Temperature Converter**
 
@@ -159,7 +172,7 @@ After you've finished your todo list it's time to show us what you got! The home
 1. JavaScript exercises
 2. PROJECT: Grade calculator
 
-Upload both to your forked JavaScript1 repository in GitHub. Make a pull request to the original repository.
+Upload both to your JavaScript1 repository forked to your personal account in GitHub. Make a pull request to the [HackYourHomework/JavaScript1](https://www.github.com/hackyourhomework/javascript1).
 
 > Forgotten how to upload your homework? Go through the [guide](../hand-in-homework-guide.md) to learn how to do this again.
 

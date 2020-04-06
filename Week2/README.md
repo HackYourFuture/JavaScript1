@@ -19,14 +19,16 @@ This is the same in programming. A difference is that it's done in abstract code
 
 To learn more about statements vs. expression, research the following resources:
 
-- [Statements vs. Expressions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/statements_expressions.md)
 - [Expressions vs. Statements in JS](https://www.youtube.com/watch?v=WVyCrI1cHi8)
+- [Statements vs. Expressions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/statements_expressions.md)
 
 ## 2. Loops
 
-A loop is a sequence of instructions that is continually repeated until a certain condition is fulfilled. This condition could either be a specified number or when a desired value is found.
+A loop is a sequence of instructions that is continually repeated until a certain condition is fulfilled. This condition could either be a specified number or when a desired value is found or not.
 
-Read more about loops here:
+In programming, a loop is meant to be used in case there's a repetitive task that needs to be done.
+
+Learn more about loops here:
 
 - [JavaScript Loops](https://www.youtube.com/watch?v=s9wW2PpJsmQ)
 - [Loops](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/loops.md)
@@ -39,10 +41,11 @@ In the language of JavaScript this goes from top to bottom, left to right. This 
 
 > The term `flow` is a general term meaning a specific, repeatable order of actions. In your working life you'll hear the term `workflow`, which in that case refers to the different actions necessary to complete a business activity.
 
-There is one important distinction between spoken language and programming languages: in programming languages the order in which the code is read can change, depending on various `control statements`.
+There is one important distinction between spoken language and programming languages: in programming languages the order in which the code is read can change, depending on various `control statements` (`if`, `for/while/do-while loop` or `switch`).
 
 Learn more about control flow here:
 
+- [Introduction to Programming - Control Flow](https://www.youtube.com/watch?v=nBj2nJup8xU)
 - [Control flow](https://dev.to/mugas/control-flow-in-javascript-246l)
 
 ## 4. Operators
@@ -60,10 +63,11 @@ Computers only function by logical rules: whether something is true or not deter
 
 ```js
 if () {
+  // then this will happen
 }
 ```
 
-A condition is put in the `( )` and it needs to evaluate to `true` or `false` (also known as Boolean values). If the condition is true, then whatever is inside the `{ }` will be executed.
+A condition is put in the `( )` and it needs to evaluate to `true` or `false` (also known as `Boolean` values). If the condition is true, then whatever is inside the `{ }` will be executed.
 
 What happens when the condition is false? For that we have the `else { }` block. If the condition is false, then whatever is inside the else will be executed:
 
@@ -82,6 +86,7 @@ A naming convention is a rule that every developer should hold themselves to whe
 
 Read about the different naming conventions for JavaScript here:
 
+- [Naming Conventions in Programming](https://blog.jsecademy.com/naming-conventions-in-programming/)
 - [Naming conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)
 
 ## Finished?

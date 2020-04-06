@@ -11,23 +11,21 @@ In this module you'll make a start into wonderful world of programming. We will 
 
 You'll be learning two main things:
 
-1. Fundamental concepts in programming
-   While we're using JavaScript to illustrate these concepts, it's important to keep in mind that what you will learn is applicable to **any** programming language. They might differ in syntax (a fancy term for the arrangement of words in a language in order for it to make sense), but the functionality will be the same: a loop will always be a loop.
+1. **Fundamental concepts in programming**. While we're using JavaScript to illustrate these concepts, it's important to keep in mind that what you will learn is applicable to **any** programming language. They might differ in syntax (a fancy term for the arrangement of words in a language in order for it to make sense), but the functionality will be the same: a loop will always be a loop.
 
-   This should be your mindset when you're learning concepts: **I'm learning how to become a software developer that can adjust to any language used, because I know what the underlying principles and concepts are**.
+This should be your mindset when you're learning concepts: **I'm learning how to become a software developer that can adjust to any language used, because I know what the underlying principles and concepts are**.
 
-2. How to think like a programmer
-   In one sentence this means: **knowing how to solve problems computationally**. Let's split that up in two parts: `how to solve problems` refers to the ability to identify issues and find effective solutions. `computationally` refers to the ability to think in logical steps that the computer can understand and execute.
+2. **How to think like a programmer**. In one sentence this means: knowing how to solve problems using a computer. Let's split that up in two parts: `how to solve problems` refers to the ability to identify issues and find effective solutions. `computationally` refers to the ability to think in logical steps that the computer can understand and execute.
 
-   This should be your mindset when you're learning how to think : **I'm learning how to think in logical steps, identifying cause and effect, and always looking for solutions**.
+This should be your mindset when you're learning how to think : **I'm learning how to think in logical steps, identifying cause and effect, and always looking for solutions**.
 
 ## Before you start!
 
 In order to test your JavaScript code, you'll be using software that will execute your files from the command line. This software is called [Node.js](https://nodejs.org/en/download/). Download the Long-Term Support (LTS) version for your specific operating system.
 
-- For Windows, click [here](https://nodejs.org/dist/v10.16.0/node-v10.16.0-x64.msi)
-- For Mac, click [here](https://nodejs.org/dist/v10.16.0/node-v10.16.0.pkg)
-- For Linux, click [here](https://nodejs.org/dist/v10.16.0/node-v10.16.0-linux-x64.tar.xz)
+- For Windows, click [here](https://nodejs.org/dist/v12.16.1/node-v12.16.1-x86.msi)
+- For Mac, click [here](https://nodejs.org/dist/v12.16.1/node-v12.16.1.pkg)
+- For Linux, click [here](https://nodejs.org/dist/v12.16.1/node-v12.16.1-linux-x64.tar.xz)
 
 After you've installed it, go to your command line interface. Type in the following command:
 
@@ -35,17 +33,16 @@ After you've installed it, go to your command line interface. Type in the follow
 node --version
 ```
 
-It should show you version `v10.14.2` or higher.
+It should show you version `v12.16.1` or higher.
 
 ## Learning goals
 
 In order to successfully complete this module you will need to master the following:
 
-- Have an idea of what computer programming is
-- Know the basic buildingblocks of JavaScript
-- Correctly write and use variables, functions and loops
-- Understand the control flow
-- Think like a programmer
+- Have an idea of what `computer programming` is
+- Know the basic building blocks of `JavaScript`
+- Correctly write and use `variables`, `functions` and `loops`
+- Understand the `control flow`
 
 ## How to use this repository
 
@@ -55,7 +52,17 @@ This repository consists of 3 parts:
 2. `Homework`: this document contains the instructions for each week's homework.
 3. `Lesson Plans`: this part is meant for teachers as a reference. However, as a student don't be shy to take a look at it as well!
 
-After your first class you should start with checking the `reading materials` for that week. So, for the first time that is the [Week 1 Reading](/Week1/README.md). Study all the concepts and try to get the gist of everything. After, you can get started with the `homework` for that week.
+After your first class you should start with checking the `reading materials` for that week. So, for the first time it's the [Week 1 Reading](/Week1/README.md). Study all the concepts and try to get the gist of everything. After, you can get started with the `homework` for that week.
+
+Before you start with the homework, make sure you've made a `fork` of the right repository: [HackYourHomework/JavaScript1](https://www.github.com/hackyourhomework/javascript1). Once you've cloned it to your computer you can proceed by making `GIT` branches for each week. Start at the `master` branch and execute the following (note that they're 3 different commands):
+
+```console
+foo@bar:~$ git branch week1-YOURNAME
+foo@bar:~$ git branch week2-YOURNAME
+foo@bar:~$ git branch week3-YOURNAME
+```
+
+Then execute `git checkout week1` and you can get started!
 
 If you have any questions or if something is not entirely clear ¯\\\_(ツ)\_/¯, please ask/comment on Slack!
 

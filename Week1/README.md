@@ -20,7 +20,7 @@ These are the topics for week 1:
 
 ## 1. What is programming?
 
-Programming is giving a computer instructions written in a language it can understand, in order to solve a problem. We don't necessarily need computers to solve problems, but we use them because they provide several benefits:
+Programming is giving a computer instructions written in a language it can understand, in order to solve a problem you (or the company you work for) have. We don't necessarily need computers to solve problems, but we use them because they provide several benefits:
 
 1. They are fast
 2. Cheap to use
@@ -40,7 +40,7 @@ Go through the following resources to learn more about what programming is:
 
 ### Software
 
-As a software developer (synonym to 'programmer'), you will write these instructions in order to create 'software'. Look at the following video to get a better idea of what software is:
+As a software developer (synonym to 'programmer' or 'software engineer'), you will write these instructions in order to create 'software'. Look at the following video to get a better idea of what software is:
 
 - [What is software?](https://www.youtube.com/watch?v=MSA3WsGeTNI)
 
@@ -52,7 +52,11 @@ Smart people decided to make working with this easier to understand, so that a l
 
 - [What are programming languages](https://hackr.io/blog/what-is-programming-language)
 
-There are various languages, each made to fulfill a certain need. For example, Microsoft developed a language called [C#](https://www.youtube.com/watch?v=paJUbVeKEOU) in order to make applications for Windows computers. Read the following article to learn more about different languages and their uses:
+There are various languages, each made to fulfill a certain need. For example, Microsoft developed a language called [C#](https://www.youtube.com/watch?v=paJUbVeKEOU) in order to make applications for computers that run a Windows operating system. The language of C# is able to easily "talk" with the preexisting software.
+
+You will be learning JavaScript, a language that has been made to "talk" to web browsers (Google Chrome, Mozilla Firefox, Safari, Internet Explorer, etc.).
+
+Read the following article to learn more about different languages and their uses:
 
 - [14 Programming Languages Explained](https://mikkegoes.com/14-programming-languages-explained/)
 
@@ -81,7 +85,7 @@ Note: once you've chosen a certain track it doesn't mean you can't try out any o
 
 ### Web development vs. web design
 
-You might have heard these terms used interchangeably. They are, however, two different things. A web developer writes code and handles the logical, technical side. A web designer decides how things are going to look and handle the creative side. The following video will explain this more clearly:
+You might have heard these terms used interchangeably. They are, however, two different things. A web developer writes code and handles the logical, technical side. A web designer decides how things are going to look and handles the creative side. The following video will explain this more clearly:
 
 [Web Developer vs. Web Designer](https://www.youtube.com/watch?v=bDtxF7qSofg)
 
@@ -115,22 +119,26 @@ Check the following resources to learn more about it:
 
 ## 4. What are variables?
 
-A variable is a piece of information that is saved for later use. You give it a name that describes what its contents are, and to also refer to it at a later point.
+A `variable` is a box that contains a piece of information, to be saved for later use. You give it a name that describes what its contents are, and to also refer to it at a later point.
 
 - [Beginner Programming Concepts - What's a Variable?
   ](https://www.youtube.com/watch?v=Jvrszgiexg0)
 
 ### The keywords: let, const, var
 
-The variable is a central concept within programming. It's applied the same way across almost all programming languages. In JavaScript we apply it by using a `keyword`, a word that is reserved by the language because it has a special meaning. Read more about this in the following article:
+The concept of a `variable` is a central concept within programming. It's applied the same way across almost all programming languages. In JavaScript we apply it by using a special `keyword`, a word that is reserved by the language because it has a special meaning.
+
+The keywords are `var`, `let` and `const`.
+
+Read more about this in the following article:
 
 - [Variables](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/variables.md)
 
-A variable always contains a `value`: a piece of information that you want to refer to at a later stage. Read more about this here:
+A variable always contains a `value`: the piece of information that you want to save and refer to at a later stage. Read more about this here:
 
 - [Values](https://www.github.com/hackyourfuture/fundamentals/blob/master/fundamentals/values.md)
 
-When creating variables, it's important to think about the right name to give it. It should always reflect what "type" of data it contains and how it would make sense in light of the rest of your code. You (and other developers that will read your code) should be able to read a variable name and know what its purpose is.
+When creating variables, it's important to think about the right name to give it. It should always reflect what "type" of data it contains and what its purpose is. You (and other developers that will read your code) should be able to read a variable name and know what its purpose is.
 
 Why do we need variables? You'll be using variables **to manipulate its content** (the value inside the variable). Why would you want to do this? For most of the time, you want to perform some kind of calculation. The most basic example is the following:
 
@@ -159,6 +167,8 @@ There are about `6 basic data types` in JavaScript:
 - `Object`
 - `Array`
 - `Function`
+
+A data type, or data structure, is a way of organizing information. Computers need to know how to look at any piece of information, and it can interpret it only if it fits into one of the aforementioned data types.
 
 You can read more about them in the following article:
 

@@ -135,6 +135,8 @@ calculateTotalPrice(cartForParty); // Returns "Total: €10.75"
 
 ## **3. Code along**
 
+> Create a new GitHub repository for this project. It's a portfolio piece!
+
 In this project you'll be building a simple meditation application, that will allow you to set a timer, loop a video and play a song!
 
 You'll be working with the <audio> and <video>, understand what SVG is and how to animate them.

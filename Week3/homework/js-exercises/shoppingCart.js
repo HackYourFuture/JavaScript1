@@ -3,9 +3,12 @@
 let groceryArray = ["bananas", "milk"];
 
 const addToShoppingCart = (groceryItem = "") => {
+
     if (groceryItem != "") groceryArray.push(groceryItem);
 
     if (groceryArray.length > 3) groceryArray.shift();
+    
+    return groceryArray;
 };
 
 addToShoppingCart("apple");

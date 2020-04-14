@@ -14,7 +14,7 @@ function giveCompliment(yourName = "") {
         "brave"
     ];
     let randomArrayIndex = Math.floor(Math.random() * complimentArray.length);
-    return "You are " + complimentArray[randomArrayIndex] + ", " + yourName;
+    return `You are ${complimentArray[randomArrayIndex]}, ${yourName}`;
 }
 
 console.log(giveCompliment("Zekiye"));
@@ -38,6 +38,6 @@ const giveComplimentArrow = yourName => {
         "brave"
     ];
     let randomArrayIndex = Math.floor(Math.random() * complimentArray.length);
-    return "You are " + complimentArray[randomArrayIndex] + ", " + yourName;
+    return `You are ${complimentArray[randomArrayIndex]}, ${yourName}`;
 };
 console.log(giveComplimentArrow("Zekiye"));

@@ -5,17 +5,17 @@ const partnerNames = ["Burak", "Ali", "Veli", "Ahmet", "Mehmet"];
 const locations = ["Istanbul", "Bursa", "Izmir", "Isparta", "Ankara"];
 const jobs = ["developer", "doctor", "teacher", "lawyer", "architect"];
 
-function fortuneTeller(
-    numberOfChildren = 0,
-    partnerName = "",
-    geographicLocation = "",
-    jobTitle = ""
-) {
-    numberOfChildren = numChildren[Math.floor(Math.random() * numChildren.length)];
-    partnerName = partnerNames[Math.floor(Math.random() * partnerNames.length)];
-    geographicLocation = locations[Math.floor(Math.random() * locations.length)];
-    jobTitle = jobs[Math.floor(Math.random() * jobs.length)];
-    return `You will be a ${jobTitle} in ${geographicLocation}, and married to ${partnerName} with ${numberOfChildren} kids.`;
+function fortuneTeller(numChildren, partnerNames, locations, jobs) {
+  const numberOfChildren = numChildren[generateRandom(numChildren.length)];
+  const partnerName = partnerNames[generateRandom(partnerNames.length)];
+  const geographicLocation = locations[generateRandom(locations.length)];
+  const jobTitle = jobs[generateRandom(jobs.length)];
+  return `You will be a ${jobTitle} in ${geographicLocation}, and married to ${partnerName} with ${numberOfChildren} kids.`;
 }
 
-console.log(fortuneTeller());
+function generateRandom(arrayLength) {
+  const randomNumber = Math.floor(Math.random() * arrayLength);
+  return randomNumber;
+}
+
+console.log(fortuneTeller(numChildren, partnerNames, locations, jobs));

@@ -4,13 +4,14 @@ function creditCardValidator(cardNumber = "") {
     
     const arrayOfDigits = Array.from(String(cardNumber), Number);
 
-    if (typeof cardNumber !== "number" ||
+    if (isNaN(cardNumber) ||
         arrayOfDigits.length !== 16 ||
         arrayOfDigits.reduce((a, b) => a + b) < 16 ||
         arrayOfDigits.pop() % 2 != 0 ||
         allEqual(arrayOfDigits)) {
 
         return `Credit card ${cardNumber} is invalid!`;
+
     } else {
 
         return `Credit card ${cardNumber} is valid!`;

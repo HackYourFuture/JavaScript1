@@ -16,7 +16,7 @@ ONE TIME ONLY (START OF EVERY MODULE)
 
 EVERY WEEK
 
-1. Create a new branch for each week you have homework. For example, for the week 1 homework for JavaScript1 create a branch called `week-1-homework-YOUR_NAME`
+1. Create a new branch for each week you have homework. For example, for the week 1 homework for JavaScript1 create a branch called `week1-YOURNAME`
 2. Create a folder called `homework` inside of each week's folder. So for example, inside of the `Week1` folder, create a new folder called `homework`
 3. Once you're finished, add and commit everything. Make the commit message meaningful, for example `finished project for homework week1`
 4. Push the branch to your forked repository
@@ -24,17 +24,13 @@ EVERY WEEK
 6. Give the pull request a title in the following format:
 
 ```markdown
-Homework week 1 <Your name>
+Homework week 1 <Your_name>
 ```
 
-7. Submit the pull request from your forked repository. You can do this by clicking 'new pull request':
+7. Submit the pull request from your forked repository into the original. You can do this by clicking 'new pull request':
 
 ![Make a new pull request](./assets/new-pull-request.png)
 
 8. Do a little victory dance because you did it! Good job!
-
-For a visual walkthrough the steps please watch the following video one of our teachers, Unmesh Joshi, has made:
-
-- [GitHub Homework flow](https://www.youtube.com/watch?v=2qJPAVTiKPE)
 
 If you have any questions or if something is not entirely clear ¯\\\_(ツ)\_/¯, please ask/comment on Slack!

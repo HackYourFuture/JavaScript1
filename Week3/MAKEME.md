@@ -33,64 +33,109 @@ There is no better way to start your day then with a compliment!
 1. Write a function named `giveCompliment`
 
 - It takes 1 argument: your name
-- Inside the function create an array with 10 strings. Each string should be a compliment, like `"great"`, `"awesome"`
-- Write logic that randomly selects a compliment
+- Inside the function define a variable that holds an array, `compliments`, with 10 strings. Each string should be a compliment, like `"great"`, `"awesome"`
+- Write code that randomly selects a compliment
 - Return a string: "You are [COMPLIMENT], [YOUR_NAME]!
 
 2. Call the function three times, giving each function call the same argument: your name.
 
+```js
+// Expected output
+giveCompliment('Noer'); // Returns "You are amazing, Noer!"
+giveCompliment('Noer'); // Returns "You are great, Noer!"
+giveCompliment('Noer'); // Returns "You are supersmart, Noer!"
+```
+
 **Exercise 2: Dog years**
 
-You know how old your dog is in human years, but what about dog years? Calculate it!
+You know how old your dog is in human years, but what about dog years? Let's calculate it!
 
 1. Write a function named `calculateDogAge`.
 
-- It takes 1 argument: your puppy's age (number).
-- Calculate your dog's age based on the conversion rate of 1 human year to 7 dog years.
+- It takes 1 argument: your (fictional) puppy's age (number).
+- Calculate your dog's age based on the conversion rate of `1 human year to 7 dog years`.
 - Return a string: "Your doggie is [CALCULATED_VALUE] years old in dog years!"
 
 2. Call the function three times with different sets of values.
+
+```js
+// Expected output
+calculateDogAge(1); // Returns "Your doggie is 7 years old in dog years!"
+calculateDogAge(2); // Returns "Your doggie is 14 years old in dog years!"
+calculateDogAge(3); // Returns "Your doggie is 21 years old in dog years!"
+```
 
 **Exercise 3: Be your own fortune teller**
 
 Why pay a fortune teller when you can just program your fortune yourself?
 
-1. Write a function named `tellFortune`.
+1. Create 4 arrays, `numChildren`, `partnerNames`, `locations` and `jobs`. Give each array 5 random string values that have to do with the name of the variable
+2. Write a function named `tellFortune`.
 
 - It takes 4 arguments: number of children (number), partner's name (string), geographic location (string), job title (string).
 - Randomly select values from the arrays.
-- Return a string: "You will be a [JOB_TITLE] in [LOCATION], and married to [PARTNER_NAME] with [NUMBER_KIDS] kids."
+- Return a string: "You will be a [JOB_TITLE] in [LOCATION], married to [PARTNER_NAME] with [NUMBER_KIDS] kids."
 
-2. Create 4 arrays, `numChildren`, `partnerNames`, `locations` and `jobs`. Give each array 5 random values that make sense
-3. Call the function 1 time, by passing the arrays as the argument.
+3. Call the function 3 times, by passing the arrays as the argument.
+
+```js
+// Expected output
+const numChildren = [...];
+const partnerNames = [...];
+const locations = [...];
+const jobs = [...];
+
+tellFortune(numChildren, partnerNames, locations, jobs); // Returns "You will be a programmer in The Netherlands, married to Layla with 3 kids."
+tellFortune(numChildren, partnerNames, locations, jobs); // Returns "You will be a farmer in France, married to Muhammed with 2 kids."
+tellFortune(numChildren, partnerNames, locations, jobs); // Returns "You will be a teacher in The United States, married to Zara with 4 kids."
+```
 
 **Exercise 4: Shopping at the supermarket**
 
 Let's do some grocery shopping! We're going to get some things to cook dinner with. However, you like to spend your money and always buy too many things. So when you have more than 3 items in your shopping cart the first item gets taken out.
 
-1. Write a function named `addToShoppingCart`.
+1. Create an array called `shoppingCart` that holds the following strings: `"bananas"` and `"milk"`
+2. Write a function named `addToShoppingCart`
 
-- It takes in 1 argument: a grocery item (string)
-- Add grocery item to array. If the amount of items is more than 3 remove the first one in the array
+- It takes 1 argument: a grocery item (string)
+- Add grocery item to `shoppingCart`. If the amount of items is more than 3 remove the first one in the array
+- Loops through the array in order to list out the items
 - Return a string: "You bought [LIST_OF_GROCERY_ITEMS]!"
 
-2. Create an array with 2 predefined strings: `"bananas"` and `"milk"`
 3. Call the function 3 times, each time with a different string as the argument.
+
+```js
+const shoppingCart = ['bananas', 'milk'];
+
+// Expected output
+addToShoppingCart('chocolate'); // Returns "You bought bananas, milk, chocolate!"
+addToShoppingCart('waffles'); // Returns "You bought milk, chocolate, waffles!"
+addToShoppingCart('tea'); // Returns "You bought chocolate, waffles, tea!"
+```
 
 **Exercise 5: Total cost is ...**
 
-You want to buy a couple of things from the supermarket to prepare for a party. After scanning all the items the cashier gives you the total price, but the machine a broken! Let's write her a function that does it for her instead!
+You want to buy a couple of things from the supermarket to prepare for a party. After scanning all the items the cashier wants to give you the total price, but the machine is broken! Let's write her a `function` that does it for her instead!
 
-1. Write a function called `calculateTotalPrice`
+1. Create an object named `cartForParty` with 5 properties. Each property should be a grocery item (like `beers` or `chips`) and hold a number value (like `1.75` or `0.99`)
+2. Write a function called `calculateTotalPrice`
 
 - It takes 1 argument: an object that contains properties that only contain number values
-- Add all the number values together
-- Return a number: the total price of all items
+- Loop through the object and add all the number values together
+- Return a string: "Total: €[TOTAL_PRICE_ITEMS]"
 
-2. Create an object named `cartForParty` with 5 properties. Each property should be a grocery item (like `beers` or `chips`) and hold a number value (like `1.75` or `0.99`)
 3. Call the function 1 time, giving it the object `cartForParty` as an argument
 
+```js
+const cartForParty = { ... }
+
+// Expected output
+calculateTotalPrice(cartForParty); // Returns "Total: €10.75"
+```
+
 ## **3. Code along**
+
+> Create a new GitHub repository for this project. It's a portfolio piece!
 
 In this project you'll be building a simple meditation application, that will allow you to set a timer, loop a video and play a song!
 
@@ -102,15 +147,17 @@ You'll be working with the <audio> and <video>, understand what SVG is and how t
 
 > Every week ends with a project you have to build on your own. Instead of getting clear-cut instructions, you'll get a list of criteria that your project needs to measure up to.
 
-In this project you'll write a script that validates whether or not a credit card number is valid.
+In this project you'll write a `function`, called `validateCreditNumber`, that validates whether or not a credit card number is valid.
 
-Here are the rules for a valid number:
+Here are the criteria for a valid number:
 
-- Number must be 16 digits, all of them must be numbers
-- You must have at least two different digits represented (all of the digits cannot be the same)
-- The final digit must be even
-- The sum of all the digits must be greater than 16
-- The following credit card numbers are valid:
+- Input must be 16 characters
+- All characters must be numbers
+- At least two different numbers should be represented
+- The last number must be even
+- The sum of all the numbers must be greater than 16
+
+The following credit card numbers are valid:
 
 ```markdown
 9999777788880000
@@ -126,13 +173,15 @@ a92332119c011112 (invalid characters)
 6666666666666661 (odd final number)
 ```
 
-These are the requirements your project needs to fulfill:
+```js
+// Expected output
 
-- Make a JavaScript file with a name that describes its contents
-- Create a function with a descriptive name, for example: `doSomething` or `calcAnotherThing`
-- Write at least 2 comments that explain to others what a line of code is meant to do
-- Make the return value of the function a template string, so you can insert variables!
-- Use `node` from the command line to test if your code works as expected
+validateCreditNumber('a92332119c011112'); // Returns "Invalid! The input a92332119c011112 should contain only numbers!
+validateCreditNumber('4444444444444444'); // Returns "Invalid! The input 4444444444444444 should contain at least 2 different types of numbers!
+validatecreditNumber('6666666666661666'); // Returns "Success! The input 6666666666661666 is a valid credit card number!
+```
+
+After you've written your function, use `node` in the command line to test to see if your code works as expected.
 
 Good luck!
 
@@ -142,7 +191,7 @@ If you have time left over and feel like you could go for more practice, try out
 
 - [JavaScript30](https://javascript30.com/)
 
-In this free course, you'll build 30 small projects that will sharpen your HTML, CSS and JavaScript skills. Each project is meant to show you different ways you could use programming to make fun and useful things! Enjoy!
+In this free course, you'll build 30 small projects that will sharpen your HTML, CSS and JavaScript skills. Each project is meant to show you different ways you could use programming to make fun and useful things. Try to do one each day for the next 30 days. Have fun!
 
 ## **SUBMIT YOUR HOMEWORK!**
 
@@ -151,6 +200,6 @@ After you've finished your todo list it's time to show us what you got! The home
 1. JavaScript exercises
 2. PROJECT: Credit card validator
 
-Upload both to your forked JavaScript1 repository in GitHub. Make a pull request to the original repository.
+Upload both to your JavaScript1 repository forked to your personal account in GitHub. Make a pull request to the [HackYourHomework/JavaScript1](https://www.github.com/hackyourhomework/javascript1).
 
 > Forgotten how to upload your homework? Go through the [guide](../hand-in-homework-guide.md) to learn how to do this again.

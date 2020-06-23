@@ -34,42 +34,18 @@ Examples the two different kind of websites
 
 Discuss in class which claim belongs to which type of website:
 
-    Content of Web pages can not be change at runtime.
-
-
-    Server side languages such as PHP, Node.js are used.
-
-
-    Content of Web pages can be changed.
-
-
-    No interaction with database possible.
-
-
-    Interaction with database is
-
-
-    It is faster to load as compared to the other type of website.
-
-
-    It is slower then static website.
-
-
-
-    Lower Development costs.
-
-
-
-    Content may change everytime the page is loaded.
-
-
-    Feature of Content Management System.
-
-
-    HTML, CSS, Javascript is used for developing the website.
-
-
-    Same content is delivered everytime the page is loaded.
+- Content of Web pages can not be change at runtime.
+- Server side languages such as PHP, Node.js are used.
+- Content of Web pages can be changed.
+- No interaction with database possible.
+- Interaction with database is possible
+- It is faster to load as compared to the other typ of website.
+- It is slower then static website.
+- Lower Development costs.
+- Content may change every time the page is loaded.
+- Feature of Content Management System.
+- HTML, CSS, Javascript is used for developing the website.
+- Same content is delivered every time the page is loaded.
 
 ### Essence
 
@@ -88,7 +64,7 @@ Discuss in class which claim belongs to which type of website:
           - Easy to pull in data on stuctured and organised way
           - Content management system
         Disadvantage:
-          - Design is more fixed, becasue the pages are more of a template
+          - Design is more fixed, because the pages are more of a template
           - Costs
 
 ## 2. The pillars of web development: HTML/CSS/JavaScript
@@ -130,10 +106,9 @@ A big disadvantage of web pages like this is that the only way that a visitor ha
 It doesn't exhibit any dynamic behavior like:
 
 1. reacting to user actions such as mouse click events or key presses.
-1. rendering complex animations
-1. sending requests over network to servers and fetching a response
-1. and this is where JavaScript steps in.
-   <<<<<<< HEAD
+2. rendering complex animations
+3. sending requests over network to servers and fetching a response
+4. and this is where JavaScript steps in.
 
 ## 3. What are variables (const & let) & naming conventions
 
@@ -173,8 +148,10 @@ console.log(age);
 
 ```javascript
 // Variable Initialization
-var firstName = 'Marco';
-let lastName = 'Borsato';
+
+var firstName = "Yash";
+let lastName = "Kapila";
+
 const age = 29;
 
 console.log(firstName);
@@ -183,15 +160,15 @@ console.log(age);
 ```
 
 ```javascript
-var firstName = 'Tom';
-let lastName = 'Hanks';
+var firstName = "Tom";
+let lastName = "Hanks";
 
 console.log(firstName);
 console.log(lastName);
 
-// Assigning a different value to variables
-firstName = 'Katy';
-lastName = 'Perry';
+// Assigning variables to a different value
+firstName = "Hanks";
+lastName = "Tom";
 
 console.log(firstName);
 console.log(lastName);
@@ -201,12 +178,13 @@ console.log(lastName);
 
 1. Create 2 variables using the `let` keyword
 
-   1. make 1 variable contain your first name
-   1. the second variable should have no value assigned
+   - make 1 variable contain your first name
+   - the second variable should have no value assigned
 
 1. Make 2 variables using the `const` keyword
-   1. the first variable should contain the town/city you currently stay at
-   1. come up with name and a value for the second variable yourself
+   - the first variable should contain the city you currently stay at
+   - come up with name and a value for the second variable yourself
+
 
 ### Essence
 
@@ -245,6 +223,7 @@ Symbol — a unique value that's not equal to any other value (not used during H
 Whenever you declare a variable (using `let`), but you don't set a value, the variable will become `undefined`. JavaScript will never make a variable `null` unless you explicitly program it.
 
 ### Exercise
+
 
 Everybody has four minutes to find a way to store all basic data types in a variable by making use of the typeof operator:
 

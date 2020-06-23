@@ -26,9 +26,11 @@ In the following exercises you'll learn how to use different JavaScript concepts
 
 **Exercise 1: Hello world!**
 
-Write a statement, using the `console.log()` function. Give it a string as an argument. The string should contain the message "Hello world!".
+Write a statement, using the `console.log()` function. It should fulfill the following requirements:
 
-Write 10 statements like these, but in different languages.
+- It takes a string as an argument
+- The string should contain the message `"Hello world!"`
+- Execute the function 10 times, each time using the phrase in different languages
 
 For example:
 
@@ -38,38 +40,44 @@ Ciao, mondo! // Italian
 Hola, mundo! // Spanish
 ```
 
-Using the command line, navigate to your `js-exercises` folder and type in the following to test your code:
+Finished? Using the command line, navigate to your `js-exercises` folder and type in the following to test your code:
 
-```
-node FILENAME.js
+```console
+foo@bar:~$ node FILENAME.js
 ```
 
-It should show the message `Hello world!` in 10 different languages.
+Expected output: It should show the message `Hello world!` in 10 different languages.
 
 **Exercise 2: Error debugging**
 
 Consider the following code:
 
 ```js
-console.log('I'm awesome');
+console.log('I'm awesome'!;
 ```
 
-Copy the code in your `.js` file and run it in the command line using `node`. You will see that you will get a SyntaxError. **Correct the mistake**.
+Here are the requirements:
 
-Hint: the SyntaxError message will give you some indication of what the error _might_ be, but figure out yourself how to correct it!
+- Copy the code in your `.js` file and run it in the command line using `node`.
 
-When done right, it should show the message `I'm awesome`.
+You will see that you will get a [SyntaxError](https://techterms.com/definition/syntax_error).
+
+- **Correct the mistake**.
+
+> Hint: the SyntaxError message will give you some indication of what the error _might_ be, but figure out yourself how to correct it!
+
+Expected output: When done right, the command line should show the message `I'm awesome!`.
 
 **Exercise 3: Log the number**
 
 Follow the steps. Make sure that each step is written on the line after.
 
-1.  First, declare your variable `numberX`. Do not _initialize_ it (which means, don't give it a value) yet.
-2.  Add a `console.log` statement that explains in words _what you think_ the value of `x` is, like in this example.
+1.  First, declare your variable `numberX`. Do not _initialize_ it (which means, don't give it a starting value) yet
+2.  Add a `console.log` statement that explains in words _what you think_ the value of `x` is
 3.  Add a `console.log` statement that logs the value of `numberX`.
-4.  Now _initialize_ your variable `numberX` with a number (also called an `integer` in computer science terms).
-5.  Next, add a `console.log` statement that explains _what you think_ the value of `numberX` is.
-6.  Add a `console.log` statement that logs the value of `numberX`.
+4.  Now _initialize_ your variable `numberX` with a number (also called an `integer` in computer science terms)
+5.  Next, add a `console.log` statement that explains _what you think_ the value of `numberX` is
+6.  Add a `console.log` statement that logs the value of `numberX`
 
 **Exercise 4: Log the string**
 
@@ -86,7 +94,7 @@ Follow the steps. Make sure that each step is written on the line after.
 
 Follow the steps. Make sure that each step is written on the line after.
 
-1. Declare a variable `z` and assign the number 7.25 to it.
+1. Declare a variable `z` and assign the number `7.25` to it.
 2. Write a `console.log` statement in which you log the value of `z`.
 3. Declare another variable `a` that has the value of `z` but rounded to the nearest integer.
 4. Write a `console.log` statement in which you log the value of `a`.
@@ -115,7 +123,14 @@ Follow the steps. Make sure that each step is written on the line after.
 
 **Exercise 8: Type checker**
 
-Write a program that checks the data types of two variables and logs to the console `SAME TYPE` if they are the same type. If they are different types log `Not the same...`.
+Create a `function` that fulfills the following requirements:
+
+- Takes in 2 arguments
+- Check the data type of each
+- Compares each data type
+- Logs to the console the message `SAME TYPE` if they are the same type. If they are different types log `Not the same...`.
+
+Follow the steps:
 
 1. Declare 4 variables: 2 must be `strings` and 2 must be `objects`
 2. Create 6 conditional statements, where for each you check if the data type of one variable is the same as the other
@@ -142,13 +157,15 @@ if (...) {
 
 **Exercise 9: Log the remainder**
 
-For each of these, write in comments what the answer is followed by how you came to that conclusion
+Answer the following questions. For each, write in comments what the answer is followed by how you came to that conclusion:
 
 1. If `x` equals 7, and the only other statement is `x = x % 3`, what would be the value of `x` after the calculation?
 2. If `y` equals 21, and the only other statement is `y = y % 4`, what would be the value of `y` after the calculation?
 3. If `z` equals 13, and the only other statement is `z = z % 2`, what would be the value of `z` after the calculation?
 
 **Exercise 10: Compare arrays**
+
+Follow the steps:
 
 1. Declare 2 variables, that each hold an array. The first array should have 4 items, the second 7 items
 2. Find out how to get the length of each array. Write a `console.log` statement that shows the length of each array
@@ -163,9 +180,11 @@ console.log('The length of the array is...' + ...);
 
 ## **3. Code along**
 
+> Create a new GitHub repository for this project. It's a portfolio piece!
+
 We don't want to lose the connection with HTML/CSS, so in the following tutorial you'll learn how to build a simple web application use HTML/CSS and JavaScript.
 
-You'll first write the HTML and CSS, to provide structure and style to the page. When doing so, keep notice of how the developer chooses to do this. Why do they use this tag instead of something else? Why do they give an element a certain class name?
+You'll first write the HTML and CSS, to provide structure and style to the page. When doing so, notice how the developer chooses to do this. Why do they use this tag instead of something else? Why do they give an element a certain class name?
 
 After, the developer will write JavaScript code. You'll notice it's different from how you've used JavaScript. It is something we call **DOM Manipulation**. Don't worry, you don't need to master this just yet. Just follow along and do some research yourself if you already want to learn more about it!
 
@@ -173,9 +192,11 @@ After, the developer will write JavaScript code. You'll notice it's different fr
 
 ## **SUBMIT YOUR HOMEWORK!**
 
-After you've finished your todo list it's time to show us what you got! Starting from this week you'll be submitting all your homework through GitHub. What you'll be doing is upload all your files to a forked repository (a copy from the original, which in this case is the [JavaScript1](https://www.github.com/HackYourFuture/JavaScript1) repository) using GIT.
+After you've finished your todo list it's time to show us what you got! Starting from this week you'll be submitting all your homework through GitHub. What you'll be doing is upload all your files to a separate repository.
 
-Take a look at the following [guide](../hand-in-homework-guide.md) to see how it's done.
+Go over to [HackYourHomework/JavaScript1](https://www.github.com/HackYourHomework/JavaScript1). Notice how it's **HackYourHomework**, a repository meant to submit the homework!
+
+Then take a look at the following [guide](../hand-in-homework-guide.md) to see to set everything up.
 
 The homework that needs to be submitted is the following:
 

@@ -16,7 +16,7 @@ In JavaScript, we call these blocks of code `functions`. They are written like t
 
 ```js
 function multiplyTwoNumbers(number1, number2) {
-  return number1 * number2;
+	return number1 * number2;
 }
 ```
 
@@ -54,9 +54,10 @@ You should see it like this: a function is like a `tool` in the tool box. Only, 
 
 Go over the following materials to learn more about the how and why of functions:
 
-- [What is a function in programming?](https://www.youtube.com/watch?v=QcCnfAxGpgg)
-- [JavaScript Functions](https://www.youtube.com/watch?v=R8SjM4DKK80)
-- [Functions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/functions.md)
+-   [Introduction to Functions](https://www.youtube.com/watch?v=4LklwbSP--4)
+-   [What is a function in programming?](https://www.youtube.com/watch?v=QcCnfAxGpgg)
+-   [JavaScript Functions](https://www.youtube.com/watch?v=R8SjM4DKK80)
+-   [Functions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/functions.md)
 
 ## 2. Thinking like a programmer I
 
@@ -71,10 +72,10 @@ The second skill, problem solving, is the most important one. If you get good at
 
 Take a look at the following resources to learn more about problem solving as applied to programming:
 
-- [How to THINK like a programmer](https://www.youtube.com/watch?v=NNazO2tMHno)
-- [Problem-Solving for Developers](https://www.youtube.com/watch?v=UFc-RPbq8kg)
-- [Lessons in problem solving](https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/)
-- [Computational thinking](https://www.youtube.com/watch?v=qbnTZCj0ugI)
+-   [How to THINK like a programmer](https://www.youtube.com/watch?v=NNazO2tMHno)
+-   [Problem-Solving for Developers](https://www.youtube.com/watch?v=UFc-RPbq8kg)
+-   [Lessons in problem solving](https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/)
+-   [Computational thinking](https://www.youtube.com/watch?v=qbnTZCj0ugI)
 
 ## 3. How JavaScript relates to HTML & CSS
 
@@ -82,9 +83,9 @@ Consider the following analogy. The human body needs 3 essential parts in order 
 
 This is exactly how HTML, CSS and JavaScript relate to each other:
 
-- HTML is used to put the structure of a website together
-- CSS acts like the skin and makeup for the HTML. CSS improves the colors and layout of a website structure built with HTML
-- JavaScript is a full-on programming language that adds interactivity and functionality to a website
+-   HTML is used to put the structure of a website together
+-   CSS acts like the skin and makeup for the HTML. CSS improves the colors and layout of a website structure built with HTML
+-   JavaScript is a full-on programming language that adds interactivity and functionality to a website
 
 Each technology has their own file type: `.html`, `.css` and `.js`. The HTML file is always the base, the other files (whether CSS or JavaScript) are then referenced to inside of this HTML file. HTML is the base, because that's the first file a browser will render. That's just how browsers work!
 
@@ -104,7 +105,7 @@ It's better practice to reference inside of the `<body>`. This is because the bi
 
 Check the following article to learn more about this:
 
-- [The Relationship Between HTML, CSS and JavaScript Explained by Building A City](https://blog.codeanalogies.com/2018/05/09/the-relationship-between-html-css-and-javascript-explained/)
+-   [The Relationship Between HTML, CSS and JavaScript Explained by Building A City](https://blog.codeanalogies.com/2018/05/09/the-relationship-between-html-css-and-javascript-explained/)
 
 ## Finished?
 

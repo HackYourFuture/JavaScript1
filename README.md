@@ -21,11 +21,13 @@ This should be your mindset when you're learning how to think : **I'm learning h
 
 ## Before you start!
 
+### 1. Install some new software!
+
 In order to test your JavaScript code, you'll be using software that will execute your files from the command line. This software is called [Node.js](https://nodejs.org/en/download/). Download the Long-Term Support (LTS) version for your specific operating system.
 
-- For Windows, click [here](https://nodejs.org/dist/v12.16.1/node-v12.16.1-x86.msi)
-- For Mac, click [here](https://nodejs.org/dist/v12.16.1/node-v12.16.1.pkg)
-- For Linux, click [here](https://nodejs.org/dist/v12.16.1/node-v12.16.1-linux-x64.tar.xz)
+-   For Windows, click [here](https://nodejs.org/dist/v12.16.1/node-v12.16.1-x86.msi)
+-   For Mac, click [here](https://nodejs.org/dist/v12.16.1/node-v12.16.1.pkg)
+-   For Linux, click [here](https://nodejs.org/dist/v12.16.1/node-v12.16.1-linux-x64.tar.xz)
 
 After you've installed it, go to your command line interface. Type in the following command:
 
@@ -35,26 +37,17 @@ node --version
 
 It should show you version `v12.16.1` or higher.
 
-## Learning goals
+### 2. A new way of submitting homework!
 
-In order to successfully complete this module you will need to master the following:
+Starting from this module you'll submit homework in a different way. You will be only using GIT and GitHub and work **like a real developer would**: pushing code from your computer to GitHub and making pull requests!
 
-- Have an idea of what `computer programming` is
-- Know the basic building blocks of `JavaScript`
-- Correctly write and use `variables`, `functions` and `loops`
-- Understand the `control flow`
+Before you start with the homework, make a `fork` of the following repository: [HackYourHomework/JavaScript1](https://www.github.com/hackyourhomework/javascript1). You'll always use the **HackYourHomework** version of the module repository whenever you have to submit your homework.
 
-## How to use this repository
+Here are the steps to get started:
 
-This repository consists of 3 parts:
-
-1. `Reading materials`: this document contains all the required theory you need to know _**while**_ you're coding. It's meant as both study material and as a reference to understand what you're doing.
-2. `Homework`: this document contains the instructions for each week's homework.
-3. `Lesson Plans`: this part is meant for teachers as a reference. However, as a student don't be shy to take a look at it as well!
-
-After your first class you should start with checking the `reading materials` for that week. So, for the first time it's the [Week 1 Reading](/Week1/README.md). Study all the concepts and try to get the gist of everything. After, you can get started with the `homework` for that week.
-
-Before you start with the homework, make sure you've made a `fork` of the right repository: [HackYourHomework/JavaScript1](https://www.github.com/hackyourhomework/javascript1). Once you've cloned it to your computer you can proceed by making `GIT` branches for each week. Start at the `master` branch and execute the following (note that they're 3 different commands):
+1. `fork` the HackYourHomework repository to your personal account.
+2. `clone` your forked repository to your computer.
+3. Make `GIT` branches for each week. Start at the `master` branch and execute the following (note that they're 3 different commands):
 
 ```console
 foo@bar:~$ git branch week1-YOURNAME
@@ -62,7 +55,29 @@ foo@bar:~$ git branch week2-YOURNAME
 foo@bar:~$ git branch week3-YOURNAME
 ```
 
-Then execute `git checkout week1` and you can get started!
+4. `checkout` to `week1-YOURNAME`
+5. Get started with making your homework!
+
+Here's a video in order that shows you how it's done: [How to Submit Your Homework](https://www.youtube.com/watch?v=CpYARPYGQU8)
+
+## Learning goals
+
+In order to successfully complete this module you will need to master the following:
+
+-   Have an idea of what `computer programming` is
+-   Know the basic building blocks of `JavaScript`
+-   Correctly write and use `variables`, `functions` and `loops`
+-   Understand the `control flow`
+
+## How to use this repository
+
+This repository consists of 3 essential parts:
+
+1. `README`: this document contains all the required theory you need to understand **before** class. It's also meant as a reference to understand what you're doing while you're coding.
+2. `MAKEME`: this document contains the instructions for each week's homework.
+3. `LESSONPLAN`: this document is meant for teachers as a reference. However, as a student don't be shy to take a look at it as well!
+
+**Before** the first class of the module you should start off with the [Week 1 Reading](/Week1/README.md). Study all the concepts and try to get the gist of everything. After your first class, you can get started with the [Week 1 Homework](/Week1/MAKEME.md).
 
 If you have any questions or if something is not entirely clear ¯\\\_(ツ)\_/¯, please ask/comment on Slack!
 

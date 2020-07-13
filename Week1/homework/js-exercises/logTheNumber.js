@@ -1,8 +1,8 @@
 llet numberX;
-//undefined
+// expected output:undefined
 console.log(typeof numberX);
-//ubdefined
+// expected output:ubdefined
 console.log(numberX);
 numberX = 7;
-// 7
+// expected output:7
 console.log(numberX);

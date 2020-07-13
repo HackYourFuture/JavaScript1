@@ -1,3 +1,3 @@
 let myString = "Ismaiel Alnabwani";
-//Ismaiel Alnabwani
+// expected output:Ismaiel Alnabwani
 console.log(myString);

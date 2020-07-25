@@ -76,32 +76,23 @@ Follow the steps:
 4. Create a conditional statement to change the log depending on whether you read it yet or not. If you read it, log a string like `You already read "The Hobbit"` right after the log of the book details
 5. If you haven't read it log a string like `You still need to read "The Lord of the Rings"`
 
-**Exercise 5: Who wants a drink?**
+**Exercise 5: Secret message**
 
-You're at a party and you feel thirsty! However, you've got 5 friends who are also in need of a drink. Let's go get them a drink.
-
-1. Declare a variable that holds an empty array, called `drinkTray`.
-
-There are 3 different types of drinks:
+1. Declare a javascript array of strings
 
 ```js
-const drinkTypes = ['cola', 'lemonade', 'water'];
+let texts = ['I love!@#', ' writing ', ' javascript code.', ' Javascript is a lightweight', ' programing language', ' that can be used to manage', ' cookies!@#', ' in the web browser.'];
 ```
 
-2. Create a loop that runs 5 times. On each iteration, push a drink into the `drinkTray` variable. The `drinkTray` can only hold at most two instances of the same drink type, for example it can only hold 2 colas, 2 lemonades, 2 waters.
+2. Declare another variable that holds an empty array, called `secretMessage`.
 
-```js
-// Expected result:
-const drinkTray = ['cola', 'cola', 'lemonade', 'lemonade', 'water'];
+3. Using a `for` loop iterate over the array `texts` 
 
-// 'Hey guys, I brought a cola, cola, lemonade, lemonade, water!'
-```
+4. Inside the for loop, if an element ends with the characters `!@#` push it to the array `secretMessage`
 
-3. If there are already two instances of a `drinkType` then start with the next drink in the array.
-4. Your `drinkTray` should contain 2 cola, 2 lemonade and 1 water.
-5. Log to the console: "Hey guys, I brought a [INSERT VALUES FROM ARRAY]!" (For example: "Hey guys, I brought a cola, cola, lemonade, lemonade, water!")
+5. Log the `secretMessage` array to the console
 
-Test out your code using `node` in the command line!
+Test out your code using `node` in the command line to find out the secret message!
 
 ## **3. Code along**
 

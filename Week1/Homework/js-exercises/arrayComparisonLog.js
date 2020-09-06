@@ -1,8 +1,8 @@
 "use strict";
 
 //declaring variables that hold array
-var fruits = ["Apples", "Bananas", "Nectarines", "Pears"];
-var vegetables = [
+let fruits = ["Apples", "Bananas", "Nectarines", "Pears"];
+let vegetables = [
   "Beets",
   "Tomatoes",
   "Radishes",

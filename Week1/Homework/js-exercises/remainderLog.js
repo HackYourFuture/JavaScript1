@@ -14,6 +14,6 @@ console.log(y); // prints out 1
 
 //If z equals 13, and th//e only other statement is z = z % 2, what would be the valuof z after the calculation ?
 
-var z = 13;
+let z = 13;
 z = 13 % 2; // Remainder again would be 1. As we divide 13 by 2, we are lef with 6.5. 0.5 is 1/2 of our remainder, so full remainder would be 1. We can check it via console.log:
 console.log(z); // prints out 1

@@ -18,6 +18,12 @@ These are the topics for week 1:
 5. What are data types?
    - 6 basic types
 
+## 0. Video Lectures
+
+Your teacher Uday has made video lectures for this week's material. You can find them here: [Videos 1 - 10](https://www.youtube.com/watch?v=VXCDhYYMFVI&list=PLVYDhqbgYpYU5EOlYroMUri1K6snlSE-2)
+
+<a href="https://www.youtube.com/watch?v=9yR6tC7OGiE&list=PLVYDhqbgYpYU5EOlYroMUri1K6snlSE-2" target="_blank"><img src="../assets/week1-uday.png" width="600" height="350" alt="HYF Video" /></a>
+
 ## 1. What is programming?
 
 Programming is giving a computer instructions written in a language it can understand, in order to solve a problem you (or the company you work for) have. We don't necessarily need computers to solve problems, but we use them because they provide several benefits:

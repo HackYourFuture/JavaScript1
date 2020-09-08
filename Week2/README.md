@@ -11,6 +11,12 @@ These are the topics for week 2:
 5. Conditional statement
 6. Naming conventions
 
+## 0. Video Lectures
+
+Your teacher Uday has made video lectures for this week's material. You can find them here: [Videos 11 - 20](https://www.youtube.com/watch?v=VXCDhYYMFVI&list=PLVYDhqbgYpYU5EOlYroMUri1K6snlSE-2)
+
+<a href="https://www.youtube.com/watch?v=9yR6tC7OGiE&list=PLVYDhqbgYpYU5EOlYroMUri1K6snlSE-2&index=12" target="_blank"><img src="../assets/week1-uday.png" width="600" height="350" alt="HYF Video" /></a>
+
 ## 1. Statements vs. Expressions
 
 A lot of programming is nothing different from regular human communication. When conversing with another person, we often use language in various ways: to ask questions, make statements or simply express yourself about what's going on.

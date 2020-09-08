@@ -6,6 +6,7 @@ The purpose of this class is to introduce to the student:
 
 - The 2 types of websites: static vs. dynamic
 - The pillars of web development: HTML/CSS/JavaScript
+  - where JavaScript can run: Browser / Node
 - What are variables
 - How to name variables properly
 - What are the basic data types
@@ -60,7 +61,7 @@ Discuss in class which claim belongs to which type of website:
 
       Dynamic:
         Advantage:
-          - Easy to pull in data on structured and organised way
+          - Easy to pull in data on stuctured and organised way
           - Content management system
         Disadvantage:
           - Design is more fixed, because the pages are more of a template
@@ -73,6 +74,9 @@ Discuss in class which claim belongs to which type of website:
 - HTML defines what the content is.
 - CSS defines the appearance of the page.
 - JavaScript defines behavior of the page.
+- Where can JavaScript run:
+  - browser
+  - Node
 
 ### Example
 
@@ -80,6 +84,7 @@ Discuss in class which claim belongs to which type of website:
 
 ### Exercise
 
+Let students fork and then clone the repository.
 Let students create a classwork directory and create an index.html along with an app.js. Script tag should be added to the end of body tag(reason for doing so is part of JS2 Week1).
 
 The end result should look like:
@@ -101,9 +106,9 @@ A big disadvantage of web pages like this is that the only way that a visitor ha
 It doesn't exhibit any dynamic behavior like:
 
 1. reacting to user actions such as mouse click events or key presses.
-1. rendering complex animations
-1. sending requests over network to servers and fetching a response
-1. and this is where JavaScript steps in.
+2. rendering complex animations
+3. sending requests over network to servers and fetching a response
+4. and this is where JavaScript steps in.
 
 ## 3. What are variables (const & let) & naming conventions
 
@@ -143,8 +148,10 @@ console.log(age);
 
 ```javascript
 // Variable Initialization
+
 var firstName = "Yash";
 let lastName = "Kapila";
+
 const age = 29;
 
 console.log(firstName);
@@ -171,12 +178,13 @@ console.log(lastName);
 
 1. Create 2 variables using the `let` keyword
 
-   1. make 1 variable contain your first name
-   1. the second variable should have no value assigned
+   - make 1 variable contain your first name
+   - the second variable should have no value assigned
 
 1. Make 2 variables using the `const` keyword
-   1. the first variable should contain the city you currently stay at
-   1. come up with a value for the second variable yourself
+   - the first variable should contain the city you currently stay at
+   - come up with name and a value for the second variable yourself
+
 
 ### Essence
 
@@ -192,38 +200,32 @@ _SECOND HALF (14.00 - 16.00)_
 
 ### Explanation
 
-Primitive data types are typically types that are built-in or basic to a language implementation.
-
-There are 5 different types of data. The compiler/computer interprets all the variables we make as one of those data types.
-(https://javascript.info/types)
+In JavaScript, a primitive (primitive value, primitive data type) is data that is not an object and has no methods. There are 7 primitive data types: `string`, `number`, `bigint`, `boolean`, `null`, `undefined`, and `symbol`.
 
 Boolean — true or false
 Null — no value
 Undefined — a declared variable but hasn’t been given a value
 Number — integers, floats, etc
 String — an array of characters i.e words
-?? Symbol — a unique value that's not equal to any other value ??
+Symbol — a unique value that's not equal to any other value (not used during HYF)
 
 ### Example
 
 - `string`, e.g. "HackYourFuture"
 - `number`, e.g. 5, or 10.6
 - `boolean`, e.g. `true` or `false`
-- `array`\*, e.g. `[1, 2, 3]` or `['what', 'is', 'your', 'name']`
-- `null and undefined` The values `null` and `undefined` are very similar in JavaScript, but they behave a bit differently. The difference is that `null` always has type "object", and `undefined` always has type "undefined".
+- `array`, e.g. `[1, 2, 3]` or `['what', 'is', 'your', 'name']`
+- `null` \*
+- `undefined` \*
+- `symbol` e.g. `new Symbol('example')`
 
-Whenever you declare a variable, but you don't set a value, the variable will become `undefined`. JavaScript will never make a variable `null` unless you explicitly program it.
-
-- `symbol`
-
-```js
-let x = 5;
-let typeOfX = typeof x; // -> "number"
-```
+\* The values `null` and `undefined` are very similar in JavaScript, but they behave a bit differently. The difference is that `null` always has type "object", and `undefined` always has type "undefined".
+Whenever you declare a variable (using `let`), but you don't set a value, the variable will become `undefined`. JavaScript will never make a variable `null` unless you explicitly program it.
 
 ### Exercise
 
-Everybody has two minutes to find a way to declare all basic data types by making use of the typeof operator:
+
+Everybody has four minutes to find a way to store all basic data types in a variable by making use of the typeof operator:
 
 ```js
 let x = 5;
@@ -238,13 +240,37 @@ In this way we can store a lot of data in a compact way, while the computer/comp
 
 ### Explanation
 
+Pieces of information often form a group. For example the names of all the students in this class can be grouped together
+as a list. In JavaScript lists are stored in a datatype called an `Array`.
+
+Another way pieces of information can form a group are multiple properties of the same thing. For example the dimensions
+of this room: length, width, height. These groups of information are stored in a datatype called an `Object`.
+
 ### Example
 
-- `array`\*, e.g. `[1, 2, 3]` or `['what', 'is', 'your', 'name']`
-- `object`, e.g. `{name: 'John', age: 24}`, or the special object `null`
+- `array`\*, e.g. `[1, 2, 3]` or `['Gijs', 'Jim', 'Noer', 'Wouter']`
+- `object`, e.g. `{name: 'Wilgert', shoeSize: 42}`, or the special object `null`
 
 ### Exercise
 
+1. Create a list of your favorite types of food/dishes like this:
+
+```js
+const foods = ['Chocolate', 'Risotto', 'Tuna melt'];
+```
+
+2. Create an object that contains the properties of your town/city like this:
+
+```js
+const city = {
+  name: 'Huizen',
+  province: 'Noord-Holland',
+  population: 50000,
+  capital: false,
+};
+```
+
 ### Essence
 
-_Special thanks to Jim Cramer, Yash Kapila, David Nudge for most of the content_
+- Object key: value
+- Array numeric index: value

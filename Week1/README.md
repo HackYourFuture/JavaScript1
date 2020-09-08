@@ -42,6 +42,7 @@ In order to use this tool, we need to talk to it in a way it understands (progra
 Go through the following resources to learn more about what programming is:
 
 - [What is programming?](https://www.youtube.com/watch?v=3tWMQ3ZMjbg)
+- [What do programmers do?](https://www.youtube.com/watch?v=kEjCfsrotAM)
 - [Introduction into programming Playlist](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZYJC7L-r6rX6utt6wwJCyi)
 
 ### Software
@@ -56,6 +57,7 @@ Programming is done using a programming language. Why do we need a language to c
 
 Smart people decided to make working with this easier to understand, so that a lot of people can more simply communicate with a computer. This is how the development of programming languages started: by defining a vocabulary, grammar and syntax to put more organization to the 0's and 1's, we can more simply communicate exactly what we want to computer to do.
 
+- [What is a programming language?](https://www.youtube.com/watch?v=EGQh5SZctaE)
 - [What are programming languages](https://hackr.io/blog/what-is-programming-language)
 
 There are various languages, each made to fulfill a certain need. For example, Microsoft developed a language called [C#](https://www.youtube.com/watch?v=paJUbVeKEOU) in order to make applications for computers that run a Windows operating system. The language of C# is able to easily "talk" with the preexisting software.

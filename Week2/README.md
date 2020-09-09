@@ -13,9 +13,9 @@ These are the topics for week 2:
 
 ## 0. Video Lectures
 
-Your teacher Uday has made video lectures for this week's material. You can find them here: [Videos 11 - 20](https://www.youtube.com/watch?v=9yR6tC7OGiE&list=PLVYDhqbgYpYUiqH8IxLJ5qomkEGMzes1q)
+Your teacher Uday has made video lectures for this week's material. You can find them here: [Videos 11 - 20](https://www.youtube.com/playlist?list=PLVYDhqbgYpYUiqH8IxLJ5qomkEGMzes1q)
 
-<a href="https://www.youtube.com/watch?v=9yR6tC7OGiE&list=PLVYDhqbgYpYUiqH8IxLJ5qomkEGMzes1q&index=12" target="_blank"><img src="../assets/week1-uday.png" width="600" height="350" alt="HYF Video" /></a>
+<a href="https://www.youtube.com/playlist?list=PLVYDhqbgYpYUiqH8IxLJ5qomkEGMzes1q&index=12" target="_blank"><img src="../assets/week1-uday.png" width="600" height="350" alt="HYF Video" /></a>
 
 ## 1. Statements vs. Expressions
 

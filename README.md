@@ -109,7 +109,7 @@ You can find out more about him here:
 
 Learn from Uday in the following playlist of videos he has made for you! (Click on the image to open the link)
 
-<a href="https://www.youtube.com/watch?v=9yR6tC7OGiE&list=PLVYDhqbgYpYUiqH8IxLJ5qomkEGMzes1q" target="_blank"><img src="./assets/week1-uday.png" width="600" height="350" alt="HYF Video" /></a>
+<a href="https://www.youtube.com/playlist?list=PLVYDhqbgYpYUiqH8IxLJ5qomkEGMzes1q" target="_blank"><img src="./assets/week1-uday.png" width="600" height="350" alt="HYF Video" /></a>
 
 ## Planning
 

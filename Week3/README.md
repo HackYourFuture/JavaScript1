@@ -12,7 +12,7 @@ These are the topics for week 3:
 
 This week you'll get to know another experienced teacher, that you'll learn from more closely in the next module. His name is Wilgert Velinga, and he'll teach you all about `functions` and `scope`: [Videos 21 - 25]
 
-<a href="https://www.youtube.com/watch?v=9yR6tC7OGiE&list=PLVYDhqbgYpYUiqH8IxLJ5qomkEGMzes1q" target="_blank"><img src="../assets/week1-uday.png" width="600" height="350" alt="HYF Video" /></a>
+<a href="https://www.youtube.com/playlist?list=PLVYDhqbgYpYUiqH8IxLJ5qomkEGMzes1q" target="_blank"><img src="../assets/week1-uday.png" width="600" height="350" alt="HYF Video" /></a>
 
 ## 1. Functions
 

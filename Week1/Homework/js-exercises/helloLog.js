@@ -1,3 +1,5 @@
+//statement that takes in string as an argument and is executed 10 times to print out Hello World in 10 languages
+
 "use strict";
 
 console.log("Hello World!"); // English

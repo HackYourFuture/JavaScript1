@@ -33,12 +33,12 @@ console.log(typeof redChair == typeof blueCarpet); //true
 
 //using if statement
 if (typeof personX == typeof personY) {
-    console.log('SAME TYPE');
+    console.log("SAME TYPE");
 }
 if (typeof personY == typeof blueCarpet) {
-    console.log('SAME TYPE');
+    console.log("SAME TYPE");
 } else {
-    console.log('NOT THE SAME');
+    console.log("NOT THE SAME");
 }
 
 

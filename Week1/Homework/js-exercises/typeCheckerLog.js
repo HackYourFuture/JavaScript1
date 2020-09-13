@@ -24,18 +24,18 @@ console.log(typeof redChair);
 console.log(typeof blueCarpet);
 
 //comparing if data types are the same
-console.log(typeof personX == typeof personY); //true
-console.log(typeof personX == typeof redChair); //false
-console.log(typeof personX == typeof blueCarpet); //false
-console.log(typeof personY == typeof redChair); //false
-console.log(typeof personY == typeof blueCarpet); //false
-console.log(typeof redChair == typeof blueCarpet); //true
+console.log(typeof personX === typeof personY); //true
+console.log(typeof personX === typeof redChair); //false
+console.log(typeof personX === typeof blueCarpet); //false
+console.log(typeof personY === typeof redChair); //false
+console.log(typeof personY === typeof blueCarpet); //false
+console.log(typeof redChair === typeof blueCarpet); //true
 
 //using if statement
-if (typeof personX == typeof personY) {
+if (typeof personX === typeof personY) {
     console.log("SAME TYPE");
 }
-if (typeof personY == typeof blueCarpet) {
+if (typeof personY === typeof blueCarpet) {
     console.log("SAME TYPE");
 } else {
     console.log("NOT THE SAME");

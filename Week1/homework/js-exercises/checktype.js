@@ -10,16 +10,27 @@ var g = {
     favArtist: 'Beyonce'
 
 };
-function checktype(a, b){
-if (typeof a == typeof b){
-    console.log('SAME TYPE')
-}
-else{
+function checktype(a, b, c, d){
+    if (typeof a == typeof b) {
+        console.log('SAME TYPE ' + typeof a);
+    }
+    else if (typeof a == typeof c) {
+        console.log('SAME TYPE ' + typeof a);
+    }
+    else if (typeof a == typeof d) {
+        console.log('SAMETYPE ' + typeof a);
+    }
+    else if (typeof b == typeof c) {
+        console.log('SAME TYPE ' + typeof c);
+    }
+    else if (typeof b == typeof d) {
+        console.log('SAME TYPE ' + typeof b);
+    }
+    else if (typeof c == typeof d) {
+        console.log('SAME TYPE ' + typeof c);
+    }
+    else{
     console.log('Not the same ...')
+    }
 }
-}
-checktype(x, y);
-checktype(x, z);
-checktype(y, z);
-checktype(y, g);
-checktype(g, z);
+checktype(x, y, z, g);

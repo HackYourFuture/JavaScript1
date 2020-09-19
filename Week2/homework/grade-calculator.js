@@ -1,8 +1,10 @@
 
- let val;
+let val; //declare variable val
+ 
+//A function that prints out grade and the value of val if the condition of the if / of else if fulfills
 function grade(val){
-    if((val>=0)&&(val <= 49)){
-        console.log(`You got F (${val}%)!`);
+    if((val>=0)&&(val <= 49)){   
+        console.log(`You got F (${val}%)!`);  
     }
     else if ((val >= 50) && (val <= 59)){
         console.log(`You got E (${val}%)!`);
@@ -23,7 +25,8 @@ function grade(val){
         console.log("input is not valid");
     }
 }
-grade(98);
+//calling the function grade()
+grade(98); 
 grade(42);
 grade(62);
 grade(72);

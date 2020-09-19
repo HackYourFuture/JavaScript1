@@ -1,4 +1,7 @@
+// Exercise 4: The reading list
+
 'use strict';
+// creates object inside an array
 let books =[{
     title: 'pride & prejudice',
     author: 'Jane Austin',
@@ -18,9 +21,9 @@ let books =[{
 let x;
 for (x of books){
     if(x['alreadyRead']===true){
-        console.log('You already read '+ x.title);
+        console.log('You already read '+ x.title); //prints out the book title when alreadyRead value is true
     }
     else{
-        console.log('You still need to read '+ x.title);
+        console.log('You still need to read ' + x.title); //prints out the book title when alreadyRead value is false
     }
 }

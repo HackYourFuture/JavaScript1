@@ -111,13 +111,16 @@ Learn from Uday in the following playlist of videos he has made for you! (Click 
 
 <a href="https://www.youtube.com/playlist?list=PLVYDhqbgYpYUiqH8IxLJ5qomkEGMzes1q" target="_blank"><img src="./assets/week1-uday.png" width="600" height="350" alt="HYF Video" /></a>
 
+### Presentation module
+Besides learing a lot of technical concepts you'll be focussing on the softskills as well. Please have a look at [this](https://github.com/HackYourFuture/presentation-module) RePo for all the details and deadlines.
+
 ## Planning
 
-| Week | Topic                                                                             | Reading Materials              | Homework                        | Lesson Plan                            |
-| ---- | --------------------------------------------------------------------------------- | ------------------------------ | ------------------------------- | -------------------------------------- |
-| 1.   | What is JavaScript?, Variables, Data Structures & Naming Conventions              | [Reading W1](/Week1/README.md) | [Homework W1](/Week1/MAKEME.md) | [Lesson Plan W1](/Week1/LESSONPLAN.md) |
-| 2.   | Statements vs. Expressions, Control flow, Loops, Operators, Conditional statement | [Reading W2](/Week2/README.md) | [Homework W2](/Week2/MAKEME.md) | [Lesson Plan W2](/Week1/LESSONPLAN.md) |
-| 3.   | Functions, Thinking like a programmer I, How JavaScript relates to HTML/CSS       | [Reading W3](/Week3/README.md) | [Homework W3](/Week3/MAKEME.md) | [Lesson Plan W3](/Week3/LESSONPLAN.md) |
+| Week | Topic | Reading Materials     | Homework      | Lesson Plan  |Presentation module |
+| ---- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |-----------|
+| 1.   | What is JavaScript?, Variables, Data Structures & Naming Conventions              | [Reading W1](https://github.com/HackYourFuture/JavaScript1/tree/master/Week1/README.md) | [Homework W1](https://github.com/HackYourFuture/JavaScript1/tree/master/Week1/MAKEME.md) | [Lesson Plan W1](https://github.com/HackYourFuture/JavaScript1/tree/master/Week1/LESSONPLAN.md) |[W1 presentations](https://github.com/HackYourFuture/presentation-module/blob/main/week1.md) |
+| 2.   | Statements vs. Expressions, Control flow, Loops, Operators, Conditional statement | [Reading W2](https://github.com/HackYourFuture/JavaScript1/tree/master/Week2/README.md) | [Homework W2](https://github.com/HackYourFuture/JavaScript1/tree/master/Week2/MAKEME.md) | [Lesson Plan W2](https://github.com/HackYourFuture/JavaScript1/tree/master/Week2/LESSONPLAN.md) |[W2 presentation](https://github.com/HackYourFuture/presentation-module/blob/main/week2.md) |
+| 3.   | Functions, Thinking like a programmer I, How JavaScript relates to HTML/CSS       | [Reading W3](https://github.com/HackYourFuture/JavaScript1/tree/master/Week3/README.md) | [Homework W3](https://github.com/HackYourFuture/JavaScript1/tree/master/Week3/MAKEME.md) | [Lesson Plan W3](https://github.com/HackYourFuture/JavaScript1/tree/master/Week3/LESSONPLAN.md) |
 
 ## Finished?
 

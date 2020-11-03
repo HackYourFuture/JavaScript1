@@ -111,7 +111,7 @@ Learn from Uday in the following playlist of videos he has made for you! (Click 
 
 <a href="https://www.youtube.com/playlist?list=PLVYDhqbgYpYUiqH8IxLJ5qomkEGMzes1q" target="_blank"><img src="./assets/week1-uday.png" width="600" height="350" alt="HYF Video" /></a>
 
-### Presentation module
+## Presentation module
 Besides learing a lot of technical concepts you'll be focussing on the softskills as well. Please have a look at [this](https://github.com/HackYourFuture/presentation-module) RePo for all the details and deadlines.
 
 ## Planning

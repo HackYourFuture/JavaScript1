@@ -60,6 +60,9 @@ foo@bar:~$ git branch week3-YOURNAME
 
 Here's a video in order that shows you how it's done: [How to Submit Your Homework](https://www.youtube.com/watch?v=CpYARPYGQU8)
 
+### Presentation module
+Besides learing a lot of technical concepts you'll be focussing on the softskills as well. Please have a look at [this](https://github.com/HackYourFuture/presentation-module) RePo for all the details and deadlines.
+
 ## Learning goals
 
 In order to successfully complete this module you will need to master the following:
@@ -110,9 +113,6 @@ You can find out more about him here:
 Learn from Uday in the following playlist of videos he has made for you! (Click on the image to open the link)
 
 <a href="https://www.youtube.com/playlist?list=PLVYDhqbgYpYUiqH8IxLJ5qomkEGMzes1q" target="_blank"><img src="./assets/week1-uday.png" width="600" height="350" alt="HYF Video" /></a>
-
-## Presentation module
-Besides learing a lot of technical concepts you'll be focussing on the softskills as well. Please have a look at [this](https://github.com/HackYourFuture/presentation-module) RePo for all the details and deadlines.
 
 ## Planning
 

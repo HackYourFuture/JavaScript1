@@ -61,7 +61,7 @@ foo@bar:~$ git branch week3-YOURNAME
 Here's a video in order that shows you how it's done: [How to Submit Your Homework](https://www.youtube.com/watch?v=CpYARPYGQU8)
 
 ### 3. Presentation module
-Besides learing a lot of technical concepts you'll be focussing on the softskills as well. Please have a look at [this](https://github.com/HackYourFuture/presentation-module) RePo for all the details and deadlines.
+Besides learing a lot of technical concepts you'll be focussing on the softskills as well. Please have a look at [this](https://github.com/HackYourFuture/presentation-module) RePo for more details.
 
 ## Learning goals
 
